@@ -1,6 +1,6 @@
 (function () {
   "use strict";
-  var TO = "clockw1se-nepal@yahoo.com";
+  var TO = "info@ausbildungfacts.org";
   var form = document.getElementById("cf");
   if (!form) return;
 

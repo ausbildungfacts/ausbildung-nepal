@@ -9,7 +9,7 @@ description: Contact the people who write this site — to report an error, ask 
 reviewed: August 2026
 ---
 
-Write to **[clockw1se-nepal@yahoo.com](mailto:clockw1se-nepal@yahoo.com)**, or
+Write to **[info@ausbildungfacts.org](mailto:info@ausbildungfacts.org)**, or
 use the form below, which fills in an email for you.
 
 ## What is most useful to hear
@@ -68,5 +68,5 @@ of it goes on the site**, and no is a complete answer that needs no reason.
 uploads nothing. When you press the button it opens your own email app with the
 message already written, and **you** press send. Nothing you type here reaches us
 until you do. If your phone has no email app set up, just write to
-[clockw1se-nepal@yahoo.com](mailto:clockw1se-nepal@yahoo.com) directly — it is
+[info@ausbildungfacts.org](mailto:info@ausbildungfacts.org) directly — it is
 the same address.

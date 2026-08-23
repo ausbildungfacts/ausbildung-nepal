@@ -1069,7 +1069,7 @@ not just the source: no page in `_site/` contains a placeholder.
 | Diensteanbieter (§ 5 DDG) | Katharine Ciesla, Grellstraße 34, 10409 Berlin, Deutschland |
 | Verantwortlich nach § 18 Abs. 2 MStV | same natural person, same address |
 | Data controller (GDPR) | same |
-| Contact | clockw1se-nepal@yahoo.com |
+| Contact | info@ausbildungfacts.org |
 
 **The separation rule holds.** The contact address is a dedicated mailbox, not
 the unrelated business's. The git remote and the Google Drive owner are still the two

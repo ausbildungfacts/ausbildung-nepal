@@ -28,7 +28,7 @@ Katharine Ciesla<br>
 Grellstraße 34<br>
 10409 Berlin<br>
 Deutschland / Germany<br>
-E-Mail: <a href="mailto:clockw1se-nepal@yahoo.com">clockw1se-nepal@yahoo.com</a>
+E-Mail: <a href="mailto:info@ausbildungfacts.org">info@ausbildungfacts.org</a>
 </p>
 
 ## What is processed, and by whom

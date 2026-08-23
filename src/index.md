@@ -97,7 +97,7 @@ someone caught it the page changed.
 
 If something here is out of date, or an embassy or an authority told you
 something different, please write to
-**[clockw1se-nepal@yahoo.com](mailto:clockw1se-nepal@yahoo.com)**. We will check
+**[info@ausbildungfacts.org](mailto:info@ausbildungfacts.org)**. We will check
 it and either correct the page or explain why it stands. You do not need to prove
 anything, and you do not need to be polite about it.
 

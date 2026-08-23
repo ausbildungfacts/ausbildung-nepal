@@ -50,7 +50,7 @@ Deutschland / Germany
 **Kontakt / Contact**
 
 <p class="addr">
-E-Mail: <a href="mailto:clockw1se-nepal@yahoo.com">clockw1se-nepal@yahoo.com</a>
+E-Mail: <a href="mailto:info@ausbildungfacts.org">info@ausbildungfacts.org</a>
 </p>
 
 **Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV**
@@ -114,7 +114,7 @@ written down rather than quietly deleted.
 
 If something here is wrong, out of date, or has cost you money because you
 relied on it, we want to know. Write to
-**[clockw1se-nepal@yahoo.com](mailto:clockw1se-nepal@yahoo.com)**.
+**[info@ausbildungfacts.org](mailto:info@ausbildungfacts.org)**.
 
 You do not need to be polite about it, and you do not need to prove anything. If
 you tell us where you saw something different — a page, a letter, an official who

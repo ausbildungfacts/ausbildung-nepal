@@ -101,31 +101,73 @@ organisations in Nepal are weltwärts partners"**. That is worth asking your
 German teacher, and worth asking any NGO you already have a connection to. If
 you find one, tell us and it will go on this page.
 
-## NSST — worth investigating, and we could not verify it
+## NSST — the one that charges the employer instead of you
 
-The **Nepal Secretariat of Skills and Training** describes itself as a
-Nepal–German skills initiative, set up in 2021 as a German non-profit company
-(*gGmbH*), working on dual vocational training between the two countries and
-matching Nepali students with German companies for apprenticeships. Its public
-material states that **its services are free of charge to students**, including
-preparation and the matching itself, with mentoring during the Ausbildung.
+The **Nepal Secretariat of Skills and Training** is a German–Nepali vocational
+training initiative that started in **September 2021**. It is registered in
+Nepal as a *Company Not distributing Profit* — the equivalent of a German
+non-profit company, a *gGmbH*. It says it has a memorandum of understanding
+(**MoU**) with the German embassy in Nepal, and it runs its language teaching and
+exams in cooperation with the **Goethe-Zentrum Kathmandu**.
+
+**The money runs the right way round.** German firms taking an apprentice through
+NSST are quoted **€3,000 per apprentice**, and that figure covers *"neben den
+Vorbereitungen und Sprachkursen auch der Flug und das Visum"* — the preparation
+and language courses, the flight and the visa. It falls due only **once a
+training contract is signed and the visa has been issued**. One German employer
+describes its own side of the deal as financing *"Flüge, Sprachkurse,
+Visumgebühren und vieles mehr"*.
+
+That is the whole point. **§ 296a SGB III** allows a placement fee to be taken
+from the employer and from nobody else. NSST's public material says its services
+are free of charge to students. What we can see independently is that the bill
+goes to the company — including the two things a broker in Kathmandu would charge
+your family for first, the German course and the plane ticket.
+[Why that law exists](/no-fees/).
+
+**A year of preparation, not a form-forwarding service.** Candidates are 18 to
+25, have finished at least Class 10 and mostly Class 12, and go through a
+programme of about a year — some describe one to one and a half. In it they
+complete **language courses and exams from A1 to B2** with the Goethe-Zentrum,
+plus extra practice hours, an occupational orientation programme, intercultural
+and soft-skills training, and preparation for the job itself. There is a
+programme for the family as well, on the reasoning that the family has to be
+behind it. After arrival, each trainee gets two mentors for the whole
+Ausbildung — a cultural mentor from NSST and a specialist mentor from **VerA**.
+
+**They start from what the person wants to do.** In their own words to German
+employers: *"Wir glauben, dass Menschen glücklicher und beruflich erfolgreicher
+sind, wenn sie sich für Berufe entscheiden können, die sie wirklich
+interessieren."* People are happier and do better in work they actually chose.
+That is why there is an orientation programme before anyone is matched, instead
+of the two words most young Nepalis get offered — *Pflege* and *Mechatroniker*.
+It is the same argument [the application page](/apply/) makes from the law:
+§ 16a AufenthG names no trades, and there is no approved list.
+
+**Where they had got to, as of 2023.** About ten people started an Ausbildung in
+Germany in autumn 2022. Around 130 were in the programme for 2023 or 2024, with
+roughly 50 to 100 arriving during 2023. The stated aim was 250 placements in 2024
+and **over 500 in 2025**.
 
 <div class="warn">
 
-**We could not check this at source.** Their own website did not respond on any
-of the days we tried — re-checked on 23 August 2026, when one address failed to
-load at all and the other returned a gateway timeout — so everything above comes
-from their public profiles rather than from their own pages. We have written to
-ask them directly, and this section will change if they answer. **We are not recommending them and we are not warning
-against them** — we are telling you they exist and that we could not verify it.
-
-Before you hand anything over, ask the five questions on [the fees
-page](/no-fees/), and these two as well: *what exactly is free, and what is not?*
-and *which German companies have you actually placed Nepali trainees with?* An
-organisation that is what it says it is will answer both without difficulty.
+**Those numbers are three years old, and we could not update them.** Every figure
+in the paragraph above comes from material published around 2023 by German
+chambers of skilled crafts and by employers. NSST's own website
+has not responded on any day we have tried it — re-checked on 23 August 2026,
+when one address refused the connection outright and the other returned a gateway
+timeout. **We do not know how many people they are taking now, or whether the
+€3,000 figure still stands.** We have written to ask, and this section will change
+when they answer.
 
 </div>
 
+Ask them what you would ask anyone — the five questions on [the fees
+page](/no-fees/), plus *what does the company pay, and what if anything do I
+pay?* and *which German employers have actually taken Nepali trainees through
+you?* An organisation that is what it says it is will answer both without
+difficulty. If you get good answers, tell us, because we would like to be able to
+say so here.
 ## Au Pair
 
 Covered on its own page, because it comes up often as an alternative to
@@ -199,8 +241,21 @@ date.
 - weltwärts funding, duration, DAC-list eligibility and nomination-only entry:
   [weltwärts](https://www.weltwaerts.de/en/) and a German sending organisation's
   South–North pages
-- NSST's self-description: its public company profiles. **Its own site did not
-  respond when we tried it**
+- NSST's founding date, legal form, the year of preparation, the A1–B2 courses
+  and exams with the Goethe-Zentrum Kathmandu, the embassy MoU, the VerA
+  mentoring and the quoted line about choosing an occupation that interests you:
+  [NSST's own information sheet for German employers, hosted by the
+  Handwerkskammer Trier](https://www.hwk-trier.de/downloads/auszubildende-fuer-unternehmen-aus-nepal-54,1675.pdf)
+  (undated, content places it in early 2023)
+- The €3,000 charged to the employer, what it covers and when it falls due:
+  [PRO Magazin, reporting a Handwerkskammer Heilbronn-Franken
+  event](https://www.pro-magazin.de/grosser-fachkraeftemangel-im-handwerk/).
+  The employer's side of it — flights, language courses and visa fees financed by
+  the company: [Autohaus Spindler, 15 August
+  2023](https://spindler-gruppe.de/aktuelles/nepal-azubi-projekt)
+- Participant numbers and the 2024/2025 targets: the same two sources. **All of
+  them are from 2023**, and NSST's own site did not respond on any day we tried
+  it, so nothing here is current
 - The three quoted ZAV passages: Zentrale Auslands- und Fachvermittlung,
   Bundesagentur für Arbeit, by email, August 2026
 - Declaration contents, "free visa, free ticket", and the ministry's dissolution:

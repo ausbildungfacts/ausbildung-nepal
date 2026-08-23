@@ -1043,6 +1043,11 @@ names the visa category the embassy itself publishes and stops there.
 
 ### NSST — deliberately not endorsed
 
+> **Superseded 2026-08-23** — see *NSST rewritten, and then verified properly* at
+> the end of this file. The wording quoted below is no longer on the page, and
+> **the row beneath is wrong on one point**: NSST is registered in Nepal, not in
+> Germany. The gGmbH is only the German equivalent.
+
 | Claim | Source | Status | Checked |
 | --- | --- | --- | --- |
 | NSST describes itself as a Nepal–German skills initiative, founded 2021 as a gGmbH, matching Nepali students with German companies for apprenticeships, services free of charge to students | NSST's public company profiles | **SECONDARY — UNVERIFIED AT SOURCE** | 2026-08-22 |
@@ -1641,3 +1646,87 @@ and was then refused would have been misled by us.
 Schulabschluss required — is real, and it is about a German school-leaver getting
 a training place. It is not by itself an answer about a Nepali applicant at a
 visa counter. Both gates were checked separately.
+
+## NSST rewritten, and then verified properly, 2026-08-23
+
+Alan asked for NSST to be described rather than merely flagged: *"they sponsor
+young people. they pay for their german classes and exams and explain the whole
+ausbildings system and encourage the young people to think about their passions
+rather than just going for pflege and mechatroniker ... they were helping 100
+nepalis per year. but they were thinking about increasing it to 500."*
+
+Asked where that came from, he said: **an interview with Kathrin Junken, NSST's
+CEO, on their YouTube channel.** A video nobody here can quote from a transcript
+is a weak line in this file, so the section was written twice — once from Alan's
+account, then again from primary material found afterwards. **The second version
+is what is on the site.** Alan's recollection turned out to be accurate on every
+point; it is simply no longer what the page rests on.
+
+### What the material actually establishes
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| German–Nepali vocational training initiative, started **September 2021** | NSST's own employer information sheet, hosted by HWK Trier, verbatim *"Wir sind im September 2021 gestartet"* | **VERIFIED — primary (NSST's own document)** | 2026-08-23 |
+| Registered **in Nepal** as a *"Company Not distributing Profit"*, which *"entspricht einer gemeinnützigen GmbH (gGmbH) in Deutschland"* | same, verbatim | **VERIFIED — primary** | 2026-08-23 |
+| Has an **MoU with the German embassy in Nepal** and a cooperation with the **Goethe-Zentrum Kathmandu** | same, verbatim | **VERIFIED — primary, but it is NSST's own assertion about a third party** | 2026-08-23 |
+| Goethe-Zentrum Kathmandu is their partner *"für die Sprachausbildung und Prüfungsabnahme"* | same, verbatim | **VERIFIED — primary** | 2026-08-23 |
+| Participants complete **language courses and exams A1–B2** before the Ausbildung starts, with extra practice hours | same, verbatim | **VERIFIED — primary** | 2026-08-23 |
+| One-year preparation programme; an employer describes it as *"ein intensives 1-1,5-jähriges Programm"* | NSST sheet + Autohaus Spindler, 15 Aug 2023 | **VERIFIED — primary + employer** | 2026-08-23 |
+| Occupational orientation, intercultural, soft-skills and job-preparation training, plus a programme for the participant's family | NSST sheet | **VERIFIED — primary** | 2026-08-23 |
+| Two mentors during the Ausbildung — a cultural mentor from NSST and a *Fachmentor:In* from **VerA** | NSST sheet, verbatim | **VERIFIED — primary** | 2026-08-23 |
+| Candidate profile: 18–25, at least Class 10 and mostly Class 12, B2 German, *"kommen meist aus finanziell schwachen Verhältnissen"* | NSST sheet, verbatim; corroborated by Spindler | **VERIFIED — primary + employer** | 2026-08-23 |
+| Choosing by interest: *"Wir glauben, dass Menschen glücklicher und beruflich erfolgreicher sind, wenn sie sich für Berufe entscheiden können, die sie wirklich interessieren."* | NSST sheet, **verbatim, quoted on the page as a quote** | **VERIFIED — primary** | 2026-08-23 |
+| Start-up funding was **100% from Nepali entrepreneurial families and companies** | NSST sheet, verbatim | **VERIFIED — primary** | 2026-08-23 |
+| **€3,000 per apprentice, charged to the German company**: *"Die Kosten für die Dienstleitungen von NSST betragen für die Betriebe pro Azubi 3.000 Euro."* | PRO Magazin, reporting an HWK Heilbronn-Franken event, verbatim | **VERIFIED — secondary but verbatim and live** | 2026-08-23 |
+| It covers *"neben den Vorbereitungen und Sprachkursen auch der Flug und das Visum"* | same, verbatim | **VERIFIED — secondary, verbatim** | 2026-08-23 |
+| Falls due only *"sobald ein Ausbildungsvertrag unterschrieben wurde und der Azubi sein Visum für Deutschland erhalten habe"* | same, verbatim | **VERIFIED — secondary, verbatim** | 2026-08-23 |
+| The employer finances *"Flüge, Sprachkurse, Visumgebühren und vieles mehr"* | Autohaus Spindler's own page about its four Nepali apprentices, verbatim | **VERIFIED — the paying party's own account** | 2026-08-23 |
+| Services are **free of charge to students** | NSST's public company profiles — **not** in the employer sheet, which never mentions a student fee either way | SECONDARY — the page does **not** state this flatly; it says the bill demonstrably goes to the company and attributes the free-to-students line to NSST | 2026-08-23 |
+| ~10 started an Ausbildung in autumn 2022; ~130 in the programme for 2023/24; ~350 due to start the programme in April 2023 | NSST sheet, verbatim | **VERIFIED — primary, but dated 2023** | 2026-08-23 |
+| 50–100 arriving during 2023, 150–250 in 2024, **over 500 by 2025** | Spindler, verbatim; PRO Magazin has *"2025 sollen es bereits 500 sein"* | **VERIFIED — two independent sources, both 2023** | 2026-08-23 |
+| NSST's aim of **250 placements in 2024 and 500 in 2025** | NSST sheet, verbatim | **VERIFIED — primary, 2023 vintage** | 2026-08-23 |
+| **How many people NSST is placing now, in 2026, and whether €3,000 still stands** | not established | **OPEN — the page says plainly that the figures are three years old and that we do not know the current position** | — |
+| **Whether a student pays nothing at any stage** | not established at source | **OPEN — the page turns it into a question for the reader to ask NSST** | — |
+| thensst.org refused the connection; thensst.com and a thensst.vercel.app mirror returned 504 | our own checks, third day of trying | **VERIFIED (by us)** | 2026-08-23 |
+
+### Two errors caught in the first version, both mine
+
+**"Registered in Germany as a gGmbH" was wrong**, and it had been wrong in this
+file since 22 August. NSST is registered **in Nepal**; the gGmbH is the German
+*equivalent* their own document offers as a comparison. Stating the comparison as
+the fact is the same move as the ÖSD mistake — a true general statement
+substituted for the specific one nobody checked.
+
+**"They pay for the classes and exams" was the right answer for the wrong
+reason.** The first draft hedged it as *"what has been described to us"*, which
+was honest but soft. The actual mechanism is better and is checkable: the
+**employer** pays €3,000, and that fee covers the preparation, the language
+courses, the flight and the visa. That is not a kindness, it is **§ 296a SGB III**
+working exactly as intended — a fee from the employer and from nobody else. It is
+also the single most useful thing on the page for a reader being quoted 7 lakh,
+because it shows the same costs being carried by the company.
+
+### Why "the one that charges the employer instead of you" is a fair heading
+
+It states the funding model, which is verified, rather than endorsing the
+organisation, which we still cannot do. The section keeps a warning box, but the
+warning is now about the **age of the numbers** — everything traceable is from
+2023 and their website has been dark for three days of checking. A reader is told
+what is known, when it was true, and what to ask.
+
+**Rule 4 check.** Nothing here accuses anyone. The comparison drawn is between
+who receives the bill in two different models, which is a matter of fact.
+
+### The outreach draft was rewritten twice and is still on HOLD
+
+Draft 20 in `outreach/nepal_drafts.py` no longer offers a right of reply to a
+warning box that no longer exists. **It still needs a third pass** now that the
+2023 material has been found: the useful questions are no longer "is your service
+free" but *is €3,000 still the figure*, *how many are you placing in 2026*, and
+*does a participant pay anything at any stage*. It cannot be sent until the site
+is public.
+
+**Also worth doing separately:** the Goethe-Zentrum Kathmandu cooperation belongs
+on the exam-slots page, which currently describes that queue without mentioning
+that an organisation is putting cohorts through it. Not added yet — it needs its
+own check.

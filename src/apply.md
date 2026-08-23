@@ -74,6 +74,44 @@ told them:
   given **up to six months** to find another one before the permit is taken
   away. You are not put on a plane the week a company goes under.
 
+### And there is no minimum school certificate either
+
+The same is true of your schooling, and it surprises people. The Federal
+Employment Agency states it plainly: *"Rechtlich gesehen brauchst du keinen
+bestimmten Schulabschluss für deine duale Ausbildung."* Legally you need no
+particular school certificate for a dual Ausbildung. Employers decide for
+themselves what they will ask for — *"Die Betriebe dürfen selbst entscheiden,
+welchen Abschluss die Bewerberinnen und Bewerber mitbringen müssen."*
+
+What the embassy in Kathmandu asks you to hand over is your
+**Schulabschlusszeugnis mit den Noten** — your school leaving certificate, with
+the grades on it. It asks for the certificate you have. It names no minimum
+level, and for this visa it asks for no equivalence assessment: no anabin entry,
+no Zeugnisbewertung. The skilled-worker employment visa is different and does
+require one. Do not read across from that.
+
+So **Class 10 on its own does not shut the door.** Where a German employer states
+a minimum at all, it is usually a Hauptschulabschluss — nine years of school. The
+SEE sits at the end of Grade 10.
+
+Three honest limits on that:
+
+- **Schulische Ausbildungen are a different thing.** The school-based trainings,
+  as opposed to the dual ones inside a company, commonly do ask for a mittlerer
+  Abschluss. Your choice is wide, not unlimited.
+- **Nursing has a rule written into the statute.** § 11 PflBG wants a mittlerer
+  Schulabschluss — but it accepts as an alternative *"der erfolgreiche Abschluss
+  einer sonstigen zehnjährigen allgemeinen Schulbildung"*, any other ten-year
+  general schooling. Ten years is what the SEE is. Whether a particular German
+  state authority counts a Nepali SEE that way is **their decision, and we have
+  not seen it answered.** Ask before you build a plan on it.
+- **Nobody has published how Kathmandu treats a Class 10 file in practice.** A
+  checklist that names no minimum is not the same as a post that accepts
+  anything.
+
+None of this is likely to be the thing standing between you and a place. **B1
+German and an exam date are** — and that is a queue, not a certificate.
+
 ### But some trades are much easier to get into than others
 
 Both halves of this are true and you need both. **The law lets you apply for

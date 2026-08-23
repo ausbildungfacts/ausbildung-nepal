@@ -1611,3 +1611,33 @@ leaving the visa entirely to you. Both legitimate. Neither charging 5 lakh.
 
 **Not stated:** whether either accepts Nepali registrations specifically. Not
 checked, so not claimed.
+
+## Added 2026-08-23 — no minimum school certificate (page: How to actually find a place)
+
+Asked after a reader's friend with only Nepali Class 10 (SEE) documents wanted to
+know whether the door was shut. It is not — but the general German rule and the
+visa counter in Kathmandu are two different gates, and the page keeps them apart
+rather than inferring the second from the first.
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| No particular school leaving certificate is legally required for a duale Ausbildung: *"Rechtlich gesehen brauchst du keinen bestimmten Schulabschluss für deine duale Ausbildung."* | Bundesagentur für Arbeit, Ausbildungswege page, verbatim | **VERIFIED — authority** | 2026-08-23 |
+| Employers set their own requirement: *"Die Betriebe dürfen selbst entscheiden, welchen Abschluss die Bewerberinnen und Bewerber mitbringen müssen."* | same, verbatim | **VERIFIED — authority** | 2026-08-23 |
+| The embassy's document list for the training visa asks for *"Schulabschlusszeugnis mit den Noten"* and names no minimum level | German Embassy Kathmandu, national visa page | **VERIFIED — authority** | 2026-08-23 |
+| The training visa asks for no anabin entry and no Zeugnisbewertung, unlike the employment-visa category | same — the requirement is absent from this category's list and present on the other | VERIFIED (negative finding) | 2026-08-23 |
+| § 11 PflBG accepts, as an alternative to the mittlerer Schulabschluss, *"der erfolgreiche Abschluss einer sonstigen zehnjährigen allgemeinen Schulbildung"* | § 11 PflBG, verbatim | **VERIFIED — primary** | 2026-08-23 |
+| Nepal's SEE is the final examination of Grade 10 | National Examination Board; standard descriptions of the Nepali school system | SECONDARY | 2026-08-23 |
+| **Whether a German Land authority counts a Nepali SEE as "zehnjährige allgemeine Schulbildung" for Pflege** | not established | **OPEN — the page says it is that authority's decision and to ask first** | — |
+| **Whether the embassy in Kathmandu accepts a Class 10-only file in practice** | not established | **OPEN — the page says a checklist naming no minimum is not the same as acceptance** | — |
+| **How anabin classifies the Nepali SEE** | not established — needs the database queried directly | **OPEN — not stated on the site** | — |
+| **Whether the BA's § 39 consent stage adds any schooling requirement** | not established | **OPEN — not stated on the site** | — |
+
+**Deliberately not said: that Class 10 "is enough".** The verified position is
+that neither the law nor the embassy's list sets a floor. That is a different and
+weaker claim, and it is the true one. A reader who took "enough" from this page
+and was then refused would have been misled by us.
+
+**The trap avoided here** is the ÖSD one, in a new coat. The general rule — no
+Schulabschluss required — is real, and it is about a German school-leaver getting
+a training place. It is not by itself an answer about a Nepali applicant at a
+visa counter. Both gates were checked separately.

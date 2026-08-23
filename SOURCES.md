@@ -1743,7 +1743,42 @@ different name reads as a second stranger writing about someone else's letter.
 https://ausbildungfacts.org on 23 August 2026 and the rewritten NSST section was
 deployed the same day.
 
-**Also worth doing separately:** the Goethe-Zentrum Kathmandu cooperation belongs
-on the exam-slots page, which currently describes that queue without mentioning
-that an organisation is putting cohorts through it. Not added yet — it needs its
-own check.
+### The scale question was dropped, and why that matters beyond politeness
+
+Alan: *"i feel slightly awkward, because what they are doing was also my business
+idea, so ill feel funny asking them their business figures, if in the future i
+might be using them to create my own business."*
+
+**The instinct is right and the fix is small.** Draft 21 asked how many people
+NSST is placing this year. That figure serves no reader, and asking it from
+behind a free information site — while weighing a venture that would do
+substantially what NSST does — is competitor research wearing a press badge. It
+is replaced by *"are you still taking new participants, and roughly when does an
+intake start?"*, which is what a reader actually needs and carries no commercial
+value.
+
+Everything else the letters ask is already public: the €3,000 is in the German
+trade press, the volume targets are in NSST's own employer sheet and on an
+employer's website. **Nothing in either letter now asks NSST for anything they
+have not already published.** That is the test to apply to future letters sent
+under the site's name.
+
+**Draft 02 is the real problem and has been flagged in the file, not fixed.** It
+tells Frau Junken *"Ich möchte Ihnen nichts verkaufen und Ihnen keine Konkurrenz
+machen"* and then asks how she solved the funding. If the for-profit idea is
+still live, that sentence is untrue and the letter cannot go as it stands. There
+is **no record in this repo of which drafts have been sent**, so it is not known
+whether it already has.
+
+**The larger decision, not made here.** The site's authority rests on having
+nothing to sell. If a commercial service is built later, the relationship between
+the two has to be settled *before* the site starts producing enquiries, not
+after — including whether the site may ever mention it. Worth a line in
+`CLAUDE.md` once decided. Rule 2 is about not charging students; this is the
+separate question of what the site's independence is worth.
+
+### Still to do
+
+**The Goethe-Zentrum Kathmandu cooperation belongs on the exam-slots page**,
+which currently describes that queue without mentioning that an organisation is
+putting cohorts through it. Not added yet — it needs its own check.

@@ -53,13 +53,13 @@ classroom could manage.
 
 This is the part nobody explains properly.
 
-The restriction that stops private agencies recruiting people from Nepal into
-German health and care work applies to **recruitment from Nepal**. It does not
-follow you. Someone already living legally in Germany who applies to a
-Pflegeschule or a care home on their own initiative is in a completely different
-position from someone being placed there from Kathmandu.
+A year in a German household does two things a year in Kathmandu cannot. Your
+German moves faster than any classroom manages, and you are living in the
+country where the employers are — able to visit one, introduce yourself, do a
+trial day. Applying that way, in person and already speaking the language, is a
+different proposition from sending a file from abroad.
 
-And this is documented, not theoretical. Five Nepali women are currently in
+This is documented, not theoretical. Five Nepali women are currently in
 Pflegeausbildung at a clinic in Osnabrück; the first two arrived in Germany as Au
 Pairs, decided during that year that they wanted to train in care, and applied
 directly. Another Nepali woman in Wedel introduced herself at a care home, did a
@@ -67,8 +67,8 @@ trial day, and was taken on.
 
 So the sequence is: **Au Pair → a year of immersion and a much better German level
 → apply from inside Germany → Ausbildung.** It is slower than going straight in.
-It also sidesteps two of the hardest obstacles at once — the B1 certificate queue
-and the restriction on care-sector recruitment.
+What it does get round is the exam queue: Au Pair asks only for A1, and the year
+in Germany is where you close the gap to B1 and beyond.
 
 <div class="warn">
 

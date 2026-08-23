@@ -1717,14 +1717,31 @@ what is known, when it was true, and what to ask.
 **Rule 4 check.** Nothing here accuses anyone. The comparison drawn is between
 who receives the bill in two different models, which is a matter of fact.
 
-### The outreach draft was rewritten twice and is still on HOLD
+### The letter went before the rewrite, so a follow-up was written
 
-Draft 20 in `outreach/nepal_drafts.py` no longer offers a right of reply to a
-warning box that no longer exists. **It still needs a third pass** now that the
-2023 material has been found: the useful questions are no longer "is your service
-free" but *is €3,000 still the figure*, *how many are you placing in 2026*, and
-*does a participant pay anything at any stage*. It cannot be sent until the site
-is public.
+**Alan had already emailed NSST that morning**, 23 August 2026, before any of the
+above was found. His letter described NSST as *"a Nepal-German skills initiative
+founded in 2021 as a gGmbH"*, said we *"could not verify any of it"*, and asked
+whether their service is free at every stage. All three are now out of date, and
+the first one is the error we published.
+
+Draft 20 in `outreach/nepal_drafts.py` has therefore been **replaced by draft 21,
+a follow-up**, not a second first-contact letter. It corrects the gGmbH point to
+them directly, explains that the page now sets out the €3,000 charged to the
+employer, retires the "is it free" question as one asked before we had read their
+own material, and puts the three live questions instead: *is €3,000 still the
+figure*, *does a participant pay anything at any stage*, and *how many are you
+placing this year*. It carries an instruction not to send it if they have already
+replied.
+
+**It is signed Katharine Ciesla, not Alan Connaughton.** The morning letter was,
+and she is the named Diensteanbieter in the Impressum. A follow-up under a
+different name reads as a second stranger writing about someone else's letter.
+`SIG_KC` exists for this thread only; the rest of the file is unchanged.
+
+**The HOLD is gone** because the condition was met — the site went live at
+https://ausbildungfacts.org on 23 August 2026 and the rewritten NSST section was
+deployed the same day.
 
 **Also worth doing separately:** the Goethe-Zentrum Kathmandu cooperation belongs
 on the exam-slots page, which currently describes that queue without mentioning

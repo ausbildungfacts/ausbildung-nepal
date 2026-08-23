@@ -17,6 +17,10 @@
     --warn: #8A4B12;
     --warn-soft: #F8EFE3;
     --max: 40rem;
+    /* The "leaves this site" arrow. Inline SVG so it costs no request and
+       cannot fail to load on a slow connection. Colour comes from the mask, so
+       this shape is defined once and works in both themes. */
+    --ext-arrow: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><path d="M3.2 1.6h7.2v7.2H8.8V4.33L2.33 10.8 1.2 9.67 7.67 3.2H3.2z" fill="black"/></svg>');
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
@@ -221,6 +225,29 @@
   /* Source links go straight to the primary document. nofollow because we cite
      these as evidence, not as endorsement. */
   a.src { font-weight: 600; white-space: nowrap; }
+  /* Every link that leaves the site opens in a new tab, so say so before it is
+     clicked. A reader on a phone in a second language should not have to wonder
+     why the back button stopped working. The source links and the big template
+     buttons already carry their own marker, so they are excluded. The target
+     attribute this hangs off is set by the externalLinks transform in
+     eleventy.config.js.
+
+     Drawn as a background image rather than ::after content on purpose:
+     generated content is read aloud by most screen readers, and "north east
+     arrow" after every link is noise to someone who is already being told the
+     link opens in a new window. currentColor keeps it right in both themes. */
+  a[target="_blank"]:not(.src):not(.action)::after {
+    content: "";
+    display: inline-block;
+    width: .62em;
+    height: .62em;
+    margin-left: .22em;
+    vertical-align: baseline;
+    opacity: .7;
+    background-color: currentColor;
+    -webkit-mask: var(--ext-arrow) no-repeat center / contain;
+    mask: var(--ext-arrow) no-repeat center / contain;
+  }
   .refs .nosrc { color: var(--ink-soft); font-style: italic; }
   /* Prominent action links — used for the "copy this template" buttons, which
      are the main thing a reader comes to that page to do. */

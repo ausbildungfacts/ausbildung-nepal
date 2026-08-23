@@ -1,0 +1,15 @@
+{
+  "name": "ausbildung-nepal",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Honest, sourced information for Nepali students about vocational training (Ausbildung) in Germany.",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "check-links": "eleventy && node scripts/check-links.mjs --dir _site"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

@@ -1,0 +1,58 @@
+/* Contact form. Deliberately plain: no third-party service, no upload, no
+   tracking — the button composes an email in the reader's own mail app. */
+.cf {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 1.2rem 1.1rem .9rem;
+  margin: 1.8rem 0 1.4rem;
+}
+.cf-field { margin-bottom: 1rem; }
+.cf-field label {
+  display: block;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: .9375rem;
+  font-weight: 600;
+  margin-bottom: .3rem;
+}
+.cf-field label .hint {
+  display: block;
+  font-weight: 400;
+  font-size: .875rem;
+  color: var(--ink-soft);
+  margin-top: .1rem;
+}
+.cf input, .cf textarea, .cf select {
+  font: inherit;
+  font-size: 1.0625rem;
+  width: 100%;
+  padding: .6rem .65rem;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  background: var(--bg);
+  color: var(--ink);
+}
+.cf textarea { resize: vertical; min-height: 7rem; }
+.cf input:focus, .cf textarea:focus, .cf select:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+.cf-btn {
+  font: inherit;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 1.0625rem;
+  font-weight: 600;
+  background: var(--accent);
+  color: var(--bg);
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  padding: .75rem 1.2rem;
+  cursor: pointer;
+}
+.cf-btn:hover { filter: brightness(1.08); }
+.cf-out {
+  font-size: .9375rem;
+  color: var(--ink-soft);
+  margin: .8rem 0 0;
+}
+.cf-out.warnish { color: var(--warn); font-weight: 600; }

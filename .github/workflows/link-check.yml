@@ -1,0 +1,103 @@
+name: Check that cited sources still exist
+
+# This site's credibility rests on the links in its source lists working. German
+# government URLs do move — this project has already been caught twice — so a
+# machine checks them on a schedule and opens an issue when one dies.
+#
+# Deliberately separate from the deploy workflow: a flaky external site must
+# never be able to block publishing the site.
+#
+# NOTE: GitHub disables scheduled workflows in a repository after 60 days with
+# no commit activity, and emails the owner when it does. If this stops running,
+# that is usually why — push any commit, or press "Run workflow", to revive it.
+
+on:
+  schedule:
+    # 07:00 UTC every Monday.
+    - cron: "0 7 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: link-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: npm ci
+
+      - run: npm run build
+
+      - name: Check links
+        id: links
+        run: node scripts/check-links.mjs --dir _site --report link-report.md
+
+      - name: Read the report
+        if: always()
+        id: report
+        run: |
+          {
+            echo 'body<<REPORT_EOF'
+            cat link-report.md 2>/dev/null || echo "The checker did not finish. See the workflow log."
+            echo ''
+            echo "_Checked by [this workflow run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) on $(date -u '+%d %B %Y')._"
+            echo REPORT_EOF
+          } >> "$GITHUB_OUTPUT"
+
+      # A dead link is worth an issue: it persists, it says exactly what broke,
+      # and it can be handed straight to whoever fixes it.
+      - name: Open or update the issue
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = "Link check: a cited source has gone";
+            const body = process.env.REPORT;
+            const { owner, repo } = context.repo;
+            const existing = await github.rest.issues.listForRepo({
+              owner, repo, state: "open", labels: "link-rot", per_page: 1,
+            });
+            if (existing.data.length) {
+              await github.rest.issues.createComment({
+                owner, repo, issue_number: existing.data[0].number,
+                body: "Still failing.\n\n" + body,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner, repo, title, body, labels: ["link-rot"],
+              });
+            }
+        env:
+          REPORT: ${{ steps.report.outputs.body }}
+
+      # Close it again once the links are fixed, so an open issue always means
+      # something is actually broken right now.
+      - name: Close the issue if everything resolves again
+        if: success()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const open = await github.rest.issues.listForRepo({
+              owner, repo, state: "open", labels: "link-rot", per_page: 10,
+            });
+            for (const issue of open.data) {
+              await github.rest.issues.createComment({
+                owner, repo, issue_number: issue.number,
+                body: "All cited sources resolve again. Closing.",
+              });
+              await github.rest.issues.update({
+                owner, repo, issue_number: issue.number, state: "closed",
+              });
+            }

@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title }} — Ausbildung Nepal</title>
+<meta name="description" content="{{ description }}">
+<style>
+  :root {
+    --bg: #FBFAF8;
+    --surface: #FFFFFF;
+    --ink: #1A1D21;
+    --ink-soft: #545C64;
+    --line: #DFDCD6;
+    --accent: #1D5C4F;
+    --accent-soft: #E4EFEB;
+    --warn: #8A4B12;
+    --warn-soft: #F8EFE3;
+    --max: 40rem;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #14171A;
+      --surface: #1C2024;
+      --ink: #E9ECEF;
+      --ink-soft: #A2ABB3;
+      --line: #2E343A;
+      --accent: #6FBFA8;
+      --accent-soft: #172C27;
+      --warn: #D9A263;
+      --warn-soft: #2A2118;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #14171A;
+    --surface: #1C2024;
+    --ink: #E9ECEF;
+    --ink-soft: #A2ABB3;
+    --line: #2E343A;
+    --accent: #6FBFA8;
+    --accent-soft: #172C27;
+    --warn: #D9A263;
+    --warn-soft: #2A2118;
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    /* Sans-serif throughout: this is read on cheap Android phones in a second
+       language, and a humanist sans is measurably easier going than Georgia. */
+    font-family: "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    margin: 0;
+    padding: 0 1.15rem 4rem;
+    -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: var(--max); margin: 0 auto; }
+  header.site {
+    padding: 1.4rem 0 1.3rem;
+    border-bottom: 2px solid var(--accent);
+    margin-bottom: 2rem;
+  }
+  header.site a.brand {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    letter-spacing: -.01em;
+    color: var(--ink);
+    text-decoration: none;
+    display: block;
+    line-height: 1.25;
+  }
+  header.site a.brand .brand-sub {
+    display: block;
+    font-weight: 400;
+    font-size: .9375rem;
+    color: var(--ink-soft);
+    margin-top: .15rem;
+  }
+  /* Navigation as pills, and always visible — never behind a hamburger.
+     Every page here is the point of the site: a reader who never notices the
+     fees page may pay nine thousand euros. Hiding the menu to save space would
+     trade the site's purpose for tidiness. */
+  nav.site { margin-top: 1rem; display: flex; flex-wrap: wrap; gap: .45rem; }
+  nav.site a {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 1rem;
+    line-height: 1.2;
+    color: var(--ink-soft);
+    text-decoration: none;
+    background: transparent;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: .5rem .8rem;
+    transition: border-color .12s, color .12s, background .12s;
+  }
+  /* The five pages that protect a reader's money and time carry more weight.
+     Everything stays visible: no toggle, nothing that moves, nothing to open
+     twice. */
+  nav.site a.key {
+    color: var(--ink);
+    font-weight: 600;
+    background: var(--surface);
+    border-color: var(--ink-soft);
+  }
+  nav.site a:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+  }
+  nav.site a[aria-current="page"] {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--bg);
+    font-weight: 600;
+  }
+  @media (max-width: 26rem) {
+    nav.site a, nav.site summary { font-size: .9375rem; padding: .5rem .7rem; }
+  }
+  h1 {
+    font-size: 1.9rem;
+    line-height: 1.2;
+    letter-spacing: -.02em;
+    text-wrap: balance;
+    margin: 0 0 .6rem;
+  }
+  h2 {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: -.01em;
+    margin: 2.2rem 0 .6rem;
+    text-wrap: balance;
+  }
+  p.standfirst { font-size: 1.15rem; color: var(--ink-soft); margin: 0 0 1.8rem; }
+  a { color: var(--accent); text-underline-offset: 2px; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  blockquote {
+    margin: 1.4rem 0;
+    padding: .9rem 1.1rem;
+    background: var(--accent-soft);
+    border-left: 3px solid var(--accent);
+    border-radius: 2px;
+  }
+  blockquote p { margin: 0; }
+  /* Images and diagrams. Every figure scales down to phone width and never
+     forces the page to scroll sideways. */
+  figure { margin: 1.8rem 0; }
+  figure img, figure svg { width: 100%; height: auto; display: block; border-radius: 3px; }
+  figure img { border: 1px solid var(--line); }
+  figcaption {
+    font-size: .9375rem;
+    color: var(--ink-soft);
+    margin-top: .5rem;
+    line-height: 1.5;
+  }
+  figcaption .credit { opacity: .75; }
+  /* Inline diagrams carry information rather than decoration, so they get the
+     same visual weight as a table. */
+  figure.diagram svg { background: var(--surface); border: 1px solid var(--line); }
+  /* Numbered sequence. Built in HTML rather than SVG on purpose: text in a
+     fixed-viewBox SVG shrinks to about 9px on a 375px phone, and this site is
+     mostly read on phones. */
+  ol.steps { list-style: none; padding: 0; margin: 1.8rem 0; }
+  ol.steps li {
+    position: relative;
+    margin: 0 0 0 1.05rem;
+    padding: 0 0 1.5rem 2.4rem;
+    border-left: 2px solid var(--line);
+  }
+  ol.steps li:last-child { border-left-color: transparent; padding-bottom: 0; }
+  ol.steps .n {
+    position: absolute;
+    left: -1.05rem;
+    top: -.15rem;
+    width: 2.1rem;
+    height: 2.1rem;
+    border-radius: 50%;
+    background: var(--accent);
+    color: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: .95rem;
+  }
+  ol.steps li.arrive .n { background: var(--warn); }
+  /* Citations. Numbered markers link to a graded reference list at the foot of
+     the page. The grade matters as much as the number: a reader should be able
+     to see at a glance whether a claim rests on a statute or on one person's
+     account. */
+  sup.cite { line-height: 0; font-size: .68em; }
+  sup.cite a {
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0 .12em;
+  }
+  sup.cite a:hover { text-decoration: underline; }
+  .refs { margin-top: 2.6rem; border-top: 1px solid var(--line); padding-top: 1.2rem; }
+  .refs h2 { margin-top: 0; }
+  .refs ol { padding-left: 1.4rem; margin: 0; }
+  .refs li { font-size: 1rem; line-height: 1.55; margin-bottom: .85rem; }
+  .refs li:target { background: var(--accent-soft); border-radius: 2px; }
+  .badge {
+    display: inline-block;
+    font-family: system-ui, sans-serif;
+    font-size: .65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    padding: .12rem .4rem;
+    border-radius: 2px;
+    margin-right: .35rem;
+    vertical-align: .08em;
+    white-space: nowrap;
+  }
+  .badge.primary   { background: var(--accent); color: var(--bg); }
+  .badge.authority { background: var(--accent-soft); color: var(--accent); border: 1px solid var(--accent); }
+  .badge.secondary { background: var(--line); color: var(--ink-soft); }
+  .badge.open      { background: var(--warn); color: var(--bg); }
+  .badge.ours      { background: var(--warn-soft); color: var(--warn); border: 1px solid var(--warn); }
+  /* Source links go straight to the primary document. nofollow because we cite
+     these as evidence, not as endorsement. */
+  a.src { font-weight: 600; white-space: nowrap; }
+  .refs .nosrc { color: var(--ink-soft); font-style: italic; }
+  /* Prominent action links — used for the "copy this template" buttons, which
+     are the main thing a reader comes to that page to do. */
+  .actions { display: flex; flex-direction: column; gap: .7rem; margin: 1.5rem 0 1.2rem; }
+  a.action {
+    display: block;
+    background: var(--accent);
+    color: var(--bg);
+    text-decoration: none;
+    border-radius: 4px;
+    padding: .85rem 1.1rem;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  a.action:hover { filter: brightness(1.08); }
+  a.action b { display: block; font-size: 1.0625rem; }
+  a.action span { display: block; font-size: .8125rem; opacity: .85; margin-top: .1rem; }
+  /* Imprint address block — § 5 DDG wants it "leicht erkennbar", so it gets to
+     look like an address rather than a run-on paragraph. */
+  .addr {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    padding: .85rem 1rem;
+    margin: 1rem 0 1.6rem;
+    line-height: 1.75;
+  }
+  .addr .todo { color: var(--warn); font-weight: 700; }
+  ol.steps .t { display: block; font-weight: 700; }
+  ol.steps .d { display: block; color: var(--ink-soft); font-size: .9375rem; margin-top: .15rem; }
+  .warn {
+    margin: 1.4rem 0;
+    padding: .9rem 1.1rem;
+    background: var(--warn-soft);
+    border-left: 3px solid var(--warn);
+    border-radius: 2px;
+  }
+  .warn p:first-child { margin-top: 0; }
+  .warn p:last-child { margin-bottom: 0; }
+  table { border-collapse: collapse; width: 100%; font-size: 1rem; }
+  .scroll { overflow-x: auto; margin: 1.4rem 0; }
+  th, td { text-align: left; padding: .5rem .7rem; border-bottom: 1px solid var(--line); }
+  th { font-family: system-ui, sans-serif; font-size: .875rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-soft); }
+  footer.site {
+    margin-top: 3.5rem;
+    padding-top: 1.2rem;
+    border-top: 1px solid var(--line);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: .9375rem;
+    line-height: 1.6;
+    color: var(--ink-soft);
+  }
+  footer.site p { margin: 0 0 .5rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="site">
+  <a class="brand" href="/">Ausbildung in Germany<span class="brand-sub">Honest, sourced information for students in Nepal</span></a>
+  <nav class="site" aria-label="Sections">
+    {%- for p in collections.pages %}{% if p.data.primary %}
+    <a href="{{ p.url }}" class="key"{% if p.url == page.url %} aria-current="page"{% endif %}>{{ p.data.nav or p.data.title }}</a>
+    {%- endif %}{% endfor %}
+    {%- for p in collections.pages %}{% if not p.data.primary %}
+    <a href="{{ p.url }}"{% if p.url == page.url %} aria-current="page"{% endif %}>{{ p.data.nav or p.data.title }}</a>
+    {%- endif %}{% endfor %}
+  </nav>
+</header>
+
+<main>
+  <h1>{{ title }}</h1>
+  {%- if standfirst %}
+  <p class="standfirst">{{ standfirst }}</p>
+  {%- endif %}
+  {{ content | safe }}
+</main>
+
+<footer class="site">
+  <p><strong>This is information, not advice.</strong> Nothing on this site is
+  legal, immigration or financial advice, and reading it creates no advisory
+  relationship of any kind. Immigration law changes and is applied differently by
+  different authorities. Before you act on anything here, check it against the
+  primary source we cite and, for anything that matters, take qualified advice on
+  your own circumstances. <a href="/impressum/">Full notice and imprint</a>.</p>
+  <p>This site is written and maintained independently. It sells nothing, takes no fee from students, and is not an agency.</p>
+  <p><strong>Found something wrong? Please tell us.</strong> Every factual claim here is
+  sourced and dated, but rules change and we make mistakes. If something here is out of
+  date, or an official told you differently, write to
+  <a href="mailto:clockw1se-nepal@yahoo.com">clockw1se-nepal@yahoo.com</a> and we will
+  check it and correct the page. You do not need to prove anything or be polite about it.</p>
+  <p>Last reviewed: {{ reviewed or "August 2026" }} &middot;
+     <a href="/impressum/">Imprint &amp; liability</a> &middot;
+     <a href="/datenschutz/">Privacy</a></p>
+</footer>
+
+</div>
+</body>
+</html>

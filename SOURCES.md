@@ -1782,3 +1782,12 @@ separate question of what the site's independence is worth.
 **The Goethe-Zentrum Kathmandu cooperation belongs on the exam-slots page**,
 which currently describes that queue without mentioning that an organisation is
 putting cohorts through it. Not added yet — it needs its own check.
+
+## NSST YouTube link added, 2026-08-24
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| NSST's YouTube channel is https://www.youtube.com/@TheNSST | supplied by Alan | SECONDARY | 2026-08-24 |
+
+Added to the Facebook/Instagram line in the NSST section of
+`nepal-germany.md` alongside their other social media.

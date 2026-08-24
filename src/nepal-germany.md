@@ -90,8 +90,9 @@ difficulty. If you get good answers, tell us, because we would like to be able t
 say so here.
 
 Their website was unreachable when we last checked, but they are active on
-social media: [Facebook](https://facebook.com/thensst) and
-[Instagram](https://instagram.com/the.nsstorg).
+social media: [Facebook](https://facebook.com/thensst),
+[Instagram](https://instagram.com/the.nsstorg) and
+[YouTube](https://www.youtube.com/@TheNSST).
 
 ## The volunteer year — the route almost nobody mentions
 

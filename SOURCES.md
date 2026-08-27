@@ -1743,19 +1743,13 @@ different name reads as a second stranger writing about someone else's letter.
 https://ausbildungfacts.org on 23 August 2026 and the rewritten NSST section was
 deployed the same day.
 
-### The scale question was dropped, and why that matters beyond politeness
+### The scale question was dropped
 
-Alan: *"i feel slightly awkward, because what they are doing was also my business
-idea, so ill feel funny asking them their business figures, if in the future i
-might be using them to create my own business."*
-
-**The instinct is right and the fix is small.** Draft 21 asked how many people
-NSST is placing this year. That figure serves no reader, and asking it from
-behind a free information site — while weighing a venture that would do
-substantially what NSST does — is competitor research wearing a press badge. It
-is replaced by *"are you still taking new participants, and roughly when does an
-intake start?"*, which is what a reader actually needs and carries no commercial
-value.
+Draft 21 asked how many people NSST is placing this year. That figure serves no
+reader of this site, and a free information site does not ask a named
+organisation for its own business figures. It is replaced by *"are you still
+taking new participants, and roughly when does an intake start?"*, which is what
+a reader actually needs.
 
 Everything else the letters ask is already public: the €3,000 is in the German
 trade press, the volume targets are in NSST's own employer sheet and on an
@@ -1763,19 +1757,11 @@ employer's website. **Nothing in either letter now asks NSST for anything they
 have not already published.** That is the test to apply to future letters sent
 under the site's name.
 
-**Draft 02 is the real problem and has been flagged in the file, not fixed.** It
-tells Frau Junken *"Ich möchte Ihnen nichts verkaufen und Ihnen keine Konkurrenz
-machen"* and then asks how she solved the funding. If the for-profit idea is
-still live, that sentence is untrue and the letter cannot go as it stands. There
-is **no record in this repo of which drafts have been sent**, so it is not known
-whether it already has.
+**There is no record in this repo of which drafts have been sent**, so it is not
+known which of the earlier letters already went.
 
-**The larger decision, not made here.** The site's authority rests on having
-nothing to sell. If a commercial service is built later, the relationship between
-the two has to be settled *before* the site starts producing enquiries, not
-after — including whether the site may ever mention it. Worth a line in
-`CLAUDE.md` once decided. Rule 2 is about not charging students; this is the
-separate question of what the site's independence is worth.
+Some of the deliberation behind this decision is kept in the project's private
+notes rather than in this public repository.
 
 ### Still to do
 
@@ -1791,3 +1777,76 @@ putting cohorts through it. Not added yet — it needs its own check.
 
 Added to the Facebook/Instagram line in the NSST section of
 `nepal-germany.md` alongside their other social media.
+
+## § 81a case numbers — Niedersachsen replied, 2026-08-27
+
+The Zentralstelle für das beschleunigte Fachkräfteverfahren (LAB Niedersachsen,
+Osnabrück) answered draft 31 on 26 Aug 2026. The mail itself contained no
+figures — it linked the office's homepage and a press release. The press release
+answers question 1.
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| 920 applications under § 81a reached the Niedersachsen central office between 1 July 2025 and 3 Feb 2026 | Nds. Ministerium für Inneres, press release 03.02.2026 (Ministerin Behrens' visit) | VERIFIED | 2026-08-27 |
+| Of those, 424 procedures completed, 201 Vorabzustimmungen granted, 378 still in processing | same | VERIFIED | 2026-08-27 |
+| Average **two and a half weeks** from application to Vorabzustimmung | same | VERIFIED | 2026-08-27 |
+| The office has 23 staff and since 1 Jan 2026 is the sole § 81a authority in Niedersachsen, replacing 52 municipal Ausländerbehörden | same, plus Nds. Staatskanzlei press release on the office's creation | VERIFIED | 2026-08-27 |
+| Applicants come mostly from Turkey, Morocco, Cameroon and Tunisia; strongest demand in Pflege/Medizin, Transport/Logistik and Land-, Forst- und Tierwirtschaft | same | VERIFIED | 2026-08-27 |
+| Share of applications from small employers (under 50 staff) | asked 24 Aug, not answered; asked again 27 Aug | **OPEN** | 2026-08-27 |
+| How often a Bevollmächtigter files rather than the employer | asked 24 Aug, not answered; asked again 27 Aug | **OPEN** | 2026-08-27 |
+
+**Do not treat 424 + 378 as a breakdown of 920.** They sum to 802. The press
+release does not say what the other 118 are — withdrawn, incomplete, counted at a
+different date. Anyone quoting a success rate from 201/424 is inventing one.
+
+**The two-and-a-half weeks is a different clock from the three weeks on the
+visa page.** The 2.5 weeks is the German end: employer's application to
+Vorabzustimmung. The three weeks is the embassy end: Vorabzustimmung to
+appointment in Kathmandu. They are consecutive, not alternatives.
+
+**Cross-check against NRW.** NRW recorded 4,041 § 81a applications in 2024 to
+November — about 20 per million residents per month. Niedersachsen's 920 over
+seven months is about 16 per million per month. Two independent Länder, same
+order of magnitude, which is the first evidence that either figure is sound.
+
+**Niedersachsen has no information-freedom lever.** It is one of two Länder
+(with Bayern) without an Informationsfreiheits- or Transparenzgesetz, so there
+is no Auskunftsanspruch to fall back on if the two open questions go unanswered.
+The remaining routes are a schriftliche Anfrage through a Landtag member, or the
+NRW ZFE (draft 30), where an IFG does exist.
+
+Sources:
+- <https://www.mi.niedersachsen.de/startseite/aktuelles/presseinformationen/fachkrafte-aus-dem-ausland-konnen-schneller-eingestellt-werden-in-niedersachsen-wenden-sich-unternehmen-und-agenturen-seit-januar-ausschliesslich-an-die-neue-zentralstelle-fur-beschleunigte-fachkrafteverfahren-248408.html>
+- <https://beschleunigtes-fachkraefteverfahren.niedersachsen.de/startseite>
+
+## Two changes, 2026-08-27
+
+**The Niedersachsen figures went on the visa page.** `visa.md` gains a section,
+*"It is not only paper — one Land publishes its figures"*, carrying the 920
+applications and the two-and-a-half-week average, both sourced to the Nds. MI
+press release of 03.02.2026 recorded in the section above. The section states in
+its own text that this is one Land of sixteen and that the 2.5 weeks precedes the
+embassy's three weeks rather than replacing them, because a reader quoting the
+figure at an employer needs both caveats attached to it, not filed here.
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| Page states 920 applications, Jul 2025 – Feb 2026, and a 2.5-week average to Vorabzustimmung, scoped to Niedersachsen | Nds. MI press release 03.02.2026 | VERIFIED | 2026-08-27 |
+
+**Commercial deliberation was removed from this file.** The NSST section of
+2026-08-23 carried a verbatim personal quote and several paragraphs of
+deliberation about a possible commercial venture, including a note about a letter
+to a named person. **This repository is public**, so all of it was readable by
+the organisation and the individual it discussed. It has been moved to
+`nepal/PRIVATE-NOTES.md`, which sits outside this repository. The editorial
+decision it recorded — the scale question was dropped — remains above in neutral
+wording.
+
+**It is still in the git history.** Commit `d7a417c` contains the original text
+and removing it from the working file does not remove it from GitHub. Rewriting
+history and force-pushing is the only way to take it down, and that decision has
+not been made.
+
+**The rule this is now under.** SOURCES.md is a public file. Facts, sources and
+editorial reasoning belong here. Anything about money, competitors, or what this
+project might become goes in `nepal/PRIVATE-NOTES.md`.

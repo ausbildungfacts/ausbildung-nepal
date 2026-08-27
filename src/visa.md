@@ -84,6 +84,23 @@ How it works, according to the official federal description:
 The employer can also authorise a third party to run the procedure for them, so
 a company that finds the paperwork daunting does not have to do it alone.
 
+## It is not only paper — one Land publishes its figures
+
+Everything above is what the procedure is *meant* to do. One German state, Lower
+Saxony (*Niedersachsen*), publishes what actually happens. Its central office
+took in **920 applications** between July 2025 and February 2026, and averaged
+**two and a half weeks** from the employer's application to the Vorabzustimmung.
+
+Two cautions before you quote that at anyone. It is one state out of sixteen, and
+your employer's office may be quicker or slower — most states publish nothing at
+all. And those two and a half weeks are the *German* end of the process. They
+come before the three weeks the embassy in Kathmandu takes to give you an
+appointment, not instead of them.
+
+Even so, it is the best evidence there is that this procedure moves at the speed
+it promises — and it is worth showing to an employer who thinks it sounds too
+good to be true.
+
 ## Confirmed: Kathmandu honours the three weeks
 
 This is the most important thing on this site, so here it is in the embassy's own
@@ -146,6 +163,9 @@ this takes from Nepal.
   (§ 81a AufenthG)*,
   [Make it in Germany](https://www.make-it-in-germany.com/fileadmin/1_Rebrush_2022/b_Arbeitgeber/PDF-Dateien/2024_Beschleunigtes_Fachkraefteverfahren_DE.pdf),
   BMWK, January 2024
+- The 920 applications and the two-and-a-half-week average:
+  [press release of the Lower Saxony Interior Ministry, 3 February
+  2026](https://www.mi.niedersachsen.de/startseite/aktuelles/presseinformationen/fachkrafte-aus-dem-ausland-konnen-schneller-eingestellt-werden-in-niedersachsen-wenden-sich-unternehmen-und-agenturen-seit-januar-ausschliesslich-an-die-neue-zentralstelle-fur-beschleunigte-fachkrafteverfahren-248408.html)
 - Waiting list, B1 requirement and processing time:
   [German Embassy Kathmandu, national visas](https://kathmandu.diplo.de/np-de/service/05-VisaEinreise/-/1617934)
 - The two quoted passages: German Embassy Kathmandu, by email, 21 August 2026,

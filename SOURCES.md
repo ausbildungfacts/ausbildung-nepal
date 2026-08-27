@@ -1850,3 +1850,38 @@ not been made.
 **The rule this is now under.** SOURCES.md is a public file. Facts, sources and
 editorial reasoning belong here. Anything about money, competitors, or what this
 project might become goes in `nepal/PRIVATE-NOTES.md`.
+
+## The link checker was crying wolf, 2026-08-27
+
+The 24 August run failed and opened issue #1, naming eight dead
+`gesetze-im-internet.de` links — §§ 2, 5, 16a, 29, 30, 32, 68 and 81a. **None of
+them were dead.** All eight answer 200; GitHub's runners could not reach the host
+and undici reported `UND_ERR_CONNECT_TIMEOUT`.
+
+`scripts/check-links.mjs` was treating every network error except its own abort
+as a dead link. Now only `ENOTFOUND` — a domain that no longer resolves — counts
+as dead at the network level; timeouts, resets and refusals are warnings. The
+reasoning is in the code: a missed dead link costs a week, because the run
+repeats on Monday and a page that has genuinely gone answers 404 rather than
+hanging, while a false alarm costs the checker, because nobody reads the third
+one.
+
+Two further faults found while testing, both the same defect pointing the other
+way — a link reported **ok** that was not:
+
+- Statuses outside a hard-coded list fell through to "ok". The new Nds. ministry
+  link was reported as `ok 400`. Anything at 400 or above that is not 404/410 is
+  now *unconfirmed*.
+- HEAD was trusted too readily. That ministry URL answers HEAD with a 303 that
+  redirects to a 400, and GET with the page. The GET fallback now runs for any
+  non-definitive status, which also cleared the standing frankfurt.de (403) and
+  instagram.com (429) warnings.
+
+Local run after the fix: 41 links, no dead, two unconfirmed — facebook.com,
+which refuses bots, and setopati.com, which was slow. Issue #1 closes on the next
+green run.
+
+**A guard against the opposite failure.** Because unknown network errors are now
+warnings, a runner with no working network would warn on everything and report a
+clean bill of health. If more than half the links are unconfirmed, the report now
+says the run is inconclusive instead of passing quietly.

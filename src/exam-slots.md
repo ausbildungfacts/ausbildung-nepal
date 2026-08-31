@@ -133,20 +133,46 @@ So the accepted list is:
 | Provider | Where | Notes |
 | --- | --- | --- |
 | **Goethe-Zentrum Kathmandu** | Thapathali | The queue everybody is in |
-| **VHS** | **Bhaktapur and Pokhara** | Nepal's official ÖSD centre; also has a Kathmandu branch at Putalisadak |
+| **VHS** | **Bhaktapur and Pokhara** | A licensed ÖSD exam centre; also has a Kathmandu branch at Putalisadak |
 | **telc** | no centre in Nepal | Accepted, but you would have to sit it abroad |
 
 </div>
 
 <div class="warn">
 
-**Three things follow, and hardly anyone seems to know any of them.**
+**Here is what follows, and hardly anyone seems to know any of it.**
 
 **VHS is a second accepted route, and it is in Pokhara as well as Bhaktapur.** If
 you are stuck deep in the Goethe waiting list, this is the alternative — and for
 anyone outside the Kathmandu valley, Pokhara may be far easier to reach. VHS is
-Nepal's official ÖSD examination centre and takes external candidates, not only
-its own students.
+a licensed ÖSD examination centre and takes external candidates, not only its own
+students.
+
+**An official ÖSD certificate counts — including from a centre the embassy's list
+does not name.** ÖSD keeps a public register of the centres it licenses. For
+Nepal it lists three: VHS Bhaktapur, VHS Pokhara, and a third centre in
+Kathmandu. In August 2026 we asked the embassy directly whether a certificate
+from that third centre would be accepted. The answer: *"Ja, auch diese wird
+akzeptiert wenn es sich um ein offizielles ÖSD Zertifikat handelt."* — *"Yes,
+that one is accepted too, as long as it is an official ÖSD certificate."* If you
+are stuck in a queue, that is a third door in Kathmandu.
+
+**But check three things before you pay anybody.** First, the embassy's published
+page still names only the Goethe-Zentrum, VHS and telc, and does not mention ÖSD
+anywhere — so the sentence above is the embassy in writing to us, not something
+you can point to on their website. Print this page and be ready to ask. Second,
+we asked about a centre **in Nepal**; we did not ask about ÖSD sat in another
+country, so do not assume that. Third, anyone can call themselves an exam centre,
+so check the name against
+[ÖSD's own register](https://www.osd.at/en/exam-centres/) — it is free, and it is
+the authority on who is licensed.
+
+**You do not need to buy a course to sit the exam — but ask.** ÖSD exams are
+course-independent. However, a centre can be licensed to examine only its own
+course students rather than outsiders, so if a course and an exam seat are being
+sold to you together, ask two questions and get the answers in writing: **can I
+sit the exam without taking your course, and what does the exam cost on its
+own?** VHS takes external candidates.
 
 **You do not have to sit all four parts in the same place.** The embassy gives
 its own example: three parts at the Goethe-Zentrum and one at the VHS. If you can
@@ -230,9 +256,18 @@ because one person was willing to say what actually happened to her.
 - The three accepted providers, the module-splitting rule and the
   submit-with-application rule, quoted verbatim:
   [German Embassy Kathmandu, national visas](https://kathmandu.diplo.de/np-de/service/05-visaeinreise/1617934-1617934)
-- VHS as Nepal's official ÖSD examination centre, teaching A1–B2, offering places
+- VHS as a licensed ÖSD examination centre, teaching A1–B2, offering places
   to external candidates, with a Kathmandu branch at Putalisadak since 2015:
   [VHS Nepal](https://www.vhsnepal.org/)
+- Three licensed ÖSD exam centres in Nepal — VHS Bhaktapur, VHS Pokhara and a
+  third in Kathmandu, checked 31 August 2026:
+  [ÖSD exam centres](https://www.osd.at/en/exam-centres/)
+- An official ÖSD certificate being accepted for the visa even from a centre the
+  embassy's published list does not name, quoted verbatim: German Embassy
+  Kathmandu, by email, August 2026
+- ÖSD exams being course-independent, and centres being licensed either for their
+  own course participants only or for external candidates too:
+  [ÖSD examination regulations](https://www.osd.at/wp-content/uploads/2023/07/EN_OSD-Prufungsordnung-Stand-17_07_2023_Final.pdf)
 - ÖSD relative difficulty, the reported B1 date roughly two months out, B1
   waiting-list position past 1,000, and B2 reportedly next running July 2027:
   candidates preparing in Nepal, July–August 2026

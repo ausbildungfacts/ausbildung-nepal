@@ -24,6 +24,16 @@ claim findable instead of invisible.
 | The rule covers all services needed to prepare and carry out the placement, incl. assessing the applicant and career guidance | § 296a SGB III, statutory text | VERIFIED | 2026-08-19 |
 | Agencies have charged families five-figure sums for German training promises | Deutsche Handwerks Zeitung, reporting chamber warnings | SECONDARY | 2026-08-19 |
 | Employer covers flight costs (up to €700) in some chamber projects | HWK Stuttgart, ViFAH project page | VERIFIED | 2026-08-19 |
+| *(2025 India page, superseded for wage by the August 2026 figure below)* A Handwerkskammer's own recruitment programme sets the employer's side at **min. €1,000 monthly wage in the first training year**, housing provided by the employer with the apprentice contributing **€300/month**, and **flight costs up to €700** | Handwerkskammer Ulm, *Fachkräftesicherung durch Vermittlung von ausländischen Auszubildenden und Fachkräften* — read live. Applies to their **India** programme, Ausbildungsjahr 2025 | **VERIFIED — primary (the chamber's own terms)** | 2026-08-28 |
+| The same chamber charges the **Betriebe** no placement fee for 2025 and states that from 2026 the agency will: *"Keine Vermittlungsgebühr für Betriebe für das Ausbildungsjahr 2025"*, *"Ab dem Ausbildungsjahr 2026 wird vonseiten der indischen Partneragentur eine Vermittlungsgebühr erhoben"* | same page, verbatim | **VERIFIED — primary** | 2026-08-28 |
+| An apprentice contributing to their own housing is **not** a Vermittlungsgebühr and § 296a SGB III does not forbid it — the statute governs payment *for the placement*, not ordinary living costs | § 296a SGB III read against the HWK Ulm terms above | **SECONDARY — our reading; the site must not present a chamber programme as charging applicants** | 2026-08-28 |
+| **Handwerkskammer Ulm lists Nepal as one of its partner countries** for recruiting apprentices, alongside Madagascar, Rwanda, Guatemala and India, under the heading *"Auszubildende aus Nepal"* | Handwerkskammer Ulm, *Internationale Fachkräfte* — read live. Marked *Stand: August 2026* | **VERIFIED — primary, current** | 2026-08-28 |
+| A German chamber states of its Nepal channel: *"Ethische Rekrutierung: Auszubildende bezahlen nichts für die Vermittlung in eine Ausbildung."* | same page, verbatim | **VERIFIED — primary. A public-law body saying in August 2026 what § 296a SGB III requires** | 2026-08-28 |
+| The Nepal partner's programme: selection, German to **B2 before the Ausbildung starts**, intercultural and job-preparation training, help with visa and integration, fixed contacts and long-term mentoring/coaching | same page, verbatim summary | **VERIFIED — primary** | 2026-08-28 |
+| **NSST is Handwerkskammer Ulm's Nepal partner** — named on the chamber's own page as *"Frau Junken, NSST: Auszubildende aus Nepal"* | Handwerkskammer Ulm, *Wie Sie ausländische Fachkräfte finden* — read live. Corroborated by the Dec 2023 Nepal event the chamber co-hosted with NSST | **VERIFIED — primary. Closes the OPEN raised earlier the same day** | 2026-08-28 |
+| The chamber's partners by country: **Horizon Bridge** (Rwanda), **NSST** (Nepal), **pro bantleon** (Madagascar), **telos-connect** (Guatemala/South America), **EINS GmbH** (India), plus an unnamed South Africa partner | same page | **VERIFIED — primary** | 2026-08-28 |
+| The chamber's **India** partner claims *"Rund 150 vermittelte Auszubildende in den letzten drei Jahren"* | same page, verbatim | **VERIFIED — primary (the partner's own claim, published by the chamber)** | 2026-08-28 |
+| Employer's obligation on the current page: provide affordable housing, pay an **Ausbildungsgehalt of at least €1,090 in the first year** (*Stand: August 2026*), and carry a Verwaltungsentgelt for the visa | same page | **VERIFIED — primary, current. Supersedes the €1,000 figure above, which is the 2025 India page** | 2026-08-28 |
 
 ## Visa and the accelerated procedure
 
@@ -1885,3 +1895,44 @@ green run.
 warnings, a runner with no working network would warn on everything and report a
 clean bill of health. If more than half the links are unconfirmed, the report now
 says the run is inconclusive instead of passing quietly.
+
+## CORRECTION 2026-08-31 (seventh) — the accepted list is not a list of institutions
+
+Prompted by advertising seen in Nepal in August 2026, in which a seller of German
+courses states that it is also an official ÖSD examination centre and offers a
+registration discount with exam dates to be announced.
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| ÖSD's public register lists **three** licensed exam centres in Nepal: VHS Bhaktapur, VHS Pokhara Language Center, and a third centre in Kathmandu | ÖSD exam centre finder, osd.at, filtered to Nepal | **VERIFIED — primary** | 2026-08-31 |
+| An official ÖSD certificate obtained at that third centre — which the embassy's published list does not name — **is accepted** for the visa: "Ja, auch diese wird akzeptiert wenn es sich um ein offizielles ÖSD Zertifikat handelt." | German Embassy Kathmandu, email reply | **VERIFIED — primary, in writing** | 2026-08-31 |
+| The embassy's **published page** still names only Goethe-Zentrum Kathmandu, VHS (Bhaktapur & Pokhara) and telc, and does not mention ÖSD at all | embassy national visa page | VERIFIED | 2026-08-31 |
+| ÖSD exams are course-independent; but when a centre is licensed it is fixed whether it admits only its own course participants or external candidates too | ÖSD examination regulations and centre guidance | SECONDARY | 2026-08-31 |
+| "VHS is Nepal's official ÖSD examination centre" | ÖSD register shows three | **CORRECTED — VHS is a licensed ÖSD centre, not the only one. Fixed on the exam-slots page and in its source list.** | 2026-08-31 |
+| **Whether an official ÖSD certificate sat outside Nepal is accepted** | not asked | **OPEN — the question put to the embassy was about a centre in Nepal. Never state the general form.** | — |
+
+**What was wrong.** Since 2026-08-21 this file has said that an ÖSD certificate
+counts *only because VHS Bhaktapur happens to be on the embassy's list* — that
+the list names institutions, and that the place you sit the exam decides it. The
+embassy has now said in writing that it does not work that way: an official ÖSD
+certificate is accepted from a centre its own published list never names.
+
+**Third time on the same fact, and the same cause each time.** The
+accepted-provider question has now been wrong three times: ÖSD right for the
+wrong reason, telc wrongly excluded, and now the institution reading. Every one
+came from reasoning outward from a published sentence instead of asking the body
+that decides. The sentence says *"Nur"*, which reads exhaustive and is not.
+
+**Good news that still carries a warning.** This opens a third exam route in
+Kathmandu for people stuck behind a queue of over a thousand, which is the most
+useful thing the site has been able to add in a fortnight. But the embassy's
+public page has not changed, so a reader acting on it is relying on an email to
+us rather than on anything they can point at. The page says exactly that, tells
+them to print it, and tells them not to extend the answer to ÖSD sat abroad.
+
+**Why the page links ÖSD's register instead of listing centres.** The register is
+free, public, authoritative and updates itself; a list of businesses maintained
+here would go stale and would amount to an endorsement. Readers are given the
+register and the two questions to ask before paying — whether they can sit the
+exam without buying a course, and what the exam costs on its own — rather than a
+recommendation.

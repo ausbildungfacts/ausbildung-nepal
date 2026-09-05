@@ -5,6 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ title }} — Ausbildung Nepal</title>
 <meta name="description" content="{{ description }}">
+{%- if noindex %}
+{#- Pages that carry the operator's name and home address. They stay public and
+    fully readable — German law requires that — but they are kept out of search
+    results. The page must stay crawlable for this tag to be seen at all, so it
+    is NOT blocked in robots.txt: a blocked page can still be listed as a bare
+    URL, because the crawler never gets to read the instruction not to. #}
+<meta name="robots" content="noindex, follow">
+{%- endif %}
 <style>
   :root {
     --bg: #FBFAF8;

@@ -5,11 +5,19 @@ export default function (eleventyConfig) {
   // so it has to survive the build rather than live only in the repo root.
   eleventyConfig.addPassthroughCopy("src/CNAME");
 
-  // Pages are ordered by the `order` value in their front matter, so the nav
-  // reads in a sensible sequence rather than alphabetically.
+  // The top navigation. A page is in the nav if — and only if — it gives itself
+  // a `nav:` label in its front matter, and they are ordered by the `order`
+  // value so the nav reads in a sensible sequence rather than alphabetically.
+  //
+  // The imprint, privacy and contact pages simply have no `nav:`, which is what
+  // keeps them out of the menu. They deliberately do NOT use
+  // `eleventyExcludeFromCollections`, because that would also hide them from
+  // `collections.all` — and sitemap.njk builds the sitemap from that, so an
+  // excluded page would silently go missing from sitemap.xml.
   eleventyConfig.addCollection("pages", (collection) =>
     collection
       .getFilteredByGlob("src/**/*.md")
+      .filter((page) => page.data.nav)
       .sort((a, b) => (a.data.order || 99) - (b.data.order || 99))
   );
 

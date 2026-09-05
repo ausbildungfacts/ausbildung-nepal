@@ -2,7 +2,7 @@
 layout: base.njk
 title: Privacy — Datenschutzerklärung
 permalink: /datenschutz/
-eleventyExcludeFromCollections: true
+noindex: true   # Names the data controller — same name and address as the imprint. Public and linked, but kept out of search results.
 standfirst: This site sets no cookies, runs no analytics and tracks nobody. That is a deliberate design decision, not an oversight, and it makes this page short.
 description: Privacy policy for the site — what little data is processed, by whom, on what legal basis, and what rights you have under the GDPR.
 reviewed: August 2026

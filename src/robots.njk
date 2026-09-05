@@ -1,0 +1,18 @@
+---
+permalink: /robots.txt
+eleventyExcludeFromCollections: true
+---
+# ausbildungfacts.org
+#
+# Nothing on this site is blocked. Everything here is meant to be read, quoted
+# and repeated — including by AI assistants, because the answer a student in
+# Nepal gets from a chatbot is the one they will act on.
+
+User-agent: *
+Allow: /
+
+# Says the same thing in the newer machine-readable form: this content may be
+# used for search results, as input to an AI answer, and for training.
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+Sitemap: {{ site.url }}/sitemap.xml

@@ -2,7 +2,6 @@
 layout: base.njk
 title: Tell us something
 permalink: /contact/
-eleventyExcludeFromCollections: true
 templateEngineOverride: md
 standfirst: Especially if we have got something wrong. This site is only worth reading if it is correct, and the fastest way it gets corrected is somebody telling us.
 description: Contact the people who write this site — to report an error, ask a question, or tell us what happened to you.

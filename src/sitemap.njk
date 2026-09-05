@@ -1,0 +1,26 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Built automatically from the pages that actually exist. Add a page and it
+  appears here on the next deploy; delete one and it disappears. Nobody has to
+  remember to update this file, which is the whole point of generating it.
+
+  There is deliberately no <lastmod>. Every file gets a fresh timestamp when
+  GitHub checks the repository out to build it, so a date here would say "this
+  page changed today" every single deploy. Google ignores lastmod when it is
+  not trustworthy, and a wrong date is worse than none.
+
+  Pages marked `noindex: true` in their front matter are left out. Asking Google
+  to index a page and telling it not to index the same page is a contradiction,
+  and the sitemap is the half that should give way.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- for p in collections.all %}
+{%- if not p.data.noindex %}
+  <url><loc>{{ site.url }}{{ p.url }}</loc></url>
+{%- endif %}
+{%- endfor %}
+</urlset>

@@ -2,7 +2,7 @@
 layout: base.njk
 title: Imprint, liability and what this site is not
 permalink: /impressum/
-eleventyExcludeFromCollections: true
+noindex: true   # Carries the operator's name and home address. Public and linked, but kept out of search results.
 standfirst: Required by German law, and worth reading anyway — because the most important sentence on this site is that it cannot tell you what to do in your own case.
 description: Imprint (Impressum) under §5 DDG and §18 MStV, liability notice, and the statement that nothing on this site is legal advice.
 reviewed: August 2026

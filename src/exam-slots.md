@@ -7,7 +7,7 @@ order: 3
 permalink: /exam-slots/
 standfirst: People assume the hard part is learning German. In Nepal the hard part is getting a seat in the exam, and nobody selling you a course is going to say so.
 description: Why German exam appointments are the real bottleneck for Ausbildung applicants in Nepal — what the queue actually looks like, and what it means for planning.
-reviewed: August 2026
+reviewed: September 2026
 ---
 
 <figure>
@@ -167,12 +167,16 @@ so check the name against
 [ÖSD's own register](https://www.osd.at/en/exam-centres/) — it is free, and it is
 the authority on who is licensed.
 
-**You do not need to buy a course to sit the exam — but ask.** ÖSD exams are
-course-independent. However, a centre can be licensed to examine only its own
-course students rather than outsiders, so if a course and an exam seat are being
-sold to you together, ask two questions and get the answers in writing: **can I
-sit the exam without taking your course, and what does the exam cost on its
-own?** VHS takes external candidates.
+**You do not need to buy a course to sit the exam — but being an outside
+candidate costs about double.** Both accepted providers in Nepal publish two
+prices: one for their own current students, one for everybody else. That is not a
+scam, it is printed on their own websites, and it is a real number you should
+have before you choose a course. See the prices below. ÖSD exams are
+course-independent, but a centre can be licensed to examine only its own course
+students rather than outsiders, so if a course and an exam seat are being sold to
+you together, ask two questions and get the answers in writing: **can I sit the
+exam without taking your course, and what does the exam cost on its own?** VHS
+takes external candidates.
 
 **You do not have to sit all four parts in the same place.** The embassy gives
 its own example: three parts at the Goethe-Zentrum and one at the VHS. If you can
@@ -186,6 +190,99 @@ Prüfungszentrum dort einzurichten."* — *"At present we do not offer telc
 examinations in Nepal, and there are currently no concrete plans to set up an
 examination centre there."* They pointed to neighbouring countries instead. So
 telc means India — see below.
+
+</div>
+
+## A fourth name is being advertised — and it is not on the list
+
+<div class="warn">
+
+**ECL exams are now being sold in Kathmandu. ECL is not one of the three
+institutions the embassy names.**
+
+Since September 2026 a German **ECL** exam has been advertised on Facebook from a
+centre in Putalisadak, offering A2, B1, B2 and C1 with sitting dates in November.
+If you have seen it, here are the two things that are both true, and you need
+both of them.
+
+**The exam centre is real.** ECL publishes its own register of licensed
+examination centres. It lists a centre in Kathmandu for German at A2, B1, B2 and
+C1. Check it yourself at
+[ECL's exam-centre finder](https://eclexam.eu/deutsch/prufungsorte/) — choose
+Asia, then Nepal. Nobody is inventing a fake exam here.
+
+**The German Embassy in Kathmandu does not name ECL.** Its visa page, read again
+on 11 September 2026, still says only Goethe-Zentrum Kathmandu, VHS in Bhaktapur
+and Pokhara, or telc. ECL is not in that sentence.
+
+**And the Federal Foreign Office in Berlin does name it.** Its own published
+answer on accepted language certificates lists ECL alongside Goethe, telc, ÖSD,
+TestDaF and DSD, because the test for a general visa file is membership of the
+**Association of Language Testers in Europe (ALTE)**, which ECL holds.
+
+So the general rule in Berlin and the specific list in Kathmandu do not agree,
+and **the list your application lands on is the Kathmandu one.**
+
+**We have asked the embassy and we have no answer yet.** Until we do, this page
+will not tell you ECL counts and it will not tell you it does not. It is
+unproven, and unproven is not the same as fine.
+
+**If a November date is tempting you, do this first.** Write to the embassy at
+info@kathmandu.diplo.de and ask one question: *does an ECL certificate at B1,
+sat in Nepal, count for the Ausbildung visa?* We asked them the same shape of
+question about ÖSD in August and had a clear written answer back. Keep their
+reply. Then decide.
+
+**And price it against the table below before you decide.** A complete B1 at the
+Goethe-Zentrum costs an outside candidate about NPR 16,500. Any accepted route is
+cheaper than a fast one you cannot use.
+
+</div>
+
+## What the exam actually costs
+
+Both accepted providers in Nepal publish their fees. You do not have to guess,
+and nobody should be quoting you a different number.
+
+<div class="scroll">
+
+| Level | Goethe, own students | Goethe, outside | VHS, own students | VHS, outside |
+| --- | --- | --- | --- | --- |
+| A1 | €35 | €60 | NPR 10,690 | NPR 19,595 |
+| A2 | €45 | €75 | NPR 11,225 | NPR 21,375 |
+| B1, all four modules | €55 | €95 | NPR 16,390 | NPR 28,680 |
+| B2, all four modules | €65 | €110 | NPR 16,390 | NPR 30,285 |
+
+</div>
+
+Goethe prices are published in euro but **paid in rupees**, converted at the
+European Commission rate on the day registration opens. At roughly 173 rupees to
+the euro, an outside B1 at the Goethe-Zentrum is about **NPR 16,500** and the same
+exam at VHS is **NPR 28,680**.
+
+So for B1 the Goethe-Zentrum is the cheapest accepted route in Nepal, by a wide
+margin — and it is also the one with the queue. That is the trade you are
+actually making. VHS costs roughly 70 per cent more and has dates.
+
+<div class="warn">
+
+**Modules are priced one by one, and that is how you repair a fail cheaply.** The
+Goethe-Zentrum sells B1 by the module at the outside rate: €25 for one, €50 for
+two, €75 for three, €95 for all four. Pass three parts and fail one, and you
+retake that one part for €25 instead of sitting the whole exam again for €95. VHS
+publishes its free seats the same way, module by module. This is the embassy's
+module-splitting rule as a price list.
+
+**Seats go in days, not weeks.** VHS publishes live seat counts for every
+sitting. Its B1 exam on 27 October 2026 showed **57 free seats in each module on
+7 September**. By **11 September all four modules showed none** and the sitting
+was marked fully booked, along with two other autumn dates. Watch the booking
+page the way you watch the Goethe Facebook page.
+
+**Both providers restrict the cheaper price to their own current students.** At
+the Goethe-Zentrum the internal exam is the end-of-course exam and you must pass
+it to move up a level, so it is not a discount you can simply ask for. Price the
+course and the exam together before deciding either.
 
 </div>
 
@@ -224,10 +321,33 @@ For it: if you are deep in a waiting list with no date, a certificate you can
 actually obtain in a few weeks may be worth a difficult journey. Several people
 travelling together shares the cost, and is safer than going alone.
 
-Work out your own numbers. But do not let anyone tell you it is impossible — it
-is not, and the embassy accepts the result.
+Measure it against the published Nepali prices above, not against a rumour. And
+do not let anyone tell you it is impossible. It is not, and the embassy accepts
+the result.
 
 </div>
+
+**And it is already being sold.** At least one Nepali company now advertises
+telc B1 and B2 sittings in Delhi as a package — exam seat, travel and
+accommodation together, with a sitting reserved for its own candidates. That is
+the arrangement telc described to us, so the route is real and somebody is
+running it. Whether any particular offer is good value is a different question,
+and you answer it with four questions before you pay anything:
+
+- **Which exam centre, and is it on telc's own list?** Check the name against
+  telc's centre finder. Anyone can print a logo.
+- **What is the total, itemised?** Exam fee, transport, accommodation and the
+  company's own fee are four separate numbers. A single figure with no breakdown
+  is not a price, it is a guess you are being asked to trust.
+- **What happens if the date moves, or if I cannot travel?** Ask specifically
+  what an advance payment buys and whether it is refundable. At least one
+  operator states that once the deposit is paid the exam cannot be rescheduled.
+- **Who issues the certificate, and how do I get it?** The certificate comes from
+  telc. Ask how long it takes and how it reaches you.
+
+Compare the answer against the published Nepali prices above before you decide.
+Delhi may still win if you have no date — but you should be comparing numbers,
+not stories.
 
 **And the certificate must be in the file when you apply.** The embassy states
 the language proof *"bereits mit der Antragstellung eingereicht werden muss"* —
@@ -240,7 +360,10 @@ done before you start the visa process, not alongside it.
 - The realistic wait from submitting the B1/B2 form to actually sitting the exam
 - How quickly the online B1/B2 forms fill once published
 - Whether the centre's capacity is increasing
-- Whether any second provider is likely to be licensed in Nepal
+- Whether an **ECL** certificate is accepted for the Ausbildung visa at
+  Kathmandu, given that Berlin lists ECL and the embassy's own page does not.
+  We have asked and are waiting
+- Whether any further provider is likely to be added to the embassy's list
 
 If you find any of this out, it is worth telling other people. This page exists
 because one person was willing to say what actually happened to her.
@@ -273,7 +396,32 @@ because one person was willing to say what actually happened to her.
   candidates preparing in Nepal, July–August 2026
 - telc centres in India including New Delhi; Nepali citizens may enter India
   visa-free under the 1950 Treaty of Peace and Friendship
+- Exam fees at both accepted Nepali providers, internal and external, including
+  the per-module B1, B2 and C1 prices and the rule that euro prices are paid in
+  rupees at the European Commission rate, checked 11 September 2026:
+  [Goethe-Zentrum Kathmandu, FAQ about our exams](https://www.goethe-kathmandu.edu.np/german-exams/how-does-it-work/)
+- ÖSD exam fees by level, internal and external, and the live per-module seat
+  counts for each scheduled sitting, checked 11 September 2026:
+  [VHS Nepal](https://www.vhsnepal.org/)
+- The 27 October 2026 B1 sitting at VHS Bhaktapur showing 57 free seats in every
+  module on 7 September 2026 and none on 11 September: the same booking page,
+  observed on both dates
+- Nepali companies selling organised telc sittings in Delhi with travel and
+  accommodation, and the non-refundable deposit rule: an operator's own public
+  website, read 11 September 2026
 - No telc centre in Nepal and no plans for one; group arrangements possible in
   principle but organised by individual licensed centres, not telc head office:
   telc gGmbH, by email, August 2026
 - Students stopping at B1: German teachers in Nepal, reported August 2026
+
+- A licensed ECL examination centre in Kathmandu offering German at A2, B1, B2
+  and C1, checked 11 September 2026:
+  [ECL exam-centre finder](https://eclexam.eu/deutsch/prufungsorte/)
+- ECL listed among the language certificates accepted in visa procedures
+  generally, on the ALTE-standard test, checked 11 September 2026:
+  [Federal Foreign Office, accepted language certificates](https://www.auswaertiges-amt.de/de/service/fragenkatalog-node/2238204-2238204)
+- The embassy's list still naming only three institutions and not ECL, re-read
+  11 September 2026:
+  [German Embassy Kathmandu, national visas](https://kathmandu.diplo.de/np-de/service/05-visaeinreise/1617934-1617934)
+- ECL sittings being advertised in Kathmandu with November dates: a public
+  Facebook advertisement, September 2026

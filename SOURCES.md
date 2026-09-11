@@ -1936,3 +1936,80 @@ here would go stale and would amount to an endorsement. Readers are given the
 register and the two questions to ask before paying — whether they can sit the
 exam without buying a course, and what the exam costs on its own — rather than a
 recommendation.
+
+## Exam prices and seat availability (page: Getting an exam slot) — added 2026-09-11
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| Goethe-Zentrum Kathmandu exam fees, internal / external: A1 €35 / €60, A2 €45 / €75, B1 complete €55 / €95, B2 complete €65 / €110 | GZK exam FAQ, published fee table, read live | **VERIFIED — primary (the centre's own published price list)** | 2026-09-11 |
+| GZK sells B1, B2 and C1 **by the module**. B1 external: €25 one module, €50 two, €75 three, €95 all four | same | **VERIFIED — primary** | 2026-09-11 |
+| GZK fees are quoted in euro but **paid in Nepalese rupees**, converted at the European Commission rate at the time registration starts | same, verbatim: *"All exams fees are to be paid in Nepalese currency!"* | **VERIFIED — primary** | 2026-09-11 |
+| The GZK **internal** exam is the end-of-course exam, open only to current GZK students, and must be passed to advance a level. It is therefore not a discount an outsider can request | same | **VERIFIED — primary** | 2026-09-11 |
+| VHS ÖSD fees, internal / external: A1 NPR 10,690 / 19,595, A2 NPR 11,225 / 21,375, B1 NPR 16,390 / 28,680, B2 NPR 16,390 / 30,285 | vhsnepal.org, published pricing table, read live | **VERIFIED — primary** | 2026-09-11 |
+| VHS payment must be made **in person at a VHS branch** | same, verbatim: *"Please complete your payment physically at the VHS Branches"* | **VERIFIED — primary** | 2026-09-11 |
+| VHS publishes **live per-module seat counts** (LV, HV, SV, MA) for each scheduled sitting, which is module splitting visible as inventory | same | **VERIFIED — primary** | 2026-09-11 |
+| The VHS B1 sitting of 27 Oct 2026 showed **57 free seats in each of the four modules on 7 Sep 2026** and **0, marked fully booked, on 11 Sep 2026**. B1 of 1 Oct and A2 of 6 Oct were also full on 11 Sep; A1 of 31 Oct still showed 4 | booking page observed 7 Sep (dated screenshot) and 11 Sep (read live) | **VERIFIED — primary, two observations** | 2026-09-11 |
+| Comparison the page now draws: an outside B1 costs about NPR 16,500 at GZK against NPR 28,680 at VHS, i.e. VHS is roughly 70% more | the two published tables above, converted at 173.62 | VERIFIED (arithmetic on two primary sources) | 2026-09-11 |
+| At least one Nepali company sells telc B1/B2 sittings in Delhi as a package: exam seat, transport and accommodation, with a sitting reserved for its own candidates | the operator's own public website, read live | **VERIFIED — primary (the operator's own claim)** | 2026-09-11 |
+| Same operator states that once the deposit is paid the exam cannot be rescheduled, and publishes **no price** for the package | same | **VERIFIED — primary** | 2026-09-11 |
+| Whether that Delhi centre is on telc's own licensed list | not established. telc's centre finder loads a Google map behind a consent banner and was not accepted | **OPEN — the page tells readers to check the centre themselves and names nobody** | — |
+| A reported all-in cost for a Delhi telc trip, relayed privately, Sep 2026 | held outside this file | **HELD — the figure and its source are in the project's private notes. Not on the site; the consent question is outstanding** | 2026-09-11 |
+
+**Why this matters more than it looks.** The page previously told readers to ask
+what the exam costs on its own and to work out their own numbers for India. Both
+accepted providers publish full price lists, so the page can now answer its own
+question instead of asking it. The structural fact — outside candidates pay
+roughly double at both — is printed openly by both institutions and is not
+evidence of anything improper. It is a cost readers should price in before
+choosing a course, which is a different thing.
+
+**The availability observation is the first hard number on fill speed.** The site
+has carried "how quickly the forms fill" as an open question since August. This
+is not the Goethe Facebook form, it is the VHS booking page, but 57 seats per
+module gone inside four days is a measured figure rather than an impression. It
+is one observation of one sitting and the page says so.
+
+**No operator is named, here or on the site.** The company selling Delhi trips is
+doing openly what this project has described as legal and possible, it publishes
+no price, and that combination is a question to ask rather than an accusation to
+make. The page gives readers four questions and telc's own centre finder.
+
+## ECL in Kathmandu — a fourth provider, not on the embassy's list — added 2026-09-11
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| ECL lists a licensed examination centre in **Nepal, Kathmandu**, for German at A2, B1, B2 and C1, in its own public centre register | eclexam.eu centre finder, read live through the Asia/Nepal/German filter | **VERIFIED — primary (the exam board's own register)** | 2026-09-11 |
+| The register gives that centre's address in **Putalisadak, Kathmandu**, matching the address in the advertisement | same, centre detail panel | **VERIFIED — primary** | 2026-09-11 |
+| The German Embassy Kathmandu visa page **still names only three** institutions and does not mention ECL: "Nur Sprachzertifikate der folgenden Institutionen können derzeit anerkannt werden: Goethe-Zentrum Kathmandu, VHS (Bhaktapur & Pokhara) oder Telc" | German Embassy Kathmandu, national visa page, re-fetched | **VERIFIED — primary** | 2026-09-11 |
+| The **Auswärtiges Amt** does name ECL among certificates accepted in visa procedures, alongside Goethe, telc, ÖSD, TestDaF and DSD, on the criterion "Als Beleg deutscher Sprachkenntnisse können nur Sprachzertifikate anerkannt werden, die auf einer standardisierten Sprachprüfung gemäß den Standards der Association of Language Testers in Europe (ALTE) beruhen" | Auswärtiges Amt, Fragenkatalog, accepted language certificates | **VERIFIED — primary** | 2026-09-11 |
+| ECL sittings for B1 and B2 are being advertised in Kathmandu with dates in **November 2026** | a public Facebook advertisement by the centre, September 2026 | VERIFIED (the advertiser's own public claim) | 2026-09-11 |
+| **Whether an ECL certificate is accepted for the § 16a Ausbildung visa at Kathmandu** | asked of the embassy, 11 September 2026 | **OPEN — the page states it is unproven and tells readers to ask before paying. It must not be written as either a yes or a no** | — |
+| ECL fees for complete B1 and B2 and for single modules, quoted privately to one prospective candidate rather than published by the centre | held outside this file | **HELD — the figures are in the project's private notes. Not on the site; the consent question is outstanding. If the centre publishes a price list, the published price can go on the site and this row can be dropped** | 2026-09-11 |
+
+**Why this needed its own section.** This is the third time the accepted-provider
+list has produced a wrong answer, and the failure mode is always the same one:
+**a general recognition read as a specific one.** ÖSD is recognised in Germany
+generally, and that was the wrong reason it works here. ECL is recognised by the
+Auswärtiges Amt generally, and that is not a reason to assume Kathmandu accepts
+it. The embassy's sentence contains the word *nur*.
+
+But the opposite error is just as available. In August the embassy told us by
+email that an official ÖSD certificate counts even from a centre its published
+list does not name — so the published list is **not** exhaustive of what the post
+will accept in practice. That precedent cuts towards ECL, not away from it. It is
+a reason to ask, not a reason to conclude.
+
+So the page says neither. It says the centre is genuine, the list does not name
+ECL, Berlin does, we have asked, and you should not pay until you have an answer
+in writing. That is the whole of what is known.
+
+**The centre is not named on the site.** Same rule as the ÖSD third centre and
+the Delhi telc operator: ECL is a provider and gets named, a Nepali business does
+not. There is no evidence of anything improper here — the centre is on the exam
+board's own register and is advertising what it is actually licensed to do. The
+problem is a gap between two German authorities, and it is not the centre's fault.
+
+**The fees are held, not published.** They were quoted privately to one
+prospective candidate rather than published by the centre, so they fall under the
+same consent rule as the Delhi trip figure. If the centre publishes a price
+list, that price can go on the site immediately and this row can be dropped.

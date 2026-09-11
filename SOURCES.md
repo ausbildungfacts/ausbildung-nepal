@@ -2043,3 +2043,38 @@ closing that gap is the whole purpose of this section of the page.
 attributed the November sitting dates to the public advertisement. They came from
 a private message instead. The advert carries levels and a location. The dates
 are now held and have been taken off the page.
+
+## Correction and additions, VHS exam data — 2026-09-11 (same day)
+
+**CORRECTION, published and then withdrawn within hours.** The page briefly
+claimed *"Seats go in days, not weeks"*, on the basis that the VHS B1 sitting of
+27 October showed 57 free seats per module on 7 September and none on 11
+September. **That reading was wrong.** Re-checked the same afternoon, the same
+sitting showed **110 free seats in three of its four modules**, with only speaking
+at zero. The inventory moves up as well as down, because VHS adds capacity. A
+snapshot of zero is not evidence that a sitting sold out, and two snapshots are
+not a fill rate.
+
+This is the fourth time on this site that a published sentence has been read as
+more than it says. The rule it breaks is the oldest one here: **one observation
+is not a trend, and a number that moves is not a countdown.** The page now tells
+readers the counts move in both directions and to ask the branch.
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| VHS seat counts move **up as well as down**; the 27 Oct B1 sitting showed 57/module (7 Sep), 0 (11 Sep morning), then 110 in three modules with speaking at 0 (11 Sep afternoon) | vhsnepal.org booking pages, three observations | **VERIFIED — primary** | 2026-09-11 |
+| VHS shows **"Booking Closed" on sittings that still list free seats** (B2 of 4 Nov with 30 per module, B1 of 1 Nov with 80 per module), so the label appears to mean booking is not open rather than the exam is full | same | **VERIFIED — primary. The inference about what the label means is flagged as an appearance on the page, not stated as fact** | 2026-09-11 |
+| VHS external **module** prices: B1 reading 4,990, listening 4,990, writing 12,470, speaking 6,230; B2 oral 9,800, written 20,485. Internal: B1 2,670 / 2,670 / 7,130 / 3,920; B2 4,810 / 11,580 | vhsnepal.org ÖSD structure and price table | **VERIFIED — primary** | 2026-09-11 |
+| A **B2 sitting is scheduled at VHS Bhaktapur for 4 November 2026**, 30 places in each of two modules | same | **VERIFIED — primary** | 2026-09-11 |
+| ÖSD papers are marked at **ÖSD Central in Vienna** and results take **45 days**; an express option costs an extra €70 (A1, A2) or €80 (B1) for a result in 12 working days | same, verbatim note | **VERIFIED — primary** | 2026-09-11 |
+
+**Why the B2 date matters more than the prices.** The page has argued since August
+that the B1 wall is a calendar, because the Goethe B2 reportedly runs once a year.
+A scheduled ÖSD B2 in November is the route around that wall, and ÖSD is accepted
+for the visa. The B1-wall section now points forward to it instead of leaving
+readers at a dead end.
+
+**Why the 45-day result matters.** The embassy requires the certificate in the
+file at application. So the binding date is the result, not the exam, and the page
+now says to count backwards from the application. The express fee is the one way
+to buy time back, and it is published.

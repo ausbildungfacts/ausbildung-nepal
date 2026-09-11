@@ -68,6 +68,10 @@ most people cannot carry.
 Someone who sleeps on a pavement for twenty-four hours to sit A2 is not short of
 motivation.
 
+**There is a way round this calendar, and it is further down the page.** VHS has
+an ÖSD B2 scheduled for 4 November 2026, and ÖSD is accepted for the visa. If the
+Goethe B2 is a year away, that is the door.
+
 </div>
 
 ## The rules are different at different levels — and this matters
@@ -279,11 +283,33 @@ retake that one part for €25 instead of sitting the whole exam again for €95
 publishes its free seats the same way, module by module. This is the embassy's
 module-splitting rule as a price list.
 
-**Seats go in days, not weeks.** VHS publishes live seat counts for every
-sitting. Its B1 exam on 27 October 2026 showed **57 free seats in each module on
-7 September**. By **11 September all four modules showed none** and the sitting
-was marked fully booked, along with two other autumn dates. Watch the booking
-page the way you watch the Goethe Facebook page.
+**Do not read the seat counts as a countdown.** VHS publishes live seat numbers
+for every sitting, and they move in both directions. Its B1 exam on 27 October
+2026 showed 57 free seats per module on 7 September, none on the morning of 11
+September, and 110 in three of the four modules the same afternoon, with speaking
+the only module at zero. Sittings also show **"Booking Closed" while seats are
+still listed**, which appears to mean booking has not opened rather than that the
+exam is full. So check the page often, ask the branch directly, and do not
+conclude from one look that a date is gone or that it is safe.
+
+**VHS prices every module separately, and some are cheap.** Its published
+external module prices: B1 reading NPR 4,990, listening NPR 4,990, writing
+NPR 12,470, speaking NPR 6,230. At B2, oral NPR 9,800 and written NPR 20,485.
+If money is the obstacle, a single reading module at under NPR 5,000 is a
+different proposition from finding NPR 28,680 at once.
+
+**And VHS runs B2 when the Goethe-Zentrum does not.** A B2 sitting is scheduled
+at VHS Bhaktapur for **4 November 2026**, with thirty places in each of its two
+modules. If the Goethe B2 really runs once a year, this is the way round it, and
+it is the strongest argument on this page for looking past the queue you are
+already standing in.
+
+**Budget 45 days for the result, or pay to hurry it.** VHS states that ÖSD papers
+go to Vienna for marking and results take **45 days**. There is an express option
+at an extra €70 at A1 and A2, or €80 at B1, for a result in twelve working days.
+Since the embassy wants the certificate **in the file when you apply**, the exam
+date is not your deadline — the result date is. Count backwards from the
+application, not from the exam.
 
 **Both providers restrict the cheaper price to their own current students.** At
 the Goethe-Zentrum the internal exam is the end-of-course exam and you must pass

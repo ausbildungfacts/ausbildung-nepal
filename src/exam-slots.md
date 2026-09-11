@@ -201,9 +201,9 @@ telc means India — see below.
 institutions the embassy names.**
 
 Since September 2026 a German **ECL** exam has been advertised on Facebook from a
-centre in Putalisadak, offering A2, B1, B2 and C1 with sitting dates in November.
-If you have seen it, here are the two things that are both true, and you need
-both of them.
+centre in Putalisadak, offering A2, B1, B2 and C1 and inviting people to
+register. If you have seen it, here are the two things that are both true, and
+you need both of them.
 
 **The exam centre is real.** ECL publishes its own register of licensed
 examination centres. It lists a centre in Kathmandu for German at A2, B1, B2 and
@@ -227,15 +227,21 @@ and **the list your application lands on is the Kathmandu one.**
 will not tell you ECL counts and it will not tell you it does not. It is
 unproven, and unproven is not the same as fine.
 
-**If a November date is tempting you, do this first.** Write to the embassy at
+**If you are tempted to register, do this first.** Write to the embassy at
 info@kathmandu.diplo.de and ask one question: *does an ECL certificate at B1,
 sat in Nepal, count for the Ausbildung visa?* We asked them the same shape of
 question about ÖSD in August and had a clear written answer back. Keep their
 reply. Then decide.
 
-**And price it against the table below before you decide.** A complete B1 at the
-Goethe-Zentrum costs an outside candidate about NPR 16,500. Any accepted route is
-cheaper than a fast one you cannot use.
+**And know that ECL got harder in August 2026.** Under ECL's own exam
+regulations, from August 2026 a pass needs **at least 60% in every one of the
+four modules**. Before that you could carry a weak skill on a strong average.
+You cannot now. ECL says in terms that this applies only to exams sat from
+August 2026 onwards.
+
+**Then price it against the table below.** A complete B1 at the Goethe-Zentrum
+costs an outside candidate about NPR 16,500. Any accepted route is cheaper than a
+fast one you cannot use.
 
 </div>
 
@@ -423,5 +429,8 @@ because one person was willing to say what actually happened to her.
 - The embassy's list still naming only three institutions and not ECL, re-read
   11 September 2026:
   [German Embassy Kathmandu, national visas](https://kathmandu.diplo.de/np-de/service/05-visaeinreise/1617934-1617934)
-- ECL sittings being advertised in Kathmandu with November dates: a public
-  Facebook advertisement, September 2026
+- ECL sittings being advertised in Kathmandu: a public Facebook advertisement,
+  September 2026
+- The 60% minimum in every module, applying only to exams sat from August 2026
+  onwards, checked 11 September 2026:
+  [ECL exam regulations](https://eclexam.eu/exam-regulation/)

@@ -1982,7 +1982,10 @@ make. The page gives readers four questions and telc's own centre finder.
 | The register gives that centre's address in **Putalisadak, Kathmandu**, matching the address in the advertisement | same, centre detail panel | **VERIFIED — primary** | 2026-09-11 |
 | The German Embassy Kathmandu visa page **still names only three** institutions and does not mention ECL: "Nur Sprachzertifikate der folgenden Institutionen können derzeit anerkannt werden: Goethe-Zentrum Kathmandu, VHS (Bhaktapur & Pokhara) oder Telc" | German Embassy Kathmandu, national visa page, re-fetched | **VERIFIED — primary** | 2026-09-11 |
 | The **Auswärtiges Amt** does name ECL among certificates accepted in visa procedures, alongside Goethe, telc, ÖSD, TestDaF and DSD, on the criterion "Als Beleg deutscher Sprachkenntnisse können nur Sprachzertifikate anerkannt werden, die auf einer standardisierten Sprachprüfung gemäß den Standards der Association of Language Testers in Europe (ALTE) beruhen" | Auswärtiges Amt, Fragenkatalog, accepted language certificates | **VERIFIED — primary** | 2026-09-11 |
-| ECL sittings for B1 and B2 are being advertised in Kathmandu with dates in **November 2026** | a public Facebook advertisement by the centre, September 2026 | VERIFIED (the advertiser's own public claim) | 2026-09-11 |
+| The centre advertises German ECL exams at A2, B1, B2 and C1 in Kathmandu and invites registration | a public Facebook advertisement by the centre, September 2026 | VERIFIED (the advertiser's own public claim) | 2026-09-11 |
+| Specific B1 and B2 sitting dates in November 2026 | quoted privately to one prospective candidate, not published in the advertisement | **HELD — removed from the site on 11 Sep 2026 once the source was checked. The public advert carries levels and a location, not dates** | 2026-09-11 |
+| From **August 2026** an ECL pass requires **at least 60% in every module**, and ECL states the rule applies only to exams sat from that date onwards: "A complex exam is considered successful if the candidate achieves at least 60% in each module" | ECL exam regulations, eclexam.eu, read live | **VERIFIED — primary (the exam board's own regulations)** | 2026-09-11 |
+| The centre states its own processes are complete and it is **awaiting approval from the German Embassy**, after which exam registration will open | the centre, stated privately to one prospective candidate | **HELD — not on the site. Consent question outstanding, and it is the centre's claim about a decision the embassy has not confirmed** | 2026-09-11 |
 | **Whether an ECL certificate is accepted for the § 16a Ausbildung visa at Kathmandu** | asked of the embassy, 11 September 2026 | **OPEN — the page states it is unproven and tells readers to ask before paying. It must not be written as either a yes or a no** | — |
 | ECL fees for complete B1 and B2 and for single modules, quoted privately to one prospective candidate rather than published by the centre | held outside this file | **HELD — the figures are in the project's private notes. Not on the site; the consent question is outstanding. If the centre publishes a price list, the published price can go on the site and this row can be dropped** | 2026-09-11 |
 
@@ -2013,3 +2016,30 @@ problem is a gap between two German authorities, and it is not the centre's faul
 prospective candidate rather than published by the centre, so they fall under the
 same consent rule as the Delhi trip figure. If the centre publishes a price
 list, that price can go on the site immediately and this row can be dropped.
+
+**Update, later on 2026-09-11 — the centre says it is not approved yet.** Asked
+directly, the centre said its own processes are finished, that it is waiting on
+the German Embassy, and that registration opens once that comes through. If that
+is accurate it answers the page's question for the short term: **today an ECL
+certificate is not accepted**, and there is nothing to register for either.
+
+Three cautions before anyone treats that as settled. It is **the centre's claim
+about a decision that is not theirs to announce**, and the embassy has confirmed
+nothing. It reached us **privately**, so it is held under the same rule as the
+fees. And "waiting for approval" may not describe a process the embassy runs on
+request at all. The page therefore still says unproven, which stays true and now
+has two reasons to be careful instead of one.
+
+**What it does change.** The enquiry to the embassy gained a second question,
+asking whether such a decision is in fact pending. That question can be put
+without relaying anything told to anyone in confidence.
+
+**And it explains the advertisement.** The advert calls the centre a verified ECL
+examination centre. That is true, and ECL's own register shows it. It is not a
+claim of embassy approval. A reader can easily hear the first as the second, and
+closing that gap is the whole purpose of this section of the page.
+
+**One correction to this file's own first draft.** The row above originally
+attributed the November sitting dates to the public advertisement. They came from
+a private message instead. The advert carries levels and a location. The dates
+are now held and have been taken off the page.

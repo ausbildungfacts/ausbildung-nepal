@@ -2078,3 +2078,199 @@ readers at a dead end.
 file at application. So the binding date is the result, not the exam, and the page
 now says to count backwards from the application. The express fee is the one way
 to buy time back, and it is published.
+
+## Austria added to the Au Pair page — 2026-09-12
+
+**Why.** Austria is being put to candidates in Nepal as the version of Au Pair
+with no waiting list. The page previously described only the German scheme, so a
+reader comparing the two had nothing here to compare against and was left with
+whoever was selling the comparison.
+
+**The German and Austrian schemes are not variants of each other.** Different age
+range, different hours, different money, a different legal basis, a different
+embassy and a different fee. Every Austrian figure below is from an Austrian
+government source, not from a German one read across.
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| Au Pairs in Austria are employees under the **Hausgehilfen- und Hausangestelltengesetz**, registered for statutory accident and health insurance | USP (federal business service portal), au-pair page; WKO employment-law page | **VERIFIED — primary** | 2026-09-12 |
+| Age **18 to 28** | USP; WKO; Stadt Wien | **VERIFIED — primary** | 2026-09-12 |
+| **A1 German** must be proven before the work begins — *"ein Mindestmaß an Deutschkenntnissen (Niveau A1 nach GER)"* | USP | **VERIFIED — primary** | 2026-09-12 |
+| **16.5 hours a week** including standby, for contracts concluded from **1 January 2026** — *"höchstens 16,5 Stunden pro Woche"*. Older pages still say 17 or 20 | USP | **VERIFIED — primary** | 2026-09-12 |
+| **€551.10 a month** minimum at 16.5 hours, paid **15 times a year** (12 plus holiday and Christmas payments) | USP | **VERIFIED — primary** | 2026-09-12 |
+| Host family must notify the **AMS at the latest two weeks** before the start; AMS issues an *Anzeigebestätigung*, valid **six months, extendable by six** | USP; WKO | **VERIFIED — primary** | 2026-09-12 |
+| Residence permit is the **Aufenthaltsbewilligung – Sonderfälle unselbständiger Erwerbstätigkeit**, maximum **12 months**, and not more than 12 months as an Au Pair in Austria in any **five years** | Stadt Wien; oesterreich.gv.at | **VERIFIED — primary** | 2026-09-12 |
+| Third-country Au Pairs get it only with accident and health insurance covering *"so gut wie alle Risiken"* and payable in Austria | USP; Stadt Wien | **VERIFIED — primary** | 2026-09-12 |
+| First application must be made **in person, abroad, before entry** at the Austrian representation — *"persönlich und vor der Einreise nach Österreich im Ausland"* | oesterreich.gv.at | **VERIFIED — primary** | 2026-09-12 |
+| Application fee **€218** from 1 January 2026 (€212 before) | oesterreich.gv.at; Stadt Wien | **VERIFIED — primary** | 2026-09-12 |
+| After a positive decision: entry visa within **three months**, permit collected in person in Austria within a further three | oesterreich.gv.at, verbatim | **VERIFIED — primary** | 2026-09-12 |
+| **Nepal is covered by the Austrian Embassy New Delhi.** Residence permit applications over six months *"have to be applied at the Austrian embassy in New Delhi in person"* and cannot go through the outsourced VFS centre; appointments by email | BMEIA, Embassy New Delhi | **VERIFIED — primary** | 2026-09-12 |
+| **§ 5 AMFG**: licensed placement must be free of charge to the person seeking work, with an exception only for artists and athletes (fee capped at 10% of gross pay) | Arbeitsmarktförderungsgesetz § 5 | **VERIFIED — statute** | 2026-09-12 |
+| Placement in Austria requires a trade licence, and **GISA** is a public, free register of them | GISA public query; BMWET guidance on Arbeitsvermittlung | VERIFIED (register exists and is public) | 2026-09-12 |
+| **AuPairWorld** is free for Au Pairs; host families pay for Premium | AuPairWorld costs page, read live | **VERIFIED — primary** | 2026-09-12 |
+| **AuPair.com**: a free Au Pair account may send one message to each matching family; Premium for Au Pairs is **€49.70 (1 month), €69.70 (3), €88.70 (6)** | AuPair.com Au Pair plans page, read live | **VERIFIED — primary** | 2026-09-12 |
+| **Au Pair Austria** is free to Au Pairs and accepts EU citizens, US/Canadian/British/Australian/New Zealand nationals, or applicants who have *"bereits als Aupair in einem anderen Land tätig waren"* with a reference | aupairaustria.at, verbatim | **VERIFIED — primary** | 2026-09-12 |
+| **Optimal Au Pair**, Vienna, recruits in Nepal and the Philippines, and requires of non-EU applicants a *"language course or training course with us MANDATORY"*. **No price for it is published on the site** | optimalaupair.com, verbatim | **VERIFIED — primary** | 2026-09-12 |
+| AuPairWorld warns visa processing for applicants from Asia and Africa can take **up to four months** | AuPairWorld, Austria visa page | VERIFIED (secondary — the platform's own estimate, not an authority's) | 2026-09-12 |
+
+**OPEN, and stated as open on the page.**
+
+| Question | Status |
+| --- | --- |
+| How long an Austrian Au Pair permit actually takes for an applicant in Nepal. **Austria publishes no processing time**; oesterreich.gv.at says to ask the authority handling the case. The claim that Austria takes two to three months has no published figure behind it, and the four-month warning above points the other way | **OPEN — the page says nobody publishes a number and tells readers to ask for the claim in writing** |
+| Whether a German exam certificate **sat in Austria** is accepted by the embassy in Kathmandu for a later Ausbildung visa. The ÖSD lesson on this site was that acceptance turned on the issuing centre being on the embassy's list, not on the exam alone. Reading that across to a centre in Austria would repeat the mistake | **OPEN — page tells readers to ask the embassy before booking** |
+| Whether a year as an Au Pair in Austria can lead into an Austrian Lehre. Not researched at all | **OPEN — page says so explicitly** |
+
+**Two agencies are named on the page and one of them carries a caution.** The rule
+here is the site's own: readers get questions to ask, not accusations. Both
+statements are verbatim from the companies' own public pages, dated, and neither
+is characterised. Optimal Au Pair is a registered Austrian business that does
+something no other agency found will do — take a first-time applicant from Nepal
+— and the mandatory unpriced course is a fact from its own site, not a charge
+laid against it. The general point the page draws from it applies to everyone:
+**where placement may not legally be charged for, the money moves to the course
+next door.**
+
+## Austrian family inventory on the platforms — 2026-09-12 (same day, before publication)
+
+**This revised the section written earlier the same day, and it is the more
+useful half of it.** The Austrian section originally sent readers to two
+platforms as equals. A hand count of Austrian host family profiles on AuPair.com
+found that **all but one showed an answer rate of 0 to 1 per cent**.
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| Austrian host family profiles on AuPair.com show answer rates of 0–1%, with one exception | counted by hand on the platform | VERIFIED (first-hand, single observer, single day) | 2026-09-12 |
+| On AuPair.com a conversation continues only if one side is Premium — *"one of the two members involved in the conversation, Host Family or Au Pair, needs to be Premium to go on with further communication"* | AuPair.com help page, verbatim | **VERIFIED — primary** | 2026-09-12 |
+| On AuPairWorld host families must buy Premium *"to send and receive personal messages"*; Au Pairs message free | AuPairWorld help page, verbatim | **VERIFIED — primary** | 2026-09-12 |
+| AuPairWorld shows three activity levels: green = logged in within the last 5 days, yellow = longer, orange = inactive | AuPairWorld help page, verbatim | **VERIFIED — primary** | 2026-09-12 |
+| A matching service used by some Austrian families charges the family €48/month, or €980 for a match within a week, with visa and contract support included | that service's own Austria page, read live | VERIFIED (primary, its own published prices) | 2026-09-12 |
+
+**Why the mechanism matters more than the number.** A near-zero answer rate on
+AuPair.com is not proof that Austrian families reject Nepali applicants. It is
+substantially a measure of families who never bought Premium and therefore
+*cannot* reply. The page says so, because the alternative reading — "Austria does
+not want you" — is both discouraging and unevidenced.
+
+**What it changes.** Where the family is the paying side, the Au Pair's profile
+does more work than her messages. The page now tells readers to treat AuPairWorld
+as the first stop, to write to green-light families, and to put the difficult
+facts — Nepal, the AMS notice, the permit collected in New Delhi — *into the
+profile* rather than saving them for later.
+
+**Not claimed, on purpose.** We have not counted Austrian families on
+AuPairWorld. Its profile search needs an account and this project does not create
+accounts to look. The page recommends it on the payment mechanism and the
+activity indicator, both published, and says nothing about how many families are
+there.
+
+**OPEN.** Whether the family-pays matching service will register an applicant
+from Nepal. Its published candidate examples are European and American. The page
+tells readers to ask rather than assume.
+
+## Both platforms tested from Nepal — 2026-09-12 (third revision, same day, still unpublished)
+
+**The Austrian section was written, then corrected twice in a day, because each
+time somebody actually tried the thing the page recommended it behaved
+differently from its own description.** That is the correct order of operations
+and it is why none of this went live in between.
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| On AuPair.com, a message to a family on a free account **cannot be read by that family** — *"…family is not a Premium Member and can't read your message yet. The family will be informed that you have sent them a message though."* | the platform's own on-screen notice, observed directly | **VERIFIED — primary, observed** | 2026-09-12 |
+| An AuPairWorld Au Pair registration from Nepal was **refused, with no reason given** | observed directly | VERIFIED (first-hand, single case) | 2026-09-12 |
+| AuPairWorld TOS §3.3: *"Activation is granted at our sole discretion"* | aupairworld.com terms of service, verbatim | **VERIFIED — primary** | 2026-09-12 |
+| AuPairWorld's published Au Pair requirements: 18–30, unmarried, no children, basic knowledge of the host country's language, able to afford own travel costs | AuPairWorld help pages | **VERIFIED — primary** | 2026-09-12 |
+
+**Why the refusal is not explained on the page.** We do not know the reason.
+Candidate explanations exist — the published requirements, a discretion clause
+that needs no reason — and every one of them would be a guess about a named
+individual's circumstances. The page says we do not know and tells readers to ask
+the platform through its contact form. **Nothing is inferred about the person.**
+
+**A test that was run and produced nothing, recorded so it is not repeated.**
+AuPairWorld publishes a Country Check that filters host countries by nationality,
+age, marital status, children and languages, and "Nepalese" is in its list. Driven
+from outside the browser UI it returned an empty result set — but so did a control
+run with a nationality that certainly qualifies. **The tool was not exercised
+correctly, so it establishes nothing in either direction, and no conclusion from
+it appears on the page.** Anyone repeating this should drive it by hand.
+
+**The editorial line that matters.** A 0–1% answer rate and a refused
+registration read naturally as *Austria does not want Nepalis*. That reading is
+unevidenced and it is the reading that makes a 5-lakh agent look like the only
+door left. Both failures have mechanical explanations on the platforms' own
+pages, and the page gives those explanations before it gives the numbers.
+
+## aupair.click, and who pays for the travel — 2026-09-12 (fourth revision, same day)
+
+**The Austrian section had a hole in it: it sent readers to two platforms and no
+agency.** Austrian law forbids charging the jobseeker for placement, so an
+agency is the one channel that is free to the reader by law rather than by
+company policy. One was found that places non-EU candidates.
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| **aupair.click** (Europastraße 27, 4600 Wels; Geschäftsführer Mag. Iryna Pecksteiner, Ing. Christian Pecksteiner MSc) describes itself as the largest Au Pair agency in Austria | aupair.click, read live | VERIFIED (existence, address, self-description) | 2026-09-12 |
+| It is **free for Au Pairs**: *"Wenn Du als AuPair nach Österreich oder Deutschland gehen möchtest, ist das für Dich als Au-pair kostenlos!"* | aupair.click price list, verbatim | **VERIFIED — primary** | 2026-09-12 |
+| Host families pay €199 + €399 (placement) or €199 + €599 (placement including visa and residence work), with monthly alternatives | same | **VERIFIED — primary** | 2026-09-12 |
+| Its published candidate list included Au Pairs from Indonesia, Madagascar, Azerbaijan and Mexico — i.e. it places third-country nationals | aupair.click candidate page, read live | **VERIFIED — primary, dated snapshot** | 2026-09-12 |
+| It asks that Au Pairs be childless and unmarried | aupair.click, verbatim | **VERIFIED — primary** | 2026-09-12 |
+| **Austrian law sets no condition about marital status or children.** The statutory conditions are age, German, hours and duration | Deloitte Österreich; the ministry model contract, neither of which contains such a clause | VERIFIED (absence, from two independent documents) | 2026-09-12 |
+| **Travel: where nothing is agreed the Au Pair pays it herself, including where the host family terminates early** | WKO, Au-Pair-Kräfte Entlohnung | **VERIFIED — primary** | 2026-09-12 |
+| The Austrian social ministry publishes a **2026 model Au Pair contract**, and it contains **no travel clause at all** | the ministry PDF, read in full | **VERIFIED — primary** | 2026-09-12 |
+| Model contract terms: 16.5 hours weekly including standby; €551.10 gross monthly described as the 2026 value; pay due pro rata each weekend; a dated payslip at each payment; family pays **half** the German course and **all** of a childcare course it requires; at least one whole free day weekly; 30 working days' holiday under the Urlaubsgesetz; sick pay under § 10 Hausgehilfen- und Hausangestelltengesetz; **one week's notice by either side without reasons**; **five copies** — parties, agency, embassy, AMS | same | **VERIFIED — primary** | 2026-09-12 |
+
+**Why the travel finding matters more than its size.** "The Au Pair pays her own
+travel" reads as settled fact on every commercial Au Pair site. It is a default
+that applies *where nothing else is agreed*, and the official contract is silent,
+so the silence is what binds. Combined with one week's notice on either side, a
+reader who signs the standard form has agreed to pay her own way home if the
+family changes its mind in week two. **The page now tells readers to negotiate a
+travel clause in, and says plainly that asking is normal.**
+
+**Why the fee rule and the agency belong in the same paragraph.** § 5 AMFG means
+a licensed Austrian agency cannot lawfully invoice the Au Pair. aupair.click's
+published price list is that rule in practice, and the dearer of its two family
+packages is the visa one — which identifies, in advance, families who have
+accepted a third-country hire. That is a better filter than any amount of
+messaging, and it is the part the page now leads with.
+
+**Snapshot, not a permanent claim.** The candidate list is a dated observation of
+one day. The page says the agency places non-EU candidates and names the
+countries seen; it does not promise that it will accept any particular applicant.
+
+## An official Austrian list of two, found 2026-09-12 (fifth revision, same day)
+
+**This is the best source of the day and it was not ours.** The youth service of
+the Land Oberösterreich publishes an Au Pair guide with a page headed
+*Vermittlungsorganisationen — Au-Pair in Österreich (Incoming)*. A state body,
+with nothing to sell, naming who does this work. It is the Austrian counterpart
+of the German RAL list the page has used since August.
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| JugendService Land OÖ (4021 Linz, Bahnhofplatz 1) names exactly **two** organisations for families in Austria wanting an Au Pair from abroad: **Family Business / kinderbetreuung.at** (1190 Wien, Krottenbachstraße 50/1) and **AuPair.click GmbH** (4600 Wels, Europastraße 27) | JugendService brochure *Extra Info: Au-Pair*, PDF read in full | **VERIFIED — primary, official** | 2026-09-12 |
+| The same page sends families to the AMS and to usp.gv.at for the employment rules | same | **VERIFIED — primary** | 2026-09-12 |
+| Family Business has run since 1999 and places Au Pairs from around the world; contact aupair@kinderbetreuung.at | kinderbetreuung.at, read live | **VERIFIED — primary** | 2026-09-12 |
+| Its published cost split — **host family**: €600 agency fee (€200 on application, €400 after arrival), €551.10 wage, about €15 social insurance, **€218 residence card, €25 AMS registration**, half the language course. **Au Pair**: travel both ways, private health insurance, half a language course costing €150–300 | same | **VERIFIED — primary** | 2026-09-12 |
+| It asks for Au Pairs aged **19 to 26**, where the law says 18 to 28 | same | **VERIFIED — primary** | 2026-09-12 |
+
+**What this changes on the page, and it is not small.** The page had told readers
+to budget the €218 permit fee. One of the two official agencies puts that fee, and
+the €25 AMS fee, on the **host family**. So the page no longer tells readers to
+expect to pay it; it tells them to ask, and shows them a published sheet that
+assigns it the other way. **A reader who does not know a cost is negotiable will
+pay it.**
+
+**The pattern now has three examples and deserves its own sentence.** Agencies and
+platforms impose conditions Austrian law does not: unmarried and childless at two
+of them, ages 19–26 at a third against the statutory 18–28. Each refusal on those
+grounds is a house rule, not the country saying no. The page now teaches the
+distinction rather than listing the rules, because a reader who can tell the two
+apart will keep going after the first refusal.
+
+**Provenance, since it matters here.** The brochure was found by Alan, not by
+this project's searching, and it named an agency we had already reached
+independently. Two roads to the same door is the closest thing to confirmation
+this file gets.

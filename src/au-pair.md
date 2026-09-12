@@ -4,9 +4,9 @@ title: The Au Pair route — slower, real, and not what you are being told
 nav: Au Pair
 order: 10
 permalink: /au-pair/
-standfirst: Au Pair comes up often in Nepal as an alternative to Ausbildung, usually when the B1 exam queue looks impossible. It is a genuine route into a German qualification. It is also, more often than not, suggested for the wrong reason.
-description: How the Au Pair route into a German Ausbildung actually works for candidates from Nepal, what it costs in time, and why the reason it is usually suggested is the wrong one.
-reviewed: August 2026
+standfirst: Au Pair comes up often in Nepal as an alternative to Ausbildung, usually when the B1 exam queue looks impossible. It is a genuine route into a German qualification. It is also, more often than not, suggested for the wrong reason. Austria runs a separate scheme, on different terms, and that is covered here too.
+description: How the Au Pair route into a German Ausbildung actually works for candidates from Nepal, what it costs in time, why the reason it is usually suggested is the wrong one, and how the Austrian scheme differs.
+reviewed: September 2026
 ---
 
 <figure>
@@ -203,6 +203,297 @@ and charges the host family for it. A platform introduces you and does nothing
 else — no agency behind you, and the visa is entirely yours to do. Both are
 legitimate. Neither should be charging you 5 lakh.
 
+## If it is Austria you are looking at
+
+Austria runs its own Au Pair scheme, and it is not the German one with a
+different flag. Different ages, different money, a different permit, a different
+embassy. If someone offers you *Europe*, ask which country's rules they are
+quoting you.
+
+**The largest difference is that Austria pays a wage.** An Au Pair there is an
+employee under the Hausgehilfen- und Hausangestelltengesetz, registered for
+health and accident insurance like anyone else who works. Germany calls it
+pocket money and means it.
+
+<div class="scroll">
+
+| | Germany | Austria |
+| --- | --- | --- |
+| Age | 18 to 27 when the stay begins | 18 to 28 |
+| German | A1, certificate under six months old, from VHS Bhaktapur or the Goethe-Zentrum | A1, proven before the work starts |
+| Hours | 30 a week, 6 a day | 16.5 a week, standby time counted in |
+| Money | €280 a month, plus €50 towards a course | €551.10 a month at least, paid 15 times a year |
+| Length | 6 to 12 months, once in your life | 12 months at most in any 5 years |
+| Where you apply | Kathmandu | New Delhi, in person |
+| Permit fee | €75 | €218 |
+
+</div>
+
+Board and lodging come with the job in both countries, and in both you are
+entitled to your own room with a key. If an Austrian advertisement quotes you 17
+or 20 hours a week, it is out of date rather than dishonest — 16.5 is the limit
+for contracts signed from January 2026.
+
+### The family has to act before you can apply
+
+The host family must notify the **AMS**, the Austrian labour office, at the latest
+two weeks before the work begins, and the AMS issues a confirmation. Without that
+confirmation there is no residence permit. It runs for six months and can be
+extended once by six more.
+
+So this is the question to put to a family early, before anyone falls in love
+with anyone:
+
+> Will you file the Au Pair notice with the AMS, and do you understand that I
+> have to collect a residence permit before I can travel?
+
+Families who want an Au Pair from inside the EU will fall away at that sentence.
+That is the sentence doing its job, and it saves you months.
+
+### There is no Austrian embassy in Kathmandu
+
+New Delhi covers Nepal. A first residence permit must be applied for **in person
+and before you travel**, at the embassy itself — these applications cannot go
+through the outsourced visa centre, and appointments are arranged by email. If
+the decision is positive you then apply for the entry visa within three months,
+and collect the permit itself after you arrive in Austria.
+
+Budget for Delhi, and for the possibility of going twice.
+
+### "Austria has no waiting list" is the part to check
+
+Germany publishes an 8 to 12 month wait for Au Pair appointments in Kathmandu.
+**Austria publishes no figure at all.** Its own pages tell you to ask the
+authority handling your case. An absence of a number is not the same thing as
+speed, and right now it is the claim being sold hardest.
+
+What is on the record points the other way. AuPairWorld warns that visa
+processing for applicants from Asia and Africa can run to **four months**, against
+an AMS confirmation that is only valid for six. Anyone who promises you two or
+three months should be asked to put it in writing, and to name the office the
+figure came from.
+
+### Nobody in Austria may charge you to find the family
+
+Germany has § 296a SGB III. Austria has **§ 5 of the Arbeitsmarktförderungsgesetz**,
+which says a licensed placement agency must work free of charge for the person
+looking for work. The only exception written into it is for artists and athletes.
+[What you should pay](/no-fees/) applies here word for word.
+
+Placement is also a licensed trade in Austria. Anyone doing it needs a
+Gewerbeberechtigung, and the register of trade licences, **GISA**, is public and
+free to search. An agency that cannot be found in it has answered your question.
+
+### Where to look: the agency before the platforms
+
+For Austria, start with a licensed agency rather than a website. The law is on
+your side here — an agency may not charge you — and an agency reaches the one kind
+of family you cannot find by writing letters: the kind that has already agreed to
+do the paperwork.
+
+**There is an official list, and it is short.** The youth service of the state of
+Upper Austria publishes an Au Pair guide which includes a page headed
+*Vermittlungsorganisationen — Au-Pair in Österreich (Incoming)*. It names **two**
+organisations for families in Austria wanting to take an Au Pair from abroad, and
+sends them to the AMS and the federal business portal for the rules. This is the
+nearest Austrian equivalent to the German RAL list: a public body, with nothing
+to sell, naming who does this work.
+
+<div class="scroll">
+
+| Where | What it is | What it costs you |
+| --- | --- | --- |
+| **[aupair.click](https://www.aupair.click/)**, Wels | On the official list. Calls itself the largest agency in Austria. Places candidates from outside the EU — the people on its books when we looked came from Indonesia, Madagascar, Azerbaijan and Mexico — and places into Germany as well, on the same terms | **Nothing.** Its own price list says *"Wenn Du als AuPair nach Österreich oder Deutschland gehen möchtest, ist das für Dich als Au-pair kostenlos!"* Host families pay |
+| **[kinderbetreuung.at](https://www.kinderbetreuung.at/aupair)**, Vienna | On the official list. Run by Family Business, a non-profit going back to 1999, placing Au Pairs *"aus aller Welt"*. Publishes a full cost sheet, which is rare and useful. Asks for ages **19 to 26**, narrower than the law | **No placement fee.** The host family pays €600. You pay your travel, your private health insurance, and half the language course |
+| **AuPairWorld** | The same platform as for Germany, with an Austria section and a page on the Austrian visa. **Registration has to be approved and can be refused** — see below | Nothing. Host families are the side that pays |
+| **AuPair.com** | The second platform. Anyone may register. Its Austria page carries the Austrian rules accurately | Free to join, but a free message cannot be read by a family that has not paid. See below |
+| **wienXtra** | The City of Vienna's youth information service. Answers Au Pair questions, including in English | Free |
+| **GISA** | The public register of Austrian trade licences. Use it to check an agency is licensed before you talk money | Free |
+
+</div>
+
+**Why the agency first, concretely.** aupair.click sells host families two
+packages: a plain placement, and a dearer one that includes the visa and
+residence work. **A family that has bought the second one has already decided to
+take somebody from outside the EU and to wait for them.** That is the family you
+have been looking for, and no amount of messaging on a platform will surface her,
+because she is not browsing — she is paying someone else to browse for her.
+
+You apply through the agency's own form, or by email asking for the application
+documents. Say in the first message that you are in Nepal, what your German level
+is, and that the family will need to file the AMS notice while you apply in New
+Delhi. That is not a weakness to be buried. It is the specification of the family
+you are looking for.
+
+**Learn to tell an intermediary's rule from the law.** One agency asks that Au
+Pairs be childless and unmarried, and AuPairWorld asks the same. The other asks
+for ages 19 to 26. **Austrian law says none of that** — it sets 18 to 28, German,
+hours and duration, and the ministry's model contract has no clause about
+marriage or children at all. So a refusal on any of those grounds is a house
+rule, not a closed door in Austria, and it tells you to try the next house rather
+than to give up. Worth understanding on day one instead of after three refusals.
+
+### What actually happened to one applicant from Nepal
+
+Both platforms were tried in September 2026 by one candidate in Nepal. Neither
+worked the way the advertisement suggests, and both failures are mechanical
+rather than personal. That matters, because the natural reading — *Austria does
+not want me* — is the wrong one.
+
+**On AuPair.com, a family on a free account cannot read your message at all.**
+Not *did not answer*. Cannot open it. The platform says so itself, immediately
+after you send:
+
+> …family is not a Premium Member and can't read your message yet. The family
+> will be informed that you have sent them a message though. If you become a
+> Premium Au Pair, you can send as many personalized messages as you want and
+> families that are not yet a premium member will be able to read and respond to
+> your message.
+
+Checked the same day, **nearly every Austrian host family profile on that
+platform showed an answer rate of 0 or 1 per cent.** One was higher. Read that
+number correctly: it is mostly not rejection, it is families who never paid and
+therefore cannot reply to anyone. Buying Premium yourself is paying to unlock
+people who did not.
+
+**On AuPairWorld, the registration itself was refused, with no reason given.**
+Their terms reserve exactly that: access is granted *"at our sole discretion"*.
+Before you try, measure yourself against what they publish — **18 to 30,
+unmarried, no children, basic German, and able to pay your own travel**. If you
+are refused anyway, write to them through their contact form and ask why. You
+are allowed to ask, and the answer is the only way to know whether it is
+something you can fix.
+
+We do not know why that profile was refused, and we are not going to guess on
+this page.
+
+**If you do get on AuPairWorld, it is the better of the two platforms.** There
+the paying side is always the family: Au Pairs use it free, and a family able to
+write to you has already bought a membership, which is a small proof of
+seriousness.
+Profiles carry an activity light — **green** for a login in the last five days,
+yellow for longer ago, orange for gone. Write to green.
+
+**Where the family pays, your profile does more work than your messages do.** So
+fill it completely, log in often enough to stay green, and put the awkward part
+*into the profile*: that you are in Nepal, that they will have to file the AMS
+notice, and that you will collect the permit in New Delhi. The family you want is
+the one who reads that and stays. Hiding it only collects families who will drop
+you in week three.
+
+<div class="warn">
+
+**This is the gap the lakhs are sold into.** When the free routes are this
+awkward — one platform where your message cannot be read, another that can refuse
+you at the door — paying an agent starts to feel like the only door left. Notice
+what has actually changed: the difficulty is real, and the price is still the
+price. An agent who finds you a family has done something worth paying for.
+Nobody may lawfully charge **you** for it in Austria, and the questions on
+[what you should pay](/no-fees/) do not stop applying because the platforms were
+disappointing.
+
+</div>
+
+**Most Austrian agencies will not take you, and they say so on their own pages.**
+[Au Pair Austria](https://www.aupairaustria.at/) is free to Au Pairs — *"Unser
+Service ist kostenlos"* — and takes people who have *"bereits als Aupair in einem
+anderen Land tätig waren"* with a reference from that family, or who are EU
+citizens, or who hold US, Canadian, British, Australian or New Zealand
+nationality. A first-time applicant from Nepal fits none of those. That is their
+published policy rather than a judgement on you, and it is worth one email. It is
+not worth hope.
+
+**One Vienna agency does recruit in Nepal.**
+[Optimal Au Pair](https://optimalaupair.com/for-aupairs/) says it places Au Pairs
+from Nepal and the Philippines with German-speaking families, and it is a
+registered Austrian business. Its own page also says that non-EU applicants apply
+by webinar or email and that a *"language course or training course with us
+[is] MANDATORY"*. No price for that course is published anywhere on the site,
+which is the part to resolve first.
+
+That is not a placement fee and it may be perfectly fair. It is still money, and
+it is the shape worth watching everywhere: **the charge moves off the placement,
+which may not be charged for, and onto the course standing next to it.** Ask for
+the total in writing — course, registration, materials, everything, in euros or
+rupees — before you enrol in anything. A firm that will not write the number down
+has told you something.
+
+### The travel is yours, unless the contract says otherwise
+
+Every Au Pair site tells you that you pay your own way to Austria. That is true,
+and it is worth knowing exactly *why* it is true, because it is a default rather
+than a law: **if nothing is agreed, the Au Pair pays the travel herself — and
+that holds even if the host family ends the contract early.**
+
+Two things make that sharper than it first sounds. The **official model contract**
+published by the Austrian social ministry contains **no clause about travel at
+all**, so signing it unchanged means you have agreed to pay. And that same
+contract lets **either side end the arrangement at one week's notice, without
+giving a reason**.
+
+So put travel into the contract before you sign it. Ask for the flight, or half
+of it, or the return leg, or simply a line saying the family pays your way home
+if they end it early. There is nothing rude in asking. It is the largest cost of
+the whole year and the standard contract assigns it to nobody.
+
+**What the model contract does give you**, and what to check line by line in the
+one you are offered:
+
+<div class="scroll">
+
+| | The official 2026 model contract |
+| --- | --- |
+| Hours | 16.5 a week, standby time counted in |
+| Pay | €551.10 gross a month, paid pro rata **every weekend** |
+| Payslip | the family must hand you a dated statement at each payment |
+| German course | the family pays **half**. If they require a childcare course such as a babysitting course, they pay **all** of it |
+| Free time | at least one whole free day every week |
+| Holiday | 30 working days a year, under the Urlaubsgesetz |
+| Illness | paid, under § 10 of the Hausgehilfen- und Hausangestelltengesetz |
+| Notice | one week, either side, no reason needed |
+| Copies | five — one each, one for the agency, one for the embassy, one for the AMS |
+| Travel | **nothing at all** |
+
+</div>
+
+Note the last two rows together. The embassy and the AMS both receive a copy, so
+what the contract says is not a private matter between you and the family. And
+what it does not say is what you will pay for yourself.
+
+**Ask who pays the official fees, because it is not settled either.** One of the
+two listed agencies publishes a cost sheet that puts the **€218 permit fee and the
+€25 AMS registration on the host family**, along with your social insurance and
+half your language course. The same sheet puts your travel, both ways, and your
+private health insurance on you. So the €218 is not automatically yours to pay.
+Ask.
+
+**Budget, then, for:** the flight, the journey to New Delhi and possibly a second
+one, private health insurance, your half of a language course — the same agency
+puts the whole course at €150 to €300 — and your documents. Against that sits
+€551.10 a month from the day you start, with board and lodging free. It is the
+month before you leave that is expensive, not the year after.
+
+### What a year in Austria does not give you
+
+It is a year of German and a year of living in a German-speaking country. It is
+not a qualification, and there is no Austrian equivalent of [the §81a accelerated
+route](/visa/) waiting at the end of it, because that is German law.
+
+<div class="warn">
+
+**Two things we have not been able to settle, and will not pretend otherwise.**
+
+Whether a German exam certificate you sit **in Austria** is accepted by the
+embassy in Kathmandu for a later Ausbildung visa. Acceptance there has turned on
+which centre issued the certificate, not only on which exam it was, so ask the
+embassy directly before you book anything.
+
+Whether a year as an Au Pair in Austria can lead into an Austrian apprenticeship.
+Austria has its own system, its own shortage-occupation lists and its own
+permits, and this site has not researched any of it.
+
+</div>
+
 ## What to check before you commit
 
 **The fee.** Au Pair placement is being quoted in Nepal at around 5 lakh. Ask
@@ -245,3 +536,81 @@ after you arrive.
   [German Embassy Kathmandu](https://kathmandu.diplo.de/np-de/service/05-visaeinreise/1617934-1617934),
   and the embassy's own email reply, 21 August 2026
 - The ~5 lakh Au Pair fee: reported by a candidate in Nepal, August 2026
+- Austria, the whole of the section above — age 18 to 28, A1 German before the
+  work begins, 16.5 hours a week including standby for contracts from 1 January
+  2026, €551.10 a month minimum paid 15 times a year, the AMS notice two weeks
+  before the start, the six-month confirmation extendable by six, and 12 months
+  maximum in any five years:
+  [USP, the federal business service portal](https://www.usp.gv.at/mitarbeiter/auslaendische-beschaeftigte/au-pair)
+  and [WKO](https://www.wko.at/arbeitsrecht/au-pair-begriff)
+- The Austrian residence permit for Au Pairs, its €218 fee, the requirement to
+  apply in person abroad before entry, the insurance covering all risks, and the
+  12-month maximum:
+  [Stadt Wien](https://www.wien.gv.at/amtshelfer/dokumente/aufenthalt/drittstaaten/bescheinigungen/aufenthaltsbewilligung-au-pair.html)
+  and [oesterreich.gv.at](https://www.oesterreich.gv.at/de/themen/menschen_aus_anderen_staaten/aufenthalt/3/2/1/1/Seite.120119),
+  which is also where the three-months-then-three-months sequence after a
+  positive decision comes from, and where Austria declines to publish a
+  processing time
+- New Delhi covering Nepal, residence permit applications made in person at the
+  embassy rather than through the visa centre, and appointments by email:
+  [Austrian Embassy New Delhi](https://www.bmeia.gv.at/en/austrian-embassy-new-delhi/travels-to-austria/entry-and-residence/how-to-apply)
+- Visa processing of up to four months for applicants from Asia and Africa:
+  [AuPairWorld, Austria visa page](https://www.aupairworld.com/en/au-pair-programs/austria/visa)
+- Placement free of charge for the person seeking work, artists and athletes
+  excepted: [§ 5 Arbeitsmarktförderungsgesetz](https://www.jusline.at/gesetz/amfg/paragraf/5)
+- AuPairWorld free for Au Pairs with host families paying for premium, and
+  AuPair.com premium at €49.70 for one month and €88.70 for six: both platforms'
+  own pricing pages, read live
+- A conversation on AuPair.com continuing only where one side holds Premium —
+  *"one of the two members involved in the conversation, Host Family or Au Pair,
+  needs to be Premium to go on with further communication"*: AuPair.com's own
+  help page, read live
+- AuPairWorld's activity lights, green for a login within the last five days:
+  AuPairWorld help pages, read live
+- **Austrian host family profiles on AuPair.com showing answer rates of 0 to 1
+  per cent, all but one:** counted by hand on the platform, September 2026. One
+  observer, one day, one platform — enough to change what we tell you to expect,
+  not enough to say the Austrian market is closed
+- The notice shown to an Au Pair after writing to a family on a free account, and
+  the refusal of an AuPairWorld registration with no reason given: both observed
+  directly, September 2026. The quoted notice is the platform's own wording, with
+  the family's name removed
+- AuPairWorld's published Au Pair requirements — 18 to 30, unmarried, no
+  children, basic knowledge of the host country's language, able to afford travel
+  — and *"Activation is granted at our sole discretion"*: AuPairWorld's help
+  pages and terms of service, read live
+- Au Pair Austria's accepted applicant groups and *"Unser Service ist kostenlos"*,
+  and Optimal Au Pair's *"language course or training course with us MANDATORY"*
+  for non-EU applicants with no price published: each agency's own public page,
+  read live on 12 September 2026
+- **The official list of two incoming placement organisations**, and the referral
+  to the AMS and usp.gv.at for the rules:
+  [JugendService Land Oberösterreich, *Extra Info: Au-Pair*](https://www.jugendservice.at/fileadmin/daten/shop/broschueren/jugendservice/web_2025373_ExtraInfo_Au-Pair.pdf),
+  page headed *Vermittlungsorganisationen — Au-Pair in Österreich (Incoming)*
+- Family Business / kinderbetreuung.at of Vienna, its published cost sheet
+  — host family €600 agency fee, €551.10 wage, about €15 social insurance, €218
+  residence card, €25 AMS registration and half the language course; Au Pair pays
+  travel both ways, private health insurance and the other half of a course
+  costing €150 to €300 — and its 19 to 26 age range:
+  [kinderbetreuung.at](https://www.kinderbetreuung.at/aupair), read live
+- aupair.click of Wels, its non-EU candidates, and *"Wenn Du als AuPair nach
+  Österreich oder Deutschland gehen möchtest, ist das für Dich als Au-pair
+  kostenlos!"*, with host families paying €199 plus €399 for placement or €199
+  plus €599 for the package that includes the visa work:
+  [aupair.click price list](https://www.aupair.click/preisliste/) and
+  [its candidate list](https://www.aupair.click/bewerberinnen/), read live
+- Travel paid by the Au Pair where nothing else is agreed, including where the
+  family ends the contract early:
+  [WKO](https://www.wko.at/arbeitsrecht/au-pair-kraefte-entlohnung)
+- The hours, the €551.10 as the 2026 figure, weekend payment, the dated payslip,
+  half the German course and all of a required childcare course, one free day a
+  week, 30 days' holiday, one week's notice either side, five copies of the
+  contract, and the **absence of any travel clause**:
+  [the Austrian social ministry's 2026 model Au Pair contract](https://www.sozialministerium.gv.at/dam/jcr:8f70e047-5929-4fe4-abca-7047cc6bba7b/2026%20-%20Au-pair-Mustervertrag.pdf)
+- Austrian law setting no condition about being unmarried or childless, where
+  agencies and platforms do:
+  [Deloitte Österreich on employing an Au Pair](https://www.deloitte.com/at/de/services/tax/blogs/2025/beschaeftigung-als-au-pair.html),
+  read against the model contract above
+- wienXtra and the GISA register of trade licences:
+  [wienxtra.at](https://wienxtra.at/informationen/infos-a-z/info/au-pair-in-oesterreich-au-pair-in-austria/),
+  [gisa.gv.at](https://www.gisa.gv.at/abfrage)

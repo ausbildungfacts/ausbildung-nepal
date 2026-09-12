@@ -508,6 +508,67 @@ puts the whole course at €150 to €300 — and your documents. Against that s
 €551.10 a month from the day you start, with board and lodging free. It is the
 month before you leave that is expensive, not the year after.
 
+### If you cannot pay for the flight
+
+Say the true thing first: this is where most people stop. It is also exactly
+where the agent quoting lakhs gets his power, because he is the only person in
+the room offering to solve it. There are two better answers to try before him.
+
+**First, ask the family.** The model contract says nothing about travel, so it is
+open to agreement, and one of the large platforms openly advises host families to
+contribute to their Au Pair's journey. Ask for the outward flight, or half of it,
+or for it to be reimbursed once you have stayed six months. The worst answer is
+no, and how they answer tells you something about them.
+
+**Second, a bank, not a moneylender.** Nepali banks run collateral-free foreign
+employment loans. One commercial bank has published **NPR 50,000 to 150,000 at
+12.80% fixed over 18 months**, for applicants over 21 with an account at the bank
+and a valid labour permit. A government scheme has also been prepared covering
+visa fees, insurance, medical checks, the welfare fund and **air tickets** by
+name. Ask at a branch for the terms as they stand today — ours come from
+reporting, and we could not confirm whether the government scheme has come into
+force.
+
+<div class="scroll">
+
+| | |
+| --- | --- |
+| NPR 150,000 | roughly €950 |
+| Repaid over 18 months at 12.80% | about €60 a month |
+| Your income in Austria | €551.10 a month, board and lodging free |
+
+</div>
+
+**The word that matters there is collateral-free.** The International Labour
+Organization records Nepali migrants pledging ancestral land to visa agents, and
+losing it when the promised salary does not appear or an injury stops the work.
+About two thirds of Nepali migrant workers take on recruitment-related costs
+before they have a job, and on average they work **3.3 months abroad just to
+repay** what they borrowed to leave. A bank loan against no security is a
+different instrument from that, and it is the one to ask for.
+
+It is still a debt. If the placement ends early you still owe it. What makes it
+survivable is the Austrian wage — sixty euros a month against five hundred and
+fifty with your food and room provided. **On Germany's €280 of pocket money the
+same loan would not be repayable**, which is worth knowing before you choose
+between the two countries.
+
+<div class="warn">
+
+**One question stands in front of all of this, and we cannot answer it yet.**
+Every one of those loans requires **labour approval** — श्रम स्वीकृति — from the
+Department of Foreign Employment. Whether an Au Pair placement in Austria
+qualifies for one is something we do not know, and we will not guess at it on a
+page people plan a year around.
+
+It matters twice over. It decides whether the bank route is open to you at all,
+and people leaving for employment without labour approval are turned back at
+Kathmandu airport. **Ask the Department before you count on any of it, and before
+you book anything.** We have asked as well, and this page will carry the answer
+when it comes.
+
+</div>
+
 ### What a year in Austria does not give you
 
 It is a year of German and a year of living in a German-speaking country. It is
@@ -586,6 +647,20 @@ after you arrive.
   which is also where the three-months-then-three-months sequence after a
   positive decision comes from, and where Austria declines to publish a
   processing time
+- Collateral-free foreign employment loans of NPR 50,000 to 150,000 at 12.80%
+  fixed over 18 months, for applicants over 21 with an account and a valid labour
+  permit: reported terms of one commercial bank's published scheme, **not
+  re-confirmed with the bank** — check at a branch
+- A government collateral-free scheme prepared by the Ministry of Labour with
+  Nepal Rastra Bank, covering visa fees, insurance, medicals, the welfare fund
+  and air tickets: reported. **Whether it is in force is not established**
+- Two thirds of Nepali migrant workers incurring recruitment-related costs before
+  they have a job, an average of 3.3 months of work abroad to repay migration
+  debt, and land pledged to agents and lost: International Labour Organization
+  material on recruitment from Nepal
+- **That labour approval from the Department of Foreign Employment is required
+  for an Au Pair placement in Austria is NOT established.** It is an open
+  question, put to the Department, and the page says so
 - Nepal not being a party to the Hague Apostille Convention, and the four-stage
   legalisation chain ending at the destination country's embassy: the Ministry of
   Foreign Affairs' [Department of Consular Services](https://nepalconsular.gov.np/)

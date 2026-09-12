@@ -2300,3 +2300,42 @@ Kathmandu itself, which may change the last stage entirely, but nothing on this
 site should be read as saying the documents are simple for Germany either. That
 is a question for the visa and apply pages, not this one, and it is not answered
 yet.
+
+## Paying for the flight, and the labour approval question — 2026-09-12
+
+**The page had described a route that a reader with no savings cannot take.** It
+listed the costs and stopped. This section adds the two answers that exist before
+the agent quoting lakhs, and marks clearly the one thing that decides whether
+either works.
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| A Nepali commercial bank publishes a collateral-free foreign employment loan of **NPR 50,000–150,000 at 12.80% fixed over 18 months**, for applicants over 21 with an account at the bank and a **valid labour permit** | financial press reporting of the bank's scheme, 2023 | **SECONDARY, and dated. The page tells readers to check current terms at a branch** | 2026-09-12 |
+| The Ministry of Labour, with Nepal Rastra Bank, prepared a collateral-free loan procedure for departing workers covering visa fees, insurance, medical checks, the welfare fund and **air tickets** | Nepali press reporting | **SECONDARY. Whether it is in force is NOT established and the page says so** | 2026-09-12 |
+| About two thirds of Nepali migrant workers incur recruitment-related costs before securing a job abroad; on average **3.3 months** of work abroad goes to repaying migration debt; migrants pledge ancestral land to visa agents and lose it when the promised salary fails or injury stops the work | International Labour Organization material on recruitment from Nepal | **VERIFIED — primary institutional** | 2026-09-12 |
+| Debt bondage is one of the ILO's indicators of forced labour | ILO | VERIFIED | 2026-09-12 |
+
+**OPEN, and flagged in a warning box on the page.**
+
+| Question | Status |
+| --- | --- |
+| **Whether an Au Pair placement in Austria requires labour approval (श्रम स्वीकृति) from the Department of Foreign Employment.** Austria treats an Au Pair as an employee under the Hausgehilfengesetz, which points towards yes. Pointing is not knowing | **OPEN — asked of the Department. The page says we do not know and tells readers to ask before booking** |
+| **Whether a trainee travelling to Germany on an Ausbildung visa requires labour approval.** Nothing on this site currently tells them either way | **OPEN — asked in the same letter. If the answer is yes, this is a gap on the visa and apply pages, not only here** |
+
+**Why the arithmetic is on the page and not just the rate.** NPR 150,000 is about
+€950; over 18 months at 12.80% that is roughly €60 a month against €551.10 with
+board and lodging free. **The same loan against Germany's €280 pocket money would
+not be repayable.** That is a real argument for the Austrian route, and it had not
+appeared anywhere on this site until the money question was followed to the end.
+
+**Why "collateral-free" is given more weight than the interest rate.** The ILO
+record is that the instrument which destroys Nepali families is not the rate, it
+is the security: land pledged to an agent and taken when the job does not pay what
+was promised. A bank loan against no security is a different instrument. The page
+says so in those terms.
+
+**What is deliberately not claimed.** That the bank terms are current, that the
+government scheme exists in force, or that an Au Pair qualifies for labour
+approval. All three are marked. A reader who acts on an unchecked 2023 interest
+rate and a permit they turn out not to qualify for has been failed by this page,
+so each carries its own instruction to go and ask.

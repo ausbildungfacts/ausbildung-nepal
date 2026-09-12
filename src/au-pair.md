@@ -260,6 +260,41 @@ and collect the permit itself after you arrive in Austria.
 
 Budget for Delhi, and for the possibility of going twice.
 
+### Your documents need a chain, not a stamp
+
+The application asks for a criminal record certificate and a birth certificate,
+and neither is accepted as it leaves the office that issued it. Here Nepal's
+position matters: **Nepal is not a party to the Hague Apostille Convention.**
+There is no single apostille stamp available to you. Austria's own guidance for
+people moving there says documents from countries which do not issue apostilles
+*"require a diplomatic or consular certification"*.
+
+So it is a chain, and the order is fixed:
+
+1. **A notarised certified translation** into German or English
+2. **Verification by the ministry** that issued or oversees the document — Home
+   Affairs for civil status papers, Education for academic ones
+3. **Consular attestation** by the Department of Consular Services of the Ministry
+   of Foreign Affairs, at Tripureshwor in Kathmandu, which runs online systems for
+   police certificates and other documents
+4. **Legalisation by the Austrian embassy** — and that embassy is in New Delhi
+
+<div class="warn">
+
+**Count the clock on this one.** The criminal record certificate may be at most
+**three months old** when you apply. The chain above has four stages in two
+countries, and the last of them is in another country from the one where it
+started. Begin it only when you have a family and a contract, or you will pay for
+it twice.
+
+</div>
+
+Commercial notary services describe the whole chain as one to three weeks of
+working days, with the embassy stage the expensive one. We have not found an
+official schedule of times or fees for it, so treat those figures as an
+indication and ask the agency placing you what it actually cost their last Au
+Pair.
+
 ### "Austria has no waiting list" is the part to check
 
 Germany publishes an 8 to 12 month wait for Au Pair appointments in Kathmandu.
@@ -551,6 +586,18 @@ after you arrive.
   which is also where the three-months-then-three-months sequence after a
   positive decision comes from, and where Austria declines to publish a
   processing time
+- Nepal not being a party to the Hague Apostille Convention, and the four-stage
+  legalisation chain ending at the destination country's embassy: the Ministry of
+  Foreign Affairs' [Department of Consular Services](https://nepalconsular.gov.np/)
+  for the attestation stage and its online systems, and commercial notary
+  services for the sequence, times and fees, which are **not** confirmed from an
+  official schedule
+- Austria requiring *"a diplomatic or consular certification"* for documents from
+  countries which do not issue apostilles, and court-certified translations into
+  German or English:
+  [Work in Austria, visa and document verification](https://www.workinaustria.com/en/residence-employment/visa-and-document-verification)
+- The criminal record certificate being at most three months old: Stadt Wien, as
+  above
 - New Delhi covering Nepal, residence permit applications made in person at the
   embassy rather than through the visa centre, and appointments by email:
   [Austrian Embassy New Delhi](https://www.bmeia.gv.at/en/austrian-embassy-new-delhi/travels-to-austria/entry-and-residence/how-to-apply)

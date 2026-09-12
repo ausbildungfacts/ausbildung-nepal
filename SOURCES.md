@@ -2274,3 +2274,29 @@ apart will keep going after the first refusal.
 this project's searching, and it named an agency we had already reached
 independently. Two roads to the same door is the closest thing to confirmation
 this file gets.
+
+## Document legalisation from Nepal — 2026-09-12
+
+**An item nobody had costed.** Both the page and this file had treated the
+documents as a form-filling step. They are a four-stage chain across two
+countries, and the last stage is at an embassy in a third city.
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| **Nepal is not a party to the Hague Apostille Convention**, so no apostille is available for Nepali documents | multiple legalisation services, consistent; no contrary source found | VERIFIED (secondary, consistent) | 2026-09-12 |
+| Austria requires, for documents from countries that do not issue apostilles, *"a diplomatic or consular certification so that they will be recognised in Austria"*, and court-certified translations into German or English where the document is in neither | Work in Austria (ABA), verbatim | **VERIFIED — primary, official** | 2026-09-12 |
+| The chain: notarised certified translation → verification by the issuing or parent ministry → consular attestation by the Department of Consular Services, MoFA, Tripureshwor → legalisation by the destination country's embassy | MoFA Department of Consular Services for stage 3 and its online systems (att.nepalconsular.gov.np, doc.nepalconsular.gov.np, MoFA Mitra app); commercial notary services for the full sequence | VERIFIED (stage 3 primary; the sequence secondary) | 2026-09-12 |
+| Reported timing of 7–15 working days for the whole chain, notary acts capped at NPR 200, MoFA attestation about NPR 500, destination embassy NPR 2,000–15,000+ | commercial notary service | **UNCONFIRMED — secondary, commercial. Published on the page as an indication, explicitly not as an official schedule** | 2026-09-12 |
+
+**The interaction that makes this worth a warning box.** The criminal record
+certificate may be at most three months old at application. The chain runs four
+stages across Kathmandu and New Delhi. Start it before there is a family and a
+contract and it can expire before it is used, at the applicant's expense. The
+page says so.
+
+**Open, and it affects more than this page.** Whether the German route out of
+Kathmandu needs the same chain has not been checked. The German embassy is in
+Kathmandu itself, which may change the last stage entirely, but nothing on this
+site should be read as saying the documents are simple for Germany either. That
+is a question for the visa and apply pages, not this one, and it is not answered
+yet.

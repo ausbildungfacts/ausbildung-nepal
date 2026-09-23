@@ -2436,3 +2436,55 @@ the day ECL appears in it, or any of the three named providers disappears. The
 link checker only proved the URL resolved; both of this project's published
 errors came from a page that kept its address and changed its words. The day ECL
 is on that list, the exam page can say so and cite the embassy itself.
+
+---
+
+## ECL publishes its Kathmandu prices — 2026-09-23 (same day, later)
+
+The fees were previously **HELD**: quoted privately to one prospective candidate
+rather than published, so they were kept in the project's private notes under the
+consent rule. That condition was written down at the time — *"If the centre
+publishes a price list, the published price can go on the site and this row can
+be dropped."* **That has now happened**, so the figures are published here and on
+the site, and the HELD row is superseded.
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| ECL's public registration form shows, for the Kathmandu centre and German, a **November 2026** sitting at A2, B1, B2 and C1 | exam.eclexam.eu registration form, driven through centre → date → level by hand, no account needed | **VERIFIED — primary (the exam board's own booking system)** | 2026-09-23 |
+| **B1**: complete exam **NPR 30,500**; each single module **NPR 8,500** | same | **VERIFIED — primary** | 2026-09-23 |
+| **B2**: complete exam **NPR 31,500**; each single module **NPR 9,500** | same | **VERIFIED — primary** | 2026-09-23 |
+| **A2**: complete exam **NPR 29,500**; each single module **NPR 7,500** | same | **VERIFIED — primary** | 2026-09-23 |
+| Four single B1 modules (NPR 34,000) cost **more** than the complete B1 exam (NPR 30,500), so splitting carries a penalty rather than a saving | arithmetic on the two published figures above | **VERIFIED — primary figures, our arithmetic** | 2026-09-23 |
+| ECL is the most expensive of the three providers in Nepal at every level offered; the gap to VHS at B1 is about NPR 1,800, the gap to Goethe about NPR 14,000 | the published ECL figures against the Goethe and VHS figures already in this file, at the 173 NPR/EUR rate the page uses | **VERIFIED — primary figures, our arithmetic** | 2026-09-23 |
+| The registration form is reachable **without an account**, and shows a price before anyone checks whether the certificate is accepted | same, confirmed by reading it logged out | **VERIFIED — primary** | 2026-09-23 |
+
+**C1 is deliberately not on the site.** The same form shows C1 single modules at
+NPR 10,500 each but the complete C1 exam at **NPR 3,500** — less than a third of
+one module. That is not credible and is almost certainly a missing digit in ECL's
+own form. It reproduced on a second reading after switching levels away and back,
+so it is not a rendering artefact of ours. C1 is not needed for an Ausbildung
+visa, so rather than publish a figure we believe is wrong, the site carries A2,
+B1 and B2 only. **If anyone is ever tempted to quote the C1 price, check it
+first.**
+
+**Why the prices are in the ECL section and not in the main price table.** The
+table above it is introduced as *"Both accepted providers in Nepal publish their
+fees"*. Putting ECL in that table would make it read as a third accepted option,
+which is the exact error this whole section exists to prevent. The prices sit
+inside the warning, where the reader has already been told it is unproven.
+
+**The new warning that came with them.** A reader can now select Kathmandu, pick
+November 2026 and be shown a price. That is ECL's booking system, not the
+embassy's, and nothing on the form speaks to visa acceptance. An open
+registration page is the single most persuasive thing a candidate could be
+shown, and it proves nothing — so the page says so in terms.
+
+**The centre is still not named.** ECL's own public form names the Kathmandu
+business in full. That does not change the rule: ECL is a provider and gets
+named, a Nepali business does not. Nothing improper is alleged or implied here —
+the centre is licensed, its prices are public and it is selling what it is
+entitled to sell.
+
+**What this does not resolve.** Whether the certificate is accepted at Kathmandu
+for a § 16a visa. That remains **OPEN**, asked on 11 September and chased on
+23 September. A published price is not an answer to it.

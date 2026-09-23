@@ -252,9 +252,50 @@ four modules**. Before that you could carry a weak skill on a strong average.
 You cannot now. ECL says in terms that this applies only to exams sat from
 August 2026 onwards.
 
-**Then price it against the table below.** A complete B1 at the Goethe-Zentrum
-costs an outside candidate about NPR 16,500. Any accepted route is cheaper than a
-fast one you cannot use.
+**The price is now published, so you can compare it yourself.** ECL's own
+registration system shows the Kathmandu fees for the November 2026 sitting.
+Converted at the same 173 rupees to the euro used further down this page:
+
+<div class="scroll">
+
+| Level | ECL | Goethe, outside | VHS, outside |
+| --- | --- | --- | --- |
+| A2 | NPR 29,500 | about NPR 13,000 | NPR 21,375 |
+| B1 | NPR 30,500 | about NPR 16,500 | NPR 28,680 |
+| B2 | NPR 31,500 | about NPR 19,000 | NPR 30,285 |
+
+</div>
+
+Those are for all four modules. A single ECL module costs **NPR 7,500** at A2,
+**NPR 8,500** at B1 and **NPR 9,500** at B2.
+
+**ECL is the dearest of the three at every level.** Against VHS the gap is small —
+about NPR 1,800 at B1. Against the Goethe-Zentrum it is not: a B1 at ECL costs
+nearly twice as much as the same level at Goethe.
+
+**And ECL's modules do not add up the way the others do.** Four B1 modules bought
+separately come to NPR 34,000 — *more* than the NPR 30,500 complete exam. There is
+no saving in splitting them, only a penalty. At the Goethe-Zentrum the parts add
+up exactly to the whole: €25, €50, €75, €95 for one, two, three or four.
+
+That matters because of the 60% rule above. Fail one module at ECL and repairing
+it costs **NPR 8,500**. Fail one at the Goethe-Zentrum and it costs €25 — about
+NPR 4,300, roughly half. The exam that is hardest to pass cleanly is also the
+most expensive to repair.
+
+<div class="warn">
+
+**Registration being open is not the same as being accepted.** You can select
+Kathmandu, pick November 2026 and see a price without anyone having approved
+anything — that is ECL's own booking system, not the embassy's. Nothing on that
+form tells you whether the certificate will be taken for your visa. On
+23 September 2026 the embassy's list still did not name ECL.
+
+</div>
+
+**So the order has not changed.** Any accepted route is cheaper than a fast one
+you cannot use. Today ECL is the most expensive option in Nepal *and* the only
+one that might not count.
 
 </div>
 
@@ -466,6 +507,9 @@ because one person was willing to say what actually happened to her.
   [German Embassy Kathmandu, national visas](https://kathmandu.diplo.de/np-de/service/05-visaeinreise/1617934-1617934)
 - ECL sittings being advertised in Kathmandu: a public Facebook advertisement,
   September 2026
+- ECL's published Kathmandu fees and its November 2026 sitting, read on the
+  exam board's own public registration form, 23 September 2026:
+  [ECL registration](https://exam.eclexam.eu/)
 - The 60% minimum in every module, applying only to exams sat from August 2026
   onwards, checked 11 September 2026:
   [ECL exam regulations](https://eclexam.eu/exam-regulation/)

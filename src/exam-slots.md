@@ -216,7 +216,7 @@ C1. Check it yourself at
 Asia, then Nepal. Nobody is inventing a fake exam here.
 
 **The German Embassy in Kathmandu does not name ECL.** Its visa page, read again
-on 11 September 2026, still says only Goethe-Zentrum Kathmandu, VHS in Bhaktapur
+on 23 September 2026, still says only Goethe-Zentrum Kathmandu, VHS in Bhaktapur
 and Pokhara, or telc. ECL is not in that sentence.
 
 **And the Federal Foreign Office in Berlin does name it.** Its own published
@@ -227,9 +227,18 @@ TestDaF and DSD, because the test for a general visa file is membership of the
 So the general rule in Berlin and the specific list in Kathmandu do not agree,
 and **the list your application lands on is the Kathmandu one.**
 
-**We have asked the embassy and we have no answer yet.** Until we do, this page
-will not tell you ECL counts and it will not tell you it does not. It is
-unproven, and unproven is not the same as fine.
+**We have asked the embassy twice — 11 and 23 September 2026 — and we have no
+answer yet.** Until we do, this page will not tell you ECL counts and it will not
+tell you it does not. It is unproven, and unproven is not the same as fine.
+
+**If somebody shows you an email saying the embassy has confirmed it.** Copies of
+correspondence do get passed around, and one may reach you. Before you spend
+anything on the strength of it: an email addressed to somebody else is not
+something you can hand over at the visa counter, you cannot check whether it is
+genuine or whether anything came after it, and the officer who takes your file
+works from the published list. Until ECL is in that sentence on the embassy's own
+page, or you are holding a written answer with **your own name on it**, treat it
+as unproven — however convincing the copy looks.
 
 **If you are tempted to register, do this first.** Write to the embassy at
 info@kathmandu.diplo.de and ask one question: *does an ECL certificate at B1,
@@ -394,7 +403,7 @@ done before you start the visa process, not alongside it.
 - Whether the centre's capacity is increasing
 - Whether an **ECL** certificate is accepted for the Ausbildung visa at
   Kathmandu, given that Berlin lists ECL and the embassy's own page does not.
-  We have asked and are waiting
+  We have asked twice, on 11 and 23 September 2026, and are waiting
 - Whether any further provider is likely to be added to the embassy's list
 
 If you find any of this out, it is worth telling other people. This page exists
@@ -453,7 +462,7 @@ because one person was willing to say what actually happened to her.
   generally, on the ALTE-standard test, checked 11 September 2026:
   [Federal Foreign Office, accepted language certificates](https://www.auswaertiges-amt.de/de/service/fragenkatalog-node/2238204-2238204)
 - The embassy's list still naming only three institutions and not ECL, re-read
-  11 September 2026:
+  23 September 2026:
   [German Embassy Kathmandu, national visas](https://kathmandu.diplo.de/np-de/service/05-visaeinreise/1617934-1617934)
 - ECL sittings being advertised in Kathmandu: a public Facebook advertisement,
   September 2026

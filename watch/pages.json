@@ -1,0 +1,32 @@
+{
+  "comment": [
+    "Pages whose WORDING this site depends on, watched for change.",
+    "",
+    "The link checker only proves a URL still resolves. That is not enough: the",
+    "damage this project has already done to itself came from a page that stayed",
+    "at the same address and changed what it said. A reader can be sent to an",
+    "exam that is not accepted, or kept away from one that is, by a single",
+    "sentence moving.",
+    "",
+    "Each entry lists words that must still be PRESENT and words that must still",
+    "be ABSENT. When one flips, the workflow opens an issue naming the page.",
+    "A failed fetch is only ever a warning: a checker that cries wolf is one",
+    "nobody reads."
+  ],
+  "pages": [
+    {
+      "id": "embassy-language-certificates",
+      "why": "The list of accepted language providers. The site tells readers ECL is unproven BECAUSE it is missing from this sentence. If ECL appears here, that page can finally say yes and cite the embassy itself.",
+      "url": "https://kathmandu.diplo.de/np-de/service/05-visaeinreise/1617934-1617934",
+      "present": [
+        "Goethe Zentrum Kathmandu",
+        "VHS",
+        "Telc",
+        "Nur Sprachzertifikate der folgenden Institutionen"
+      ],
+      "absent": ["ECL"],
+      "affects": ["src/exam-slots.md", "src/visa.md"],
+      "checked": "2026-09-23"
+    }
+  ]
+}

@@ -2393,3 +2393,46 @@ that came from readers.
 **Consent is withdrawable.** Anyone who ticked the box may write and have the
 material removed, for no reason, at any time. The privacy page says so and
 carries the Art. 7 (3) GDPR position.
+
+---
+
+## ECL chased a second time, and the embassy's page re-read — 2026-09-23
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| The German Embassy Kathmandu visa page **still names only three** institutions and does not mention ECL: *"Nur Sprachzertifikate der folgenden Institutionen können derzeit anerkannt werden: Goethe Zentrum Kathmandu, VHS (Bhaktapur & Pokhara) oder Telc."* | German Embassy Kathmandu, national visa page, re-fetched at the URL a reader lands on | **VERIFIED — primary, unchanged since 11 Sep** | 2026-09-23 |
+| The embassy's **English-language** visa pages do not mention ECL either | same site, English pages, read live | **VERIFIED — primary** | 2026-09-23 |
+| **Whether an ECL certificate is accepted for the § 16a Ausbildung visa at Kathmandu** | asked 11 September 2026, chased 23 September 2026 | **OPEN — still open. The page says unproven and must not say either yes or no** | 2026-09-23 |
+
+**Why it was chased.** An unverified second-hand report reached this project
+that the embassy has confirmed ECL recognition in correspondence with somebody
+else. It is not cited here and it is not on the site, for four reasons: it was
+not addressed to us, it is part of a thread we cannot read, it cannot be
+authenticated, and describing how it reached us would identify a person. It is
+a reason to ask again. It is not evidence.
+
+**The page's own wording was checked against it, not changed by it.** The claim
+on the site is that the embassy's published list does not include ECL. That was
+re-read on 23 September and is still true, so the claim stands as written and
+only its date moved.
+
+**What was added to the page instead.** A paragraph telling readers what to do
+if somebody shows them a copy of an email saying the embassy has confirmed it:
+that an email addressed to another person cannot be handed over at a visa
+counter, that its genuineness and completeness cannot be checked, and that the
+officer taking the file works from the published list. Copies of correspondence
+do circulate in Kathmandu, and a reader is far more likely to meet one than to
+read this file.
+
+**The general-versus-specific trap, for the fourth time.** The Auswärtiges Amt
+lists ECL generally. A report that a post "recognises" it is still not the same
+as ECL appearing in the sentence a visa officer reads. This project has been
+wrong on exactly this pattern with telc, with ÖSD and with ECL already. The rule
+holds: the published Kathmandu list is the one an application meets.
+
+**Machine watch added.** `watch/pages.json` and `.github/workflows/page-watch.yml`
+now read the embassy's language-certificate sentence **daily** and open an issue
+the day ECL appears in it, or any of the three named providers disappears. The
+link checker only proved the URL resolved; both of this project's published
+errors came from a page that kept its address and changed its words. The day ECL
+is on that list, the exam page can say so and cite the embassy itself.

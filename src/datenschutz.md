@@ -3,9 +3,10 @@ layout: base.njk
 title: Privacy — Datenschutzerklärung
 permalink: /datenschutz/
 noindex: true   # Names the data controller — same name and address as the imprint. Public and linked, but kept out of search results.
+noinvite: true  # No "tell us your story" box on the page that explains what happens to it.
 standfirst: This site sets no cookies, runs no analytics and tracks nobody. That is a deliberate design decision, not an oversight, and it makes this page short.
 description: Privacy policy for the site — what little data is processed, by whom, on what legal basis, and what rights you have under the GDPR.
-reviewed: August 2026
+reviewed: September 2026
 ---
 
 ## The short version
@@ -60,11 +61,39 @@ message, and we keep it for as long as needed to answer you.
 
 **Legal basis:** Art. 6 (1) (b) and (f) GDPR.
 
-We will never publish what you tell us, name you, or pass your message to an
-employer, an agency, an institute or an authority without asking you first and
-getting a clear yes. If you tell us about something that happened to you and we
-think it should be written about, **we will ask you before a word of it goes on
-the site**, and no for any reason at all is a complete answer.
+We never pass your message to an employer, an agency, an institute or an
+authority. That is true whatever else you do, and there is no box that changes
+it.
+
+### The publishing tick
+
+The contact form carries one optional tick box: *you may publish this*.
+
+**If you leave it unticked**, we do not publish your message, quote from it, or
+refer to it on the site. It is used only to check and correct our own pages.
+
+**If you tick it**, you are giving consent under **Art. 6 (1) (a) GDPR** for us
+to use what you wrote on this site. When we do:
+
+- we do not publish your name, your email address, or anything else that could
+  identify you or the place you live;
+- we may publish only part of what you wrote, or only a figure taken from it,
+  such as a sum you were quoted or how long you waited;
+- we may combine it with what other people have told us and publish a count
+  rather than any individual account;
+- we decide what is worth publishing, so ticking the box does not mean anything
+  you wrote will appear.
+
+Ticking is entirely voluntary. Nothing is withheld from you if you do not — you
+get the same answer to the same question either way.
+
+**Withdrawing.** You may withdraw this consent at any time and for no reason, by
+writing to the address above, and we will remove the material. Withdrawal does
+not affect the lawfulness of what was published before you withdrew
+(**Art. 7 (3) GDPR**).
+
+**Please do not send us other people's details.** If your account names someone
+else — an agent, an official, a classmate — we will not publish that name.
 
 ## Your rights
 

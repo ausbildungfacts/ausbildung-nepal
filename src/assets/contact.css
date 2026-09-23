@@ -56,3 +56,38 @@
   margin: .8rem 0 0;
 }
 .cf-out.warnish { color: var(--warn); font-weight: 600; }
+/* The publishing tick. The box has to sit beside the words rather than above
+   them, and the whole label is the tap target — this is read on phones. The
+   width override is needed because .cf input above stretches text fields to
+   the full width of the form. */
+.cf .cf-check label {
+  display: flex;
+  align-items: flex-start;
+  gap: .65rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+.cf .cf-check input {
+  width: 1.2rem;
+  height: 1.2rem;
+  flex: none;
+  margin: .3rem 0 0;
+  padding: 0;
+  accent-color: var(--accent);
+}
+.cf .cf-check strong { display: block; font-weight: 600; }
+.cf .cf-check .hint { margin-top: .15rem; }
+/* Shown only when a message is too long for a mailto: link, so it can be
+   copied by hand without losing the publishing permission at the bottom. */
+.cf-copy {
+  font: inherit;
+  font-size: 1rem;
+  width: 100%;
+  margin-top: .7rem;
+  padding: .6rem .65rem;
+  border: 1px solid var(--warn);
+  border-radius: 3px;
+  background: var(--bg);
+  color: var(--ink);
+  resize: vertical;
+}

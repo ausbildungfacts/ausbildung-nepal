@@ -298,6 +298,23 @@
   .scroll { overflow-x: auto; margin: 1.4rem 0; }
   th, td { text-align: left; padding: .5rem .7rem; border-bottom: 1px solid var(--line); }
   th { font-family: system-ui, sans-serif; font-size: .875rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-soft); }
+  /* Reader reports. Deliberately the weakest grade on the page: it is what
+     people who wrote to us said happened to them, counted and dated — never one
+     story dressed up as a fact. A statute always outranks it. */
+  .badge.reports { background: var(--warn-soft); color: var(--warn); border: 1px dashed var(--warn); }
+  /* The end-of-page invitation. It sits on every page a reader can land on,
+     because the reader who has just been quoted 12 lakh is reading the fees
+     page, not hunting for a contact link. */
+  .invite {
+    margin: 3rem 0 0;
+    padding: 1.1rem 1.2rem;
+    background: var(--accent-soft);
+    border: 1px solid var(--accent);
+    border-radius: 4px;
+  }
+  .invite h2 { margin: 0 0 .5rem; font-size: 1.1rem; }
+  .invite p { margin: 0 0 .9rem; font-size: 1rem; }
+  .invite a.action { display: inline-block; }
   footer.site {
     margin-top: 3.5rem;
     padding-top: 1.2rem;
@@ -333,6 +350,18 @@
   {{ content | safe }}
 </main>
 
+{%- if not noinvite %}
+<aside class="invite">
+  <h2>Are you going through this yourself?</h2>
+  <p>Tell us what happened to you — what you were asked to pay, how long you
+  waited, what an institute promised and what it actually did. Real figures from
+  real people are how this site grows.</p>
+  <p>Nothing you write is published unless you tick the box that says we may,
+  and we never publish your name or anything that identifies you.</p>
+  <a class="action" href="/contact/"><b>Tell us what happened</b><span>The form writes the email for you — you press send</span></a>
+</aside>
+{%- endif %}
+
 <footer class="site">
   <p><strong>This is information, not advice.</strong> Nothing on this site is
   legal, immigration or financial advice, and reading it creates no advisory
@@ -344,8 +373,9 @@
   <p><strong>Found something wrong? Please tell us.</strong> Every factual claim here is
   sourced and dated, but rules change and we make mistakes. If something here is out of
   date, or an official told you differently, write to
-  <a href="mailto:info@ausbildungfacts.org">info@ausbildungfacts.org</a> and we will
-  check it and correct the page. You do not need to prove anything or be polite about it.</p>
+  <a href="mailto:info@ausbildungfacts.org">info@ausbildungfacts.org</a> or use the
+  <a href="/contact/">contact form</a>, and we will check it and correct the page. You do
+  not need to prove anything or be polite about it.</p>
   <p>Last reviewed: {{ reviewed or "August 2026" }} &middot;
      <a href="/impressum/">Imprint &amp; liability</a> &middot;
      <a href="/datenschutz/">Privacy</a></p>

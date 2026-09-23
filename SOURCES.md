@@ -13,6 +13,13 @@ claim findable instead of invisible.
 - **VERIFIED** — read on the primary source named
 - **SECONDARY** — from a reliable report, not the primary source itself
 - **OPEN** — asked, awaiting an answer. Must not be stated as settled on the site.
+- **READER REPORTS** — what people who wrote to us said happened to them, with
+  their permission to publish it. The weakest grade here, and deliberately so:
+  it is evidence of what people are being told and charged, never evidence of
+  what the rules are. A statute, an authority or a primary document outranks it
+  every time, and where it contradicts one, the page says so. It goes on the
+  site only as a count over a stated period, never as one person's story
+  presented as fact.
 
 ---
 
@@ -2339,3 +2346,50 @@ government scheme exists in force, or that an Au Pair qualifies for labour
 approval. All three are marked. A reader who acts on an unchecked 2023 interest
 rate and a permit they turn out not to qualify for has been failed by this page,
 so each carries its own instruction to go and ask.
+
+---
+
+## Reader reports become a source — 2026-09-23
+
+**What changed.** The contact form now carries one optional tick box: *you may
+publish this*. Unticked — the default — a message is private and is used only to
+check and correct our own pages. Ticked, it may be published, without the
+sender's name, email address, or anything that identifies them.
+
+An invitation to write in now appears at the foot of every content page rather
+than only on the contact page. The imprint, the privacy page and the contact
+page itself are excluded.
+
+**Why a new status grade rather than SECONDARY.** SECONDARY means a reliable
+report of a primary source — an IHK explaining a statute. What a reader tells us
+is a different kind of thing: it is testimony about what happened to one person,
+and it cannot be checked against anything. Filing it as SECONDARY would put an
+anecdote on the same footing as a chamber's published guidance, which is exactly
+the confusion this file exists to prevent.
+
+**The rule for putting reader reports on the site.** They go up as counts over a
+stated period, never as one story presented as a fact:
+
+> Reader reports: 14 quotes received between September 2026 and February 2027,
+> range NPR 7–16 lakh, median 11.
+
+That is defensible, it is honest about what it is, and nobody can be identified
+from it or retaliated against for it. Individual accounts published in their own
+words are a separate decision and are not authorised by the tick alone.
+
+**What is never published, tick or no tick.** The name of the sender. The name
+of any institute, agent, official or private person the sender names — a tick
+gives consent about the sender's own words, not about a third party who has had
+no say and no chance to answer. This site gives readers questions to ask, not
+accusations to repeat, and that does not change because the accusation now
+arrives by email.
+
+**What still has to happen before the first reader report goes on a page.** The
+count needs a line in this file like any other claim, carrying the period it
+covers, the number of reports behind it, and the READER REPORTS grade. A figure
+with no line does not go on the site, and that rule has no exception for figures
+that came from readers.
+
+**Consent is withdrawable.** Anyone who ticked the box may write and have the
+material removed, for no reason, at any time. The privacy page says so and
+carries the Art. 7 (3) GDPR position.

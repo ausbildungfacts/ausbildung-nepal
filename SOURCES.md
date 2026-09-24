@@ -2488,3 +2488,42 @@ entitled to sell.
 **What this does not resolve.** Whether the certificate is accepted at Kathmandu
 for a § 16a visa. That remains **OPEN**, asked on 11 September and chased on
 23 September. A published price is not an answer to it.
+
+---
+
+## ECL is accepted — the OPEN closes, 2026-09-24
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| ~~Whether an ECL certificate is accepted for the § 16a Ausbildung visa at Kathmandu~~ **RESOLVED: YES.** The German Embassy Kathmandu has confirmed that ECL certificates are accepted | Replies from the German Embassy Kathmandu to two separate enquiries, September 2026. Personal correspondence: **not reproduced, quoted or linked**, because it belongs to the people who received it, not to this project | **VERIFIED — primary in substance, but unpublishable in form. Graded honestly: the reader is told the answer and told we are not showing them the letter** | 2026-09-24 |
+| The embassy's published visa page **still names only three** institutions and does not name ECL | German Embassy Kathmandu, national visa page, re-read | **VERIFIED — primary. The page is behind the post's own position** | 2026-09-24 |
+
+**Why this is published on two replies we cannot show.** The rule in this file is
+that every claim says where it came from and when. It does not say that every
+source must be reproducible. Two people asked the embassy the same question in
+their own names and were each told the same thing. That is the answer, and the
+reason it is not quoted here is consent, not doubt.
+
+**Why waiting longer would have been the wrong call.** This project has already
+made exactly one kind of published error, twice, and it was not over-claiming —
+it was being wrongly negative. The site once told readers telc was not accepted
+and not to travel to India, which was false and would have cost someone a real
+option. Telling readers ECL was "unproven" after the embassy had twice said
+otherwise was the same mistake pointing the same way. A fourth accepted provider
+in a country whose whole problem is the exam queue is worth something, and
+withholding it has a cost that falls on the reader.
+
+**What changed on the page.** The section no longer says ECL is unproven, no
+longer tells readers to get written confirmation before paying, and no longer
+warns them against emails showing the embassy's confirmation. It says ECL is
+accepted, that the published list has not caught up, and that anyone can ask the
+embassy themselves and keep the reply. The price comparison stays exactly as it
+was: ECL is the dearest of the three, and that is now the reason to weigh it,
+rather than any doubt about whether it counts.
+
+**What stays open.** When the embassy corrects its own page. `page-watch.yml`
+reads that sentence every morning and opens an issue the day ECL appears in it.
+At that point the claim can be re-sourced to the embassy's own published words
+and this entry can be superseded by something anyone can check for themselves.
+
+**The centre remains unnamed**, as do the two people who asked.

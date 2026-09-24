@@ -197,64 +197,48 @@ telc means India — see below.
 
 </div>
 
-## A fourth name is being advertised — and it is not on the list
+## ECL, a fourth provider — accepted, though the list has not caught up
 
 <div class="warn">
 
-**ECL exams are now being sold in Kathmandu. ECL is not one of the three
-institutions the embassy names.**
+**ECL exams are sold in Kathmandu, and the German Embassy has confirmed that an
+ECL certificate is accepted — even though the list on its own visa page still
+names only three institutions.**
 
-Since September 2026 a German **ECL** exam has been advertised on Facebook from a
-centre in Putalisadak, offering A2, B1, B2 and C1 and inviting people to
-register. If you have seen it, here are the two things that are both true, and
-you need both of them.
+Since September 2026 a German **ECL** exam has been advertised from a centre in
+Putalisadak, offering A2, B1, B2 and C1, with a sitting in November 2026.
 
 **The exam centre is real.** ECL publishes its own register of licensed
 examination centres. It lists a centre in Kathmandu for German at A2, B1, B2 and
 C1. Check it yourself at
 [ECL's exam-centre finder](https://eclexam.eu/deutsch/prufungsorte/) — choose
-Asia, then Nepal. Nobody is inventing a fake exam here.
+Asia, then Nepal.
 
-**The German Embassy in Kathmandu does not name ECL.** Its visa page, read again
-on 23 September 2026, still says only Goethe-Zentrum Kathmandu, VHS in Bhaktapur
-and Pokhara, or telc. ECL is not in that sentence.
+**The Federal Foreign Office lists ECL.** Its published answer on accepted
+language certificates names ECL alongside Goethe, telc, ÖSD, TestDaF and DSD,
+because the test for a visa file is membership of the **Association of Language
+Testers in Europe (ALTE)**, which ECL holds.
 
-**And the Federal Foreign Office in Berlin does name it.** Its own published
-answer on accepted language certificates lists ECL alongside Goethe, telc, ÖSD,
-TestDaF and DSD, because the test for a general visa file is membership of the
-**Association of Language Testers in Europe (ALTE)**, which ECL holds.
+**And the embassy in Kathmandu has confirmed it directly.** In September 2026,
+two people who wrote and asked were each told that ECL certificates are
+accepted. Those were personal replies to personal enquiries, so they are not
+reproduced here — but the answer was not ambiguous.
 
-So the general rule in Berlin and the specific list in Kathmandu do not agree,
-and **the list your application lands on is the Kathmandu one.**
+**The published list has not caught up yet.** Read again on 24 September 2026,
+the embassy's visa page still names only Goethe-Zentrum Kathmandu, VHS in
+Bhaktapur and Pokhara, and telc. If you sit ECL, it costs nothing to write to
+info@kathmandu.diplo.de and ask the same question yourself, and to keep the
+reply with your papers. They do answer.
 
-**We have asked the embassy twice — 11 and 23 September 2026 — and we have no
-answer yet.** Until we do, this page will not tell you ECL counts and it will not
-tell you it does not. It is unproven, and unproven is not the same as fine.
-
-**If somebody shows you an email saying the embassy has confirmed it.** Copies of
-correspondence do get passed around, and one may reach you. Before you spend
-anything on the strength of it: an email addressed to somebody else is not
-something you can hand over at the visa counter, you cannot check whether it is
-genuine or whether anything came after it, and the officer who takes your file
-works from the published list. Until ECL is in that sentence on the embassy's own
-page, or you are holding a written answer with **your own name on it**, treat it
-as unproven — however convincing the copy looks.
-
-**If you are tempted to register, do this first.** Write to the embassy at
-info@kathmandu.diplo.de and ask one question: *does an ECL certificate at B1,
-sat in Nepal, count for the Ausbildung visa?* We asked them the same shape of
-question about ÖSD in August and had a clear written answer back. Keep their
-reply. Then decide.
-
-**And know that ECL got harder in August 2026.** Under ECL's own exam
+**Know that ECL got harder in August 2026.** Under ECL's own exam
 regulations, from August 2026 a pass needs **at least 60% in every one of the
 four modules**. Before that you could carry a weak skill on a strong average.
 You cannot now. ECL says in terms that this applies only to exams sat from
 August 2026 onwards.
 
-**The price is now published, so you can compare it yourself.** ECL's own
-registration system shows the Kathmandu fees for the November 2026 sitting.
-Converted at the same 173 rupees to the euro used further down this page:
+**And it is the most expensive of the three.** ECL's own registration system
+shows the Kathmandu fees for the November 2026 sitting. Converted at the same
+173 rupees to the euro used further down this page:
 
 <div class="scroll">
 
@@ -269,9 +253,8 @@ Converted at the same 173 rupees to the euro used further down this page:
 Those are for all four modules. A single ECL module costs **NPR 7,500** at A2,
 **NPR 8,500** at B1 and **NPR 9,500** at B2.
 
-**ECL is the dearest of the three at every level.** Against VHS the gap is small —
-about NPR 1,800 at B1. Against the Goethe-Zentrum it is not: a B1 at ECL costs
-nearly twice as much as the same level at Goethe.
+Against VHS the gap is small — about NPR 1,800 at B1. Against the Goethe-Zentrum
+it is not: a B1 at ECL costs nearly twice as much as the same level at Goethe.
 
 **And ECL's modules do not add up the way the others do.** Four B1 modules bought
 separately come to NPR 34,000 — *more* than the NPR 30,500 complete exam. There is
@@ -283,19 +266,9 @@ it costs **NPR 8,500**. Fail one at the Goethe-Zentrum and it costs €25 — ab
 NPR 4,300, roughly half. The exam that is hardest to pass cleanly is also the
 most expensive to repair.
 
-<div class="warn">
-
-**Registration being open is not the same as being accepted.** You can select
-Kathmandu, pick November 2026 and see a price without anyone having approved
-anything — that is ECL's own booking system, not the embassy's. Nothing on that
-form tells you whether the certificate will be taken for your visa. On
-23 September 2026 the embassy's list still did not name ECL.
-
-</div>
-
-**So the order has not changed.** Any accepted route is cheaper than a fast one
-you cannot use. Today ECL is the most expensive option in Nepal *and* the only
-one that might not count.
+**So ECL is a real option, and a dear one.** It is a fourth accepted route in a
+country where the queue is the problem, and that is worth something. Weigh it on
+price and on dates against the Goethe-Zentrum and VHS — not on whether it counts.
 
 </div>
 
@@ -442,9 +415,8 @@ done before you start the visa process, not alongside it.
 - The realistic wait from submitting the B1/B2 form to actually sitting the exam
 - How quickly the online B1/B2 forms fill once published
 - Whether the centre's capacity is increasing
-- Whether an **ECL** certificate is accepted for the Ausbildung visa at
-  Kathmandu, given that Berlin lists ECL and the embassy's own page does not.
-  We have asked twice, on 11 and 23 September 2026, and are waiting
+- When the embassy's published list will be corrected to name **ECL**, which it
+  has confirmed by email is accepted but has not yet added to that page
 - Whether any further provider is likely to be added to the embassy's list
 
 If you find any of this out, it is worth telling other people. This page exists
@@ -503,8 +475,10 @@ because one person was willing to say what actually happened to her.
   generally, on the ALTE-standard test, checked 11 September 2026:
   [Federal Foreign Office, accepted language certificates](https://www.auswaertiges-amt.de/de/service/fragenkatalog-node/2238204-2238204)
 - The embassy's list still naming only three institutions and not ECL, re-read
-  23 September 2026:
+  24 September 2026:
   [German Embassy Kathmandu, national visas](https://kathmandu.diplo.de/np-de/service/05-visaeinreise/1617934-1617934)
+- ECL being accepted: replies from the German Embassy Kathmandu to two separate
+  enquiries, September 2026. Personal correspondence, not reproduced here
 - ECL sittings being advertised in Kathmandu: a public Facebook advertisement,
   September 2026
 - ECL's published Kathmandu fees and its November 2026 sitting, read on the

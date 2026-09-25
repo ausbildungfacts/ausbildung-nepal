@@ -268,9 +268,61 @@ most expensive to repair.
 
 **So ECL is a real option, and a dear one.** It is a fourth accepted route in a
 country where the queue is the problem, and that is worth something. Weigh it on
-price and on dates against the Goethe-Zentrum and VHS — not on whether it counts.
+price and on dates against the Goethe-Zentrum and VHS — and on the section that
+follows, which is about the other person who has to accept your certificate.
 
 </div>
+
+## Accepted for a visa is not the same as wanted by an employer
+
+**Two different people have to be satisfied by your certificate, and they do not
+work from the same list.**
+
+The embassy decides whether you get a visa. Before that, a German employer has to
+decide whether to offer you the contract. **Nothing in German law tells a private
+employer which exam board to trust.** They may ask for whichever one they like,
+and they are allowed to say no to one they have not heard of.
+
+**In practice they ask for three names.** Two German employers, read on
+25 September 2026:
+
+<div class="scroll">
+
+| Who | Level asked for | Exam providers named |
+| --- | --- | --- |
+| [medbo Pflegeschulen](https://www.medbo.de/bildungswelt/medbo-pflegeschulen/ausbildung/international), for international applicants | *"mindestens ein B2-Zertifikat, besser C1"* | Goethe-Institut, telc, ÖSD |
+| [Helios](https://www.helios-gesundheit.de/karriere/einstiege/karrierewege/internationale-bewerbungen/deutsche-sprachkenntnisse/), one of Germany's largest hospital groups | B2 | Goethe, telc, ÖSD |
+
+</div>
+
+**Neither of them names ECL.** That is two employers, not a survey, and it does
+not mean every employer refuses ECL. It means the three names people keep
+repeating to you are the three that actually appear in writing, and ECL is not
+yet one of them. ECL's own
+[recognition page](https://eclexam.eu/deutsch/anerkennung-des-ecl-sprachzertifikats/)
+agrees on the principle — it says acceptance depends on the institution, and tells
+candidates to check with that institution before they pay.
+
+Note also that both of those are **care** employers, and care commonly asks for
+B2 where the visa needs B1. A certificate that satisfies the embassy is not
+automatically enough for a Pflegeausbildung.
+
+**So ask, in one line, before you commit to anything.** Send it to the employer,
+not to an agent:
+
+> *"Akzeptieren Sie ein ECL-Zertifikat auf Niveau B1 als Nachweis meiner
+> Deutschkenntnisse?"*
+
+It costs nothing, and it gives you an answer in writing that you can keep with
+your papers. If somebody tells you there is no need to ask, ask why.
+
+**And one exam in Nepal settles both questions at once: ÖSD.** VHS Bhaktapur and
+VHS Pokhara are licensed ÖSD examination centres. **VHS is named on the embassy's
+own list**, the embassy has separately confirmed that an official ÖSD certificate
+counts, and **ÖSD is named by both employers above**. It is also cheaper than ECL
+at every level. If you have any choice of dates at all, that is the combination
+to aim for — the VHS section further up this page has the details, including an
+ÖSD B2 sitting on 4 November 2026.
 
 ## What the exam actually costs
 

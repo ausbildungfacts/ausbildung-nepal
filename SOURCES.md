@@ -2527,3 +2527,49 @@ At that point the claim can be re-sourced to the embassy's own published words
 and this entry can be superseded by something anyone can check for themselves.
 
 **The centre remains unnamed**, as do the two people who asked.
+
+---
+
+## Which exam boards German employers actually name — 2026-09-25
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| Nothing in German law obliges a private employer to accept a particular exam board's certificate; the requirement in a job advertisement is the employer's own | no statute found imposing one, against two employers publishing their own differing requirements | **INFERRED — stated on the site as "nothing in German law tells a private employer which exam board to trust". Weaker than a cited rule: it is an absence, not a text** | 2026-09-25 |
+| The **medbo Pflegeschulen** require international applicants to hold *"mindestens ein B2-Zertifikat, besser C1"*, that *"das Zertifikat muss spätestens zu Ausbildungsbeginn vorliegen"*, and name **Goethe-Institut, telc and ÖSD** as where to obtain it | medbo, page for international applicants to its nursing Ausbildung, read live | **VERIFIED — primary (the employer's own published requirement)** | 2026-09-25 |
+| **Helios**, one of Germany's largest hospital groups, requires B2 and names *"Goethe-Zertifikat B2 oder Goethe Test Pro Pflege"*, *"Telc Deutsch B2 oder Telc Deutsch B1/B2 Pflege"* and *"ÖSD Zertifkat B2"* | Helios careers site, German language requirements for international applicants, read live | **VERIFIED — primary (the employer's own published requirement)** | 2026-09-25 |
+| Neither of those two employers names **ECL** | same two pages | **VERIFIED — primary, as an absence from those two pages only. The site states it as two employers and says in terms that it is "two employers, not a survey"** | 2026-09-25 |
+| ECL's own recognition page states that recognition varies by institution — *"Aufgrund der Vielzahl und Vielfalt der Institutionen ist folgende Liste nicht vollständig"* — and recommends *"sich vorab bei der jeweiligen Einrichtung über die geltenden Anforderungen zu informieren"* | eclexam.eu, Anerkennung des ECL-Sprachzertifikats, read live | **VERIFIED — primary (the exam board's own page, against its own interest)** | 2026-09-25 |
+| Care employers commonly ask **B2** where the Ausbildung visa needs **B1** | the two employers above, both asking B2; consistent with the Ulm figure already in this file | **VERIFIED for these employers. Stated on the site as "care commonly asks for B2", not as a rule for all trades** | 2026-09-25 |
+| **Whether employers outside care name the same three boards, and whether any German employer names ECL** | not researched | **OPEN — not claimed on the site in either direction** | — |
+
+**Why this was added.** The file recorded, correctly, that the embassy accepts
+ECL, and the OPEN closed on 24 September. A reader could take that to mean the
+question of which certificate to buy was settled. It is not. **Two people have to
+be satisfied and they work from different lists:** the embassy issues the visa,
+and before that an employer has to offer the contract. The site answered the
+first gate and said nothing about the second.
+
+**The consequence it avoids.** ECL in Kathmandu is the dearest of the four
+routes — NPR 30,500 at B1 against about NPR 16,500 at the Goethe-Zentrum — and
+since August 2026 the hardest to pass, needing 60% in every module. A reader who
+read "ECL is accepted" and bought it could reach the application stage holding
+the one certificate the employers we have read do not name.
+
+**Why this is not a retreat on ECL.** It is not. The visa claim stands exactly as
+written on 24 September, and the mistake this project has made twice is being
+wrongly negative. ECL counts for the visa. The new section does not doubt that;
+it adds the second question, tells the reader to ask the employer in one line, and
+names the route that satisfies both: **ÖSD through VHS Bhaktapur or Pokhara** —
+VHS is on the embassy's own list, the embassy has separately confirmed an official
+ÖSD certificate counts, ÖSD is named by both employers read today, and it is
+cheaper than ECL at every level.
+
+**Grading the weak row honestly.** The first row is an inference from an absence,
+which is the exact shape of error this file warns about twice — inferring a
+specific acceptance from a general one, and searching a list for a paragraph
+number that is not in it. It is kept because the practical advice does not depend
+on it: whether or not a statute exists, the employers' published pages name three
+boards, and the instruction to the reader is to ask rather than to assume.
+
+**No employer named here was contacted**, and nothing in this entry came from any
+individual in Nepal.

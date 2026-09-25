@@ -112,6 +112,11 @@ Three honest limits on that:
 None of this is likely to be the thing standing between you and a place. **B1
 German and an exam date are** — and that is a queue, not a certificate.
 
+One thing about the certificate does matter to an employer, though: **which board
+issued it.** The embassy and the employer work from different lists, and the
+employers we have read name Goethe, telc and ÖSD. [Which providers employers
+actually name](/exam-slots/).
+
 ### But some trades are much easier to get into than others
 
 Both halves of this are true and you need both. **The law lets you apply for

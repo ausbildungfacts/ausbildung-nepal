@@ -1666,6 +1666,13 @@ visa counter. Both gates were checked separately.
 
 ## NSST rewritten, and then verified properly, 2026-08-23
 
+> **Partly superseded 2026-10-09** — see *NSST answered, and four things on the
+> page were wrong* at the end of this file. The rows below were correctly read
+> from 2023 material and are kept as the record of what that material said.
+> **NSST's own letter of 9 October 2026 overrides them** on the €3,000 figure,
+> the Goethe-Zentrum relationship, the mentoring, the participant numbers and
+> the entry qualification.
+
 Alan asked for NSST to be described rather than merely flagged: *"they sponsor
 young people. they pay for their german classes and exams and explain the whole
 ausbildings system and encourage the young people to think about their passions
@@ -2573,3 +2580,70 @@ boards, and the instruction to the reader is to ask rather than to assume.
 
 **No employer named here was contacted**, and nothing in this entry came from any
 individual in Nepal.
+
+---
+
+## NSST answered, and four things on the page were wrong — 2026-10-09
+
+NSST replied by email on 9 October 2026 to the three questions sent on 23 August
+(draft 21). They also corrected four things the page had stated from 2023
+material. **This letter is the organisation speaking about itself in writing,
+which is the strongest source available for what an organisation charges and
+offers, and the weakest possible source for whether it delivers.** Everything
+below is graded on that basis.
+
+### What they answered
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| Every part of NSST's own programme — training, language support, mentoring — is *"free for candidates at every stage"*, including throughout the Ausbildung in Germany until it ends; no fee is charged to a participant or their family | NSST, by email, verbatim | **VERIFIED — primary (the organisation's own written statement). Closes the OPEN of 2026-08-23** | 2026-10-09 |
+| The apprenticeship company's contribution funds preparation and additional language support in Nepal, travel to Germany, and mentoring for the duration of the Ausbildung | same | **VERIFIED — primary** | 2026-10-09 |
+| Courses taken **outside** the programme (extra language, IT, short vocational) and living costs are the candidate's own decision and cost; NSST run a scholarship fund for such courses and review it yearly | same | **VERIFIED — primary. On the page as the limit of the free-of-charge claim, because it is the part a reader could otherwise discover too late** | 2026-10-09 |
+| A block training system exists for candidates living outside Kathmandu, so they need not move to the city | same | **VERIFIED — primary** | 2026-10-09 |
+| NSST publish **no fixed figure** for the employer contribution, deliberately; the amount moves with the programme | same | **VERIFIED — primary. The €3,000 claim is removed from the site; see below** | 2026-10-09 |
+| Intakes run roughly **every three to four months**, depending on capacity, announced on their social media channels | same | **VERIFIED — primary** | 2026-10-09 |
+| Their own website is **under renewal and not online or up to date**; social media is the accurate source for now | same | **VERIFIED — primary. This explains the connection failures recorded here on 23 August, which the page had reported as unexplained** | 2026-10-09 |
+| A completed **Klasse 10 (SEE)** is enough to apply; **+2 or higher secondary is not required** | same | **VERIFIED — primary** | 2026-10-09 |
+| For the visa, candidates need a recognised certificate from the **Goethe-Zentrum, telc or VHS** | same | **VERIFIED — primary, and independent corroboration of the embassy's own list already on the visa page** | 2026-10-09 |
+| In line with the UN Sustainable Development Goals they have a particular focus on women and on young people from disadvantaged backgrounds | same | **VERIFIED — primary** | 2026-10-09 |
+
+### The four corrections
+
+| What the page said | What NSST say | Status | Checked |
+| --- | --- | --- | --- |
+| NSST *"runs its language teaching and exams in cooperation with the Goethe-Zentrum Kathmandu"* | They are a **partner** of the GZK and **coordinate** with it. They recommend it for its teaching quality, but *"at the end every candidate decides for themselves where and how they learn German"* — a recommendation, not a requirement | **CORRECTED on the page 2026-10-09.** The 2023 sheet's wording (*"für die Sprachausbildung und Prüfungsabnahme"*) was read as stronger than NSST intend it | 2026-10-09 |
+| Each trainee gets **two mentors** — a cultural mentor from NSST and a specialist mentor from **VerA** | They **aim** to pair each apprentice with two mentors in Germany; how many a candidate actually has **varies by region**. Separately, every candidate has one named contact in the NSST team throughout | **CORRECTED. VerA is no longer named on the page** — NSST did not repeat it and we have not re-checked whether that arrangement still runs | 2026-10-09 |
+| ~10 started in autumn 2022; ~130 in the programme for 2023/24; targets of 250 in 2024 and 500 in 2025 | **Well over 1,500** young people have been through their trainings across **all** tracks, including those who stay in Nepal; **several hundred** have gone on to an Ausbildung in Germany | **SELF-REPORTED — primary as a statement, unverified as a count.** On the page as their own figures, explicitly not independently checked, and with the "all tracks" caveat stated so 1,500 is not read as 1,500 people sent to Germany | 2026-10-09 |
+| Candidates have *"finished at least Class 10 and mostly Class 12"* | SEE alone is enough and they are happy to take such candidates | **CORRECTED — the page now leads with Class 10 being sufficient.** The 18–25 age band remains from the 2023 sheet and is labelled as such | 2026-10-09 |
+
+### Why the €3,000 came off the page
+
+The figure was accurate 2023 reporting of a 2023 chamber event and was graded
+here as verified-secondary. It is removed because **the organisation that charges
+it says it publishes no fixed figure and that the amount has moved** — which makes
+a 2023 number a stale claim about a live price, the exact failure this file exists
+to prevent.
+
+NSST asked us not to print a figure, and gave two reasons. The first is a reader
+protection and we agree with it: a number printed next to a young applicant's
+situation gets misread as something they personally owe, however it is labelled.
+The second is about their own market — that a low agency headline price next to
+their fuller figure pulls an employer toward the agency. **That second reason is
+theirs, not ours, and it is not why the number came down.** If the figure had
+still been current we would have printed it with context. It is down because it
+is out of date.
+
+**The page says so in those terms**, including that it was removed for being
+stale rather than on request. A reader who can see why a claim was withdrawn can
+judge the ones that remain.
+
+### What is still open
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| **Which German employers have actually taken Nepali trainees through NSST**, beyond the one employer already cited | not established | **OPEN — the page keeps it as the one question left worth asking** | — |
+| **Whether the 1,500 / several hundred figures are accurate** | NSST's own statement only | **OPEN as verification. Stated on the site as their figures, attributed, not as established fact** | — |
+| **The 18–25 age band** | NSST's 2023 employer sheet | **UNREFRESHED — labelled on the page as 2023 and not re-checked** | 2026-08-23 |
+
+**Nothing in this entry came from any individual in Nepal**, and no participant,
+employer or member of staff is named beyond the organisation itself.

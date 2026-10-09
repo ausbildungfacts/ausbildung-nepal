@@ -2758,3 +2758,49 @@ file carries what changed and why.
 being happier in work that interests them is now given in English in the body,
 with the German original recorded in the page's own source list, so it is still
 checkable against their document.
+
+---
+
+## The exam page given the same readability pass — 2026-10-09
+
+Same rule as the NSST section earlier today: the page states what is true now,
+and this file carries what changed. One claim was wrong and is corrected; the
+rest is wording.
+
+**One real error, introduced this afternoon.** The page said *"both accepted
+providers in Nepal"* in two places. That was true when Nepal had two. The
+embassy's list now names four places you can sit an accepted exam inside Nepal —
+the Goethe-Zentrum, VHS, IISC – Study Hub and ECL — so the sentence had become
+false on the same day it was edited. Both instances now name the Goethe-Zentrum
+and VHS, which are the two that publish the two-tier pricing the sentence is
+about. **This is the standing hazard of a list that grows: the count gets
+repeated in prose far from the list itself.**
+
+**One claim widened, correctly.** The section on ÖSD satisfying both the embassy
+and employers named only VHS Bhaktapur and VHS Pokhara. IISC – Study Hub is
+equally ÖSD-licensed and equally on the embassy's list, so it is named there
+too.
+
+**What came out, as wording only.**
+
+- *"For six weeks this page had to tell you that ECL was accepted on the strength
+  of emails... You no longer need our word for it."* The reader does not need the
+  site's history with its own sources.
+- The paragraph recording that two people received email confirmations about ECL
+  in September. The published list now carries the claim. The emails stay in
+  this file as provenance and are still listed in the page's own source block.
+- The narrative framing of IISC – Study Hub as a centre that "is no longer a
+  hidden one", replaced by its address, its licensed levels, and a plain
+  statement of the three things we do not know about it.
+- *"It is the most useful thing on this site"* and *"hardly anyone seems to know
+  any of it"*. Both are the site talking about itself.
+
+**Vocabulary.** "Dearest" became "most expensive", "says in terms" became "says
+clearly", "a different proposition from" became "a very different thing from".
+The reader is working in a second language and nothing is gained by the longer
+word.
+
+**Deliberately kept.** *"This page exists because one person was willing to say
+what actually happened to her."* It is the page talking about itself, which the
+rest of this pass removed. It stays because it is an invitation to readers to
+report what happens to them, and because it is true.

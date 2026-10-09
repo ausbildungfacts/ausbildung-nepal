@@ -118,8 +118,7 @@ matter, not just a comfort one.
 
 **Five institutions are accepted, not one — and you can mix them.**
 
-Read this next part carefully. It is the most useful thing on this site and
-getting it wrong costs money and months.
+Read this next part carefully. Getting it wrong costs money and months.
 
 The German Embassy in Kathmandu accepts certificates from five providers, and
 explicitly allows you to sit **different parts of the exam with different
@@ -131,10 +130,8 @@ providers**. Its own words:
 > Goethe Zentrum Kathmandu, VHS (Bhaktapur, Kathmandu und Pokhara), IISC Study
 > Hub, Telc oder ECL.
 
-**That list grew, and we found it on 9 October 2026.** It grew in three
-directions at once: **VHS Kathmandu**, **IISC Study Hub** and **ECL** are all on
-it now. If you were told in the summer that there were three doors, that was
-true then. There are five now.
+We read that page on **9 October 2026**. If somebody tells you there are only
+three places you can sit the exam, they are working from an older list.
 
 <div class="scroll">
 
@@ -144,13 +141,13 @@ true then. There are five now.
 | **VHS** | **Bhaktapur, Kathmandu and Pokhara** | A licensed ÖSD exam centre. The Kathmandu branch at Putalisadak is now named by the embassy in its own right |
 | **IISC – Study Hub** | Kalopul-Ratopul Road, Kathmandu | Licensed by ÖSD for every level from A1 to C2. Newly named by the embassy |
 | **telc** | no centre in Nepal | Accepted, but you would have to sit it abroad |
-| **ECL** | Kathmandu | Accepted, and now on the published list. The dearest route of the lot — see below |
+| **ECL** | Kathmandu | Accepted. The most expensive of them all — see below |
 
 </div>
 
 <div class="warn">
 
-**Here is what follows, and hardly anyone seems to know any of it.**
+**What that means for you.**
 
 **VHS is a second accepted route, and it now counts in Kathmandu too.** If you
 are stuck deep in the Goethe waiting list, this is the alternative. VHS is a
@@ -158,12 +155,11 @@ licensed ÖSD examination centre and takes external candidates, not only its own
 students. For anyone outside the valley, Pokhara may be far easier to reach than
 either.
 
-**IISC – Study Hub is a third door in Kathmandu, and it is no longer a hidden
-one.** Until October 2026 this page could only tell you that ÖSD licensed a third
-centre in Kathmandu which the embassy's published list did not name, and that the
-embassy had told us by email that its certificates count. The embassy now names
-it on the page itself. ÖSD's register gives the address as Kalopul-Ratopul Road
-and licenses it for every level from A1 to C2.
+**IISC – Study Hub is a third door in Kathmandu.** It is on Kalopul-Ratopul
+Road. ÖSD licenses it for every level from A1 to C2, and the embassy accepts its
+certificates. We know nothing else about it yet: not its prices, not its dates,
+and not whether it examines people who have not taken its courses. Ask it those
+three things directly.
 
 **Check the name and the street against ÖSD's own register before you pay
 anybody.** [ÖSD's register](https://www.osd.at/en/exam-centres/) is free, it is
@@ -174,18 +170,17 @@ addresses. That is not an accusation about anyone — it is a reason to match bo
 the name and the street against the register, which takes a minute and costs
 nothing.
 
-**An official ÖSD certificate counts.** In August 2026 we asked the embassy
-whether a certificate from the then-unnamed third centre would be accepted. The
-answer: *"Ja, auch diese wird akzeptiert wenn es sich um ein offizielles ÖSD
+**An official ÖSD certificate counts.** The embassy told us so in writing in
+August 2026: *"Ja, auch diese wird akzeptiert wenn es sich um ein offizielles ÖSD
 Zertifikat handelt."* — *"Yes, that one is accepted too, as long as it is an
-official ÖSD certificate."* The published list has now caught up with that
-answer. One limit still stands: we asked about a centre **in Nepal**, and we did
-not ask about ÖSD sat in another country, so do not assume that.
+official ÖSD certificate."* One warning. We asked about a centre **in Nepal**. We
+did not ask about an ÖSD exam sat in another country, so do not assume that one
+counts.
 
 **You do not need to buy a course to sit the exam — but being an outside
-candidate costs about double.** Both accepted providers in Nepal publish two
+candidate costs about double.** The Goethe-Zentrum and VHS each publish two
 prices: one for their own current students, one for everybody else. That is not a
-scam, it is printed on their own websites, and it is a real number you should
+scam. It is printed on their own websites, and it is a real number you should
 have before you choose a course. See the prices below. ÖSD exams are
 course-independent, but a centre can be licensed to examine only its own course
 students rather than outsiders, so if a course and an exam seat are being sold to
@@ -213,13 +208,7 @@ telc means India — see below.
 <div class="warn">
 
 **ECL exams are sold in Kathmandu, and an ECL certificate is accepted for the
-visa. The embassy's published list now says so itself.**
-
-For six weeks this page had to tell you that ECL was accepted on the strength of
-emails rather than anything you could point at. That is over. Read on
-**9 October 2026**, the embassy's own visa page names ECL among the institutions
-whose certificates it accepts. You no longer need our word for it, and you no
-longer need a printout of a private reply.
+visa.** The embassy names ECL on its own visa page.
 
 Since September 2026 a German **ECL** exam has been advertised from a centre in
 Putalisadak, offering A2, B1, B2 and C1, with a sitting in November 2026.
@@ -235,16 +224,10 @@ language certificates names ECL alongside Goethe, telc, ÖSD, TestDaF and DSD,
 because the test for a visa file is membership of the **Association of Language
 Testers in Europe (ALTE)**, which ECL holds.
 
-**The embassy also confirmed it by email, before the page changed.** In
-September 2026, two people who wrote and asked were each told that ECL
-certificates are accepted. Those were personal replies to personal enquiries, so
-they are not reproduced here. They now matter only as history: the published
-page says it.
-
 **Know that ECL got harder in August 2026.** Under ECL's own exam
 regulations, from August 2026 a pass needs **at least 60% in every one of the
 four modules**. Before that you could carry a weak skill on a strong average.
-You cannot now. ECL says in terms that this applies only to exams sat from
+You cannot now. ECL says clearly that this applies only to exams sat from
 August 2026 onwards.
 
 **And it is the most expensive route you can sit in Nepal.** ECL's own registration system
@@ -277,10 +260,10 @@ it costs **NPR 8,500**. Fail one at the Goethe-Zentrum and it costs €25 — ab
 NPR 4,300, roughly half. The exam that is hardest to pass cleanly is also the
 most expensive to repair.
 
-**So ECL is a real option, and a dear one.** It is another accepted route in a
-country where the queue is the problem, and that is worth something. Weigh it on
-price and on dates against the Goethe-Zentrum, VHS and IISC – Study Hub — and on
-the section that follows, which is about the other person who has to accept your
+**So ECL is a real option, and an expensive one.** In a country where the
+queue is the problem, another accepted route is worth something. Weigh it on
+price and on dates against the Goethe-Zentrum, VHS and IISC – Study Hub. Then
+read the next section, which is about the other person who has to accept your
 certificate.
 
 </div>
@@ -328,17 +311,17 @@ not to an agent:
 It costs nothing, and it gives you an answer in writing that you can keep with
 your papers. If somebody tells you there is no need to ask, ask why.
 
-**And one exam in Nepal settles both questions at once: ÖSD.** VHS Bhaktapur and
-VHS Pokhara are licensed ÖSD examination centres. **VHS is named on the embassy's
-own list**, the embassy has separately confirmed that an official ÖSD certificate
-counts, and **ÖSD is named by both employers above**. It is also cheaper than ECL
-at every level. If you have any choice of dates at all, that is the combination
-to aim for — the VHS section further up this page has the details, including an
-ÖSD B2 sitting on 4 November 2026.
+**And one exam in Nepal answers both questions at once: ÖSD.** VHS Bhaktapur,
+VHS Pokhara and IISC – Study Hub are all licensed ÖSD examination centres. **All
+three are on the embassy's own list**, the embassy has separately confirmed that
+an official ÖSD certificate counts, and **ÖSD is named by both employers above**.
+It is also cheaper than ECL at every level. If you have any choice of dates at
+all, that is what to aim for. The VHS section further up this page has the
+details, including an ÖSD B2 sitting on 4 November 2026.
 
 ## What the exam actually costs
 
-Both accepted providers in Nepal publish their fees. You do not have to guess,
+The Goethe-Zentrum and VHS both publish their fees. You do not have to guess,
 and nobody should be quoting you a different number.
 
 <div class="scroll">
@@ -382,14 +365,13 @@ conclude from one look that a date is gone or that it is safe.
 **VHS prices every module separately, and some are cheap.** Its published
 external module prices: B1 reading NPR 4,990, listening NPR 4,990, writing
 NPR 12,470, speaking NPR 6,230. At B2, oral NPR 9,800 and written NPR 20,485.
-If money is the obstacle, a single reading module at under NPR 5,000 is a
-different proposition from finding NPR 28,680 at once.
+If money is the problem, finding under NPR 5,000 for a single reading module
+is a very different thing from finding NPR 28,680 all at once.
 
 **And VHS runs B2 when the Goethe-Zentrum does not.** A B2 sitting is scheduled
 at VHS Bhaktapur for **4 November 2026**, with thirty places in each of its two
-modules. If the Goethe B2 really runs once a year, this is the way round it, and
-it is the strongest argument on this page for looking past the queue you are
-already standing in.
+modules. If the Goethe B2 really runs once a year, this is the way round it. It
+is the best reason you have to look past the queue you are already standing in.
 
 **Budget 45 days for the result, or pay to hurry it.** VHS states that ÖSD papers
 go to Vienna for marking and results take **45 days**. There is an express option
@@ -407,8 +389,7 @@ course and the exam together before deciding either.
 
 ## Sitting telc in India — the option nobody mentions
 
-This is worth setting out properly, because it is a real route and the pieces fit
-together better than they look.
+This is a real route, and the pieces fit together better than they look.
 
 - **telc is on the embassy's accepted list.** A telc certificate counts for the
   Ausbildung visa.

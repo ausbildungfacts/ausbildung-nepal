@@ -2804,3 +2804,35 @@ word.
 what actually happened to her."* It is the page talking about itself, which the
 rest of this pass removed. It stays because it is an invitation to readers to
 report what happens to them, and because it is true.
+
+---
+
+## NSST's Instagram link corrected — 2026-10-09
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| NSST's Instagram account is **instagram.com/nsstorg** | supplied by Alan | SECONDARY | 2026-10-09 |
+
+The page carried `instagram.com/the.nsstorg` from 23 August until today. Where
+that handle came from is not recorded in this file, which is itself the
+finding — the Facebook and YouTube links were each given a line and this one
+never was.
+
+**It is not possible to check an Instagram handle from here.** Both the old and
+the new URL return HTTP 200, because Instagram serves its login wall with a 200
+for accounts that do not exist as readily as for accounts that do. The link
+checker cannot tell the difference either, which is why a dead social link can
+sit on a page for seven weeks and pass every automated run. This correction
+rests on Alan having looked at the account.
+
+**Why a wrong link here mattered more than usual.** NSST told us on 9 October
+that their own website is being rebuilt and that **social media is the accurate
+source for intake dates**. The page repeats that and sends readers to three
+links. One of them was wrong, so a reader following the page's own advice to
+find out when the next intake opens could have been sent to the wrong place —
+and intakes run only every three to four months, so a missed announcement costs
+a season.
+
+**What this suggests.** Links that a checker cannot verify — social accounts
+above all — should be re-read by a person when the page that depends on them
+changes. Nothing automated will catch them.

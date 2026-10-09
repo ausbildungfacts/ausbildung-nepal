@@ -97,7 +97,7 @@ not checked them.
 four months**, depending on how many places they have. Intakes are announced on
 their social media. Their website is being rebuilt at the moment, so use these:
 [Facebook](https://facebook.com/thensst),
-[Instagram](https://instagram.com/the.nsstorg) and
+[Instagram](https://www.instagram.com/nsstorg/) and
 [YouTube](https://www.youtube.com/@TheNSST).
 
 Before you join anything, ask the five questions on

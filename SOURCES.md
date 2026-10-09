@@ -2619,23 +2619,22 @@ below is graded on that basis.
 ### Why the €3,000 came off the page
 
 The figure was accurate 2023 reporting of a 2023 chamber event and was graded
-here as verified-secondary. It is removed because **the organisation that charges
-it says it publishes no fixed figure and that the amount has moved** — which makes
-a 2023 number a stale claim about a live price, the exact failure this file exists
-to prevent.
+here as verified-secondary. **NSST state that they publish no fixed figure and
+that the amount has moved**, which makes a 2023 number a stale claim about a
+live price. The claim is withdrawn and the page carries no figure.
 
-NSST asked us not to print a figure, and gave two reasons. The first is a reader
-protection and we agree with it: a number printed next to a young applicant's
-situation gets misread as something they personally owe, however it is labelled.
-The second is about their own market — that a low agency headline price next to
-their fuller figure pulls an employer toward the agency. **That second reason is
-theirs, not ours, and it is not why the number came down.** If the figure had
-still been current we would have printed it with context. It is down because it
-is out of date.
+NSST also asked us not to print one. Their first reason is a reader protection
+and this project agrees with it: a number printed beside a young applicant's
+situation gets misread as something they personally owe, however it is
+labelled. Their second reason concerns their own market and is recorded here as
+theirs.
 
-**The page says so in those terms**, including that it was removed for being
-stale rather than on request. A reader who can see why a claim was withdrawn can
-judge the ones that remain.
+**The page does not discuss any of this**, and an earlier draft of it did. That
+draft explained at length why no price was printed, and in doing so printed the
+price — which is both the thing NSST asked us not to do and a page about this
+site rather than about the reader. The record of a withdrawn claim belongs in
+this file. It does not belong in front of a nineteen-year-old deciding what to
+do with a year of their life.
 
 ### What is still open
 
@@ -2719,3 +2718,43 @@ applied to a genuine opportunity for confusion.
 fires next time, and the au-pair page is now watched as well.
 
 **Nothing in this entry came from any individual in Nepal.**
+
+---
+
+## The NSST section rewritten for readability — 2026-10-09
+
+Alan read the section published earlier the same day and rejected its tone, in
+substance: it talked about itself instead of to the reader. **No claim changed
+and nothing new was sourced.** Recorded because the reasons generalise.
+
+**What came out.**
+
+- Every sentence of the form *"we previously said X, that was wrong"*. A reader
+  deciding what to do with a year of their life does not need this site's
+  editing history. Corrections belong in this file, which exists for them.
+- The paragraph explaining why no price is printed, which printed the price.
+  See *Why the €3,000 came off the page* above.
+- *"Candidates go through a programme of about a year — one employer described
+  one to one and a half."* An aside about the provenance of a number, dressed as
+  information.
+
+**What was compressed, not dropped.** The paragraph on what NSST do not cover is
+now one sentence: living costs and courses taken outside the programme are the
+candidate's own. The fact is reader-protective and stays. Its length was the
+problem.
+
+**What was restored after the first cut went too far.** The 18-to-25 age range,
+as *"in 2023 they were taking people aged 18 to 25, ask them whether that is
+still the range"*. Removing it as stale would have left a reader over 25 with no
+idea the question exists. Dated plainly, with the instruction to ask, it is
+useful and honest. It remains OPEN above.
+
+**The standing rule this sets.** The audience is a young Nepali reading in a
+second language. Short sentences, common words, and nothing on the page about
+the page. Where a claim has changed, the page states what is true now and this
+file carries what changed and why.
+
+**The German quotation moved rather than vanished.** NSST's line about people
+being happier in work that interests them is now given in English in the body,
+with the German original recorded in the page's own source list, so it is still
+checkable against their document.

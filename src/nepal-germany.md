@@ -23,114 +23,94 @@ goes through the same embassy queue. But they are real, and they are free.
 
 ## NSST — the one that charges the employer instead of you
 
-The **Nepal Secretariat of Skills and Training** is a German–Nepali vocational
-training initiative that started in **September 2021**. It is registered in
-Nepal as a *Company Not distributing Profit* — the equivalent of a German
-non-profit company, a *gGmbH*. It says it has a memorandum of understanding
-(**MoU**) with the German embassy in Nepal.
+The **Nepal Secretariat of Skills and Training** is a German–Nepali organisation
+that trains young Nepalis for skilled work. For some of them that means an
+Ausbildung in Germany. It started in **September 2021**. It is registered in
+Nepal as a *Company Not distributing Profit*, which is like a German non-profit
+company. It says it has an agreement (an **MoU**) with the German embassy in
+Nepal.
 
-**They wrote to us on 9 October 2026**, answering three questions and correcting
-four things this page had got wrong or let go stale. Most of what follows is
-theirs, and where we have changed our mind we say so.
+They wrote to us on **9 October 2026**.
 
-**Nothing is charged to the participant or their family.** Their words: every
-part of their own programme — the training, the language support, the mentoring —
-is *"free for candidates at every stage"*, and that includes the whole of the
-Ausbildung in Germany, right through to when it ends. The bill goes to the
-apprenticeship company, and what the company pays for is the whole journey:
-preparation and extra language support in Nepal, the travel to Germany, and
-mentoring that carries on for the length of the training rather than stopping at
-the airport.
+**You pay nothing.** Their training, their German support and their mentoring
+are, in their words, *"free for candidates at every stage"*. That includes the
+whole time you are in Germany, until your Ausbildung ends. The German company
+that takes you on pays instead. What it pays for is the whole journey: your
+preparation and extra German lessons in Nepal, your flight to Germany, and
+mentoring that continues all the way through your training.
 
-That is what **§ 296a SGB III** requires. A fee for arranging an Ausbildung may
-be taken from the employer and from nobody else.
+This is how the law says it should work. Under **§ 296a SGB III**, a fee for
+arranging an Ausbildung may be charged to the employer and to nobody else.
 [Why that law exists](/no-fees/).
 
-**What is not covered, which matters more than what is.** Courses a candidate
-chooses to take outside the programme — another language course, an IT course, a
-short vocational course — are their own decision and their own cost. So are
-living costs. NSST say they run a scholarship fund for exactly those outside
-courses, that they review and try to widen it every year, and that they look at
-cases one at a time. They also run a block system for people who live outside
-Kathmandu, so joining does not mean moving to the city. Ask, before you spend
-anything, what sits inside the programme and what does not.
+Your living costs, and any course you decide to take outside their programme,
+are still yours to pay. NSST say they run a scholarship fund to help with those
+courses.
 
-**We no longer print a price, and here is why.** This page used to say German
-firms are quoted **€3,000 per apprentice**. That came from German trade-press
-reporting of a 2023 chamber event, and it was accurate reporting of 2023. NSST
-tell us they publish no fixed figure at all, by design: the amount moves as the
-programme grows, so any number we printed would need correcting again within
-months. They also make an argument worth repeating — paid agencies advertise a
-low headline price to win the company and add the real costs later, and those
-costs land on the young person. A stale number of theirs sitting next to a
-cheap-looking agency quote helps the agency. We have taken it down because it is
-no longer true, not because we were asked.
+**You can apply with Class 10.** A completed **SEE** is enough. You do not need
++2 or any higher qualification, and NSST told us they are glad to take people
+who have only the SEE. They give particular attention to women, and to young
+people from poorer backgrounds, in line with the UN Sustainable Development
+Goals. In 2023 they were taking people aged 18 to 25. Ask them whether that is
+still the range.
 
-**A year of preparation, not a form-forwarding service.** Candidates go through a
-programme of about a year — one employer described one to one and a half.
-In it there is language learning up to the level the visa needs, an occupational
-orientation programme, intercultural and soft-skills training, and preparation
-for the job itself. There is a programme for the family as well, on the reasoning
-that the family has to be behind it.
+**The preparation takes about a year.** You learn German up to the level the
+visa needs. There is an orientation programme to help you choose a trade,
+training on how work and daily life in Germany are different, and preparation
+for the job itself. There is a programme for your family as well, because they
+believe your family needs to be behind you. If you live outside Kathmandu you do
+not have to move there: they run the training in blocks for people who live
+further away.
 
-**Class 10 is enough.** A completed **SEE** qualifies you to apply to them. A
-+2 or other higher secondary qualification is **not** required, and they say
-they are glad to take candidates who have only the SEE. In line with the UN
-Sustainable Development Goals they have a particular focus on women, and on
-young people from disadvantaged backgrounds more widely. Our older figure of 18
-to 25 comes from their 2023 employer sheet and we have not re-checked it.
+**You choose where you learn German.** NSST are a partner of the
+**Goethe-Zentrum Kathmandu** and recommend it for the quality of its teaching.
+That is a recommendation, not a rule. You decide where and how you learn. For
+the visa, your certificate has to come from one of the providers
+[the embassy accepts](/visa/).
 
-**You choose where you learn German.** We previously said NSST run their
-language courses with the **Goethe-Zentrum Kathmandu**. That is wrong. They are a
-partner of the Goethe-Zentrum and coordinate with it, and they recommend it for
-its teaching quality — but it is a recommendation and not a requirement, and every
-candidate decides for themselves where and how they learn. For the visa itself
-the certificate has to come from the **Goethe-Zentrum, telc or VHS**, which is
-the same list [the embassy publishes](/visa/).
+**Mentoring in Germany.** They aim to give every apprentice two mentors in
+Germany, although how many you actually get depends on the region. You will also
+have one named person at NSST looking after you for the whole of your
+Ausbildung.
 
-**Mentoring in Germany.** The aim is two mentors for each apprentice, though how
-many a person actually gets varies by region. Separately from that, every
-candidate has one named contact inside NSST for the whole of the Ausbildung.
+**They start from what you want to do.** This is what NSST tell German
+employers:
 
-**They start from what the person wants to do.** In their own words to German
-employers: *"Wir glauben, dass Menschen glücklicher und beruflich erfolgreicher
-sind, wenn sie sich für Berufe entscheiden können, die sie wirklich
-interessieren."* People are happier and do better in work they actually chose.
-That is why there is an orientation programme before anyone is matched, instead
-of the two words most young Nepalis get offered — *Pflege* and *Mechatroniker*.
-It is the same argument [the application page](/apply/) makes from the law:
-§ 16a AufenthG names no trades, and there is no approved list.
+> People are happier and more successful in their work when they can choose a
+> job that genuinely interests them.
 
-**How many people, roughly.** They decline to give a precise number, for the
-same reason they decline to give a price: a small organisation that keeps
-changing will have to correct it constantly. The shape of it, in their words:
-**well over 1,500 young people** have been through their trainings, and
-**several hundred** have gone on to an Ausbildung in Germany. The first figure
-counts every track they run, including young people who stay and work in Nepal,
-so it is not 1,500 people sent to Germany. These are their own figures, given to
-us directly, and we have not checked them against anything.
+That is why they run an orientation programme before anyone is matched to a
+trade, instead of offering the two jobs most young Nepalis are offered,
+*Pflege* and *Mechatroniker*. The law agrees with them. § 16a AufenthG names no
+trades, and there is no approved list.
+[More about choosing your trade](/apply/).
 
-**They are taking new people.** Intakes run roughly **every three to four
-months**, depending on capacity, and are announced on their social media. Their
-own website is being rebuilt and is not currently online — which is the answer to
-something this page used to report as a mystery. Until it is back, social media
-is the accurate source and the old site is not:
+**How many people.** NSST do not give exact numbers. They are a small
+organisation and what they do keeps changing, so a number today is wrong again
+quickly. What they told us is that **more than 1,500** young people have been
+through their training, and that **several hundred** have gone on to an
+Ausbildung in Germany. The 1,500 counts every programme they run, including
+young people who stay and work in Nepal. These are their own figures and we have
+not checked them.
+
+**They are taking new people.** A new intake starts roughly **every three to
+four months**, depending on how many places they have. Intakes are announced on
+their social media. Their website is being rebuilt at the moment, so use these:
 [Facebook](https://facebook.com/thensst),
 [Instagram](https://instagram.com/the.nsstorg) and
 [YouTube](https://www.youtube.com/@TheNSST).
 
-Ask them what you would ask anyone — the five questions on [the fees
-page](/no-fees/). Two of ours they have now answered in writing, so the one left
-worth asking is *which German employers have actually taken Nepali trainees
-through you?* An organisation that is what it says it is will answer without
-difficulty.
+Before you join anything, ask the five questions on
+[the fees page](/no-fees/). With NSST there is one more worth asking: *which
+German employers have actually taken Nepali trainees through you?* An honest
+organisation will answer it.
 
 ## The volunteer year — the route almost nobody mentions
 
 Germany runs two national volunteer services. You work full time for a year at a
-social organisation — a care home, a hospital, a kindergarten, a disability
-service, an environmental project — and you are given an allowance, usually
-accommodation and meals, and insurance.
+social organisation: a care home, a hospital, a kindergarten, a disability
+service, an environmental project. You are given an allowance, insurance, and
+usually your accommodation and meals.
 
 <div class="scroll">
 
@@ -146,25 +126,24 @@ accommodation and meals, and insurance.
 one of the national visa categories it lists — the same page that covers
 Ausbildung and family reunification. This is not a theoretical route.
 
-**What you get.** An allowance the law caps at **€676 a month** (the 2026 upper
-limit, shared across FSJ, BFD and FÖJ). The actual figure is set by each
-organisation and is often lower — one national provider states at least €480 a
-month. On top of that, accommodation, meals and work clothing are frequently
-provided free or paid for separately. Some providers contribute around €300
-towards your journey home after twelve months.
+**What you get.** The law caps the allowance at **€676 a month** in 2026. Each
+organisation sets its own figure and it is often lower. One national provider
+states at least €480 a month. On top of the allowance, accommodation, meals and
+work clothing are often free or paid for separately. Some providers give you
+around €300 towards your journey home after twelve months.
 
 **What it costs you.** Your own flight, and your own time. No agency fee is
 involved, and none should be asked for.
 
-**What it needs.** German, in practice at **B1 with a certificate** — providers
-recommend it plainly, because you will be working with people who speak no
-English. You apply **in German**, sending a CV, your language certificate, your
-last school report, a motivation letter and the provider's application form.
+**What it needs.** German, in practice **B1 with a certificate**. Providers say
+so plainly, because you will be working with people who speak no English. You
+apply **in German**. You send a CV, your language certificate, your last school
+report, a motivation letter and the provider's application form.
 [The templates on this site work for this too](/templates/).
 
-There is one extra step people do not expect: the federal office, the **BAFzA**,
-has to approve the volunteer agreement before you can get a visa, and that takes
-**at least six weeks** on its own. Add it to your plan.
+There is one extra step people do not expect. A federal office, the **BAFzA**,
+has to approve your volunteer agreement before you can get a visa. That takes
+**at least six weeks** on its own. Put it in your plan.
 
 <div class="warn">
 
@@ -175,17 +154,17 @@ publishes. A volunteer year is a real route, but it is not the fast one.
 
 </div>
 
-**Why it is interesting anyway.** It is the same shape as [the Au Pair
-route](/au-pair/): arrive legally, live in German for a year, get your German up
-to where an Ausbildung actually needs it, and be in the country when you apply.
-Whether a volunteer permit can then be changed into an Ausbildung permit is a
-question for the local Ausländerbehörde, and **we have not confirmed it** — ask
-before you build a plan on it.
+**Why it is interesting anyway.** It has the same shape as [the Au Pair
+route](/au-pair/). You arrive legally, you live in German for a year, you get
+your German up to the level an Ausbildung really needs, and you are already in
+the country when you apply. One warning: whether a volunteer permit can later be
+changed into an Ausbildung permit is a question for the local Ausländerbehörde,
+and **we have not confirmed it**. Ask before you build a plan on it.
 
 ## weltwärts — funded by a German ministry, and Nepal is in it
 
-**weltwärts** is a volunteer programme run jointly by Germany's Federal Ministry
-for Economic Cooperation and Development (**BMZ**) and civil society
+**weltwärts** is a volunteer programme. It is run by Germany's Federal Ministry
+for Economic Cooperation and Development (**BMZ**) together with civil society
 organisations. Most people know the version that sends young Germans abroad. The
 part that matters here is the **South–North component**, which brings young
 people from partner countries *to* Germany for six to eighteen months.
@@ -278,23 +257,16 @@ date.
 - weltwärts funding, duration, DAC-list eligibility and nomination-only entry:
   [weltwärts](https://www.weltwaerts.de/en/) and a German sending organisation's
   South–North pages
-- **Everything on this page about what NSST costs, what it covers, who may apply,
-  where candidates learn German, the mentoring, the participant numbers and the
-  intake dates: NSST, by email, 9 October 2026**, answering our questions of
-  23 August. That letter supersedes the 2023 material below wherever the two
-  disagree
-- NSST's founding date, legal form, the year of preparation, the embassy MoU and
-  the quoted line about choosing an occupation that interests you:
+- What NSST costs, what it covers, who can apply, where candidates learn German,
+  the mentoring, the participant numbers and the intake dates: **NSST, by email,
+  9 October 2026**
+- NSST's founding date, legal form, the embassy MoU, the 18-to-25 age range and
+  the line about choosing a job that genuinely interests you (*"Wir glauben, dass Menschen glücklicher
+  und beruflich erfolgreicher sind, wenn sie sich für Berufe entscheiden können,
+  die sie wirklich interessieren"*, translated here):
   [NSST's own information sheet for German employers, hosted by the
   Handwerkskammer Trier](https://www.hwk-trier.de/downloads/auszubildende-fuer-unternehmen-aus-nepal-54,1675.pdf)
   (undated, content places it in early 2023)
-- The one to one and a half years a German employer describes:
-  [Autohaus Spindler, 15 August 2023](https://spindler-gruppe.de/aktuelles/nepal-azubi-projekt)
-- The €3,000 figure this page carried until 9 October 2026 came from
-  [PRO Magazin, reporting a Handwerkskammer Heilbronn-Franken
-  event](https://www.pro-magazin.de/grosser-fachkraeftemangel-im-handwerk/) in
-  2023. It is no longer on the page: NSST say they publish no fixed figure and
-  that the amount has moved since
 - The three quoted ZAV passages: Zentrale Auslands- und Fachvermittlung,
   Bundesagentur für Arbeit, by email, August 2026
 - Declaration contents, "free visa, free ticket", and the ministry's dissolution:

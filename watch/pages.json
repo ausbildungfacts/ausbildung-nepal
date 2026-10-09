@@ -11,7 +11,12 @@
     "Each entry lists words that must still be PRESENT and words that must still",
     "be ABSENT. When one flips, the workflow opens an issue naming the page.",
     "A failed fetch is only ever a warning: a checker that cries wolf is one",
-    "nobody reads."
+    "nobody reads.",
+    "",
+    "An entry with \"expect\": \"unreachable\" is watched the other way round. It is",
+    "a site that is down now, and the event is it coming back — because what this",
+    "site says about that organisation came from somewhere else, and the day they",
+    "publish again their own words outrank ours."
   ],
   "pages": [
     {
@@ -32,6 +37,26 @@
         "src/visa.md"
       ],
       "checked": "2026-09-24"
+    },
+    {
+      "id": "nsst-own-website",
+      "why": "NSST told us on 9 October 2026 that their own site is being rebuilt and is not online, so everything the programmes page says about them rests on their letter. The day they publish again, every claim has to be re-checked against it — including the 18-25 age band, which is still 2023 material.",
+      "url": "https://thensst.org/",
+      "expect": "unreachable",
+      "affects": [
+        "src/nepal-germany.md"
+      ],
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "nsst-own-website-dotcom",
+      "why": "The second address NSST have used. It returned a 504 gateway timeout on 23 August 2026. Watched alongside thensst.org because either could come back first.",
+      "url": "https://thensst.com/",
+      "expect": "unreachable",
+      "affects": [
+        "src/nepal-germany.md"
+      ],
+      "checked": "2026-10-09"
     }
   ]
 }

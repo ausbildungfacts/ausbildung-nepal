@@ -10,6 +10,9 @@
  * page and which must still be absent. When one flips, this exits non-zero and
  * the workflow opens an issue naming the page and what changed.
  *
+ * An entry marked `"expect": "unreachable"` is watched the other way round: it
+ * is a site that is currently down, and the event is it coming back.
+ *
  * A fetch that fails, times out or is blocked is reported as a WARNING and does
  * not fail the run. That rule is inherited from the link checker on purpose: a
  * checker that cries wolf gets ignored, and then it protects nobody.
@@ -84,6 +87,23 @@ const fine = [];
 
 for (const p of config.pages) {
   const { text, warn } = await fetchText(p.url);
+
+  // Some pages are watched for coming BACK, not for changing their wording.
+  // An organisation whose own site is down is one this site is describing from
+  // a letter; the day it publishes again, that letter has to be re-checked
+  // against it. For these entries the usual rule is inverted: unreachable is
+  // the expected state and says nothing, and a page that answers is the event.
+  if (p.expect === "unreachable") {
+    if (warn) {
+      fine.push(p);
+      console.log(`ok  ${p.id}: still not answering (${warn})`);
+    } else {
+      changed.push({ ...p, gone: [], appeared: [], returned: true });
+      console.log(`CHANGED  ${p.id}: the site is answering again`);
+    }
+    continue;
+  }
+
   if (warn) {
     warned.push({ ...p, warn });
     console.log(`WARN  ${p.id}: ${warn}`);
@@ -110,15 +130,29 @@ if (reportPath) {
     out.push("**A page this site depends on has changed its wording.**", "");
     for (const c of changed) {
       out.push(`### ${c.id}`, "", `<${c.url}>`, "", `_Why it is watched:_ ${c.why}`, "");
+      if (c.returned) {
+        out.push("- **this address is answering again.** It was offline when it was");
+        out.push("  added, and what this site says about it came from elsewhere.");
+      }
       for (const w of c.gone) out.push(`- no longer says **${w}**`);
       for (const w of c.appeared) out.push(`- **now says ${w}**`);
       out.push("", `Pages here that rely on it: ${(c.affects || []).map((a) => `\`${a}\``).join(", ") || "—"}`, "");
-      out.push(
-        "Read the page yourself before changing anything — then update the claim,",
-        "its line in `SOURCES.md` with today's date, and the `present`/`absent`",
-        "words in `watch/pages.json` so this stops firing.",
-        ""
-      );
+      if (c.returned) {
+        out.push(
+          "It may only be a holding page — look before changing anything. If it is",
+          "real, check every claim listed above against it, update `SOURCES.md` with",
+          "today's date, and then either give this entry `present`/`absent` words and",
+          "drop `expect: \"unreachable\"`, or remove the entry.",
+          ""
+        );
+      } else {
+        out.push(
+          "Read the page yourself before changing anything — then update the claim,",
+          "its line in `SOURCES.md` with today's date, and the `present`/`absent`",
+          "words in `watch/pages.json` so this stops firing.",
+          ""
+        );
+      }
     }
   }
   if (warned.length) {

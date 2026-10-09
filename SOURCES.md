@@ -2647,3 +2647,75 @@ judge the ones that remain.
 
 **Nothing in this entry came from any individual in Nepal**, and no participant,
 employer or member of staff is named beyond the organisation itself.
+
+---
+
+## The embassy's list grew from three names to five — 2026-10-09
+
+`page-watch.yml` exists for exactly this and it worked. The workflow flagged that
+the embassy's national-visa page no longer matched the words recorded here, and
+the change turned out to be the one this project had been waiting on since
+September, plus two nobody was looking for.
+
+**The page now reads, verbatim:**
+
+> Nur Sprachzertifikate der folgenden Institutionen können derzeit anerkannt
+> werden: Goethe Zentrum Kathmandu, VHS (Bhaktapur, Kathmandu und Pokhara), IISC
+> Study Hub, Telc oder ECL.
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| The embassy's published list of accepted language-certificate providers now names **five**: Goethe-Zentrum Kathmandu, VHS (Bhaktapur, Kathmandu **and Pokhara**), IISC Study Hub, telc and ECL | German Embassy Kathmandu, national visa page, read live | **VERIFIED — primary, published** | 2026-10-09 |
+| **ECL is on the published list.** The site no longer rests this on private email replies | same | **VERIFIED — primary. Closes the OPEN of 2026-09-24, on the embassy's own published words rather than on correspondence** | 2026-10-09 |
+| **VHS Kathmandu** is named in its own right, where the list previously said only Bhaktapur and Pokhara | same | **VERIFIED — primary** | 2026-10-09 |
+| **IISC Study Hub** is named, a provider this site had never mentioned | same | **VERIFIED — primary** | 2026-10-09 |
+| ÖSD's register lists exactly three licensed centres in Nepal: VHS Bhaktapur; VHS Pokhara Language Center; and **IISC – Study Hub, Kalopul-Ratopul Rd, 44600 Kathmandu**, contact info@eurocas.org, licensed for **ZA1, KID A1, ZA2, KID A2, ZB1, ZB2, ZC1, ZC2** — A1 to C2 | ÖSD exam-centre register, osd.at, filtered to Nepal and read in a browser (the list is JavaScript-driven and does not appear to a plain fetch) | **VERIFIED — primary** | 2026-10-09 |
+| **IISC – Study Hub is the centre this file has called "a third centre in Kathmandu" since 31 August 2026** | the ÖSD register names three centres in Nepal and only one is in Kathmandu; the embassy now names that same centre on its list | **VERIFIED — the identification follows from the register itself, not from inference about any business** | 2026-10-09 |
+| The embassy's **au-pair** page is **unchanged** and still requires A1 *"at VHS Bhaktapur or Goethe Centre Kathmandu / certificate not older than 6 months"* | German Embassy Kathmandu, au-pair page, read live the same day | **VERIFIED — primary. The two embassy pages now carry different lists** | 2026-10-09 |
+
+### Why IISC – Study Hub is named on the site, when the rule said not to
+
+This file set a rule on 23 September: *"ECL is a provider and gets named, a
+Nepali business does not."* That rule was written to stop this site pointing at a
+local company it knew nothing about, next to a paragraph about brokers charging
+lakhs. It was right.
+
+**The reason for it has gone.** The German embassy has put the name on its own
+public page as an institution whose certificates it accepts. There is no longer
+a risk of this site implying something about a business that the issuing
+authority has not already said in public, and withholding a name the embassy
+publishes would cost a reader a door while protecting nobody. The rule stands
+everywhere else.
+
+**The caution on the page is about names, not about conduct.** ÖSD's register
+gives the address as Kalopul-Ratopul Road; separately, a differently-registered
+consultancy trading under a similar name advertises itself in Kathmandu at
+another address. The page does not say which is which, does not suggest anyone
+is doing anything improper, and makes no claim about either. It tells the reader
+to match **both the name and the street** against ÖSD's free register before
+paying anybody. That is the "questions to ask, not accusations to make" rule
+applied to a genuine opportunity for confusion.
+
+### What this corrects on the site
+
+| Where | Was | Now |
+| --- | --- | --- |
+| `src/exam-slots.md` | "Three institutions are accepted" | Five, with the new quote, a five-row table, and IISC – Study Hub described from the ÖSD register |
+| `src/exam-slots.md` | ECL "accepted, though the list has not caught up"; readers told to email and keep the reply | "accepted, and now on the embassy's own list" — the email workaround is now history, not advice |
+| `src/exam-slots.md` | The third ÖSD centre in Kathmandu, unnamed, resting on an August email | Named, with its ÖSD-registered address and levels |
+| `src/visa.md` | "one of three accepted providers" | Five, listed |
+| `src/au-pair.md` | A1 from VHS Bhaktapur or the Goethe-Zentrum | Unchanged, plus an explicit warning **not** to borrow the longer list, because the au-pair page governs au-pair applications |
+
+### What is still open
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| **Whether IISC – Study Hub takes external candidates, what it charges, and how long its waiting list is** | not established | **OPEN — the page says in terms that we know nothing beyond the ÖSD register and the embassy's list** | — |
+| **Whether an official ÖSD certificate sat outside Nepal is accepted** | still not asked | **OPEN — unchanged since 31 August. Never state the general form** | — |
+| **When the au-pair page will be brought into line, if ever** | not established | **OPEN — now watched daily by `page-watch.yml`** | — |
+| **Exactly when the list changed** | not established | It was three names on 2026-09-24 and five on 2026-10-09. The site says only that we found it on 9 October | 2026-10-09 |
+
+**The watch list was updated the same day**, so the embassy's new wording is what
+fires next time, and the au-pair page is now watched as well.
+
+**Nothing in this entry came from any individual in Nepal.**

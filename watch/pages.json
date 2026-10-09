@@ -21,22 +21,22 @@
   "pages": [
     {
       "id": "embassy-language-certificates",
-      "why": "The embassy has confirmed by email that ECL is accepted, but this page still names only three providers. Watching for the correction, so the exam page can cite the embassy directly instead of relying on private replies.",
+      "why": "The list of accepted language-certificate providers on this page is load-bearing for the exam and visa pages. It changed between 24 September and 9 October 2026, growing from three names to five: VHS Kathmandu, IISC Study Hub and ECL were added. Watched so the next change is noticed in a day rather than a fortnight.",
       "url": "https://kathmandu.diplo.de/np-de/service/05-visaeinreise/1617934-1617934",
       "present": [
         "Goethe Zentrum Kathmandu",
-        "VHS",
+        "VHS (Bhaktapur, Kathmandu und Pokhara)",
+        "IISC Study Hub",
         "Telc",
+        "ECL",
         "Nur Sprachzertifikate der folgenden Institutionen"
       ],
-      "absent": [
-        "ECL"
-      ],
+      "absent": [],
       "affects": [
         "src/exam-slots.md",
         "src/visa.md"
       ],
-      "checked": "2026-09-24"
+      "checked": "2026-10-09"
     },
     {
       "id": "nsst-own-website",
@@ -55,6 +55,21 @@
       "expect": "unreachable",
       "affects": [
         "src/nepal-germany.md"
+      ],
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "embassy-au-pair-certificate",
+      "why": "The au-pair page names only VHS Bhaktapur and the Goethe-Zentrum for the A1 certificate, while the national-visa page now names five providers. The au-pair page governs au-pair applications, so the site tells readers not to borrow the longer list. Watched for the day the two pages are brought into line.",
+      "url": "https://kathmandu.diplo.de/np-en/service/01-visaeinreise/2225336-2225336",
+      "present": [
+        "A1 Level at VHS Bhaktapur or Goethe Centre Kathmandu"
+      ],
+      "absent": [
+        "IISC"
+      ],
+      "affects": [
+        "src/au-pair.md"
       ],
       "checked": "2026-10-09"
     }

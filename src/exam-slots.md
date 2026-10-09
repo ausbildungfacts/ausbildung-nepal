@@ -7,7 +7,7 @@ order: 3
 permalink: /exam-slots/
 standfirst: People assume the hard part is learning German. In Nepal the hard part is getting a seat in the exam, and nobody selling you a course is going to say so.
 description: Why German exam appointments are the real bottleneck for Ausbildung applicants in Nepal — what the queue actually looks like, and what it means for planning.
-reviewed: September 2026
+reviewed: October 2026
 ---
 
 <figure>
@@ -116,29 +116,35 @@ served. The day you submit matters more than how ready you feel that week.
 If you have to be there overnight, be there with someone — that is a safety
 matter, not just a comfort one.
 
-**Three institutions are accepted, not one — and you can mix them.**
+**Five institutions are accepted, not one — and you can mix them.**
 
 Read this next part carefully. It is the most useful thing on this site and
 getting it wrong costs money and months.
 
-The German Embassy in Kathmandu accepts certificates from three providers, and
+The German Embassy in Kathmandu accepts certificates from five providers, and
 explicitly allows you to sit **different parts of the exam with different
 providers**. Its own words:
 
 > Es ist möglich einzelne Prüfungsteile bei verschiedenen anerkannten Anbietern
 > zu absolvieren (z.B. 3 Teile beim Goethe Zentrum und 1 Teil bei der VHS). Nur
 > Sprachzertifikate der folgenden Institutionen können derzeit anerkannt werden:
-> Goethe-Zentrum Kathmandu, VHS (Bhaktapur & Pokhara) oder Telc.
+> Goethe Zentrum Kathmandu, VHS (Bhaktapur, Kathmandu und Pokhara), IISC Study
+> Hub, Telc oder ECL.
 
-So the accepted list is:
+**That list grew, and we found it on 9 October 2026.** It grew in three
+directions at once: **VHS Kathmandu**, **IISC Study Hub** and **ECL** are all on
+it now. If you were told in the summer that there were three doors, that was
+true then. There are five now.
 
 <div class="scroll">
 
 | Provider | Where | Notes |
 | --- | --- | --- |
 | **Goethe-Zentrum Kathmandu** | Thapathali | The queue everybody is in |
-| **VHS** | **Bhaktapur and Pokhara** | A licensed ÖSD exam centre; also has a Kathmandu branch at Putalisadak |
+| **VHS** | **Bhaktapur, Kathmandu and Pokhara** | A licensed ÖSD exam centre. The Kathmandu branch at Putalisadak is now named by the embassy in its own right |
+| **IISC – Study Hub** | Kalopul-Ratopul Road, Kathmandu | Licensed by ÖSD for every level from A1 to C2. Newly named by the embassy |
 | **telc** | no centre in Nepal | Accepted, but you would have to sit it abroad |
+| **ECL** | Kathmandu | Accepted, and now on the published list. The dearest route of the lot — see below |
 
 </div>
 
@@ -146,30 +152,35 @@ So the accepted list is:
 
 **Here is what follows, and hardly anyone seems to know any of it.**
 
-**VHS is a second accepted route, and it is in Pokhara as well as Bhaktapur.** If
-you are stuck deep in the Goethe waiting list, this is the alternative — and for
-anyone outside the Kathmandu valley, Pokhara may be far easier to reach. VHS is
-a licensed ÖSD examination centre and takes external candidates, not only its own
-students.
+**VHS is a second accepted route, and it now counts in Kathmandu too.** If you
+are stuck deep in the Goethe waiting list, this is the alternative. VHS is a
+licensed ÖSD examination centre and takes external candidates, not only its own
+students. For anyone outside the valley, Pokhara may be far easier to reach than
+either.
 
-**An official ÖSD certificate counts — including from a centre the embassy's list
-does not name.** ÖSD keeps a public register of the centres it licenses. For
-Nepal it lists three: VHS Bhaktapur, VHS Pokhara, and a third centre in
-Kathmandu. In August 2026 we asked the embassy directly whether a certificate
-from that third centre would be accepted. The answer: *"Ja, auch diese wird
-akzeptiert wenn es sich um ein offizielles ÖSD Zertifikat handelt."* — *"Yes,
-that one is accepted too, as long as it is an official ÖSD certificate."* If you
-are stuck in a queue, that is a third door in Kathmandu.
+**IISC – Study Hub is a third door in Kathmandu, and it is no longer a hidden
+one.** Until October 2026 this page could only tell you that ÖSD licensed a third
+centre in Kathmandu which the embassy's published list did not name, and that the
+embassy had told us by email that its certificates count. The embassy now names
+it on the page itself. ÖSD's register gives the address as Kalopul-Ratopul Road
+and licenses it for every level from A1 to C2.
 
-**But check three things before you pay anybody.** First, the embassy's published
-page still names only the Goethe-Zentrum, VHS and telc, and does not mention ÖSD
-anywhere — so the sentence above is the embassy in writing to us, not something
-you can point to on their website. Print this page and be ready to ask. Second,
-we asked about a centre **in Nepal**; we did not ask about ÖSD sat in another
-country, so do not assume that. Third, anyone can call themselves an exam centre,
-so check the name against
-[ÖSD's own register](https://www.osd.at/en/exam-centres/) — it is free, and it is
-the authority on who is licensed.
+**Check the name and the street against ÖSD's own register before you pay
+anybody.** [ÖSD's register](https://www.osd.at/en/exam-centres/) is free, it is
+the authority on who is licensed, and for Nepal it lists exactly three centres:
+VHS Bhaktapur, VHS Pokhara Language Center, and IISC – Study Hub on
+Kalopul-Ratopul Road. Similar trading names exist in Kathmandu at other
+addresses. That is not an accusation about anyone — it is a reason to match both
+the name and the street against the register, which takes a minute and costs
+nothing.
+
+**An official ÖSD certificate counts.** In August 2026 we asked the embassy
+whether a certificate from the then-unnamed third centre would be accepted. The
+answer: *"Ja, auch diese wird akzeptiert wenn es sich um ein offizielles ÖSD
+Zertifikat handelt."* — *"Yes, that one is accepted too, as long as it is an
+official ÖSD certificate."* The published list has now caught up with that
+answer. One limit still stands: we asked about a centre **in Nepal**, and we did
+not ask about ÖSD sat in another country, so do not assume that.
 
 **You do not need to buy a course to sit the exam — but being an outside
 candidate costs about double.** Both accepted providers in Nepal publish two
@@ -197,13 +208,18 @@ telc means India — see below.
 
 </div>
 
-## ECL, a fourth provider — accepted, though the list has not caught up
+## ECL — accepted, and now on the embassy's own list
 
 <div class="warn">
 
-**ECL exams are sold in Kathmandu, and the German Embassy has confirmed that an
-ECL certificate is accepted — even though the list on its own visa page still
-names only three institutions.**
+**ECL exams are sold in Kathmandu, and an ECL certificate is accepted for the
+visa. The embassy's published list now says so itself.**
+
+For six weeks this page had to tell you that ECL was accepted on the strength of
+emails rather than anything you could point at. That is over. Read on
+**9 October 2026**, the embassy's own visa page names ECL among the institutions
+whose certificates it accepts. You no longer need our word for it, and you no
+longer need a printout of a private reply.
 
 Since September 2026 a German **ECL** exam has been advertised from a centre in
 Putalisadak, offering A2, B1, B2 and C1, with a sitting in November 2026.
@@ -214,21 +230,16 @@ C1. Check it yourself at
 [ECL's exam-centre finder](https://eclexam.eu/deutsch/prufungsorte/) — choose
 Asia, then Nepal.
 
-**The Federal Foreign Office lists ECL.** Its published answer on accepted
+**The Federal Foreign Office lists ECL too.** Its published answer on accepted
 language certificates names ECL alongside Goethe, telc, ÖSD, TestDaF and DSD,
 because the test for a visa file is membership of the **Association of Language
 Testers in Europe (ALTE)**, which ECL holds.
 
-**And the embassy in Kathmandu has confirmed it directly.** In September 2026,
-two people who wrote and asked were each told that ECL certificates are
-accepted. Those were personal replies to personal enquiries, so they are not
-reproduced here — but the answer was not ambiguous.
-
-**The published list has not caught up yet.** Read again on 24 September 2026,
-the embassy's visa page still names only Goethe-Zentrum Kathmandu, VHS in
-Bhaktapur and Pokhara, and telc. If you sit ECL, it costs nothing to write to
-info@kathmandu.diplo.de and ask the same question yourself, and to keep the
-reply with your papers. They do answer.
+**The embassy also confirmed it by email, before the page changed.** In
+September 2026, two people who wrote and asked were each told that ECL
+certificates are accepted. Those were personal replies to personal enquiries, so
+they are not reproduced here. They now matter only as history: the published
+page says it.
 
 **Know that ECL got harder in August 2026.** Under ECL's own exam
 regulations, from August 2026 a pass needs **at least 60% in every one of the
@@ -236,7 +247,7 @@ four modules**. Before that you could carry a weak skill on a strong average.
 You cannot now. ECL says in terms that this applies only to exams sat from
 August 2026 onwards.
 
-**And it is the most expensive of the three.** ECL's own registration system
+**And it is the most expensive route you can sit in Nepal.** ECL's own registration system
 shows the Kathmandu fees for the November 2026 sitting. Converted at the same
 173 rupees to the euro used further down this page:
 
@@ -266,10 +277,11 @@ it costs **NPR 8,500**. Fail one at the Goethe-Zentrum and it costs €25 — ab
 NPR 4,300, roughly half. The exam that is hardest to pass cleanly is also the
 most expensive to repair.
 
-**So ECL is a real option, and a dear one.** It is a fourth accepted route in a
+**So ECL is a real option, and a dear one.** It is another accepted route in a
 country where the queue is the problem, and that is worth something. Weigh it on
-price and on dates against the Goethe-Zentrum and VHS — and on the section that
-follows, which is about the other person who has to accept your certificate.
+price and on dates against the Goethe-Zentrum, VHS and IISC – Study Hub — and on
+the section that follows, which is about the other person who has to accept your
+certificate.
 
 </div>
 
@@ -467,9 +479,13 @@ done before you start the visa process, not alongside it.
 - The realistic wait from submitting the B1/B2 form to actually sitting the exam
 - How quickly the online B1/B2 forms fill once published
 - Whether the centre's capacity is increasing
-- When the embassy's published list will be corrected to name **ECL**, which it
-  has confirmed by email is accepted but has not yet added to that page
-- Whether any further provider is likely to be added to the embassy's list
+- Whether **IISC – Study Hub** takes external candidates, what it charges, and
+  how long its waiting list is. It is newly named by the embassy and we know
+  nothing about it beyond the ÖSD register and that list
+- Whether the embassy's **au-pair** page will be brought into line. It still
+  names only VHS Bhaktapur and the Goethe-Zentrum for the A1 certificate, and
+  for an au-pair application that page is the one that governs
+- Whether any further provider is likely to be added
 
 If you find any of this out, it is worth telling other people. This page exists
 because one person was willing to say what actually happened to her.
@@ -482,18 +498,22 @@ because one person was willing to say what actually happened to her.
   registration for A1/A2 and online forms via Facebook for B1/B2,
   first-come-first-served allocation, waiting list and the reopening rule:
   [Goethe-Zentrum Kathmandu, FAQ about our exams](https://www.goethe-kathmandu.edu.np/german-exams/how-does-it-work/)
-- The three accepted providers, the module-splitting rule and the
-  submit-with-application rule, quoted verbatim:
+- **The five accepted providers** — Goethe-Zentrum Kathmandu, VHS (Bhaktapur,
+  Kathmandu and Pokhara), IISC Study Hub, telc and ECL — the module-splitting
+  rule and the submit-with-application rule, quoted verbatim, **read live on
+  9 October 2026**:
   [German Embassy Kathmandu, national visas](https://kathmandu.diplo.de/np-de/service/05-visaeinreise/1617934-1617934)
 - VHS as a licensed ÖSD examination centre, teaching A1–B2, offering places
   to external candidates, with a Kathmandu branch at Putalisadak since 2015:
   [VHS Nepal](https://www.vhsnepal.org/)
-- Three licensed ÖSD exam centres in Nepal — VHS Bhaktapur, VHS Pokhara and a
-  third in Kathmandu, checked 31 August 2026:
+- Three licensed ÖSD exam centres in Nepal — **VHS Bhaktapur, VHS Pokhara
+  Language Center and IISC – Study Hub, Kalopul-Ratopul Road, Kathmandu**, the
+  last licensed for A1 to C2. Checked 31 August 2026 and **re-read on 9 October
+  2026**, when the Kathmandu centre's name and address were taken from it:
   [ÖSD exam centres](https://www.osd.at/en/exam-centres/)
 - An official ÖSD certificate being accepted for the visa even from a centre the
-  embassy's published list does not name, quoted verbatim: German Embassy
-  Kathmandu, by email, August 2026
+  embassy's published list did not then name, quoted verbatim: German Embassy
+  Kathmandu, by email, August 2026. The published list has since named it
 - ÖSD exams being course-independent, and centres being licensed either for their
   own course participants only or for external candidates too:
   [ÖSD examination regulations](https://www.osd.at/wp-content/uploads/2023/07/EN_OSD-Prufungsordnung-Stand-17_07_2023_Final.pdf)
@@ -526,11 +546,13 @@ because one person was willing to say what actually happened to her.
 - ECL listed among the language certificates accepted in visa procedures
   generally, on the ALTE-standard test, checked 11 September 2026:
   [Federal Foreign Office, accepted language certificates](https://www.auswaertiges-amt.de/de/service/fragenkatalog-node/2238204-2238204)
-- The embassy's list still naming only three institutions and not ECL, re-read
-  24 September 2026:
+- **ECL now named on the embassy's own published list**, read live
+  9 October 2026. The same page named only three institutions and not ECL when
+  it was re-read on 24 September 2026:
   [German Embassy Kathmandu, national visas](https://kathmandu.diplo.de/np-de/service/05-visaeinreise/1617934-1617934)
-- ECL being accepted: replies from the German Embassy Kathmandu to two separate
-  enquiries, September 2026. Personal correspondence, not reproduced here
+- ECL being accepted before the page said so: replies from the German Embassy
+  Kathmandu to two separate enquiries, September 2026. Personal correspondence,
+  not reproduced here
 - ECL sittings being advertised in Kathmandu: a public Facebook advertisement,
   September 2026
 - ECL's published Kathmandu fees and its November 2026 sitting, read on the

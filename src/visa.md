@@ -7,7 +7,7 @@ order: 6
 permalink: /visa/
 standfirst: There is a faster procedure. You cannot start it — your future employer has to, and most small German companies have never heard of it.
 description: How the Ausbildung visa (§16a AufenthG) works from Nepal, why the Kathmandu waiting list is long, and how the accelerated procedure (§81a AufenthG) can shorten it.
-reviewed: August 2026
+reviewed: October 2026
 ---
 
 <figure>
@@ -18,9 +18,10 @@ reviewed: August 2026
 The residence permit for vocational training is **§ 16a of the Residence Act**
 (*Aufenthaltsgesetz*). To apply you need a signed training contract with a
 German company, registered with the responsible chamber, and normally proof of
-German at **B1**, certified and not older than six months — from one of three
-accepted providers: **Goethe-Zentrum Kathmandu**, **VHS (Bhaktapur or Pokhara)**,
-or **telc**. You may sit different parts of the exam with different providers,
+German at **B1**, certified and not older than six months — from one of five
+accepted providers: **Goethe-Zentrum Kathmandu**, **VHS (Bhaktapur, Kathmandu or
+Pokhara)**, **IISC Study Hub**, **telc** or **ECL**. You may sit different parts
+of the exam with different providers,
 and the certificate must be submitted **with** the application, not later.
 [This matters more than it sounds](/exam-slots/).
 

@@ -6,7 +6,7 @@ order: 10
 permalink: /au-pair/
 standfirst: Au Pair comes up often in Nepal as an alternative to Ausbildung, usually when the B1 exam queue looks impossible. It is a genuine route into a German qualification. It is also, more often than not, suggested for the wrong reason. Austria runs a separate scheme, on different terms, and that is covered here too.
 description: How the Au Pair route into a German Ausbildung actually works for candidates from Nepal, what it costs in time, why the reason it is usually suggested is the wrong one, and how the Austrian scheme differs.
-reviewed: September 2026
+reviewed: October 2026
 ---
 
 <figure>
@@ -36,7 +36,11 @@ the rules that will actually be applied to you.
 - German at **A1** — much lower than the B1 an Ausbildung visa needs. But the
   certificate must come from **VHS Bhaktapur or the Goethe-Zentrum Kathmandu**
   and be **less than six months old**, so this does not put you outside the exam
-  system, only lower down it
+  system, only lower down it. **Do not borrow the longer list from the Ausbildung
+  visa.** In October 2026 the embassy widened the providers it accepts for
+  national visas to five, but its au-pair page still names only these two. Two
+  embassy pages, two lists — and for an au-pair application the au-pair page is
+  the one that counts. Re-read 9 October 2026
 - You must also be able to **hold an A1 conversation with embassy staff** —
   understand their questions and answer freely. A certificate alone is not enough
 - **€280 a month** pocket money, plus board and lodging

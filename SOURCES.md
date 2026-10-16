@@ -1691,7 +1691,7 @@ point; it is simply no longer what the page rests on.
 | Claim | Source | Status | Checked |
 | --- | --- | --- | --- |
 | German–Nepali vocational training initiative, started **September 2021** | NSST's own employer information sheet, hosted by HWK Trier, verbatim *"Wir sind im September 2021 gestartet"* | **VERIFIED — primary (NSST's own document)** | 2026-08-23 |
-| Registered **in Nepal** as a *"Company Not distributing Profit"*, which *"entspricht einer gemeinnützigen GmbH (gGmbH) in Deutschland"* | same, verbatim | **VERIFIED — primary** | 2026-08-23 |
+| Registered **in Nepal** as a *"Company Not distributing Profit"*, which *"entspricht einer gemeinnützigen GmbH (gGmbH) in Deutschland"* | same, verbatim | **SUPERSEDED 2026-10-16 — NSST now describe the registration as a social enterprise. Correctly read from the 2023 sheet; kept as the record of what that sheet said** | 2026-08-23 |
 | Has an **MoU with the German embassy in Nepal** and a cooperation with the **Goethe-Zentrum Kathmandu** | same, verbatim | **VERIFIED — primary, but it is NSST's own assertion about a third party** | 2026-08-23 |
 | Goethe-Zentrum Kathmandu is their partner *"für die Sprachausbildung und Prüfungsabnahme"* | same, verbatim | **VERIFIED — primary** | 2026-08-23 |
 | Participants complete **language courses and exams A1–B2** before the Ausbildung starts, with extra practice hours | same, verbatim | **VERIFIED — primary** | 2026-08-23 |
@@ -2836,3 +2836,33 @@ a season.
 **What this suggests.** Links that a checker cannot verify — social accounts
 above all — should be re-read by a person when the page that depends on them
 changes. Nothing automated will catch them.
+
+---
+
+## NSST: the legal form corrected to social enterprise — 2026-10-16
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| NSST is **registered in Nepal as a social enterprise** | NSST, by email, verbatim: *"It is registered in Nepal as a Social Enterprise"* | **VERIFIED — primary, and the organisation's own statement about its own registration** | 2026-10-16 |
+
+**What it replaces.** The page said *"registered in Nepal as a Company Not
+distributing Profit, which is like a German non-profit company"*. That was read
+correctly from NSST's own 2023 employer sheet, which used both phrases. NSST
+have now described the registration differently, and a current statement from the
+organisation outranks its own older document.
+
+**The German comparison came out with it.** The *gGmbH* gloss was NSST's wording
+in the 2023 sheet, not ours, and it was attached to the older description. They
+did not offer an equivalent for "social enterprise", so the page does not invent
+one. It states the registration and stops.
+
+**This is the third time the legal form has moved**, which is worth noting
+rather than hiding: "a gGmbH founded in Germany" (wrong, corrected
+2026-08-23), "a Company Not distributing Profit in Nepal" (right as of the 2023
+document), and now "a social enterprise". Each correction came from a better
+source than the last, and the current one comes from NSST directly.
+
+**Nothing a reader acts on depends on it.** The load-bearing claim is that
+nobody charges the candidate, which is separately sourced to NSST in writing and
+to § 296a SGB III.
+

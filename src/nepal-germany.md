@@ -26,9 +26,8 @@ goes through the same embassy queue. But they are real, and they are free.
 The **Nepal Secretariat of Skills and Training** is a German–Nepali organisation
 that trains young Nepalis for skilled work. For some of them that means an
 Ausbildung in Germany. It started in **September 2021**. It is registered in
-Nepal as a *Company Not distributing Profit*, which is like a German non-profit
-company. It says it has an agreement (an **MoU**) with the German embassy in
-Nepal.
+Nepal as a **social enterprise**. It says it has an agreement (an **MoU**) with
+the German embassy in Nepal.
 
 They wrote to us on **9 October 2026**.
 

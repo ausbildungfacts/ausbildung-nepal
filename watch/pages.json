@@ -21,22 +21,23 @@
   "pages": [
     {
       "id": "embassy-language-certificates",
-      "why": "The list of accepted language-certificate providers on this page is load-bearing for the exam and visa pages. It changed between 24 September and 9 October 2026, growing from three names to five: VHS Kathmandu, IISC Study Hub and ECL were added. Watched so the next change is noticed in a day rather than a fortnight.",
+      "why": "The list of accepted language-certificate providers on this page is load-bearing for the exam and visa pages. It has moved twice: it grew from three names to five around 9 October 2026, then was cut to four between 12 and 13 October, when IISC Study Hub was dropped and OeSD was named in its own right. The site now carries the four-name list, so any further move has to be caught. IISC is watched as ABSENT: if the embassy puts it back, that is news too.",
       "url": "https://kathmandu.diplo.de/np-de/service/05-visaeinreise/1617934-1617934",
       "present": [
-        "Goethe Zentrum Kathmandu",
-        "VHS (Bhaktapur, Kathmandu und Pokhara)",
-        "IISC Study Hub",
-        "Telc",
-        "ECL",
-        "Nur Sprachzertifikate der folgenden Institutionen"
+        "Nur Zertifikate der folgenden Institutionen",
+        "Goethe-Institute einschließlich des Goethe Center Kathmandu",
+        "ÖSD (VHS Bhaktapur und Pokhara, Kathmandu)",
+        "Telc oder ECL",
+        "einzelne Prüfungsteile bei verschiedenen anerkannten Anbietern"
       ],
-      "absent": [],
+      "absent": [
+        "IISC"
+      ],
       "affects": [
         "src/exam-slots.md",
         "src/visa.md"
       ],
-      "checked": "2026-10-09"
+      "checked": "2026-10-22"
     },
     {
       "id": "nsst-own-website",
@@ -71,7 +72,7 @@
       "affects": [
         "src/au-pair.md"
       ],
-      "checked": "2026-10-09"
+      "checked": "2026-10-22"
     }
   ]
 }

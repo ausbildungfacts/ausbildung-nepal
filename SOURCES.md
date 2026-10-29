@@ -3715,3 +3715,119 @@ item stays open.
 
 - Which trades applicants from Nepal actually enter, as a measured figure rather
   than an impression. The page continues to ask readers to fill the gap.
+
+---
+
+## The embassy cut its provider list from five to four — 2026-10-22
+
+The list of accepted language-certificate providers on the embassy's national-visa
+page moved for the second time in a month. On about 9 October it grew from three
+names to five. Between **12 and 13 October 2026** it was cut to four: **IISC Study
+Hub was removed**, and ÖSD was named as a certificate in its own right.
+
+The page's current wording, read live on 22 October 2026 and **identical in all
+eight of the visa-category blocks on that page**, so this is an edit and not a
+rendering fault:
+
+> Nur Zertifikate der folgenden Institutionen können anerkannt werden:
+> Goethe-Institute einschließlich des Goethe Center Kathmandu, ÖSD (VHS Bhaktapur
+> und Pokhara, Kathmandu), Telc oder ECL.
+
+### How the date is known
+
+The `page-watch` workflow checks this page daily at 07:15 UTC. Run 19 passed on
+12 October 2026 against the five-name list; run 20 failed on 13 October. The
+change therefore falls between those two runs. The Internet Archive holds no 2026
+snapshot of this page, so the workflow's own run history is the dating evidence.
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| The embassy's published list of accepted providers now names **four**: Goethe-Institute including the Goethe Center Kathmandu, ÖSD (VHS Bhaktapur, Pokhara and Kathmandu), telc and ECL | German Embassy Kathmandu, national visa page, read live, quoted verbatim above | **VERIFIED — primary, published** | 2026-10-22 |
+| **IISC Study Hub is no longer named on that page.** The string "IISC" does not appear anywhere on it | same page, full-text search of the fetched page | **VERIFIED — primary** | 2026-10-22 |
+| **Any Goethe-Institut now counts, not only Kathmandu** — the page says "Goethe-Institute einschließlich des Goethe Center Kathmandu" | same | **VERIFIED — primary, published** | 2026-10-22 |
+| **ÖSD is now named by the embassy in its own right**, with VHS Bhaktapur, Pokhara and Kathmandu given as its centres | same | **VERIFIED — primary, published** | 2026-10-22 |
+| The module-splitting rule survives unchanged — parts of one exam may be sat with different accepted providers | same | **VERIFIED — primary, published** | 2026-10-22 |
+| For **study** purposes the page also now allows a **DSH** certificate, obtainable only inside Germany | same | **VERIFIED — primary, but not published on this site**, which is about Ausbildung, not study | 2026-10-22 |
+| The embassy's **au-pair** page still names only VHS Bhaktapur and the Goethe-Zentrum for A1, and still does not name IISC | German Embassy Kathmandu, au-pair page, checked by `page-watch` | **VERIFIED — primary** | 2026-10-22 |
+| Whether an ÖSD certificate sat at IISC – Study Hub would be accepted for a visa | nothing in writing from the embassy, either way | **OPEN — must not be stated as settled in either direction** | 2026-10-22 |
+
+### Why the site does not now say IISC is rejected
+
+The tempting correction is to invert the old claim and tell readers IISC is not
+accepted. That would be a second wrong claim, not a fix.
+
+What is known: the embassy no longer names IISC. What is also known, and
+separately sourced, is that ÖSD still licenses IISC – Study Hub on
+Kalopul-Ratopul Road for A1 to C2, and that the embassy confirmed in writing in
+August 2026 that an official ÖSD certificate is accepted. The page now names ÖSD
+itself. So an IISC certificate may well still be accepted.
+
+Against that, the bracket after ÖSD names only VHS branches. Reading it as
+"any ÖSD centre" would repeat a mistake this project has already made once —
+inferring a specific acceptance from a general one. Reading it as "IISC is out"
+would be equally unsourced, and would cost a reader an option that may be real.
+
+So the claim is graded OPEN, the site stops saying the embassy accepts IISC,
+and it tells readers plainly to get an answer in writing before paying anyone.
+A reader who is wrongly warned off a cheaper exam loses money too.
+
+### What changed on the site
+
+| File | Was | Now |
+| --- | --- | --- |
+| `src/exam-slots.md` | "five providers", a five-row table, and a paragraph calling IISC – Study Hub "a third door in Kathmandu" whose certificates "the embassy accepts" | Four providers, the new verbatim quote, a four-row table, and a paragraph that withdraws the earlier claim and says why |
+| `src/visa.md` | B1 "from one of five accepted providers", IISC among them | Four, with any Goethe-Institut and ÖSD named as the embassy now names them |
+| `src/au-pair.md` | "widened the providers it accepts for national visas to five" | "changed … twice", re-read date moved to 22 October 2026 |
+| `watch/pages.json` | the five-name list as `present` | the four-name wording as `present`, plus **IISC as `absent`** so the watcher reports it if the embassy puts it back |
+
+The ÖSD register paragraph still names IISC – Study Hub, because ÖSD's register
+does and that is what the paragraph is about. A sentence was added there saying
+that being on ÖSD's register is not the same as being on the embassy's list, and
+that the two no longer match.
+
+### How long the site was wrong
+
+The watcher caught the change on 13 October 2026 and opened a comment on the
+existing `page-changed` issue every day. The issue was not read until 22 October,
+so the site carried the IISC claim for **nine days** after it became unsupported.
+The detection worked; the part that failed was nobody reading the issue. Worth
+remembering when deciding whether a daily failing workflow is enough on its own.
+
+### Still open
+
+- Why IISC Study Hub was named for about three weeks and then removed
+- Whether an ÖSD certificate from IISC would be accepted — nothing in writing
+- Whether the au-pair page will ever be brought into line with the national-visa
+  page, which has now changed twice while the au-pair page stood still
+
+### The ÖSD examination-regulations link, replaced — 2026-10-22
+
+Found by the Monday link check (issue #3, open since 19 October 2026). The
+English-language ÖSD examination regulations PDF the exam page cited now returns
+**404**. ÖSD has withdrawn it; the current Prüfungsordnung on their downloads page
+is **German only, valid from 1 August 2026**.
+
+That PDF was carrying two claims. They have been separated, because the
+replacement does not support both:
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| ÖSD exams are **course-independent** — a candidate may sit one without having attended a course | [ÖSD FAQ, question 8](https://www.osd.at/en/faq/), in ÖSD's own words on a live HTML page | **VERIFIED — primary** | 2026-10-22 |
+| Whether ÖSD centres are licensed either for their own course participants only or for external candidates too | the withdrawn English PDF carried this; the current German Prüfungsordnung does not appear to repeat it | **UNSOURCED — removed from the site as a general claim** | 2026-10-22 |
+| VHS Bhaktapur offers places to **external candidates**, not only its own students | VHS Nepal's own site, already cited separately on the exam page | **VERIFIED — primary** | earlier, unchanged |
+
+The general licensing claim was dropped rather than re-pointed at a source that
+does not say it. The site's practical statement — that VHS takes external
+candidates — survives because it was always sourced to VHS itself, not to the
+regulations.
+
+An HTML FAQ is also a better citation than a versioned PDF: this is the second
+time an ÖSD PDF has moved under a claim on this site. The regulations PDF is
+reissued with a new filename each time it is revised, so any link to it rots by
+design.
+
+**Caveat on method.** The current Prüfungsordnung was read by extracting text
+from the PDF, not rendered. The extraction was legible where checked, but it is
+not a faithful render, so "does not appear to repeat it" is stated as that and
+not as a finding. If the distinction matters later, the PDF should be opened and
+read properly before anything is published on it.

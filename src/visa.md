@@ -18,11 +18,11 @@ reviewed: October 2026
 The residence permit for vocational training is **§ 16a of the Residence Act**
 (*Aufenthaltsgesetz*). To apply you need a signed training contract with a
 German company, registered with the responsible chamber, and normally proof of
-German at **B1**, certified and not older than six months — from one of five
-accepted providers: **Goethe-Zentrum Kathmandu**, **VHS (Bhaktapur, Kathmandu or
-Pokhara)**, **IISC Study Hub**, **telc** or **ECL**. You may sit different parts
-of the exam with different providers,
-and the certificate must be submitted **with** the application, not later.
+German at **B1**, certified and not older than six months — from one of four
+accepted providers: **any Goethe-Institut, the Goethe-Zentrum Kathmandu
+included**, **ÖSD (VHS Bhaktapur, Pokhara or Kathmandu)**, **telc** or **ECL**.
+You may sit different parts of the exam with different providers, and the
+certificate must be submitted **with** the application, not later.
 [This matters more than it sounds](/exam-slots/).
 
 Some vocational schools ask for B2 rather than B1 — worth checking with your

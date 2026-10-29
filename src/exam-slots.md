@@ -120,26 +120,27 @@ matter, not just a comfort one.
 
 Read this next part carefully. Getting it wrong costs money and months.
 
-The German Embassy in Kathmandu accepts certificates from five providers, and
+The German Embassy in Kathmandu accepts certificates from four providers, and
 explicitly allows you to sit **different parts of the exam with different
 providers**. Its own words:
 
-> Es ist möglich einzelne Prüfungsteile bei verschiedenen anerkannten Anbietern
-> zu absolvieren (z.B. 3 Teile beim Goethe Zentrum und 1 Teil bei der VHS). Nur
-> Sprachzertifikate der folgenden Institutionen können derzeit anerkannt werden:
-> Goethe Zentrum Kathmandu, VHS (Bhaktapur, Kathmandu und Pokhara), IISC Study
-> Hub, Telc oder ECL.
+> ... es möglich ist einzelne Prüfungsteile bei verschiedenen anerkannten
+> Anbietern zu absolvieren (z.B. 3 Teile beim Goethe Zentrum und 1 Teil bei der
+> VHS). Nur Zertifikate der folgenden Institutionen können anerkannt werden:
+> Goethe-Institute einschließlich des Goethe Center Kathmandu, ÖSD (VHS
+> Bhaktapur und Pokhara, Kathmandu), Telc oder ECL.
 
-We read that page on **9 October 2026**. If somebody tells you there are only
-three places you can sit the exam, they are working from an older list.
+We read that page on **22 October 2026**. The list on it changed twice in a
+month — it grew to five names in early October and was cut back to these four
+between 12 and 13 October. **Read it yourself on the day you book anything.**
+The address is at the foot of this page.
 
 <div class="scroll">
 
 | Provider | Where | Notes |
 | --- | --- | --- |
-| **Goethe-Zentrum Kathmandu** | Thapathali | The queue everybody is in |
-| **VHS** | **Bhaktapur, Kathmandu and Pokhara** | A licensed ÖSD exam centre. The Kathmandu branch at Putalisadak is now named by the embassy in its own right |
-| **IISC – Study Hub** | Kalopul-Ratopul Road, Kathmandu | Licensed by ÖSD for every level from A1 to C2. Newly named by the embassy |
+| **Goethe-Zentrum Kathmandu**, or any other **Goethe-Institut** | Thapathali, or abroad | The Kathmandu queue is the one everybody is in. Since October 2026 the embassy names Goethe-Institute generally, so a sitting abroad counts too |
+| **ÖSD at VHS** | **Bhaktapur, Kathmandu and Pokhara** | The embassy now names ÖSD itself, with these VHS branches. Bhaktapur and Pokhara are licensed ÖSD centres; the Kathmandu branch at Putalisadak is named by the embassy in its own right |
 | **telc** | no centre in Nepal | Accepted, but you would have to sit it abroad |
 | **ECL** | Kathmandu | Accepted. The most expensive of them all — see below |
 
@@ -155,11 +156,14 @@ licensed ÖSD examination centre and takes external candidates, not only its own
 students. For anyone outside the valley, Pokhara may be far easier to reach than
 either.
 
-**IISC – Study Hub is a third door in Kathmandu.** It is on Kalopul-Ratopul
-Road. ÖSD licenses it for every level from A1 to C2, and the embassy accepts its
-certificates. We know nothing else about it yet: not its prices, not its dates,
-and not whether it examines people who have not taken its courses. Ask it those
-three things directly.
+**IISC – Study Hub was on this list and is not any more.** The embassy removed
+it between 12 and 13 October 2026. This page used to call it a third door in
+Kathmandu, and the only reason it said so was that the embassy named it. We never
+got anything in writing about it, and now the page does not name it either. ÖSD
+still licenses it, so whether a certificate from it would be accepted is
+genuinely unclear. **Do not pay it on the strength of what this page said
+before.** If you are considering it, ask the embassy in writing first and keep
+the answer.
 
 **Check the name and the street against ÖSD's own register before you pay
 anybody.** [ÖSD's register](https://www.osd.at/en/exam-centres/) is free, it is
@@ -168,7 +172,8 @@ VHS Bhaktapur, VHS Pokhara Language Center, and IISC – Study Hub on
 Kalopul-Ratopul Road. Similar trading names exist in Kathmandu at other
 addresses. That is not an accusation about anyone — it is a reason to match both
 the name and the street against the register, which takes a minute and costs
-nothing.
+nothing. Being on ÖSD's register is not the same as being on the embassy's list,
+and as of 22 October 2026 the two no longer match.
 
 **An official ÖSD certificate counts.** The embassy told us so in writing in
 August 2026: *"Ja, auch diese wird akzeptiert wenn es sich um ein offizielles ÖSD
@@ -262,9 +267,8 @@ most expensive to repair.
 
 **So ECL is a real option, and an expensive one.** In a country where the
 queue is the problem, another accepted route is worth something. Weigh it on
-price and on dates against the Goethe-Zentrum, VHS and IISC – Study Hub. Then
-read the next section, which is about the other person who has to accept your
-certificate.
+price and on dates against the Goethe-Zentrum and VHS. Then read the next
+section, which is about the other person who has to accept your certificate.
 
 </div>
 
@@ -311,10 +315,10 @@ not to an agent:
 It costs nothing, and it gives you an answer in writing that you can keep with
 your papers. If somebody tells you there is no need to ask, ask why.
 
-**And one exam in Nepal answers both questions at once: ÖSD.** VHS Bhaktapur,
-VHS Pokhara and IISC – Study Hub are all licensed ÖSD examination centres. **All
-three are on the embassy's own list**, the embassy has separately confirmed that
-an official ÖSD certificate counts, and **ÖSD is named by both employers above**.
+**And one exam in Nepal answers both questions at once: ÖSD.** VHS Bhaktapur and
+VHS Pokhara are licensed ÖSD examination centres. **The embassy now names ÖSD on
+its own list**, it has separately confirmed in writing that an official ÖSD
+certificate counts, and **ÖSD is named by both employers above**.
 It is also cheaper than ECL at every level. If you have any choice of dates at
 all, that is what to aim for. The VHS section further up this page has the
 details, including an ÖSD B2 sitting on 4 November 2026.
@@ -460,9 +464,10 @@ done before you start the visa process, not alongside it.
 - The realistic wait from submitting the B1/B2 form to actually sitting the exam
 - How quickly the online B1/B2 forms fill once published
 - Whether the centre's capacity is increasing
-- Whether **IISC – Study Hub** takes external candidates, what it charges, and
-  how long its waiting list is. It is newly named by the embassy and we know
-  nothing about it beyond the ÖSD register and that list
+- Why **IISC – Study Hub** was taken off the embassy's list between 12 and
+  13 October 2026, after about three weeks on it, and whether an ÖSD certificate
+  from it would still be accepted. We have nothing in writing from the embassy
+  either way
 - Whether the embassy's **au-pair** page will be brought into line. It still
   names only VHS Bhaktapur and the Goethe-Zentrum for the A1 certificate, and
   for an au-pair application that page is the one that governs
@@ -479,10 +484,11 @@ because one person was willing to say what actually happened to her.
   registration for A1/A2 and online forms via Facebook for B1/B2,
   first-come-first-served allocation, waiting list and the reopening rule:
   [Goethe-Zentrum Kathmandu, FAQ about our exams](https://www.goethe-kathmandu.edu.np/german-exams/how-does-it-work/)
-- **The five accepted providers** — Goethe-Zentrum Kathmandu, VHS (Bhaktapur,
-  Kathmandu and Pokhara), IISC Study Hub, telc and ECL — the module-splitting
-  rule and the submit-with-application rule, quoted verbatim, **read live on
-  9 October 2026**:
+- **The four accepted providers** — Goethe-Institute including the Goethe Center
+  Kathmandu, ÖSD (VHS Bhaktapur, Pokhara and Kathmandu), telc and ECL — the
+  module-splitting rule and the submit-with-application rule, quoted verbatim,
+  **read live on 22 October 2026**. IISC Study Hub was named on this page from
+  about 9 October and removed between 12 and 13 October 2026:
   [German Embassy Kathmandu, national visas](https://kathmandu.diplo.de/np-de/service/05-visaeinreise/1617934-1617934)
 - VHS as a licensed ÖSD examination centre, teaching A1–B2, offering places
   to external candidates, with a Kathmandu branch at Putalisadak since 2015:
@@ -494,10 +500,16 @@ because one person was willing to say what actually happened to her.
   [ÖSD exam centres](https://www.osd.at/en/exam-centres/)
 - An official ÖSD certificate being accepted for the visa even from a centre the
   embassy's published list did not then name, quoted verbatim: German Embassy
-  Kathmandu, by email, August 2026. The published list has since named it
-- ÖSD exams being course-independent, and centres being licensed either for their
-  own course participants only or for external candidates too:
-  [ÖSD examination regulations](https://www.osd.at/wp-content/uploads/2023/07/EN_OSD-Prufungsordnung-Stand-17_07_2023_Final.pdf)
+  Kathmandu, by email, August 2026. That page has since named ÖSD itself, which
+  is what the site now relies on; it is no longer the case that the list names
+  every ÖSD centre in Nepal
+- ÖSD exams being course-independent — you can sit one without having attended a
+  course first: [ÖSD's own FAQ, question 8](https://www.osd.at/en/faq/), read
+  **22 October 2026**. This previously cited the English examination regulations
+  PDF, which ÖSD has withdrawn; the current Prüfungsordnung, valid from 1 August
+  2026, is published in German only. Whether a given centre examines people who
+  did not take its courses is sourced per centre instead — for VHS, see the VHS
+  Nepal line above
 - ÖSD relative difficulty, the reported B1 date roughly two months out, B1
   waiting-list position past 1,000, and B2 reportedly next running July 2027:
   candidates preparing in Nepal, July–August 2026

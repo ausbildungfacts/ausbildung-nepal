@@ -37,10 +37,10 @@ the rules that will actually be applied to you.
   certificate must come from **VHS Bhaktapur or the Goethe-Zentrum Kathmandu**
   and be **less than six months old**, so this does not put you outside the exam
   system, only lower down it. **Do not borrow the longer list from the Ausbildung
-  visa.** In October 2026 the embassy widened the providers it accepts for
-  national visas to five, but its au-pair page still names only these two. Two
+  visa.** In October 2026 the embassy changed the providers it accepts for
+  national visas twice, but its au-pair page still names only these two. Two
   embassy pages, two lists — and for an au-pair application the au-pair page is
-  the one that counts. Re-read 9 October 2026
+  the one that counts. Re-read 22 October 2026
 - You must also be able to **hold an A1 conversation with embassy staff** —
   understand their questions and answer freely. A certificate alone is not enough
 - **€280 a month** pocket money, plus board and lodging

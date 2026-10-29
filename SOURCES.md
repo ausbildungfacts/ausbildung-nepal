@@ -2866,3 +2866,852 @@ source than the last, and the current one comes from NSST directly.
 nobody charges the candidate, which is separately sourced to NSST in writing and
 to § 296a SGB III.
 
+
+---
+
+## The Europe comparison page — 2026-10-16
+
+A new page, `/europe/`, covering legal routes from Nepal to twenty-two European
+countries. **It is the least certain page on this site, and it says so on
+itself.** The German pages rest on the embassy's own replies and on statutes read
+in full. This one leans in places on an EU summary last updated in April 2025 or
+on a law firm's note, and every such place is marked OPEN on the page itself.
+
+### How this page's sources are kept
+
+Unlike every other page here, the per-claim sources are **not** listed in this
+file. They live in `src/_data/europe.json`, one block per country, each with a
+URL, a status grade and a date — and the page renders them inline, next to the
+claim they support, rather than as footnotes.
+
+That is a deliberate departure and the reason is drift. Twenty-two countries
+would mean maintaining the same two hundred rows in two files, and the one thing
+this project has learned the hard way is that two copies of a fact become two
+different facts. One file, rendered. The grades in `europe.json` map onto the
+status key at the top of this file: `primary` = VERIFIED on the deciding
+authority's own page or in the statute, `official` = read on an official EU
+aggregator, `secondary`, `open`.
+
+What follows here is the page-level record: the cross-cutting claims, the
+findings that change what the site says, what was deliberately **not** published,
+and the open register.
+
+### The anchor figures
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| In FY 2025/26 (first 11 months) Nepal issued **53,951** new labour approvals for Europe — 14.7% of all outbound workers. Romania **24,767**, Cyprus **7,314**, Portugal **3,245**, Malta **3,056**, Bulgaria **2,993**, Serbia **2,899**, Croatia **2,817**, Greece **2,254**, Austria **1,961**, **Germany 316**, Ireland 190, France 146, Spain 146, Netherlands 62, Belgium 20, Sweden 9 | Kathmandu Post, 16 July 2026, reporting Department of Foreign Employment data | **SECONDARY — press reporting of government figures. The primary is DoFE.** | 2026-10-16 |
+| 4,993 complaints filed and Rs 240 million claimed for **European** employment fraud over the same period | same | SECONDARY | 2026-10-16 |
+| Workers going to Europe pay individual agents **Rs 700,000 to Rs 2,000,000** | same | SECONDARY | 2026-10-16 |
+
+**Germany 316 against Romania 24,767 is the argument of the page.** The route
+with the best terms is the one almost nobody from Nepal gets. That framing is
+load-bearing and it is the opposite of overselling: it says plainly that the
+thing this site is mostly about is statistically rare.
+
+### EU-wide law, read in full in the Official Journal
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| A decision on a complete single-permit application is due **within 90 days** — but a missed deadline has only whatever consequence national law gives it, and the clock is **suspended** while documents are outstanding | Directive (EU) 2024/1233, Art. 5(2) and 5(4), OJ L 30.4.2024 | **VERIFIED — primary, read in full** | 2026-10-16 |
+| Where the employer submits the application, states must ensure the employer tells the applicant how it is going and how it ended | same, Art. 5(3) | **VERIFIED — primary** | 2026-10-16 |
+| A minimum period tied to the first employer **may never exceed six months**, and a change must be allowed earlier *"in duly justified cases of a serious breach by the employer of the terms and conditions of the employment relationship"* | same, Art. 11(2)–(3) | **VERIFIED — primary** | 2026-10-16 |
+| Unemployment alone does not withdraw the permit: up to **three months**, or **six** if held more than two years, on notification | same, Art. 11(4) | **VERIFIED — primary** | 2026-10-16 |
+| Where authorities have reasonable grounds to believe the holder suffered *"particularly exploitative working conditions"*, the unemployment period **shall** be extended by **three months** | same, Art. 11(6), referring to Art. 2(i) of Directive 2009/52/EC | **VERIFIED — primary** | 2026-10-16 |
+| Complaints may be lodged **through third parties** with a legitimate interest, acting *"either on behalf of or in support of"* the worker | same, Art. 14 | **VERIFIED — primary** | 2026-10-16 |
+| Labour inspectors must have workplace access, and *"Where accommodation is provided by the employer ... access to the workplace shall include access to that accommodation"*, with the worker's consent | same, Art. 13(3) | **VERIFIED — primary** | 2026-10-16 |
+| Each state must publish admission conditions and the documents required *"including through sources accessible in relevant third countries"* | same, Art. 16 | **VERIFIED — primary** | 2026-10-16 |
+| Transposition was due **21 May 2026**; the old Directive 2011/98/EU is repealed from 22 May 2026 | same, Art. 18(1), Art. 19 | **VERIFIED — primary** | 2026-10-16 |
+| **Seasonal workers and au pairs are excluded from the directive by name.** So are posted workers, intra-corporate transferees, the self-employed, seafarers and long-term residents. States may also exclude work of six months or less and people admitted to study, and **Chapter II does not apply to anyone working on the basis of a visa** | same, Art. 3(2)(e), 3(2)(c)(d)(i)(k)(l), 3(3), 3(4) | **VERIFIED — primary** | 2026-10-16 |
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| The EU Talent Pool is established by **Regulation (EU) 2026/1047 of 29 April 2026**, OJ L 12.5.2026, in force on the twentieth day after publication (**1 June 2026**), and as a Regulation is *"binding in its entirety and directly applicable"* | Regulation (EU) 2026/1047, Art. 24 | **VERIFIED — primary, read in full** | 2026-10-16 |
+| It is aimed at a *"jobseeker from a third country"* — residing **outside** the Union, of the age of majority, not an EU citizen, seeking employment in the Union | same, Art. 4(2) | **VERIFIED — primary** | 2026-10-16 |
+| *"The use of the EU Talent Pool shall be free of charge for jobseekers from third countries. Participating employers and other participating entities shall not charge any fees or undisclosed costs to registered jobseekers from third countries for the purpose of recruitment, whether before or after the completion of the recruitment process."* | same, Art. 13(10) | **VERIFIED — primary, verbatim** | 2026-10-16 |
+| *"other participating entity"* is defined as *"a temporary work agency, private employment agency or a labour market intermediary"* — so the no-fee rule names agencies | same, Art. 4(5) | **VERIFIED — primary** | 2026-10-16 |
+| Registration is via the **Europass profile builder**; the applicant must declare they are not subject to a refusal of entry or an EU entry ban | same, Art. 11 | **VERIFIED — primary** | 2026-10-16 |
+| **Member State participation is voluntary**, with nine months' notice to join or withdraw, and the list of participants is published on the platform | same, Art. 3 | **VERIFIED — primary** | 2026-10-16 |
+| The Annex list of Union-wide shortage occupations includes cooks, waiters, health care assistants, nurses, bricklayers, carpenters and joiners, roofers, plasterers, plumbers, air conditioning and refrigeration mechanics, welders, sheet metal workers, motor vehicle mechanics, building electricians, butchers, bus and lorry drivers and cleaners | same, Annex | **VERIFIED — primary (occupation names only, see below)** | 2026-10-16 |
+| The **regulation sets no date for the platform**. The Commission says it expects it fully operational by the end of 2027 — an expectation, not a legal deadline | Regulation text (silence) + European Commission, EU Talent Pool page | **VERIFIED — primary on both halves** | 2026-10-16 |
+
+### CORRECTION, before publication — my own reading of the fee rule was wrong
+
+During Phase 1 I reported, on the strength of law-firm summaries, that the Single
+Permit Directive contained a Europe-wide equivalent of § 296a SGB III. On reading
+Article 10 in the Official Journal, that is **not** what it says:
+
+> *"Where fees for processing applications are paid by the employer, the employer
+> shall not be entitled to recover such fees from the third-country national."*
+
+That governs **the government fee for processing a permit application** and
+nothing else. It says nothing about a private agent's placement fee. The page
+therefore states it narrowly — it makes "we will pay the permit fee and take it
+out of your wages" unlawful across the EU, and that is all it does.
+
+**The actual Europe-wide cousin of § 296a is Article 13(10) of the Talent Pool
+Regulation**, which does name private employment agencies and does cover money
+taken after placement as well as before. Article 15 of the directive expressly
+preserves more favourable national rules, so § 296a is untouched either way.
+
+This is recorded because the wrong version was nearly published on a secondary
+source. It was not, and the reason it was not is the rule in this file.
+
+### Findings that change what the site can say
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| **Austria has no apprenticeship route from abroad.** Its own chamber: *"Der Lehrling muss über eine Aufenthaltsberechtigung in Österreich verfügen."* The official list of Austrian temporary residence permits contains no apprentice category | WKO Salzburg, updated 22 Oct 2025; migration.gv.at permit list | **VERIFIED — primary, two independent Austrian sources** | 2026-10-16 |
+| The "Aufenthaltsbewilligung Lehrling" sometimes quoted at applicants was a **2019 draft** that was never enacted; it said of itself that it was *"nicht als Erstzuwanderungsinstrument nach Österreich konzipiert"* and would open only to people already resident on a school permit | RIS Begutachtung draft (2019 figures, "xx.xx 2019" commencement) | **SECONDARY — a draft. Must never be cited as Austrian law** | 2026-10-16 |
+| Confirmed against the live law: **BGBl. I Nr. 81/2026 of 6 August 2026**, the current NAG/AuslBG amendment, read in full — **zero occurrences of "Lehr"**. It transposes the Single Permit Directive and creates § 19a (90-day decision, in force 12 June 2026) | BGBl. I Nr. 81/2026, read in full | **VERIFIED — primary** | 2026-10-16 |
+| **Hungary is closed to Nepali citizens.** Government Decree 450/2024 Annex 1 lists only **Georgia, Armenia and the Philippines** for an employment residence permit. Nepal is on none of the three Hungarian country lists (employment, guest worker, National Card). Family reunification is excluded for holders, except a child born in Hungary | Hungarian National Directorate-General for Aliens Policing, page last edited 10 Mar 2026; CMS for the full lists | **VERIFIED — primary on the authority's own site** | 2026-10-16 |
+| **Cyprus writes several categories out of its five-year residence clock**: *"Students or persons residing in the Republic for vocational training purposes"*, and *"Persons residing in the Republic, solely on a temporary basis (e.g. unpaid domestic workers, seasonal workers)"*, and anyone whose permit *"has been officially restricted"* | Cyprus Migration Department, long-term resident status, page posted 29 Dec 2025 | **VERIFIED — primary (the department that decides it)** | 2026-10-16 |
+| Cyprus, verbatim, on changing employer: *"No, you can only work at the employer stated on your residence permit."* | same department's FAQ, posted 29 Dec 2025 | **VERIFIED — primary** | 2026-10-16 |
+| **Finland does grant a residence permit for apprenticeship training**, and *"first residence permits must be applied for abroad"* — so unlike Austria it is reachable from Nepal. Which permit applies turns on whether the apprenticeship is more or less than half the studies | Finnish Immigration Service (Migri) | **VERIFIED — primary** | 2026-10-16 |
+| Finland's income requirement for a worker's permit is *"at least EUR 1,600 per month in 2026"*, with **no stated exemption for apprentices** — above a first-year German Ausbildung wage | Migri income requirement page | **VERIFIED — primary that no exemption is stated** | 2026-10-16 |
+| **Portugal's manifestação de interesse closed permanently on 31 December 2025** under Lei 61/2025 (in force 23 Oct 2025); the open job-seeker visa was replaced by a skilled-only one which, as of August 2026, was reported as still unavailable at consulates | Several independent reports naming the law | **SECONDARY — Lei 61/2025 itself has NOT been read. Marked open on the page** | 2026-10-16 |
+| **Nepal is on the UK's amber list** for health and care recruitment (added 22 Aug 2022): recruitment only under the government-to-government agreement, currently one NHS trust, still a pilot — but the Code does not prevent individuals *"independently applying ... of their own accord and without being targeted by a third party"* | NHS Employers, code of practice red and amber list | **VERIFIED — primary** | 2026-10-16 |
+| The UK **Seasonal Worker visa**: horticulture up to six months, poultry 2 Oct – 31 Dec, needs a licensed sponsor, fee £340, and *"You cannot bring family members with you."* No settlement | gov.uk | **VERIFIED — primary** | 2026-10-16 |
+| **Switzerland's 2026 third-country quota is 8,500** (4,500 B, 4,000 L), restricted to managers, specialists and other qualified workers | Swiss Federal Council, 19 Nov 2025 | **VERIFIED — primary** | 2026-10-16 |
+| **Norway abolished its au pair scheme with effect from 15 March 2024** | Three independent reports in agreement; udi.no could not be read (automated access blocked) | **SECONDARY — marked open on the page** | 2026-10-16 |
+| Denmark au pair: 18 to under 30, pocket money **at least DKK 5,250/month (2026)**, 18–30 hours a week, **maximum two years**, application fee DKK 4,305, host family pays **DKK 20,900** toward Danish classes, processing three months | nyidanmark.dk, page last updated 26 June 2026 | **VERIFIED — primary** | 2026-10-16 |
+| Netherlands au pair: **one year, not extendable**, age 18–25, only an IND-recognised agency may apply for you, max 8 hours a day and 30 a week, must be unmarried with no children and never previously held a Dutch permit, fee **€423** | IND | **VERIFIED — primary** | 2026-10-16 |
+| **Poland's work visas are decided in New Delhi**, Mon/Tue/Wed at 10:00, within 15 days. Poland has no embassy in Nepal | Polish MFA, Poland in India | **VERIFIED — primary** | 2026-10-16 |
+| Sweden's visa applications from Nepal go via VFS Global Kathmandu to the **Embassy of Sweden in New Delhi**, which *"will represent Denmark and Estonia in the matters"* — **short-stay Schengen only**; residence permits are a separate process | Swedish MFA, Sweden Abroad, Nepal page | **VERIFIED — primary** | 2026-10-16 |
+| Czechia: the New Delhi embassy covers **India, Bangladesh, Bhutan, Nepal, Sri Lanka and the Maldives** with a yearly quota of **1,560 Employee Cards** (600 Qualified Worker, 960 Highly Qualified / Key and Research Staff); programme applicants are **given** appointments | Czech MFA, Embassy New Delhi, page updated 19 June 2025 | **VERIFIED — primary** | 2026-10-16 |
+
+**The Kathmandu/New Delhi distinction may be the most useful paragraph on the
+page.** A country being "handled in Kathmandu" generally means *short-stay
+Schengen visas only*. The work or training visa is a separate national visa,
+usually decided in New Delhi — which means an Indian visa, travel, and an
+appointment queue nobody mentions when quoting a fee. An agent who says "Poland
+visas are done in Kathmandu" is telling the truth about tourist visas and is
+wrong about work visas.
+
+### Deliberately NOT published
+
+- **"About 85% of Nepalis going to Europe travel on individual visas."** This
+  appeared in a search summary of the Kathmandu Post story but **not** in the
+  fetched article body. It was drafted onto the page and then removed. The page
+  says "most" instead, which the article supports.
+- **A Poland labour-approval figure (~3,123).** Same problem — in a search
+  summary, not in the article. The table shows a dash for Poland.
+- **The ISCO-08 codes from the Talent Pool Annex.** The Annex is a two-column
+  table and the PDF text extraction misaligned the codes against the occupations
+  (it paired 5120 with "Applications programmers" and 7112 with "Electrical
+  engineering technicians", both wrong in real ISCO-08). Occupation **names** are
+  published; codes are not.
+- **Wages for low-paid work in most Tier 2 countries.** Not verified, so not
+  printed. The page says so in a box of its own and asks readers to send figures
+  they have been quoted. This is the largest remaining gap.
+- **The name of any commercial operator.** One website advertising non-existent
+  Austrian and Swiss apprenticeships was found during research. The page states
+  the rule — Austria has no such permit — and names nobody, per the standing rule
+  that readers get questions to ask, not accusations to make.
+- **Italy's cooperation-country list.** Sources disagree (8 vs 31). Nepal is on
+  neither, which is the publishable part, and that is all the page says.
+
+### Open register for this page
+
+Each of these is printed on the page itself, next to the country it belongs to.
+
+1. **Whether a German Ausbildung trainee under § 16a is covered by the single
+   permit rights.** Art. 3(1)(b) appears to reach people admitted for a purpose
+   other than work who are allowed to work, and Art. 12(1) grants them equal
+   treatment — but Art. 3(3) lets a state exclude people admitted *"for the
+   purpose of study"*, and how Germany treats § 16a cannot be settled from the
+   directive text. **Not stated either way. Candidate for a written question to
+   BAMF**, in the manner of the embassy and ZAV enquiries.
+2. **How Ausbildung time counts towards settlement in Germany** (§ 9 AufenthG).
+   Never checked by this project. Relevant because Cyprus expressly excludes
+   vocational training time from its clock, and the contrast would be worth
+   drawing — but only once § 9 has actually been read.
+3. **Cyprus's maximum permit length by sector.** The EU portal says four years
+   generally, with agriculture, domestic work and others on different terms;
+   secondary sources say domestic work six years and agriculture uncapped. No
+   Cyprus primary found. The page does **not** say "Cyprus leads nowhere".
+4. **Whether Nepali nationals are eligible for Czechia's Qualified Worker
+   Programme.** Decides whether Czechia is a route at all.
+5. **Portugal: Lei 61/2025 has not been read.**
+6. **Croatia's June 2026 amendments**, especially the A1.1 Croatian language
+   requirement biting from June 2027 — consistently reported, statute unread.
+7. **Greece's Law 5275/2026** — two law-firm summaries, statute unread.
+8. **Bulgaria's July 2026 seasonal changes** — one news report of a government
+   decision, official act unread. Also the Rs 91.9 million Bulgaria scam figure,
+   seen in one outlet only and labelled as such on the page.
+9. **Norway** — au pair abolition (secondary only) and everything about the
+   skilled worker route. udi.no blocks automated access.
+10. **Switzerland** — whether any third-country apprenticeship route exists. My
+    belief is that it does not; it is unsourced, so the page does not say it.
+11. **Which European countries have resident embassies in Kathmandu.** Needs
+    confirming ministry by ministry. Finland, Denmark, France, Germany, Norway,
+    Switzerland and the UK are reported; only Germany, Sweden, Poland, Czechia
+    and Switzerland's representation role have been read on an official source.
+12. **Malta's 2025/26 labour migration policy and skills card** — not researched
+    at all, and could change the Malta entry entirely.
+13. **Real wages** in Romania, Cyprus, Portugal, Malta, Bulgaria, Croatia and
+    Greece.
+14. **Lithuania and Slovakia** — the entries are pointers, not information, and
+    say so.
+15. **Whether EU Talent Pool registration involves any charge beyond the free
+    platform**, and which states have joined. Unknowable in advance by design.
+
+### Sources that could not be read at all
+
+- **eur-lex.europa.eu** blocks this machine by every method tried. Both the
+  directive and the regulation were read only because the Official Journal PDFs
+  were downloaded by hand and supplied locally. **Anyone re-verifying this page
+  will hit the same wall** — download the OJ PDF rather than fetching the page.
+- **udi.no** (Norway) — Azure WAF.
+- **igi.mai.gov.ro** English site — reachable, but its newest content is 2022.
+- **legislatie.just.ro** — could not open, so Romania's 2026 quota decision rests
+  on secondary reporting that names the act.
+
+### A note on the page's own honesty
+
+The page carries a box saying it is less certain than the rest of the site, lists
+what is open, prints a last-checked date under every country, and says in terms
+that "not checked" means not checked rather than hinting at a bad answer. That is
+not modesty. Twenty-two countries cannot be held to the standard of the German
+pages by one person reading government websites, and a reader who treats this
+page as settled law could lose a year. The alternative — publishing only Germany
+and letting the other twenty-one be described by people who are paid if you
+go — is worse.
+
+---
+
+## Wages, deductions and what is left to send home — 2026-10-16
+
+Added to `/europe/` after Alan pointed out that a wage figure alone says nothing
+about how much money reaches Nepal, and that living costs have to be in it.
+
+He was right, and the research went further than expected: for the second
+biggest destination, the headline minimum wage **does not apply to the work
+Nepalis actually do there.**
+
+### The wage figures
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| Gross statutory monthly minimum wage in force **1 July 2026**: Bulgaria **€620**, Romania **€825**, Malta **€994**, Croatia **€1,050**, Greece **€1,073**, Portugal **€1,073**, Cyprus **€1,088**, Poland **€1,119**, Germany **€2,343** | Eurostat, *Monthly minimum wages — bi-annual data* (`earn_mw_cur`), period 2026-S2, read from the Eurostat dissemination API. Dataset updated 2026-07-31 | **VERIFIED — primary, official EU statistics** | 2026-10-16 |
+| The same wages in **purchasing power standards**: Bulgaria 993, Malta 1,081, Cyprus 1,220, Greece 1,229, Portugal 1,240, Romania 1,317, Croatia 1,339, Poland 1,547, Germany 2,164 | same dataset, currency dimension PPS | **VERIFIED — primary** | 2026-10-16 |
+| The figures are **gross** — before income tax and the employee's social contributions. Greece and Portugal pay the minimum wage over 14 months and Eurostat has adjusted for that | Eurostat methodology note on the same release | **VERIFIED — primary** | 2026-10-16 |
+
+**Why both columns are published.** Euros are what can be remitted; PPS is what
+the wage buys where you live. The two rankings genuinely differ and that is the
+point Alan was making. Romania pays the second-lowest wage in euros on the page
+and has the **second-highest** purchasing power. Malta pays a mid-table wage in
+euros and has the **lowest** purchasing power of the nine — Malta is expensive.
+A reader choosing on the euro figure alone, or on the PPS figure alone, picks
+differently and may pick wrong.
+
+**The Eurostat API is also a Phase 3 asset.** `earn_mw_cur` is machine-readable,
+dated, versioned and official. The monthly update job can refresh every wage on
+the page from it without a human reading anything.
+
+### Cyprus — the finding that justified the whole exercise
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| The Cyprus minimum wage regime *"does not cover employees in agricultural and maritime activities, as well as activities of households as employers"* | Eurofound, minimum wage country profile for Cyprus, last updated 30 June 2026 | **VERIFIED — official (EU agency), verbatim** | 2026-10-16 |
+| *"Trainees and persons in vocational education are not subject to the minimum wage provisions."* | same | **VERIFIED — official, verbatim** | 2026-10-16 |
+| Accommodation activities (hotels) are covered by a **separate** decree, currently KDP 55/2025, setting rates for 13 professions | same | **VERIFIED — official** | 2026-10-16 |
+| Under the general decree KDP 350/2022, the employer may reduce the rate by **15% for meals and/or 10% for accommodation** by agreement (Art. 10); where both are provided the wage *"can therefore be reduced to 75% of the full rate"* (Art. 11) | same | **VERIFIED — official** | 2026-10-16 |
+| The 2026 rates are **€979 gross on hiring and €1,088 after six months** with the same employer, by Council of Ministers decree of 23 December 2025 under the Minimum Wage Law (Cap. 183) | Several law-firm and payroll sources in agreement; the decree text was not obtained | **SECONDARY — the €1,088 is corroborated by Eurostat; the €979 starter rate is not on the page** | 2026-10-16 |
+| A Migration Department floor of **€460 a month gross** for live-in domestic workers | Several commercial guides in agreement; no official page found | **OPEN — stated on the page as unconfirmed, and flagged in the Cyprus open list** | 2026-10-16 |
+
+**What this means, and it is worth stating plainly.** Cyprus took 7,314 Nepali
+labour approvals in 2025/26, 65% of them women, overwhelmingly into agriculture,
+private households and care. Those are precisely the three categories the
+minimum wage decree does not reach. For work that *is* covered, an employer
+providing food and a bed may lawfully pay 75% of €1,088 — about €816. The
+headline figure and the lived figure are not the same number, and nobody
+recruiting tells you which one applies to you.
+
+### Germany — a correction to our own framing
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| Germany's general minimum wage is **€2,343 a month**, but it does **not** apply to an Ausbildung, which is training rather than ordinary employment | Eurostat for the figure; the exclusion follows from the Mindestausbildungsvergütung existing separately | **VERIFIED on the figure; SECONDARY on the reasoning** | 2026-10-16 |
+| The statutory **minimum training allowance** for contracts beginning in 2026 is **€724 in the first year**. For 2027 starts it rises to €764, then €902, €1,031 and €1,070 | BIBB press release, 7 October 2026, published in the Bundesgesetzblatt | **VERIFIED — primary for the 2026 first-year and all 2027 figures** | 2026-10-16 |
+| The 2026 second-, third- and fourth-year figures of roughly €854, €977 and €1,014 | Statutory uplifts of 18%, 35% and 40% applied to €724 — **our arithmetic**, not a published table | **SECONDARY — labelled as approximate on the page** | 2026-10-16 |
+
+**This tightens an existing claim rather than contradicting it.** The site
+already carried *"at least €1,090 in the first training year"*, correctly
+attributed to one chamber's own Nepal programme terms. What was missing is that
+**the legal floor is €724**, not €1,090. A reader could have taken the chamber's
+requirement for a national guarantee. The Europe page now gives both numbers and
+says to get the actual figure in writing before signing.
+
+### Employer-provided housing — an EU right, weakly enforced
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| For seasonal workers, where the employer arranges accommodation, Directive 2014/36/EU Article 20 requires **non-excessive rent**, **prohibits automatic wage deductions** and makes a **written rental contract mandatory**; adequate accommodation must be available for the whole stay, with pre-admission checks under Arts. 5(1)(c) and 6(1)(c) | European Commission, **COM(2026) 261 final, 8 May 2026**, report on the application of the Seasonal Workers Directive | **VERIFIED — primary (the Commission's own report)** | 2026-10-16 |
+| Those three housing obligations were *"initially either not transposed, or only partially transposed, by eight Member States"*, and stakeholders *"continue to report frequent breaches"*; rental contracts are *"often being provided in a language workers do not understand"* | same | **VERIFIED — primary, verbatim** | 2026-10-16 |
+| Some Member States have set concrete thresholds, *"such as capping rent at about one third of wages"* | same | **VERIFIED — primary** | 2026-10-16 |
+| On fees: licensed intermediaries inside Member States *"are often prohibited from charging workers"*, but *"documented abuses persist, primarily, though not exclusively, in countries of origin, by unlicensed intermediaries during recruitment and admission, sometimes also during employment"* | same, section on Article 19 | **VERIFIED — primary, verbatim** | 2026-10-16 |
+
+**The last row is the European Commission describing Nepal** — not by name, but
+"countries of origin, unlicensed intermediaries, during recruitment" is this
+project's subject matter, in a report to the European Parliament. It is put on
+the page without embellishment.
+
+**Balance.** The page already says seasonal workers are carved out of the single
+permit directive. This is the other half: seasonal workers have their *own*
+directive with real housing rights. Both halves are needed, and the enforcement
+caveat is published alongside the right, in the Commission's own words.
+
+### Deliberately not published
+
+- **Rent, food and transport in euros.** There is no official source giving a
+  reliable figure for what a low-paid worker actually spends in these countries,
+  and inventing one would be the most damaging thing this page could do. The PPS
+  column is the honest substitute and is labelled as such.
+- **Income tax and social insurance rates at minimum-wage level.** Not verified
+  country by country. The page gives gross only, says so three times, and tells
+  the reader to ask.
+- **A Europe-to-Nepal remittance cost.** remittanceprices.worldbank.org returned
+  403. The page gives the World Bank's reported global average of around 6% with
+  digital cheaper than cash, explicitly as a prompt to compare providers rather
+  than as the reader's figure.
+- **Cyprus's €979 starter rate.** Corroborated only by law firms; the decree was
+  not obtained. Only the €1,088 figure, which Eurostat independently confirms,
+  is on the page.
+
+### What changed on the page
+
+The box that said wages were the biggest gap has been replaced. It now says
+every wage figure is a **statutory minimum**, **gross**, and in some sectors does
+not apply at all — a floor, not a salary. A new section, *What is actually left
+to send home*, carries the two-column table, a six-step arithmetic the reader
+does themselves, the housing rights and their enforcement caveat, and the
+Commission's sentence about intermediaries. Each detailed country now prints its
+own minimum wage and purchasing-power figure inline.
+
+Eleventy gained a `sortBy` filter so the wage table renders as a ranking without
+a second, pre-sorted copy of the data for the monthly job to keep in step.
+
+---
+
+## Take-home pay, and a question put to the page's own argument — 2026-10-16 (same day)
+
+Alan asked whether the purchasing-power column was still misleading without
+cost of living and take-home pay in it, and whether we can simply say a
+minimum-wage worker in Germany is better off than one in Poland or Romania.
+
+Two answers. The purchasing-power column **is** the cost-of-living adjustment —
+that is what a purchasing power standard is, and the page did not say so clearly
+enough. And yes, the Germany comparison is safe: it points the same way on every
+official measure. But answering it properly turned up something that cuts
+against this site's own route, and that is now on the page.
+
+### What comes off gross pay
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| Income tax plus the employee's own social contributions, as a share of gross, for a single person without children at 50% of average earnings, 2025: **Romania 40.6%**, Germany 28.9%, Poland 24.8%, Croatia 23.3%, Bulgaria 22.4%, Greece 18.5%, Malta 13.7%, Cyprus 11.5%, Portugal 11.0% | Eurostat, *Annual net earnings* (`earn_nt_net`), components GRS, TAX and SOC, read from the Eurostat dissemination API. Dataset updated 2026-10-01 | **VERIFIED — primary; the percentage is our arithmetic on Eurostat's own published components** | 2026-10-16 |
+
+**Romania takes off nearly twice what Cyprus or Portugal does.** That is worth a
+column of its own, and it is the opposite of what a reader would guess from the
+gross figures.
+
+### A figure we found and did NOT publish
+
+Eurostat publishes a NET earnings figure in the same dataset. We are not using
+it. For **Malta, Portugal, Greece and Poland** the published net does not equal
+gross − tax − social contributions + family allowances. The gaps are large and
+in Portugal's case net comes out **above** gross for a childless single person,
+which cannot be right on the face of it.
+
+| Country | Gross | Tax | Social | Published NET | Gross − tax − social |
+| --- | --- | --- | --- | --- | --- |
+| Germany | 29,004 | 2,119 | 6,250 | 20,635 | 20,635 ✓ |
+| Romania | 11,861 | 668 | 4,151 | 7,041 | 7,041 ✓ |
+| Portugal | 13,884 | 0 | 1,527 | **14,757** | 12,357 ✗ |
+| Malta | 16,434 | 614 | 1,643 | **16,262** | 14,177 ✗ |
+
+The likely explanation involves the 13th and 14th monthly payments those
+countries make, or a refundable credit, but **we could not establish it**, and an
+unexplained 17% discrepancy on a take-home figure is exactly the kind of number
+that would cost a reader a year. The deduction percentages above use the tax and
+social components, which Eurostat publishes directly and which reconcile.
+**OPEN**, and stated as open on the page.
+
+### The straight answer, and the caveats that survive it
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| Minimum-wage work in Germany leaves a worker better off than minimum-wage work in Romania on **all three** measures: €2,343 against €825 in euros; 2,164 against 1,317 in purchasing power; and Germany deducts 28.9% against Romania's 40.6%, so the gap widens rather than closes | Eurostat `earn_mw_cur` and `earn_nt_net` | **VERIFIED — primary on each figure; the conclusion is ours and is in the same direction on every measure** | 2026-10-16 |
+
+Three caveats are published alongside it, because they are real: the purchasing
+power adjustment uses an **average national consumption basket** rather than a
+migrant worker's; the deduction rate is measured at a **low-wage benchmark, not
+at the minimum wage**; and it assumes the minimum wage **applies to you at all**,
+which in Cyprus it does not for agriculture, private households or trainees.
+
+### The finding that cuts against this site
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| Germany's minimum wage is **€2,343**, but an Ausbildung is training rather than ordinary employment, so the minimum wage does not apply. The statutory floor for a 2026 start is **€724** in the first year | Eurostat for the minimum wage; BIBB for the training allowance | **VERIFIED — primary on both** | 2026-10-16 |
+| **€724 in Germany is worth roughly 670 in purchasing power — about half what Romania's €825 minimum wage buys in Romania** | Applying Eurostat's own euro-to-PPS conversion for Germany (2,343 ÷ 2,164 = 1.083) to the €724 figure | **SECONDARY — our calculation on official inputs, and labelled as such on the page** | 2026-10-16 |
+
+**This is published prominently, and it is unflattering to the route this site
+exists to explain.** During the training years an apprentice in Germany is, in
+real terms, poorer than someone earning the minimum wage in Romania. The page
+says so in those words.
+
+The argument for an Ausbildung therefore cannot be the money earned while
+training, and the page now says that too: it is that you finish holding a
+qualification recognised across Europe and named on the EU's own shortage list,
+while three years of minimum-wage work leaves you with three years of
+minimum-wage work. The page calls that "a bet on what happens afterwards, and it
+is a real bet."
+
+**Why this matters beyond one page.** This project's standing risk is not that
+it undersells Germany — it is that, being written by someone who believes in the
+route, it quietly oversells it. A reader deciding between Romania next month and
+an Ausbildung in two years is entitled to know that the training years are the
+poor years. Putting the strongest number against our own argument on the page,
+in the same box as the argument, is the only version of this that is honest.
+
+---
+
+## Net rather than gross, and a source that does not exist — 2026-10-16 (same day, third revision)
+
+Alan asked whether the table should show net rather than gross. It should, and
+it now does. Getting there turned up a gap worth recording.
+
+### There is no official net minimum wage table for Europe
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| Eurostat publishes the minimum wage **gross only** | Eurostat `earn_mw_cur`, methodology note: figures are *"before tax and social security contributions payable by the employee are deducted"* | **VERIFIED — primary** | 2026-10-16 |
+| The **WSI Minimum Wage Report 2026** (No. 111e, March 2026, Hans-Böckler-Stiftung) also publishes gross. Its footnote *"Estimated, as the minimum wage is set as a net wage"* marks countries that **set** their minimum wage as a net amount, so WSI estimates the gross — the opposite of what was wanted | WSI Report No. 111e, read in full | **VERIFIED — read directly** | 2026-10-16 |
+| OECD *Taxing Wages 2026* uses 67%, 100% and 167% of the average wage, not the minimum wage | OECD Taxing Wages 2026 | **SECONDARY** | 2026-10-16 |
+
+So the net figure had to be computed, or not published. We computed it, and the
+page says in terms that we computed it.
+
+### Method, and why the error runs one way
+
+**approximate net = gross minimum wage × (1 − deduction rate)**, where the
+deduction rate is Eurostat's own income tax plus employee social contributions
+for a single person without children at 50% of average earnings.
+
+The weakness is that the two series are measured at different wage levels. We
+checked how far apart they are, comparing twelve times the monthly minimum wage
+against Eurostat's gross at the benchmark:
+
+| Croatia | Poland | Germany | Portugal | Greece | Romania | Bulgaria | Cyprus | Malta |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1.02 | 1.01 | 0.97 | 0.93 | 0.87 | 0.83 | 0.80 | 0.75 | 0.73 |
+
+Where the ratio is near 1 the rate transfers cleanly. Where the minimum wage
+sits **below** the benchmark, the income tax component would be smaller in
+reality because of tax-free allowances — so **the estimate errs towards showing
+too little kept, never too much.** Social contributions, which dominate in every
+one of these countries, are flat percentages and transfer either way. In Cyprus
+and Portugal the income tax component is already zero at the benchmark, so only
+contributions apply and those two figures are solid.
+
+Every figure is **rounded to the nearest €5** so it cannot be mistaken for a
+published number. All of this is stated on the page, not just here.
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| Approximate monthly net minimum wage: Germany ~€1,665, Cyprus ~€965, Portugal ~€955, Greece ~€875, Malta ~€860, Poland ~€840, Croatia ~€805, Romania ~€490, Bulgaria ~€480 | Our arithmetic on Eurostat `earn_mw_cur` (2026-S2) and `earn_nt_net` (2025) | **SECONDARY — our calculation on official inputs, labelled as approximate on the page, rounded to €5** | 2026-10-16 |
+| The same amounts restated for local prices: Germany ~1,540, Poland ~1,165, Portugal ~1,105, Cyprus ~1,080, Croatia ~1,025, Greece ~1,000, Malta ~935, Romania ~780, Bulgaria ~770 | Applying Eurostat's own euro-to-PPS factor for each country to the net figure above | **SECONDARY — our calculation** | 2026-10-16 |
+
+### Why the switch mattered more than expected
+
+**Net changes the order, it does not just shrink the numbers.** On gross pay
+Poland is the second best country on the page. On net it is **sixth**. Romania
+keeps about 59% of gross while Portugal and Cyprus keep about 89%, so the real
+gap between Romania's €825 and Portugal's €1,073 is far wider than it looks.
+A reader comparing two offers on gross pay would have got this wrong, which is
+exactly the kind of error this page exists to prevent.
+
+### One place the net conversion was deliberately NOT applied
+
+The Ausbildung comparison stays **gross against gross**, and says so. The
+deduction rate used elsewhere includes income tax, and an apprentice on €724 a
+month sits below the German tax-free allowance, so applying that rate would
+overstate what comes off and understate the apprentice's position. We could
+compute a contributions-only figure, but we have not verified German apprentice
+contribution rates, so we have not. The page states the limitation rather than
+quietly using the wrong rate.
+
+**Correction to the previous entry.** The "so which country leaves you better
+off" passage originally quoted 2,164 against 1,317 — the **gross** purchasing
+power figures — while the table beside it had switched to net. A reader would
+have looked for those numbers and not found them. Now updated to the net
+figures throughout: about €1,665 against about €490, and 1,540 against 780.
+
+---
+
+## The Ausbildung added to the money table, and it comes last — 2026-10-16 (same day, fourth revision)
+
+Alan looked at the net table and said Bulgaria's take-home is not much better
+than an Ausbildung. He was right, and checking it properly produced the most
+unflattering fact this project has published about its own subject.
+
+### What the apprentice actually keeps
+
+The previous revision deliberately refused to estimate an apprentice's net pay,
+because the deduction rate used elsewhere on the page includes income tax and an
+apprentice sits below the German allowance. That refusal was correct as far as
+it went, but it left the comparison Alan asked about unanswerable. It can be
+answered directly, and more firmly than the other net figures:
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| An apprentice on €724 a month earns €8,688 a year, far below the German basic tax-free allowance, so pays **no income tax at all** | Arithmetic against the Grundfreibetrag | **VERIFIED — the margin is so wide that no precise allowance figure is needed** | 2026-10-16 |
+| Employee social insurance shares for 2026: pension **9.3%**, unemployment **1.3%**, health **7.3%** plus half the supplementary rate, care **1.8%**, plus **0.6%** for the childless aged 23 and over | German statutory rates, multiple payroll and health-insurer sources in agreement | **SECONDARY — consistent across sources; the statutory rates themselves are not in dispute** | 2026-10-16 |
+| **Apprentices are excluded from the Übergangsbereich** (the reduced-contribution band for low earners) and pay the full employee share from the first euro. The employer bears all contributions only where the allowance is **€325 or less** (§ 20(3) SGB IV) — €724 is well above that | German payroll guidance, multiple sources in agreement | **SECONDARY — this is the rule that makes the figure work; worth a primary read if it is ever challenged** | 2026-10-16 |
+| Total employee deduction therefore between **20.9% and 21.9%** depending on the health fund's supplementary rate (sources give 2.5%, 2.9% and 3.13%) and the childless surcharge, leaving between **€566 and €572**. Published as **about €570** | Our arithmetic on the rates above | **SECONDARY — our calculation, with the range stated on the page** | 2026-10-16 |
+| In purchasing power that is about **525**, applying Eurostat's own euro-to-PPS factor for Germany | Our arithmetic | **SECONDARY** | 2026-10-16 |
+
+### The comparison, now in the table itself
+
+A row has been added to the money table: **Germany — Ausbildung, first year,
+€724 gross, about €570 net, about 525 in local buying power.** It sits at the
+bottom, below Bulgaria.
+
+| | Net | What it buys locally |
+| --- | --- | --- |
+| Bulgaria, minimum wage | about €480 | 770 |
+| Romania, minimum wage | about €490 | 780 |
+| **Germany, Ausbildung year 1** | **about €570** | **525** |
+
+So in cash the apprentice is about €90 a month ahead of the lowest minimum wage
+in the European Union. **In what that money buys where they live, the apprentice
+is behind every single country on the page**, by roughly a third against
+Bulgaria.
+
+And it does not resolve quickly. Applying the statutory uplifts, the third-year
+allowance of about €977 nets roughly €771, which is about 712 in local buying
+power — **still below Bulgaria's 770.** For all three training years, an
+apprentice in Germany has less real spending power than a minimum-wage worker in
+the poorest country in the EU.
+
+### What the page now says, in terms
+
+> "So for all three training years, you will be poor. We are not going to pretend
+> otherwise, and anyone who tells you an Ausbildung is a way to start sending
+> money home is either mistaken or selling you something."
+
+And the counter-argument is stated as what it is — a bet:
+
+> "The argument for an Ausbildung was never the money you earn while training. It
+> is that you finish holding a qualification that is recognised across Europe and
+> named on the EU's own shortage list — and that German minimum-wage work, at
+> about €1,665 a month net, is then open to you... That is a bet on what happens
+> afterwards, and it is a real bet."
+
+Plus a line that was missing from this site entirely until now: **make sure your
+family understands that the money starts later.** A great deal of the pressure on
+these students is a family expecting remittances from month one, and this site
+had never once said that an Ausbildung does not provide them.
+
+### Why this belongs here rather than being softened
+
+This project's standing risk has never been underselling Germany. It is that a
+site written by someone who believes in the route quietly oversells it, one
+reasonable-sounding sentence at a time. The fees page, the exam page and the visa
+page all exist to stop a reader losing money. This row exists to stop a reader —
+and a reader's family — making a three-year commitment on a false picture of what
+arrives in the bank each month.
+
+A reader who sees this row and still chooses the Ausbildung is making the
+decision this site was built to let them make. A reader who would have chosen
+differently had they known is exactly who we were failing.
+
+**Rendering note.** The explanatory paragraph under the table sits inside a raw
+`<p class="src-line">`, where markdown-it does not process inline markup, so a
+`**bold**` in that string rendered as literal asterisks. Caught before
+publication and removed. Anything placed inside a raw HTML block on this site
+has to be plain text.
+
+---
+
+## CORRECTION 2026-10-16 (eighth) — the Ausbildung pay figure was the floor, not the rate
+
+Caught by Alan within hours of the previous revision going into the working
+copy, and before any of it was pushed. He pointed out that a nursing Ausbildung
+pays around €1,200 or more in the first year, and asked for the figures by
+trade. Both halves were right, and the second half makes the first worse: the
+page had been using **€724** — the statutory minimum training allowance — as
+though it were what apprentices are paid.
+
+**It is a floor that comparatively few people are actually on.**
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| The average **first-year** collectively agreed training allowance in Germany is **€1,117**, and **€1,209** averaged across all training years | BIBB, *Tarifliche Ausbildungsvergütungen ... in Deutschland 2025*, reference date **1 October 2025**, read from BIBB's own spreadsheet | **VERIFIED — primary** | 2026-10-16 |
+| First-year averages by trade: electrician (industry) €1,227, warehouse/logistics €1,171, chef €1,120, hotel €1,112, car mechanic (crafts) €1,090, bricklayer €1,079, roofer €1,002, electrician (crafts) €979, plumbing/heating €927, painter €868, hairdresser €623 | same | **VERIFIED — primary** | 2026-10-16 |
+| Nursing (Pflegefachmann/-frau) pays about **€1,491** in the first year from 1 May 2026 | TVAöD-Pflege, reported consistently by several tariff calculators and sector publications. **The collective agreement itself has not been read** | **SECONDARY — flagged as such on the page** | 2026-10-16 |
+| The same trade pays very differently in crafts and in industry: car mechanic €1,090 against €1,202, electrician €979 against €1,227 | BIBB, same table | **VERIFIED — primary** | 2026-10-16 |
+| A tariff-bound employer **may lawfully pay below** the statutory minimum training allowance — hairdressing averages €623 against the €724 floor. A non-tariff employer may pay up to 20% below the regional rate | BIBB table for the figure; § 17 BBiG for the rule, via BIBB's own description | **VERIFIED on the figure; SECONDARY on the statutory mechanism** | 2026-10-16 |
+
+**Method check on the spreadsheet.** The published PDF extracts with misaligned
+columns and was discarded. The figures above come from BIBB's `.xlsx`, parsed
+directly. Column mapping was verified across all **164** occupations by checking
+that the overall average falls inside the range of the yearly figures — it does,
+for every row, with zero exceptions.
+
+### What this changes on the page
+
+The money table now carries **three** Ausbildung rows instead of one, so the
+range is visible rather than only its worst end:
+
+| | Gross | Net | What it buys locally |
+| --- | --- | --- | --- |
+| Ausbildung, legal minimum | €724 | ~€570 | ~525 |
+| Ausbildung, typical first year | €1,117 | ~€880 | ~815 |
+| Ausbildung, nursing | €1,491 | ~€1,170 | ~1,080 |
+
+Against the countries on the page: on the legal minimum an apprentice is behind
+everyone. On the typical allowance they are a little ahead of Bulgaria (770) and
+Romania (780). On a nursing contract, at about 1,080, they are level with Cyprus
+and ahead of Croatia, Greece and Malta.
+
+A new section gives the first-year figure by trade, the crafts-versus-industry
+gap, and the warning that neither the tariff rate nor the statutory floor is
+guaranteed.
+
+### Income tax at these levels — now established
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| Income tax is **zero** at essentially every Ausbildung wage. On €1,117 a month, taxable income after deductible social insurance and the standard allowances is roughly €9,500 a year, well below the German basic tax-free allowance. Only nursing exceeds it, and only by about **€8 a month** | Our calculation against the basic allowance, using the statutory deductions | **SECONDARY — our arithmetic, but the margin is wide enough that the conclusion is not sensitive to the exact allowance** | 2026-10-16 |
+
+So net across the trade table is simply gross less the employee social insurance
+share of about 21%, which makes these the most reliable net figures on the page.
+
+### What was wrong, precisely
+
+The previous entry stated that *"for all three training years, an apprentice in
+Germany has less real spending power than a minimum-wage worker in the poorest
+country in the EU."* **That is true only at the statutory floor.** On the average
+allowance it is false from the first year, and on a nursing contract it is
+comfortably false. The sentence has been removed and replaced with the range.
+
+The error ran in the pessimistic direction, which is the less dangerous way to
+be wrong on this site but is still wrong — and it was produced by the same
+mechanism as every other error recorded in this file: a single number taken as
+representative without checking the distribution behind it. The statutory
+minimum is a legal fact about the worst permitted case. It was never evidence of
+what people get.
+
+### A note on an existing claim elsewhere on the site
+
+The fees and programmes pages carry a chamber's requirement of *"at least €1,090
+in the first training year"* for its Nepal programme. Set against BIBB's
+all-trades first-year average of **€1,117**, that requirement is **roughly the
+going rate, not a generous one**. Nothing on the site is wrong because of this,
+but anyone citing the €1,090 as evidence of a good offer should know it is
+approximately the median.
+
+### Still open
+
+- The TVAöD-Pflege text itself. The nursing figure is the best-paid route on the
+  page and rests on secondary sources; it deserves a primary read.
+- **Which trades applicants from Nepal actually enter.** Nepal's labour data
+  records destination countries, not training occupations, and we have no figures
+  at all. The trade list was chosen from the EU shortage occupation list and from
+  what readers write to us, and the page says so and asks readers to fill the gap.
+
+---
+
+## Tiefbau added, and the shortage claim tested — 2026-10-16 (same day, sixth revision)
+
+Alan asked about Tiefbau trainees, having heard civil engineering is one of
+Germany's most under-supplied areas. The pay data supports adding the trades.
+The shortage claim is **partly right and partly out of date**, and the page now
+says so.
+
+### The trades, added to the by-trade table
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| First-year collectively agreed allowances: **pipeline construction €1,162**, railway track laying €1,133, road building €1,091 (industry) and €1,084 (crafts), groundworks (Tiefbaufacharbeiter, 2-year) €1,082 | BIBB 2025 table, reference date 1 October 2025, parsed from BIBB's spreadsheet | **VERIFIED — primary** | 2026-10-16 |
+| Third-year figures: road building **€1,508**, bricklaying **€1,533**, pipeline construction **€1,501**, concrete work €1,520, carpentry €1,527 — against an all-trades third-year average of **€1,297** | same | **VERIFIED — primary** | 2026-10-16 |
+
+**The building trades start near the average and finish about €200 a month
+above it.** That is a genuinely useful thing for a reader comparing offers, and
+it is invisible if you only look at the first year — which is the only year
+anybody is quoted.
+
+### The shortage claim, tested
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| In 2024 the main construction trades shed staff overall, but **employment rose in Tiefbau and fell in Hochbau** | Hauptverband der Deutschen Bauindustrie (HDB), *Brancheninfo Bau: Fachkräftesituation im Bauhauptgewerbe*, 26 August 2026 | **VERIFIED — primary (the industry's own federation)** | 2026-10-16 |
+| Employment in the main construction trades: 923,000 in 2025, expected 933,000 in 2026 | same | **VERIFIED — primary** | 2026-10-16 |
+| The assessment of a skills shortage has *"etwas entspannt"*. **54%** of construction firms named skills shortage as a business risk in early summer 2026, against **81%** at the start of 2019 | same, citing the DIHK survey | **VERIFIED — primary, verbatim** | 2026-10-16 |
+| The foreign-worker share in the main construction trades rose from **8% in 2009 to 25% in 2025**, and in above-ground building trades to **36%** | same | **VERIFIED — primary** | 2026-10-16 |
+| **40% of training contracts in building and civil engineering are ended early** | Federal Statistical Office, via the same HDB briefing | **VERIFIED — primary as a quotation of Destatis** | 2026-10-16 |
+| First-year apprenticeships in the sector rose **13.3%** to nearly 14,000 at the end of December 2025 | same, citing Soka-Bau | **VERIFIED — primary** | 2026-10-16 |
+
+**So the honest answer given on the page is:** there is a real, long-running
+problem; it is **easing, not worsening**; the strongest shortage figures quoted
+in public are usually about **civil engineers and site managers**, which are
+university-level jobs, not apprenticeships; and Tiefbau specifically is the part
+of construction that grew while the rest shrank.
+
+That is a more useful answer than either "yes, huge shortage" or "no". It was
+worth checking rather than repeating.
+
+### The number that goes in a warning box
+
+**40% of building and civil engineering training contracts are ended early.**
+That is the highest-risk figure anywhere on this page, and a reader signing a
+three-year contract in this sector is entitled to it before rather than after.
+
+It is published **with** the caveat that German statistics count a *Vertrags-
+lösung* as any early termination, including moving to another employer or another
+trade and finishing elsewhere — it is not the same as abandoning the training.
+Publishing the 40% without that caveat would be as misleading as suppressing it.
+
+### Why the foreign-worker share is on the page
+
+A quarter of the German main construction workforce, and over a third in the
+above-ground building trades, is already foreign. For a reader weighing whether
+they would be an oddity in a German workplace, that is a more informative number
+than any amount of encouragement, and it comes from the employers' own federation.
+
+### Open
+
+- Whether individual Tiefbau occupations are formally classed as **Engpassberufe**
+  by the Bundesagentur für Arbeit. Its 2025 analysis counts 157 shortage
+  occupations and names building and craft trades among the affected groups, but
+  the occupation-by-occupation table could not be opened. Stated as open on the
+  page rather than inferred from the group-level statement — the same error this
+  file records under "do not infer a specific from a general".
+
+---
+
+## Nursing split into tariff and private — and the floor that is not there — 2026-10-16 (seventh revision)
+
+Alan asked that nursing distinguish tariff-bound from private-sector pay. Doing
+it properly turned up something more important than the pay gap: **nursing is
+the only trade on the page with no statutory minimum training allowance at all.**
+
+### The statute
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| Nursing training is governed by **§ 19 Pflegeberufegesetz**, not § 17 BBiG. It requires only *"eine angemessene Ausbildungsvergütung zu zahlen"* and **names no amount**. The €724 statutory minimum that protects every other trade on the page does **not** apply | § 19 PflBG, read in full on gesetze-im-internet.de | **VERIFIED — primary, read in full** | 2026-10-16 |
+| Board and lodging may be credited against the allowance at the values set under the Sozialversicherungsentgeltverordnung, but *"sie dürfen jedoch 75 Prozent der Bruttovergütung nicht überschreiten"* | § 19(2) PflBG | **VERIFIED — primary, verbatim** | 2026-10-16 |
+| The offset is lawful only *"soweit dies im Ausbildungsvertrag vereinbart worden ist"* — it cannot be imposed afterwards | same | **VERIFIED — primary, verbatim** | 2026-10-16 |
+| Where the trainee cannot take the board or lodging for a legitimate reason, the employer must pay its value in cash | same | **VERIFIED — primary** | 2026-10-16 |
+| Work beyond the agreed training hours is only exceptionally permitted and must be separately paid or compensated with time off | § 19(3) PflBG | **VERIFIED — primary** | 2026-10-16 |
+| The 2026 benefit-in-kind values are **€345 a month for food** and **€285 for accommodation**, €630 together | 16th regulation amending the Sozialversicherungsentgeltverordnung, approved by the Bundesrat 19 December 2025; figures consistent across payroll and chamber sources | **SECONDARY — the regulation itself was not read, but the figures agree across every source checked** | 2026-10-16 |
+
+**The worked example now on the page.** On a tariff allowance of €1,491 gross,
+social insurance takes about €313 and full board and lodging may take a further
+€630, leaving roughly **€550 in cash** instead of about €1,170. The page says
+plainly that this is not necessarily a worse deal — the trainee is not then
+paying rent or buying food — but that it is a completely different number, and
+it is the one that reaches Nepal.
+
+This is the largest deduction anywhere on the page, larger than the Cyprus 25%,
+and it sits in the trade that is most often recommended to Nepali applicants.
+
+### The pay, by employer type
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| Public and council providers, TVAöD-Pflege: about **€1,491** first year from 1 May 2026, rising to about €1,653 by the third | Sector publications and tariff calculators, consistent | **SECONDARY — no collective agreement read** | 2026-10-16 |
+| Church providers (Caritas): about **€1,502** from February 2026 | Caritas employers' association, via its own publication | **SECONDARY** | 2026-10-16 |
+| State and university hospitals, TVA-L: about **€1,440** | same body of sources | **SECONDARY** | 2026-10-16 |
+| Private, non-tariff providers: **no published figures found** | — | **OPEN** | 2026-10-16 |
+
+The private row is in the table with **"no legal minimum"** in the pay column
+rather than a number, and sits directly beneath the tariff row so the two read
+together. Sorting purely by pay would have pushed it to the bottom, where it
+would read as "worst paid" rather than "unknown" — it was moved deliberately.
+
+### The refinancing point, which gives a reader something to say
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| Nursing training allowances are **refinanced through state-level funds** (*Landesfonds*) to which all care providers contribute, under the Pflegeberufe-Ausbildungsfinanzierungsverordnung; the fund reimburses the cost of the allowance | Hessian state authority guidance on training finance under the PflBG | **OFFICIAL — a state authority's own guidance; the PflAFinV itself was not read line by line** | 2026-10-16 |
+
+So an employer pleading that it cannot afford more is describing a choice rather
+than a constraint. That is on the page, phrased as a question to ask rather than
+an accusation to make, in line with the standing rule about not lumping the
+honest in with the predatory.
+
+### Why this matters beyond the money
+
+The site already carries § 38 BeschV: private recruitment into German health and
+care work from WHO-list countries, Nepal among them, is prohibited — a rule that
+binds **agencies**, not individuals. Nursing is therefore simultaneously the
+best-paid route on this page, the one most heavily promoted in Nepal, the one
+where recruitment by agencies is unlawful, and the one with **no statutory pay
+floor and the largest permitted deduction**. Those four facts belong next to
+each other, and until now only the first two were anywhere on the site.
+
+### Open
+
+- What private non-tariff providers actually pay. No reliable published figures
+  found. The page says the absence is itself informative: a good number would be
+  advertised.
+- Whether any court has set a benchmark for "angemessen" in nursing, comparable
+  to the 20%-below-tariff rule in the other trades. Not established, so not
+  stated — rather than assuming the BBiG case law carries across to a different
+  statute, which is exactly the inference this file has a rule against.
+- The collective agreements themselves (TVAöD-Pflege, TVA-L, AVR Caritas) have
+  not been read. Every tariff figure here is secondary.
+
+---
+
+## Mechatronics added — and the word turns out to cover six different trades — 2026-10-16 (eighth revision)
+
+Added at the request of someone who has spoken to students in Nepal and reports
+that mechatronics is among the most sought-after choices there. Looking it up
+produced a warning worth more than the row itself.
+
+### "Mechatroniker" is not one qualification
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| First-year collectively agreed allowances across the mechatronics family: **Mechatroniker/-in (industry) €1,224**; Kraftfahrzeugmechatroniker/-in €1,202 industry / €1,090 crafts; Land- und Baumaschinenmechatroniker/-in €1,121 industry / €930 crafts; Zweiradmechatroniker/-in €1,110 industry / €1,050 crafts; **Mechatroniker/-in für Kältetechnik €933**; Rollladen- und Sonnenschutzmechatroniker/-in €946 | BIBB 2025 table, reference date 1 October 2025, parsed from BIBB's spreadsheet | **VERIFIED — primary** | 2026-10-16 |
+| Mechatroniker/-in (industry) rises to **€1,472** by the fourth year and runs **42 months**, not 36 | same | **VERIFIED — primary** | 2026-10-16 |
+
+**The spread is nearly €300 a month in the first year between occupations whose
+names a reader will not distinguish**, and it widens over the training. Three of
+the six also run three and a half years rather than three, which changes the
+plan and the visa timeline.
+
+The page therefore tells readers that the question is not *"is this
+Mechatroniker?"* but *"which Mechatroniker, and is the employer in industry or
+in the crafts?"* — and to get the exact German occupational title and the
+chamber (IHK or HWK) written into the contract.
+
+**Mechatroniker/-in für Kältetechnik** is also worth singling out: at €933 it is
+the lowest-paid of the family, and it maps onto *"air conditioning and
+refrigeration mechanics"* on the EU Talent Pool's shortage occupation list,
+which is already published on this page. A trade can be in demand across Europe
+and still be the worst-paid version of the name you were given.
+
+### On the provenance of "young people in Nepal want this"
+
+This is a **practitioner observation**, not a measurement, and the page says so
+in those words: *"That is an observation, not a measurement."* No individual is
+identified, and no figure is attached to it.
+
+It does partially answer an item that has been open since the trade table was
+built: we have no statistics on which trades applicants from Nepal actually
+choose, because Nepal's labour data records destination countries and not
+training occupations. An observation from someone who has talked to students is
+better than nothing and worse than data, and is graded accordingly. The open
+item stays open.
+
+### Still open
+
+- Which trades applicants from Nepal actually enter, as a measured figure rather
+  than an impression. The page continues to ask readers to fill the gap.

@@ -257,6 +257,30 @@
     mask: var(--ext-arrow) no-repeat center / contain;
   }
   .refs .nosrc { color: var(--ink-soft); font-style: italic; }
+  /* The Europe comparison page carries its evidence inline rather than in a
+     numbered list at the foot. Twenty-two countries would make a footnote list
+     unreadable, and the whole argument of that page is that a claim is only
+     worth as much as the source next to it — so the source sits next to it.
+
+     Smaller and quieter than body text: a reader following the argument should
+     be able to skim past these, and a reader checking us should find them
+     without hunting. */
+  .src-line, .open-line, .checked-line {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: .875rem;
+    line-height: 1.5;
+    color: var(--ink-soft);
+    margin: .5rem 0;
+  }
+  /* The date a country was last read. Sits directly under its heading, because
+     on this page "when did you check?" is part of the claim, not a footnote. */
+  .checked-line {
+    margin: -.2rem 0 1rem;
+    font-weight: 600;
+  }
+  /* An open question gets the warning colour, not the quiet grey. On this site
+     an unresolved item is the thing most likely to cost somebody money. */
+  .open-line { color: var(--warn); }
   /* Prominent action links — used for the "copy this template" buttons, which
      are the main thing a reader comes to that page to do. */
   .actions { display: flex; flex-direction: column; gap: .7rem; margin: 1.5rem 0 1.2rem; }

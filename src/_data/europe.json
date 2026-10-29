@@ -1,0 +1,1812 @@
+{
+  "comment": [
+    "The country data behind /europe/. Deliberately separate from the page that",
+    "prints it, so a rule change is a data edit and never a prose rewrite — and so",
+    "a machine can propose the edit (see scripts/check-watch.mjs and the monthly",
+    "workflow).",
+    "",
+    "RULES FOR EDITING THIS FILE. They are the same rules as SOURCES.md, because",
+    "this file IS a source list that happens to render as a page.",
+    "",
+    "1. Every field that makes a factual claim carries its evidence in `sources`.",
+    "   A claim with no source does not go in.",
+    "2. `status` on a source is one of: primary | official | secondary | open.",
+    "     primary   — read on the deciding authority's own page or in the statute",
+    "     official  — read on an official aggregator (EU Immigration Portal etc.)",
+    "     secondary — a reliable report, not the primary document",
+    "     open      — asked, unresolved. MUST NOT be stated as settled.",
+    "3. Anything unresolved goes in the country's `open` array. The page prints",
+    "   those out loud. We would rather look unfinished than be wrong.",
+    "4. `pay.status` is `open` for most countries on purpose. We have NOT verified",
+    "   real wages for low-paid work in most of these places, and a made-up number",
+    "   is the single most damaging thing this page could contain. Fill it only",
+    "   from a government minimum wage or a published collective agreement.",
+    "5. `checked` is the date a human last read the sources for that country.",
+    "   The page shows it. An old date is information, not a bug.",
+    "6. `single_permit` says whether Directive (EU) 2024/1233 rights reach this",
+    "   route. `carved_out` is the important one — see europe_wide.single_permit.",
+    "",
+    "Figures in `nepal_permits` are new Nepali labour approvals, DoFE, FY 2025/26",
+    "first 11 months, as reported by the Kathmandu Post on 16 July 2026. They are",
+    "SECONDARY: press reporting of government figures. Do not present them as a",
+    "count of Nepalis living in a country — they are one year of new approvals."
+  ],
+  "checked": "2026-10-09",
+  "nepal_figures": {
+    "fiscal_year": "2025/26, first 11 months",
+    "europe_total": 53951,
+    "share_of_all_outbound": "14.7%",
+    "global_total": 367000,
+    "women_to_europe": 12482,
+    "women_share": "23.91%",
+    "complaints": 4993,
+    "compensation_claimed_npr": 240000000,
+    "agent_fees_npr_range": "700,000 to 2,000,000",
+    "source": {
+      "label": "Kathmandu Post, 16 July 2026 — Europe emerges as major destination for Nepali workers",
+      "url": "https://kathmandupost.com/national/2026/07/16/europe-emerges-as-major-destination-for-nepali-workers-as-gulf-uncertainties-grow",
+      "status": "secondary",
+      "checked": "2026-10-09"
+    }
+  },
+  "europe_wide": {
+    "single_permit": {
+      "name": "The single permit rules",
+      "law": "Directive (EU) 2024/1233 of 24 April 2024 (recast)",
+      "transposed_by": "21 May 2026",
+      "summary": "If you work in an EU country on an ordinary work permit, these rights are yours. They were supposed to be in every EU country's own law by 21 May 2026. Some countries were late.",
+      "rights": [
+        "A decision on a complete application within 90 days. But if they miss it, what happens is left to each country's own law — and the clock stops whenever a document is missing.",
+        "If your employer applies for you, the country must make sure your employer tells you how the application is going and how it ended.",
+        "You may change employer. A country can make you stay with your first employer for a while, but that period can never be longer than six months.",
+        "If your employer seriously breaks the terms of your job, you must be allowed to change employer even before that period ends.",
+        "Losing your job does not by itself cancel your permit — up to three months without work, or six months if you have held the permit more than two years. You must tell the authorities.",
+        "If the authorities have reason to believe you were working in badly exploitative conditions, that period must be extended by another three months.",
+        "If your permit runs out while your renewal is still being decided, you may stay.",
+        "Equal treatment with local workers on pay, working hours, dismissal, holidays, health and safety, joining a union and striking, training, and getting your qualifications recognised.",
+        "You can complain about your employer through someone else — a union or an organisation can act for you or alongside you, with your agreement. You do not have to put your own name to it.",
+        "Labour inspectors must be able to enter your workplace. If your employer also provides your housing, that includes your housing — but only if you agree to it.",
+        "Every country must publish, in a way reachable from outside the EU, what the conditions are and exactly which documents you need."
+      ],
+      "fee_rule": "Where your employer pays the fee for processing your permit application, your employer is not allowed to take that money back off you. Read it narrowly: it is about the government application fee, not about an agent's fee for finding you the job.",
+      "carved_out": [
+        "Seasonal workers",
+        "Au pairs",
+        "People working on the basis of a visa rather than a permit",
+        "Posted workers, company transfers, self-employed people and seafarers",
+        "Possibly also anyone working six months or less, or admitted to study — each country may choose"
+      ],
+      "carved_out_warning": "Seasonal work and au pair are named in the law itself as being outside these rules. That matters, because those are the cheapest and fastest-sounding routes. The quick door is the one with no lock on the inside.",
+      "sources": [
+        {
+          "label": "Directive (EU) 2024/1233 — Articles 3, 5, 10, 11, 12, 13, 14, 16, 18, read in the Official Journal of 30 April 2024",
+          "url": "http://data.europa.eu/eli/dir/2024/1233/oj",
+          "status": "primary",
+          "checked": "2026-10-09"
+        }
+      ],
+      "open": [
+        "Whether someone doing a German Ausbildung under §16a counts as covered by these rules. The law appears to reach people admitted for a purpose other than work who are allowed to work — but each country may leave out people admitted to study, and we do not know how Germany treats §16a. We have not stated it either way."
+      ]
+    },
+    "talent_pool": {
+      "name": "The EU Talent Pool",
+      "law": "Regulation (EU) 2026/1047 of 29 April 2026",
+      "in_force": "1 June 2026",
+      "summary": "A free EU-wide website where people living outside the EU can put up a profile and see jobs in shortage occupations. It is law already. The website itself is not finished.",
+      "key_points": [
+        "It is aimed exactly at people in your position: someone living outside the EU, old enough to work, who is not an EU citizen and is looking for a job in the EU.",
+        "You register by building a profile with the Europass profile builder.",
+        "Using it is free of charge for you. Employers and agencies using it are not allowed to charge you any fee or hidden cost for recruitment — not before, and not after you get the job.",
+        "The law names temporary work agencies, private employment agencies and labour market intermediaries. They are covered by that no-fee rule.",
+        "Countries join voluntarily, giving nine months' notice. So which countries are in it changes, and the list is published on the platform itself."
+      ],
+      "shortage_occupations_note": "The law has a list of shortage occupations attached to it. It includes cooks, waiters, health care assistants, nurses, bricklayers, carpenters and joiners, roofers, plasterers, plumbers and pipe fitters, air conditioning and refrigeration mechanics, welders, sheet metal workers, motor vehicle mechanics, agricultural and industrial machinery mechanics, building electricians, butchers, bus and lorry drivers, and cleaners — as well as engineers, doctors, accountants and software developers. Those are, almost exactly, the trades you can train in on a German Ausbildung.",
+      "honest_caveat": "The regulation itself gives no date for the website. The European Commission says it expects it to be fully working by the end of 2027. That is the Commission's expectation, not a deadline in the law. Do not plan around it, and be very careful of anyone who offers to register you on it for a fee.",
+      "sources": [
+        {
+          "label": "Regulation (EU) 2026/1047 — Articles 1, 3, 4, 11, 13, 24 and the Annex, read in the Official Journal of 12 May 2026",
+          "url": "http://data.europa.eu/eli/reg/2026/1047/oj",
+          "status": "primary",
+          "checked": "2026-10-09"
+        },
+        {
+          "label": "European Commission, EU Talent Pool — for the expected date the platform starts working",
+          "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/legal-migration-and-resettlement/work/eu-talent-pool_en",
+          "status": "primary",
+          "checked": "2026-10-09"
+        }
+      ],
+      "open": [
+        "Which countries have joined. Not knowable in advance — the list lives on the platform."
+      ]
+    },
+    "long_term_residence": {
+      "name": "Five years is the real prize",
+      "summary": "In most EU countries, five years of legal residence lets you apply for long-term resident status, which is far more secure than a work permit tied to one employer and gives you rights in other EU countries too. Keep that number in mind when you read the sections below: a permit capped at four years, or a route written out of the five-year count, is a route that ends.",
+      "sources": [
+        {
+          "label": "BAMF, mobility in the EU — five years, and EU Blue Card time adding up across countries",
+          "url": "https://www.bamf.de/EN/Themen/MigrationAufenthalt/ZuwandererDrittstaaten/MobilitaetEU/mobilitaeteu-node.html",
+          "status": "secondary",
+          "checked": "2026-10-09"
+        }
+      ],
+      "open": [
+        "We have read this on a summary rather than on the directive itself. The five-year rule is not controversial, but the details differ country by country and are set out in each country's section where we have checked them."
+      ]
+    },
+    "money": {
+      "name": "What is actually left to send home",
+      "summary": "A wage on its own tells you almost nothing. Two people earning the same number of euros in two countries can send home very different amounts, and in some sectors the headline minimum wage does not apply at all. Here is how to work out the real figure, and what the law says can and cannot be taken off you.",
+      "steps": [
+        "**Start with the gross monthly wage**, in writing, from the employer. Not a range, not \"around\", not what an agent tells you other people earn.",
+        "**Take off income tax and social insurance.** These are deducted before you ever see the money and they differ a lot between countries. The minimum wage figures on this page are gross — before any of this.",
+        "**Take off accommodation and food**, if your employer provides them. This is where the biggest surprises are. In Cyprus, for work that is covered by the minimum wage at all, the employer may cut the rate by 15% for meals and 10% for accommodation — and if you get both, the decree lets your wage fall to 75% of the full rate.",
+        "**Take off what you live on** — transport to work, phone, clothes, anything the employer does not provide.",
+        "**Take off the cost of sending the money.** Sending money home is not free. Compare two or three providers before you commit to one; transfers made through an app are generally cheaper than handing over cash.",
+        "**What is left is the real number.** Compare that against what you were asked to pay the agent, and against how many months it will take to earn it back."
+      ],
+      "pps_explainer": "**The last column already includes the cost of living** — that is what it is for. Eurostat calls it the purchasing power standard: the same money restated for what it actually buys in that country, using that country's own prices. So you do not need to adjust it again for rent and food being cheaper in Sofia than in Munich. That has already been done. What it cannot tell you is what reaches Nepal, because what you send home is euros, and euros are not adjusted for Romanian prices when they arrive in Kathmandu. Read the middle column for what you could send, and the last one for how you would live while you are there.",
+      "accommodation_rights": {
+        "heading": "If your employer provides your housing",
+        "text": "For **seasonal workers** in the EU there is a specific law about this, Directive 2014/36/EU. Where the employer arranges the accommodation, the rules require **rent that is not excessive**, they **prohibit the rent being deducted from your wages automatically**, and they make a **written rental contract compulsory**. The accommodation must meet an adequate standard for the whole of your stay, and the authorities are supposed to check it exists before you are admitted.",
+        "honest_caveat": "Be realistic about enforcement. The European Commission reported in May 2026 that those three housing obligations were *\"initially either not transposed, or only partially transposed, by eight Member States\"*, and that stakeholders *\"continue to report frequent breaches\"* linked to weak monitoring and inspection. It also noted that rental contracts are *\"often being provided in a language workers do not understand\"*. Some countries have set concrete limits, such as capping rent at about one third of wages. Ask, in writing, what the rent will be and whether it comes out of your wage."
+      },
+      "commission_on_agents": {
+        "heading": "The European Commission on who is charging you",
+        "text": "In the same May 2026 report the Commission wrote that licensed intermediaries inside EU countries *\"are often prohibited from charging workers\"*, but that *\"documented abuses persist, primarily, though not exclusively, in countries of origin, by unlicensed intermediaries during recruitment and admission, sometimes also during employment\"*.",
+        "why_it_matters": "That is the European Commission describing what happens in Nepal, in its own report to the European Parliament. The money is taken at this end, by people who are not licensed anywhere, for a service the destination country often forbids charging you for."
+      },
+      "sources": [
+        {
+          "label": "Eurostat, Monthly minimum wages — bi-annual data (earn_mw_cur), period 2026-S2, in force 1 July 2026. Gross, before income tax and employee social contributions.",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/earn_mw_cur/default/table",
+          "status": "primary",
+          "checked": "2026-10-16"
+        },
+        {
+          "label": "European Commission, COM(2026) 261 final, 8 May 2026 — report on the application of the Seasonal Workers Directive. Section on Article 20 (accommodation) and Article 19 (fees).",
+          "url": "https://home-affairs.ec.europa.eu/document/download/5955cf01-af22-4d2d-933f-81c53d82a4aa_en",
+          "status": "primary",
+          "checked": "2026-10-16"
+        },
+        {
+          "label": "Eurofound, minimum wage country profile for Cyprus, last updated 30 June 2026 — excluded sectors and the meals/accommodation reductions.",
+          "url": "https://www.eurofound.europa.eu/en/countries/cyprus/minimum-wage",
+          "status": "official",
+          "checked": "2026-10-16"
+        },
+        {
+          "label": "Eurostat, Annual net earnings (earn_nt_net), 2025 — single person without children at 50% of average earnings. The percentage is income tax plus the employee's social contributions, as a share of gross, computed from Eurostat's own published components.",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/earn_nt_net/default/table",
+          "status": "primary",
+          "checked": "2026-10-16"
+        }
+      ],
+      "open": [
+        "Deduction rates are measured at 50% of average earnings, the EU's standard low-wage benchmark, and not at the minimum wage. In countries where the minimum wage is well below that benchmark the real rate may be lower.",
+        "We are not publishing Eurostat's net earnings figures. For Malta, Portugal, Greece and Poland the published net does not equal gross minus tax and social contributions — in Portugal's case net comes out higher than gross — and we could not explain the difference. The tax and social contribution figures themselves are published directly and are what we have used.",
+        "Rent, food and transport in actual euros. There is no official source for what a low-paid migrant worker really spends, so we have not invented one. The purchasing power column is the closest honest substitute, and it uses an average national basket rather than yours.",
+        "The cost of sending money from each of these countries to Nepal. The World Bank publishes this corridor by corridor at remittanceprices.worldbank.org, but its site would not open for us. Its reported global average is around 6% of the amount sent, with digital transfers cheaper than cash — treat that as a prompt to compare providers, not as your figure.",
+        "Whether the countries on this page cap employer accommodation deductions, and at what level. Confirmed only for Cyprus."
+      ],
+      "deductions_explainer": "How much is taken off before you are paid differs sharply from country to country. Romania takes about **41%** of gross in income tax and social insurance; Germany about 29%; Croatia 23%; Greece 19%; Malta 14%; and Cyprus and Portugal about **11%**. Those figures are for a single person without children on low pay, and they are the reason the second column is not simply a fixed fraction of the first.",
+      "straight_answer": {
+        "heading": "So which country actually leaves you better off?",
+        "text": "This is a fair question to ask of any table, and for once the numbers point the same way on every measure. Compare Germany and Romania, the two ends of the page. Gross, it is **€2,343 against €825** — nearly three times as much. After deductions, **about €1,665 against about €490**, which is more than three times, because Romania takes **41%** off against Germany's 29%. And after the cost of living as well, **1,540 against 780** — still twice as much. In euros, after tax, and after prices, minimum-wage work in Germany leaves you better off than minimum-wage work in Romania. The same holds against Bulgaria, Croatia and the rest.",
+        "caveats_heading": "Three things that number does not know about you",
+        "caveats": [
+          "**The cost-of-living adjustment uses an ordinary national shopping basket** — one that includes things like buying a home, which you will not be doing. If your employer provides your housing and food, your real costs look nothing like the average, and in that case the euro column matters far more than the purchasing power one.",
+          "**The deduction rate is measured at a standard low-wage benchmark**, not at the minimum wage itself. Where tax rises in steps, your rate could be lower than the figure shown.",
+          "**It assumes you are paid the minimum wage.** In Cyprus the minimum wage does not cover agriculture, private households or trainees at all. Check which rate applies to the work you are actually being offered before you compare anything."
+        ]
+      },
+      "ausbildung_caveat": {
+        "heading": "How poor are the training years, really?",
+        "text": "This is where we got it wrong earlier and have corrected it, so read this part carefully.\n\nGermany's minimum wage is €2,343 a month, and **an Ausbildung does not pay that** — training is not ordinary employment, so the minimum wage does not apply. The legal floor for a contract starting in 2026 is **€724** a month in the first year. But that is a floor, and most apprentices do considerably better: the average first-year allowance under collective agreements is **€1,117**, and nursing pays about **€1,491**.\n\nThat range changes the comparison completely. On the legal minimum an apprentice keeps about €570, and what that buys in Germany — about **525** — is less than a minimum-wage worker gets in any country on this page. On the typical allowance they keep about €880, worth about **815**, which is a little ahead of Bulgaria and Romania. On a nursing contract they keep about €1,170, worth about **1,080** — level with Cyprus and ahead of Croatia, Greece and Malta.",
+        "conclusion": "**So the honest answer depends entirely on the trade and the employer, and the gap between the best and worst is enormous** — from about €490 a month in the hand as a hairdressing apprentice to about €1,170 in nursing. That is not a detail to settle after you arrive. It is the single biggest financial decision in the whole plan, and it is made when you choose which training place to accept.\n\nTwo things remain true whichever trade you pick. The training years pay less than ordinary work in Germany, often much less — so **make sure your family understands that the money starts later**, and do not borrow against a remittance that will not arrive for three years. And the case for an Ausbildung was never the money during training. It is that you finish holding a qualification recognised across Europe and named on the EU's own shortage list, with German work at around €1,665 a month net then open to you and considerably better than that in a skilled trade. That is a bet on what happens afterwards. It is a reasonable bet. It is still a bet.",
+        "arithmetic_note": "How these were worked out. Income tax is zero at almost every Ausbildung wage: on €1,117 a month, taxable income after the deductible social insurance and the standard allowances comes to roughly €9,500 a year, well under the German basic tax-free allowance. Only nursing goes above it, and only by about €8 a month. So the deduction that matters is social insurance — the employee half of pension 9.3%, unemployment 1.3%, health 7.3% plus about half the supplementary rate, and care 1.8%, with 0.6% more for someone childless over 23. That is roughly 21%. Apprentices are excluded from the reduced-contribution band for low earners and pay the full share from the first euro. Net figures are gross less 21%, rounded to €5. The gross figures are official; the net figures are our arithmetic."
+      },
+      "table_note": "The first column is the **gross** statutory minimum wage in force on 1 July 2026 — the figure an employer or an agent will quote you. The second is **roughly what is left** after income tax and your own social insurance. The third is what that remaining money **actually buys** in that country, because €800 in Sofia and €800 in Valletta are not the same amount of money.",
+      "net_method": {
+        "heading": "How we worked out the second column, and why you should treat it as rough",
+        "text": "**There is no official table of net minimum wages in Europe.** Eurostat publishes the gross minimum wage, and separately it publishes how much income tax and social insurance comes off a low-paid single worker. We have multiplied the two. That is our arithmetic, not a published figure, which is why every number in that column is rounded to the nearest €5.",
+        "caveats": [
+          "The deduction rate is measured at a standard EU low-wage benchmark rather than at the minimum wage exactly. In Croatia, Poland and Germany those two are almost the same, so the figure is close. In Cyprus and Malta the minimum wage sits well below the benchmark.",
+          "Where they differ, the error runs **in your favour** — income tax allowances mean you would usually pay a little less than shown, so the real amount kept is the same or slightly more, never less.",
+          "In Cyprus and Portugal no income tax is paid at this level at all, so only social insurance comes off and those two figures are solid.",
+          "None of this includes anything your employer takes for food or housing. That comes off afterwards, and in Cyprus it can be a further 25%."
+        ]
+      },
+      "what_changes": {
+        "heading": "Why this matters more than it looks",
+        "text": "Switching from gross to net does not just shrink every number by the same amount — it **changes the order**. On gross pay Poland looks like the second best country on this page. Once deductions come off it is sixth. Romania keeps about 59% of gross while Portugal and Cyprus keep about 89%, so Romania's €825 and Portugal's €1,073 are much further apart in reality than they look on paper. If you are comparing offers, compare the second column, and ask every employer what the figure is after deductions."
+      },
+      "ausbildung_wages": {
+        "heading": "What an Ausbildung actually pays, by trade",
+        "intro": "The €724 figure above is the **legal floor**, not the normal rate. Most employers are bound by a collective agreement and pay well above it. These are the average collectively agreed allowances for the **first training year**, from the German federal vocational training institute's own figures, reference date 1 October 2025 — except nursing, which is paid under a different agreement and is the best-paid route of all.",
+        "average_note": "Across all trades the average first-year allowance is **€1,117**, and **€1,209** averaged over all training years. So the typical apprentice gets roughly half as much again as the legal minimum.",
+        "rows": [
+          {
+            "name": "Nursing — public or church employer (tariff)",
+            "gross_eur": 1491,
+            "net_eur_approx": 1170,
+            "note": "TVAöD-Pflege from 1 May 2026. Church employers are similar: Caritas around €1,502 from February 2026. State and university hospitals under TVA-L pay about €1,440. The best-paid route on this page — if the employer is bound by one of these agreements.",
+            "weaker_source": true
+          },
+          {
+            "name": "Nursing — private employer, not tariff-bound",
+            "gross_eur": null,
+            "net_eur_approx": null,
+            "note": "**No figure, because there is no floor.** See the section below. A private provider may pay whatever counts as \"appropriate\", and we could not find reliable published figures for what they actually pay.",
+            "weaker_source": true
+          },
+          {
+            "name": "Electrician, industry (Elektroniker für Betriebstechnik)",
+            "gross_eur": 1227,
+            "net_eur_approx": 970,
+            "note": "",
+            "weaker_source": false
+          },
+          {
+            "name": "Mechatronics, industry (Mechatroniker/-in)",
+            "gross_eur": 1224,
+            "net_eur_approx": 965,
+            "note": "Rises to €1,472 by the fourth year. Note the length: this one runs **42 months**, three and a half years, not three.",
+            "weaker_source": false
+          },
+          {
+            "name": "Warehouse and logistics (Fachkraft für Lagerlogistik)",
+            "gross_eur": 1171,
+            "net_eur_approx": 925,
+            "note": "",
+            "weaker_source": false
+          },
+          {
+            "name": "Pipeline construction (Rohrleitungsbauer/-in)",
+            "gross_eur": 1162,
+            "note": "Rises to €1,501 by the third year — one of the steepest climbs of any trade here.",
+            "net_eur_approx": 920,
+            "weaker_source": false
+          },
+          {
+            "name": "Railway track laying (Gleisbauer/-in)",
+            "gross_eur": 1133,
+            "note": "Rises to €1,448 by the third year.",
+            "net_eur_approx": 895,
+            "weaker_source": false
+          },
+          {
+            "name": "Chef (Koch/Köchin)",
+            "gross_eur": 1120,
+            "net_eur_approx": 885,
+            "note": "",
+            "weaker_source": false
+          },
+          {
+            "name": "Hotel work (Hotelfachmann/-frau)",
+            "gross_eur": 1112,
+            "net_eur_approx": 880,
+            "note": "",
+            "weaker_source": false
+          },
+          {
+            "name": "Road building (Straßenbauer/-in)",
+            "gross_eur": 1091,
+            "note": "Rises to €1,508 by the third year. Crafts firms pay almost the same as industry in this trade, unusually.",
+            "net_eur_approx": 860,
+            "weaker_source": false
+          },
+          {
+            "name": "Car mechanic, crafts (Kfz-Mechatroniker/-in)",
+            "gross_eur": 1090,
+            "net_eur_approx": 860,
+            "note": "The same job in industry rather than a crafts firm averages €1,202.",
+            "weaker_source": false
+          },
+          {
+            "name": "Groundworks (Tiefbaufacharbeiter/-in)",
+            "gross_eur": 1082,
+            "note": "A two-year qualification rather than three, rising to €1,260 in the second year. It can be built on afterwards with a further year to a full trade.",
+            "net_eur_approx": 855,
+            "weaker_source": false
+          },
+          {
+            "name": "Bricklayer (Maurer/-in)",
+            "gross_eur": 1079,
+            "net_eur_approx": 850,
+            "note": "",
+            "weaker_source": false
+          },
+          {
+            "name": "Roofer (Dachdecker/-in)",
+            "gross_eur": 1002,
+            "net_eur_approx": 790,
+            "note": "",
+            "weaker_source": false
+          },
+          {
+            "name": "Electrician, crafts (Elektroniker/-in, all specialisms)",
+            "gross_eur": 979,
+            "net_eur_approx": 775,
+            "note": "The same job in industry averages €1,227 — nearly €250 a month more.",
+            "weaker_source": false
+          },
+          {
+            "name": "Refrigeration and air conditioning (Mechatroniker/-in für Kältetechnik)",
+            "gross_eur": 933,
+            "net_eur_approx": 735,
+            "note": "Also called Mechatroniker, but a crafts qualification and a very different rate — €933 against €1,224. It is on the EU shortage occupation list.",
+            "weaker_source": false
+          },
+          {
+            "name": "Plumbing and heating (Anlagenmechaniker SHK)",
+            "gross_eur": 927,
+            "net_eur_approx": 730,
+            "note": "",
+            "weaker_source": false
+          },
+          {
+            "name": "Painter and decorator (Maler/-in und Lackierer/-in)",
+            "gross_eur": 868,
+            "net_eur_approx": 685,
+            "note": "",
+            "weaker_source": false
+          },
+          {
+            "name": "Hairdresser (Friseur/-in)",
+            "gross_eur": 623,
+            "net_eur_approx": 490,
+            "note": "Below the statutory minimum, and lawfully so: an employer bound by a collective agreement may follow that agreement even where it pays less.",
+            "weaker_source": false
+          }
+        ],
+        "craft_vs_industry": "**Where you train changes the pay as much as what you train in.** The same qualification pays very differently in a small crafts firm (*Handwerk*) and in an industrial or commercial company (*Industrie und Handel*). A car mechanic averages €1,090 in a crafts firm and €1,202 in industry; an electrician €979 against €1,227 — nearly €250 a month for the same trade. Ask which agreement the employer is bound by before you sign.",
+        "floor_warning": "**A collective agreement may legally pay less than the statutory minimum.** Hairdressing averages €623 in the first year, below the €724 floor, and that is lawful where the employer is bound by the agreement. An employer who is *not* bound by one may pay up to 20% below the regional rate for the trade. So the €724 is not a guarantee either.",
+        "trades_caveat": "**We do not have statistics on which trades applicants from Nepal actually choose.** Nepal's labour data records destination countries, not training occupations. The trades above were chosen because they appear on the EU's own shortage occupation list, because they come up most often in what readers write to us, and — for mechatronics in particular — because it is reported to us as one of the most sought-after choices among young people in Nepal. That is an observation, not a measurement. If you have been offered something not on this list, [tell us](/contact/) and we will look it up.",
+        "sources": [
+          {
+            "label": "BIBB (Federal Institute for Vocational Education and Training), collectively agreed training allowances in Germany 2025, overall table by occupation. Reference date 1 October 2025; averages read from BIBB's own spreadsheet.",
+            "url": "https://www.bibb.de/de/12209.php",
+            "status": "primary",
+            "checked": "2026-10-16"
+          },
+          {
+            "label": "Nursing: TVAöD-Pflege rates for apprentices from 1 May 2026, reported consistently by several tariff calculators and sector publications. We have NOT read the collective agreement itself.",
+            "url": "https://www.pflegia.de/magazin/article/pflegeausbildung-tvod-2026-gehalt-im-1-2-und-3-ausbildungsjahr/",
+            "status": "secondary",
+            "checked": "2026-10-16"
+          }
+        ],
+        "construction_note": {
+          "heading": "A note on the building trades, and on Tiefbau in particular",
+          "text": "Construction is worth looking at closely, for three reasons that have nothing to do with anyone's sales pitch.\n\n**The pay starts around the average and then climbs steeply.** A road builder starts at €1,091 and is on **€1,508** by the third year; a bricklayer €1,079 rising to €1,533; pipeline construction €1,162 rising to €1,501. Across all trades in Germany the third-year average is €1,297, so the building trades finish roughly €200 a month ahead of it. If you are comparing offers, compare the third year as well as the first.\n\n**It is a sector that already employs people from outside Germany.** The construction industry's own federation reports that the share of foreign workers in the main construction trades rose from 8% in 2009 to **25% in 2025**, and in above-ground building trades to **36%**. You would not be unusual there.\n\n**Within construction, groundworks and civil engineering is the part that grew.** In 2024, when the sector shed staff overall, employment rose in Tiefbau and fell in Hochbau.",
+          "shortage_honesty": "**But be careful with the word \"shortage\".** It is true that German construction has had a long-running skills problem, and surveys of civil engineering firms report high rates of unfilled posts. It is also true that the pressure has eased: in the industry federation's own summary the assessment has *\"etwas entspannt\"* — relaxed somewhat — with **54%** of construction firms naming skills shortage as a business risk in early summer 2026, against **81%** at the start of 2019. Employment in the main construction trades rose to 923,000 in 2025 and is expected to reach 933,000 in 2026. A shortage that is easing is still a shortage, but it is not the emergency it is sometimes described as, and the strongest shortage figures you will see quoted are usually about **civil engineers and site managers** — university-level jobs — rather than about apprentices.",
+          "dropout_warning": "**The figure nobody quotes at you.** According to the Federal Statistical Office, **40% of training contracts in building and civil engineering are ended early.** That is the highest-risk number on this page and you should know it before you sign a three-year contract in this sector. One important caveat: in German statistics an \"early termination\" is not the same as giving up — a large share of those people move to another employer or another trade and finish their training elsewhere. But it tells you that building sites are physically hard, often outdoors in a German winter, and that a lot of people who start do not finish where they started.",
+          "sources": [
+            {
+              "label": "Hauptverband der Deutschen Bauindustrie, Brancheninfo Bau — \"Fachkräftesituation im Bauhauptgewerbe\", 26 August 2026. Employment figures, the 25% and 36% foreign-worker shares, the DIHK survey figures of 54% against 81%, and the Federal Statistical Office's 40% early-termination rate.",
+              "url": "https://www.bauindustrie.de/fileadmin/bauindustrie.de/Zahlen_Fakten/BrancheninfoBau/BiB_-_Fachkraeftesituation_im_Bauhauptgewerbe.pdf",
+              "status": "primary",
+              "checked": "2026-10-16"
+            }
+          ],
+          "open": [
+            "Whether the individual Tiefbau trades are classed as shortage occupations by the Federal Employment Agency. Its 2025 analysis lists 157 shortage occupations and says building and craft trades are among the affected groups, but we could not open the occupation-by-occupation table to confirm which ones."
+          ]
+        },
+        "nursing_note": {
+          "heading": "Nursing: the one trade with no minimum wage of its own",
+          "lede": "Nursing is the best-paid training route on this page and the one most often suggested to people from Nepal. It is also the only one on this page where **the statutory minimum training allowance does not apply at all.** If you take one thing from this page about nursing, take this.",
+          "why": "Every other trade here is trained under the Vocational Training Act, which sets a legal floor — €724 a month for a contract starting in 2026. Nursing is trained under a different law, the **Pflegeberufegesetz**. Its § 19 says only that the employer must pay *\"eine angemessene Ausbildungsvergütung\"* — an appropriate training allowance. **The statute names no amount.** There is no €724 floor in nursing. There is no figure at all.",
+          "what_this_means": [
+            "**A public hospital or a council-run provider** pays under TVAöD-Pflege: about **€1,491** a month in the first year from 1 May 2026, rising to about €1,653 by the third year.",
+            "**A church provider** — Caritas or Diakonie, which between them run a very large share of German care — pays under its own rules, broadly similar. Caritas is reported at about **€1,502** from February 2026.",
+            "**A state or university hospital** pays under TVA-L, about **€1,440**.",
+            "**A private provider that is not bound by any agreement** sets its own figure. It must be \"appropriate\", and nothing more precise than that. We could not find reliable published figures for what private providers actually pay trainees, which is itself worth knowing."
+          ],
+          "leverage": "**One fact worth having in that conversation.** Nursing training allowances are not paid out of the employer's own pocket in the way other trades are. They are refinanced through a state-level fund (*Landesfonds*) to which all care providers contribute, and which reimburses the cost of the training allowance. So an employer who says they cannot afford to pay more is describing a choice, not a constraint. Ask which collective agreement, if any, the contract follows, and ask before you sign.",
+          "sachbezug": {
+            "heading": "And the part that can take most of it away again",
+            "text": "§ 19(2) of the same law allows **board and lodging to be set off against your allowance**, at official national values, **if — and only if — your training contract says so**. The 2026 values are **€345 a month for food** and **€285 for accommodation**, so **€630** for both. The law caps the total offset at **75% of your gross allowance**.",
+            "worked": "What that does in practice: on a tariff allowance of €1,491 gross, social insurance takes roughly €313, and full board and lodging can take a further €630 — leaving about **€550 in cash** rather than about €1,170. That is not necessarily a worse deal, because you are not then paying rent or buying food. But it is a completely different number, and it is the one that reaches your family. Find out which of the two your offer is.",
+            "protection": "Two protections in the same provision are worth knowing. The offset is only lawful **if it is agreed in the training contract** — it cannot be introduced afterwards. And if you cannot take the board or lodging for a legitimate reason, the employer must **pay you its value in cash instead**. There is also a rule that work beyond your agreed training hours is only exceptionally permitted and must be separately paid or given back as time off."
+          },
+          "sources": [
+            {
+              "label": "§ 19 Pflegeberufegesetz, read in full on gesetze-im-internet.de: \"eine angemessene Ausbildungsvergütung zu zahlen\"; Sachbezüge creditable at the values set under the Sozialversicherungsentgeltverordnung but \"sie dürfen jedoch 75 Prozent der Bruttovergütung nicht überschreiten\"; offset lawful only \"soweit dies im Ausbildungsvertrag vereinbart worden ist\"; and payment in cash where benefits cannot be taken for good reason.",
+              "url": "https://www.gesetze-im-internet.de/pflbg/__19.html",
+              "status": "primary",
+              "checked": "2026-10-16"
+            },
+            {
+              "label": "Sachbezugswerte 2026 — €345 a month for food, €285 for accommodation. Set by the 16th regulation amending the Sozialversicherungsentgeltverordnung, approved by the Bundesrat on 19 December 2025; figures consistent across payroll and chamber sources.",
+              "url": "https://www.lohn-info.de/sachbezugswerte_2026.html",
+              "status": "secondary",
+              "checked": "2026-10-16"
+            },
+            {
+              "label": "The tariff figures (TVAöD-Pflege, TVA-L, AVR Caritas) are reported consistently by sector publications and tariff calculators. We have NOT read any of the collective agreements themselves, and the sources disagree on some dates.",
+              "url": "https://www.pflegia.de/magazin/article/ausbildungsvergutung-pflege-2026-wo-verdienen-azubis-am-meisten/",
+              "status": "secondary",
+              "checked": "2026-10-16"
+            },
+            {
+              "label": "Refinancing through the Landesfonds under the Pflegeberufe-Ausbildungsfinanzierungsverordnung — explained by the Hessian state authority's own guidance note on training finance.",
+              "url": "https://hlfgp.hessen.de/pflegefachberufe/ausbildungsfinanzierung-pflegeberufegesetz",
+              "status": "official",
+              "checked": "2026-10-16"
+            }
+          ],
+          "open": [
+            "What private, non-tariff providers actually pay nursing trainees. We found no reliable published figures, and the absence is itself the point — if the number were good it would be advertised.",
+            "Whether any court has set a benchmark for what counts as \"angemessen\" in nursing, in the way the 20%-below-tariff rule works for other trades. Not established, so not stated."
+          ]
+        },
+        "mechatroniker_note": {
+          "heading": "If somebody has told you to do \"Mechatroniker\"",
+          "text": "It is a popular choice and a well-paid one, but **\"Mechatroniker\" is not one qualification — it is at least six**, and what you are paid depends on which one you sign for:\n\n- **Mechatroniker/-in** (industry) — **€1,224** in the first year, rising to €1,472 in the fourth\n- **Kraftfahrzeugmechatroniker/-in**, vehicles — **€1,202** in industry, **€1,090** in a crafts firm\n- **Land- und Baumaschinenmechatroniker/-in**, agricultural and construction machinery — **€1,121** in industry, **€930** in a crafts firm\n- **Zweiradmechatroniker/-in**, motorcycles and bicycles — €1,110 in industry, €1,050 in crafts\n- **Mechatroniker/-in für Kältetechnik**, refrigeration and air conditioning — **€933**, and on the EU shortage list\n- **Rollladen- und Sonnenschutzmechatroniker/-in**, shutters and sun protection — €946\n\nThat is a spread of nearly **€300 a month in the first year** between jobs with almost the same name, and the gap widens over the training. Three of them also run **42 months rather than 36** — three and a half years, which is worth knowing when you are planning.",
+          "advice": "**So the question to ask is not \"is this Mechatroniker?\" but \"which Mechatroniker, and is the employer in industry or in the crafts?\"** Get the exact German job title and the chamber — IHK for industry, HWK for crafts — written into the contract, and check it against the figures above before you sign."
+        }
+      },
+      "ausbildung_rows": [
+        {
+          "name": "Germany — Ausbildung, legal minimum",
+          "gross_eur": 724,
+          "net_eur_approx": 570,
+          "net_pps_approx": 525
+        },
+        {
+          "name": "Germany — Ausbildung, typical first year",
+          "gross_eur": 1117,
+          "net_eur_approx": 880,
+          "net_pps_approx": 815
+        },
+        {
+          "name": "Germany — Ausbildung, nursing",
+          "gross_eur": 1491,
+          "net_eur_approx": 1170,
+          "net_pps_approx": 1080
+        }
+      ],
+      "ausbildung_rows_footnote": "Not minimum wages. The first is the statutory minimum training allowance for a contract starting in 2026; the second is the average collectively agreed first-year allowance across all trades; the third is nursing. See the breakdown by trade below."
+    }
+  },
+  "countries": [
+    {
+      "id": "germany",
+      "name": "Germany",
+      "group": "training",
+      "detail": true,
+      "nepal_permits": 316,
+      "headline": "The only route in Europe we have found that pays you a wage from the first month and ends with a qualification — and the one almost nobody from Nepal actually gets.",
+      "qualification": {
+        "answer": "Yes",
+        "note": "A state-recognised German vocational qualification, normally three years."
+      },
+      "routes": [
+        "Ausbildung — paid vocational training, §16a of the Residence Act",
+        "Au Pair first, then Ausbildung",
+        "The volunteer year (FSJ, Bundesfreiwilligendienst, weltwärts)",
+        "The Opportunity Card (Chancenkarte, §20a) — if you already hold a qualification",
+        "University study"
+      ],
+      "language": "B1 German, certified, normally not older than six months, for the visa. Some vocational schools want B2.",
+      "sectors": "All trades. On the day we checked, the federal employment agency was advertising 165,002 training places.",
+      "pay": {
+        "status": "known",
+        "text": "At least €1,090 a month in the first training year, rising each year. That figure is from one German chamber's own Nepal programme terms, marked August 2026."
+      },
+      "family": {
+        "status": "known",
+        "text": "Possible for a husband, wife or children, but the marriage must already exist before your permit is issued — that cannot be fixed afterwards. There are income and housing tests. See our family page."
+      },
+      "permanent": {
+        "status": "open",
+        "text": "We have not yet checked how Ausbildung time counts towards settlement in Germany. We are not going to guess."
+      },
+      "single_permit": {
+        "status": "open",
+        "note": "Whether someone on an Ausbildung permit is covered by the EU single permit rights is unresolved. See above."
+      },
+      "apply_where": "German Embassy, Kathmandu. There is a resident embassy — you do not go to New Delhi. Appointments come from a waiting list introduced on 1 December 2025. If your employer gets you a Vorabzustimmung, the embassy has told us in writing it will give you an appointment inside three weeks.",
+      "changes": [
+        "Since 1 December 2025 visa appointments in Kathmandu come from a waiting list."
+      ],
+      "scams": [
+        "Being charged 7 to 16 lakh to have your documents forwarded. Under §296a SGB III, a fee for arranging an Ausbildung may only be taken from the employer — never from you or your family.",
+        "The Opportunity Card sold as the easy way in. It needs either a qualification already recognised in Germany, or six points plus a two-year qualification and German A1 or English B2 — and proof of money, which for a blocked account is €13,104. That is more than most agents charge."
+      ],
+      "open": [
+        "How Ausbildung time counts towards permanent residence.",
+        "Whether EU single permit rights apply to §16a trainees."
+      ],
+      "more_on_this_site": [
+        {
+          "label": "What you should pay, and what you should not",
+          "url": "/no-fees/"
+        },
+        {
+          "label": "The visa and the waiting list",
+          "url": "/visa/"
+        },
+        {
+          "label": "How to find a place and apply yourself",
+          "url": "/apply/"
+        },
+        {
+          "label": "The exam bottleneck",
+          "url": "/exam-slots/"
+        }
+      ],
+      "checked": "2026-10-09",
+      "sources": [
+        {
+          "label": "German Embassy Kathmandu, Opportunity Card page and leaflet — the €13,104 and the points",
+          "url": "https://kathmandu.diplo.de/np-en/service/01-visaeinreise/2659160-2659160",
+          "status": "primary",
+          "checked": "2026-10-09"
+        },
+        {
+          "label": "Everything else on Germany is sourced on the pages linked above and in SOURCES.md",
+          "url": "https://github.com/ausbildungfacts/ausbildung-nepal/blob/main/SOURCES.md",
+          "status": "primary",
+          "checked": "2026-10-09"
+        }
+      ],
+      "money": {
+        "min_wage_eur": 2343,
+        "min_wage_pps": 2164,
+        "as_of": "1 July 2026",
+        "note": "Two different numbers, and the difference matters. Germany's general minimum wage is **€2,343 a month** — but an Ausbildung is training, not ordinary employment, so the minimum wage does not apply to it. What applies is the statutory minimum training allowance: for contracts starting in 2026, **€724 a month in the first year**, then roughly €854, €977 and €1,014 in later years. The €1,090 figure elsewhere on this page is one German chamber's own requirement for its Nepal programme — well above the legal floor, and not a promise anyone else is bound by. Expect somewhere between the two, and ask the employer for the exact figure in writing before you sign.",
+        "sources": [
+          {
+            "label": "Eurostat, Monthly minimum wages — bi-annual data (earn_mw_cur), period 2026-S2, in force 1 July 2026. Gross, before income tax and employee social contributions.",
+            "url": "https://ec.europa.eu/eurostat/databrowser/view/earn_mw_cur/default/table",
+            "status": "primary",
+            "checked": "2026-10-16"
+          },
+          {
+            "label": "BIBB (Federal Institute for Vocational Education and Training), press release of 7 October 2026 — the statutory minimum training allowance. The €724 first-year figure for 2026 starts is stated; the later-year figures are the statutory uplifts of 18%, 35% and 40% applied to it, which is our arithmetic rather than a published table.",
+            "url": "https://www.bibb.de/de/pressemitteilung_229684.php",
+            "status": "primary",
+            "checked": "2026-10-16"
+          },
+          {
+            "label": "Eurostat, Annual net earnings (earn_nt_net), 2025 — single person without children at 50% of average earnings. The percentage is income tax plus the employee's social contributions, as a share of gross, computed from Eurostat's own published components.",
+            "url": "https://ec.europa.eu/eurostat/databrowser/view/earn_nt_net/default/table",
+            "status": "primary",
+            "checked": "2026-10-16"
+          }
+        ],
+        "deductions_pct": 28.9,
+        "net_eur_approx": 1665,
+        "net_pps_approx": 1540
+      }
+    },
+    {
+      "id": "austria",
+      "name": "Austria",
+      "group": "training",
+      "detail": true,
+      "nepal_permits": 1961,
+      "headline": "There is no Austrian apprenticeship visa. If someone in Nepal offers you one, they are selling something that does not exist.",
+      "qualification": {
+        "answer": "No",
+        "note": "Austria has an apprenticeship system much like Germany's. You cannot enter it from abroad."
+      },
+      "routes": [
+        "Red-White-Red Card — seven categories, none of them an apprenticeship",
+        "Seasonal work, mostly in tourism",
+        "Au Pair"
+      ],
+      "language": {
+        "status": "open",
+        "text": "Varies by Red-White-Red Card category. We have not checked it."
+      },
+      "sectors": "Tourism and seasonal work account for most of the Nepali numbers, as far as we can tell.",
+      "pay": {
+        "status": "partial",
+        "text": "The Red-White-Red Card for shortage occupations sets no general minimum salary. For comparison, Austria's basic subsistence figure from 1 January 2026 is €1,308.39 a month for a single person."
+      },
+      "family": {
+        "status": "known",
+        "text": "Family members of a Red-White-Red Card holder can apply for a Red-White-Red Card plus."
+      },
+      "permanent": {
+        "status": "open",
+        "text": "Not checked."
+      },
+      "single_permit": {
+        "status": "carried",
+        "note": "Austria brought in the 90-day decision rule on 12 June 2026 — three weeks after the EU deadline."
+      },
+      "apply_where": {
+        "status": "open",
+        "text": "We have not confirmed where Nepali citizens apply for Austrian long-stay visas. Do not assume Kathmandu."
+      },
+      "changes": [
+        "From 12 June 2026, a decision on most Austrian residence titles must come within 90 days, extendable by 30 days in complicated cases that you are told about. Several permit types are excluded."
+      ],
+      "scams": [
+        "\"Ausbildung in Austria\" or an Austrian apprenticeship visa, sold from Nepal. Austria's own chamber of commerce says it plainly: the apprentice must already hold a residence permit in Austria. The official list of Austrian temporary residence permits has no apprentice category at all.",
+        "A permit called Aufenthaltsbewilligung Lehrling is sometimes quoted at people. It was a draft, from 2019, that was never brought into force. The draft itself said it was not designed as a way of entering Austria, and would only ever be open to people already living there on a school permit. We checked the live 2026 amendment to the residence law in case it had quietly become law. It has not."
+      ],
+      "open": [
+        "Where Nepali citizens apply.",
+        "Language requirements by card category.",
+        "What the 1,961 Nepali approvals in 2025/26 were actually for."
+      ],
+      "checked": "2026-10-09",
+      "sources": [
+        {
+          "label": "Austrian Economic Chamber (WKO) — rules on employing foreign apprentices, updated 22 October 2025: \"Der Lehrling muss über eine Aufenthaltsberechtigung in Österreich verfügen.\"",
+          "url": "https://www.wko.at/sbg/news/beschaeftigung-auslaendischer-lehrlinge",
+          "status": "primary",
+          "checked": "2026-10-09"
+        },
+        {
+          "label": "migration.gv.at — the official list of Austrian temporary residence permits. No apprentice category.",
+          "url": "https://www.migration.gv.at/de/formen-der-zuwanderung/temporaerer-aufenthalt/",
+          "status": "primary",
+          "checked": "2026-10-09"
+        },
+        {
+          "label": "migration.gv.at — the seven Red-White-Red Card categories and the 2026 subsistence rates",
+          "url": "https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/",
+          "status": "primary",
+          "checked": "2026-10-09"
+        },
+        {
+          "label": "BGBl. I Nr. 81/2026, 6 August 2026 — the current amendment to the residence law, read in full. Creates §19a (90 days). Contains nothing about apprentices.",
+          "url": "https://www.ris.bka.gv.at/Dokumente/BgblAuth/BGBLA_2026_I_81/BGBLA_2026_I_81.pdf",
+          "status": "primary",
+          "checked": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "finland",
+      "name": "Finland",
+      "group": "training",
+      "detail": true,
+      "nepal_permits": null,
+      "headline": "A real apprenticeship route that you can apply for from Nepal — and a wage requirement that may put it out of reach.",
+      "qualification": {
+        "answer": "Yes, in principle",
+        "note": "A Finnish vocational qualification. We have not found anyone who has done this from Nepal, and we are not going to pretend otherwise."
+      },
+      "routes": [
+        "Apprenticeship training (oppisopimus) — the employer and you sign an apprenticeship agreement, which is a fixed-term employment contract",
+        "Study, with the apprenticeship as less than half of it"
+      ],
+      "language": {
+        "status": "open",
+        "text": "Finnish vocational education is largely taught in Finnish or Swedish. We think this, not the money, is the real barrier — but we have not checked it properly."
+      },
+      "sectors": {
+        "status": "open",
+        "text": "Not checked."
+      },
+      "pay": {
+        "status": "known",
+        "text": "If your apprenticeship is half or more of your studies you need a worker's permit, and for that your total gross pay must be at least €1,600 a month in 2026. Finland's immigration service states no lower figure or exemption for apprentices. A first-year German Ausbildung pays about €1,090 — so this bar is higher than what an apprentice typically earns."
+      },
+      "family": {
+        "status": "open",
+        "text": "Not checked."
+      },
+      "permanent": {
+        "status": "open",
+        "text": "Not checked."
+      },
+      "single_permit": {
+        "status": "mixed",
+        "note": "A worker's permit would normally carry these rights. A study permit may be left out — each country may choose. Not checked for Finland."
+      },
+      "apply_where": "A first residence permit must be applied for from outside Finland — so unlike Austria, this is reachable from Nepal. Finland has a resident embassy in Kathmandu, though we have not confirmed that it handles this permit.",
+      "changes": [],
+      "scams": [],
+      "open": [
+        "Whether an apprenticeship wage can meet, or is exempt from, the €1,600 a month.",
+        "Tuition fees for non-EU students in Finnish vocational education.",
+        "The language of instruction, which may rule this out entirely.",
+        "Whether you can realistically get an apprenticeship agreement from Nepal with no employer contact and no Finnish."
+      ],
+      "honest_verdict": "This exists on paper. Until the four questions above are answered, do not plan a year of your life around it.",
+      "checked": "2026-10-09",
+      "sources": [
+        {
+          "label": "Finnish Immigration Service (Migri) — \"A residence permit can also be granted for apprenticeship training\", and which permit depends on whether the apprenticeship is more or less than half your studies",
+          "url": "https://migri.fi/en/study-place",
+          "status": "primary",
+          "checked": "2026-10-09"
+        },
+        {
+          "label": "Migri — income requirement: \"Your total gross salary must be at least EUR 1,600 per month in 2026\"",
+          "url": "https://migri.fi/en/working-in-finland/income-requirement",
+          "status": "primary",
+          "checked": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "romania",
+      "name": "Romania",
+      "group": "work",
+      "detail": true,
+      "nepal_permits": 24767,
+      "headline": "Where nearly half of all Nepalis going to Europe now go. No qualification at the end, and your permit names one employer.",
+      "qualification": {
+        "answer": "No",
+        "note": ""
+      },
+      "routes": [
+        "Work permit (aviz de angajare) obtained by your employer, then a long-stay D/AM visa, then a residence permit",
+        "Seasonal work, inside the same yearly quota"
+      ],
+      "language": "None to get in. But long-term residence after five years requires passing a Romanian language test.",
+      "sectors": {
+        "status": "open",
+        "text": "Reported as construction, manufacturing and services. We have not verified this from an official source."
+      },
+      "pay": {
+        "status": "partial",
+        "text": "We now have the statutory minimum wage (see the money section below), but **not** what this particular work actually pays. Many of these jobs sit at or near the legal minimum; some sectors are excluded from it altogether. Ask for the gross monthly figure in writing, and ask separately what will be deducted."
+      },
+      "family": {
+        "status": "open",
+        "text": "Not checked."
+      },
+      "permanent": {
+        "status": "known",
+        "text": "Long-term residence after five continuous years, with proof of money, health insurance and housing, and a Romanian language test."
+      },
+      "single_permit": {
+        "status": "carried",
+        "note": "Ordinary work permits carry the rights. Seasonal work does not."
+      },
+      "apply_where": {
+        "status": "open",
+        "text": "Not confirmed. Romania has no resident embassy in Kathmandu as far as we know, which would mean applying elsewhere. Check before you pay anyone."
+      },
+      "changes": [
+        "The quota for 2026 is 90,000 work and secondment permits, down from 100,000 in 2025. Set by Government Decision 1.169 of 30 December 2025.",
+        "The quota applies to ordinary, seasonal and cross-border workers. Highly qualified workers, EU Blue Card holders and company transfers sit outside it.",
+        "From May 2026, a work permit application cannot be started anywhere except the government platform WorkinRomania.gov.ro.",
+        "Romania has been fully inside the Schengen area since 1 January 2025. This is why the numbers rose so fast.",
+        "Nepal and Romania have signed a labour agreement. It is not yet being used, and there is no application route for individuals."
+      ],
+      "scams": [
+        "Documents you cannot check. You will be shown an \"approved permit\". Since May 2026 nothing can be started outside WorkinRomania.gov.ro — so ask which government reference number your application has on that platform.",
+        "Being told the Nepal-Romania labour agreement means you can apply. There is no individual application route."
+      ],
+      "open": [
+        "Real wages.",
+        "Where Nepali citizens apply.",
+        "Family reunification rules.",
+        "Whether the 2026 changes altered what happens if you lose your job — the rule we read says your permit survives only through unemployment benefit or 90 days, which may now be out of date given the EU rules above."
+      ],
+      "checked": "2026-10-09",
+      "sources": [
+        {
+          "label": "EU Immigration Portal, employed worker in Romania — last updated 1 April 2025",
+          "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/employed-worker-romania_en",
+          "status": "official",
+          "checked": "2026-10-09"
+        },
+        {
+          "label": "The 2026 quota, the legal act and the WorkinRomania.gov.ro requirement — law firm and relocation reporting. We could not open the Romanian legislation portal.",
+          "url": "https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/2026-work-and-secondment-permit-quota-announced",
+          "status": "secondary",
+          "checked": "2026-10-09"
+        }
+      ],
+      "money": {
+        "min_wage_eur": 825,
+        "min_wage_pps": 1317,
+        "as_of": "1 July 2026",
+        "note": "Romania's minimum wage rose from €795 to €825 between January and July 2026. In purchasing power it is the second highest of the countries on this page, because prices are low — but in euros it is near the bottom, and euros are what you send home.",
+        "sources": [
+          {
+            "label": "Eurostat, Monthly minimum wages — bi-annual data (earn_mw_cur), period 2026-S2, in force 1 July 2026. Gross, before income tax and employee social contributions.",
+            "url": "https://ec.europa.eu/eurostat/databrowser/view/earn_mw_cur/default/table",
+            "status": "primary",
+            "checked": "2026-10-16"
+          },
+          {
+            "label": "Eurostat, Annual net earnings (earn_nt_net), 2025 — single person without children at 50% of average earnings. The percentage is income tax plus the employee's social contributions, as a share of gross, computed from Eurostat's own published components.",
+            "url": "https://ec.europa.eu/eurostat/databrowser/view/earn_nt_net/default/table",
+            "status": "primary",
+            "checked": "2026-10-16"
+          }
+        ],
+        "deductions_pct": 40.6,
+        "net_eur_approx": 490,
+        "net_pps_approx": 780
+      }
+    },
+    {
+      "id": "cyprus",
+      "name": "Cyprus",
+      "group": "work",
+      "detail": true,
+      "nepal_permits": 7314,
+      "headline": "The second biggest destination, and the one where nearly two thirds of the Nepalis going are women. Read the part about five years carefully.",
+      "qualification": {
+        "answer": "No",
+        "note": ""
+      },
+      "routes": [
+        "Temporary residence and employment permit, applied for by your employer after a labour market test",
+        "Seasonal work, four months at a time, extendable by another four"
+      ],
+      "language": {
+        "status": "open",
+        "text": "Not checked."
+      },
+      "sectors": "Agriculture and animal husbandry, domestic work and care, according to the sources we have seen. Cyprus also runs a completely separate fast-track scheme for highly paid staff at international companies, needing €2,500 a month and a degree or two years' experience. Most \"Cyprus work visa\" guides online describe that scheme. It is not the one you will be offered.",
+      "pay": {
+        "status": "partial",
+        "text": "We now have the statutory minimum wage (see the money section below), but **not** what this particular work actually pays. Many of these jobs sit at or near the legal minimum; some sectors are excluded from it altogether. Ask for the gross monthly figure in writing, and ask separately what will be deducted."
+      },
+      "family": {
+        "status": "open",
+        "text": "Not checked."
+      },
+      "permanent": {
+        "status": "known",
+        "text": "Long-term residence needs five continuous years of legal residence. But the Migration Department expressly leaves out of that count: students and people living in Cyprus for vocational training; people there only temporarily, giving unpaid domestic workers and seasonal workers as its examples; and anyone whose permit has been officially restricted. Ordinary employment permits are also capped — the EU portal says four years for most jobs, with agriculture, domestic work and some other jobs on different terms. So whether you can ever reach five years depends on the sector written on your permit, and for several of the jobs Nepalis actually do, you cannot."
+      },
+      "single_permit": {
+        "status": "mixed",
+        "note": "Ordinary employment carries the rights. The four-months-at-a-time seasonal route does not."
+      },
+      "apply_where": {
+        "status": "open",
+        "text": "Not confirmed. Your employer applies to the District Labour Office and then to the Civil Registry and Migration Department; where you collect your visa we have not checked."
+      },
+      "changes": [],
+      "scams": [
+        "Being told you can move employer freely. The Migration Department's own answer is: \"No, you can only work at the employer stated on your residence permit.\" Moving needs a release agreement from your current employer and a new permit. The EU's own portal gives a cheerier version of this; believe the department.",
+        "Being told the work leads to settlement. For seasonal work and for anyone there on a restricted permit, it is written out of the five-year count."
+      ],
+      "open": [
+        "Real wages.",
+        "The exact maximum permit length for each sector. We could not find the Cyprus primary source. Secondary sources say domestic work runs to six years and agriculture is not time-limited — if that is right, agricultural workers may be able to reach five years. We are not asserting it either way.",
+        "Family reunification rules.",
+        "Where you apply.",
+        "The Migration Department's €460 monthly minimum for live-in domestic workers. Several commercial guides agree on the figure; we could not find it on an official page."
+      ],
+      "checked": "2026-10-09",
+      "sources": [
+        {
+          "label": "Cyprus Migration Department — acquisition of long-term resident status, including who is left out of the five-year count. Page posted 29 December 2025.",
+          "url": "https://www.gov.cy/mip-md/en/documents/acquisition-of-the-status-of-long-term-resident-in-the-republic-2/",
+          "status": "primary",
+          "checked": "2026-10-09"
+        },
+        {
+          "label": "Cyprus Migration Department, frequently asked questions — \"No, you can only work at the employer stated on your residence permit.\" Page posted 29 December 2025.",
+          "url": "https://www.gov.cy/mip-md/en/documents/frequent-questions/",
+          "status": "primary",
+          "checked": "2026-10-09"
+        },
+        {
+          "label": "Cyprus Migration Department — the separate strategy for companies of foreign interests, and the €2,500 threshold",
+          "url": "https://www.gov.cy/mip-md/en/documents/legislation-and-policy/",
+          "status": "primary",
+          "checked": "2026-10-09"
+        },
+        {
+          "label": "EU Immigration Portal, employed worker in Cyprus — the four-year cap and the sector exceptions. Last updated 1 April 2025.",
+          "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/employed-worker-cyprus_en",
+          "status": "official",
+          "checked": "2026-10-09"
+        }
+      ],
+      "money": {
+        "min_wage_eur": 1088,
+        "min_wage_pps": 1220,
+        "as_of": "1 July 2026",
+        "note": "**The national minimum wage does not apply to most of the work Nepalis do in Cyprus.** The EU agency Eurofound records that the Cyprus minimum wage regime *\"does not cover employees in agricultural and maritime activities, as well as activities of households as employers\"*, and that *\"Trainees and persons in vocational education are not subject to the minimum wage provisions\"*. Hotels and restaurants are covered by a different decree. So agriculture, private household work and care — the three sectors Nepalis are mostly recruited into — sit outside the €1,088 figure entirely. For work that IS covered, the employer may cut the rate by 15% for meals and 10% for accommodation, and if you get both, the decree lets the wage fall to **75% of the full rate**. Several guides put the Migration Department's floor for live-in domestic workers at €460 a month gross, but we could not confirm that on an official page.",
+        "sources": [
+          {
+            "label": "Eurostat, Monthly minimum wages — bi-annual data (earn_mw_cur), period 2026-S2, in force 1 July 2026. Gross, before income tax and employee social contributions.",
+            "url": "https://ec.europa.eu/eurostat/databrowser/view/earn_mw_cur/default/table",
+            "status": "primary",
+            "checked": "2026-10-16"
+          },
+          {
+            "label": "Eurofound, minimum wage country profile for Cyprus, last updated 30 June 2026 — the excluded sectors, and the 15% / 10% meals and accommodation reductions under decree KDP 350/2022, Articles 10 and 11.",
+            "url": "https://www.eurofound.europa.eu/en/countries/cyprus/minimum-wage",
+            "status": "official",
+            "checked": "2026-10-16"
+          },
+          {
+            "label": "Eurostat, Annual net earnings (earn_nt_net), 2025 — single person without children at 50% of average earnings. The percentage is income tax plus the employee's social contributions, as a share of gross, computed from Eurostat's own published components.",
+            "url": "https://ec.europa.eu/eurostat/databrowser/view/earn_nt_net/default/table",
+            "status": "primary",
+            "checked": "2026-10-16"
+          }
+        ],
+        "deductions_pct": 11.5,
+        "net_eur_approx": 965,
+        "net_pps_approx": 1080
+      }
+    },
+    {
+      "id": "portugal",
+      "name": "Portugal",
+      "group": "work",
+      "detail": true,
+      "nepal_permits": 3245,
+      "headline": "The route most Nepalis used here closed on 31 December 2025, and the route meant to replace it was still not available in August 2026.",
+      "qualification": {
+        "answer": "No",
+        "note": ""
+      },
+      "routes": [
+        "Residence visa for work, then a residence permit",
+        "Temporary stay visa for work under six months",
+        "A skilled job-seeker visa — in law since October 2025, but see below"
+      ],
+      "language": "Basic Portuguese for permanent residence; fluent Portuguese for EU long-term residence.",
+      "sectors": {
+        "status": "open",
+        "text": "Not checked."
+      },
+      "pay": {
+        "status": "partial",
+        "text": "We now have the statutory minimum wage (see the money section below), but **not** what this particular work actually pays. Many of these jobs sit at or near the legal minimum; some sectors are excluded from it altogether. Ask for the gross monthly figure in writing, and ask separately what will be deducted."
+      },
+      "family": {
+        "status": "secondary",
+        "text": "Harder since 2026 — reported as requiring two years of residence first. We have not read the law itself."
+      },
+      "permanent": {
+        "status": "secondary",
+        "text": "Permits run one year then renew for two years at a time. Five years of legal residence opens permanent residence. Citizenship now reported as requiring ten years."
+      },
+      "single_permit": {
+        "status": "carried",
+        "note": ""
+      },
+      "apply_where": {
+        "status": "open",
+        "text": "Not confirmed. Check before paying anyone."
+      },
+      "changes": [
+        "Law 61/2025, in force since 23 October 2025, ended the manifestação de interesse — the route where you arrived as a tourist, worked, paid a year of social security contributions and then applied to stay. It closed permanently on 31 December 2025.",
+        "The open job-seeker visa was abolished and replaced with one for skilled work only: 120 days to find a job, extendable by 60. If you do not, you must leave and wait a year before applying again.",
+        "As of August 2026 that new skilled job-seeker visa was reported as still not available at consulates, because the regulation needed to operate it had not been made.",
+        "The immigration authority is now AIMA, not SEF. SEF was abolished in 2023. Some official EU pages still say SEF."
+      ],
+      "scams": [
+        "This is the most urgent warning on this page. Anyone still offering the \"go as a tourist and regularise later\" route is selling something that closed permanently on 31 December 2025. It was never a visa, and it is not one now.",
+        "Being sold the new skilled job-seeker visa. In August 2026 it was reported as not yet obtainable at any consulate."
+      ],
+      "open": [
+        "All of the 2025 and 2026 changes above come from several independent reports that agree with each other, naming specific laws. We have NOT read Law 61/2025 itself. Treat the detail as reliable but unconfirmed.",
+        "Real wages, sectors, and where you apply."
+      ],
+      "checked": "2026-10-09",
+      "sources": [
+        {
+          "label": "Reporting on Law 61/2025 and the end of the manifestação de interesse",
+          "url": "https://www.apoiojuridico-imigracao.com/blog/portugal-immigration-law-2025-changes",
+          "status": "secondary",
+          "checked": "2026-10-09"
+        },
+        {
+          "label": "EU Immigration Portal, employed worker in Portugal — out of date, still names SEF. Used only for the permit durations.",
+          "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/employed-worker-portugal_en",
+          "status": "official",
+          "checked": "2026-10-09"
+        }
+      ],
+      "money": {
+        "min_wage_eur": 1073,
+        "min_wage_pps": 1240,
+        "as_of": "1 July 2026",
+        "note": "Paid over 14 months a year. The Eurostat figure already spreads those extra payments across twelve months, so it is comparable with the others.",
+        "sources": [
+          {
+            "label": "Eurostat, Monthly minimum wages — bi-annual data (earn_mw_cur), period 2026-S2, in force 1 July 2026. Gross, before income tax and employee social contributions.",
+            "url": "https://ec.europa.eu/eurostat/databrowser/view/earn_mw_cur/default/table",
+            "status": "primary",
+            "checked": "2026-10-16"
+          },
+          {
+            "label": "Eurostat, Annual net earnings (earn_nt_net), 2025 — single person without children at 50% of average earnings. The percentage is income tax plus the employee's social contributions, as a share of gross, computed from Eurostat's own published components.",
+            "url": "https://ec.europa.eu/eurostat/databrowser/view/earn_nt_net/default/table",
+            "status": "primary",
+            "checked": "2026-10-16"
+          }
+        ],
+        "deductions_pct": 11,
+        "net_eur_approx": 955,
+        "net_pps_approx": 1105
+      }
+    },
+    {
+      "id": "malta",
+      "name": "Malta",
+      "group": "work",
+      "detail": true,
+      "nepal_permits": 3056,
+      "headline": "One-year permits tied to one employer, and if you lose the job the permit is cancelled. Appeals have a three-working-day deadline.",
+      "qualification": {
+        "answer": "No",
+        "note": ""
+      },
+      "routes": [
+        "Single Permit, for work over six months — residence and work in one document",
+        "Employment Licence plus a separate residence permit, for work under six months"
+      ],
+      "language": {
+        "status": "open",
+        "text": "Not checked."
+      },
+      "sectors": {
+        "status": "open",
+        "text": "Not checked."
+      },
+      "pay": {
+        "status": "partial",
+        "text": "We now have the statutory minimum wage (see the money section below), but **not** what this particular work actually pays. Many of these jobs sit at or near the legal minimum; some sectors are excluded from it altogether. Ask for the gross monthly figure in writing, and ask separately what will be deducted."
+      },
+      "family": {
+        "status": "official",
+        "text": "Family reunification is possible, under Maltese subsidiary legislation 217.06. We have not read the conditions."
+      },
+      "permanent": {
+        "status": "official",
+        "text": "Long-term resident status after five years of continuous legal residence."
+      },
+      "single_permit": {
+        "status": "carried",
+        "note": ""
+      },
+      "apply_where": {
+        "status": "open",
+        "text": "Not confirmed. Applications are made in Malta, mostly online, by your employer."
+      },
+      "changes": [
+        "The agency handling this is now called Identità. Older pages, including the EU's own, still say Identity Malta."
+      ],
+      "scams": [
+        "Not being told the permit is only one year, is tied to one named employer, and is cancelled if you stop working. Changing job means a new application.",
+        "Missing the appeal deadline. A refused Single Permit can be appealed to the Immigration Appeals Board within three working days. That is brutally short, and nobody selling you the job will mention it."
+      ],
+      "open": [
+        "Malta's 2025 and 2026 labour migration policy and the skills card scheme. We have not researched these at all, and they may change everything in this entry.",
+        "Real wages, sectors, language, and the family conditions."
+      ],
+      "checked": "2026-10-09",
+      "sources": [
+        {
+          "label": "EU Immigration Portal, employed worker in Malta — last updated 1 April 2025",
+          "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/employed-worker-malta_en",
+          "status": "official",
+          "checked": "2026-10-09"
+        }
+      ],
+      "money": {
+        "min_wage_eur": 994,
+        "min_wage_pps": 1081,
+        "as_of": "1 July 2026",
+        "note": "Look at the two columns together. Malta's wage is mid-table in euros but **the lowest on this page in purchasing power** — that is, Malta is expensive. A euro earned in Malta buys less than a euro earned anywhere else here.",
+        "sources": [
+          {
+            "label": "Eurostat, Monthly minimum wages — bi-annual data (earn_mw_cur), period 2026-S2, in force 1 July 2026. Gross, before income tax and employee social contributions.",
+            "url": "https://ec.europa.eu/eurostat/databrowser/view/earn_mw_cur/default/table",
+            "status": "primary",
+            "checked": "2026-10-16"
+          },
+          {
+            "label": "Eurostat, Annual net earnings (earn_nt_net), 2025 — single person without children at 50% of average earnings. The percentage is income tax plus the employee's social contributions, as a share of gross, computed from Eurostat's own published components.",
+            "url": "https://ec.europa.eu/eurostat/databrowser/view/earn_nt_net/default/table",
+            "status": "primary",
+            "checked": "2026-10-16"
+          }
+        ],
+        "deductions_pct": 13.7,
+        "net_eur_approx": 860,
+        "net_pps_approx": 935
+      }
+    },
+    {
+      "id": "bulgaria",
+      "name": "Bulgaria",
+      "group": "work",
+      "detail": true,
+      "nepal_permits": 2993,
+      "headline": "Rising fast, mostly through seasonal work — which is the category the EU protections above specifically leave out.",
+      "qualification": {
+        "answer": "No",
+        "note": ""
+      },
+      "routes": [
+        "Seasonal work, up to 90 days",
+        "Longer work permits with a type D visa"
+      ],
+      "language": {
+        "status": "open",
+        "text": "Not checked."
+      },
+      "sectors": {
+        "status": "open",
+        "text": "Not checked."
+      },
+      "pay": {
+        "status": "partial",
+        "text": "We now have the statutory minimum wage (see the money section below), but **not** what this particular work actually pays. Many of these jobs sit at or near the legal minimum; some sectors are excluded from it altogether. Ask for the gross monthly figure in writing, and ask separately what will be deducted."
+      },
+      "family": {
+        "status": "open",
+        "text": "Not checked."
+      },
+      "permanent": {
+        "status": "open",
+        "text": "Not checked."
+      },
+      "single_permit": {
+        "status": "carved_out",
+        "note": "Seasonal work is outside the single permit rules by name. Longer permits would carry them."
+      },
+      "apply_where": {
+        "status": "open",
+        "text": "Not confirmed."
+      },
+      "changes": [
+        "In July 2026 the government made seasonal hiring easier: registration cut from ten working days to three, a faster route for anyone who has done Bulgarian seasonal work once in the past five years, no more copies of personal documents, and declarations accepted at any labour office.",
+        "Bulgaria has been fully inside the Schengen area since 1 January 2025."
+      ],
+      "scams": [
+        "Nepal Police have arrested people over a Bulgaria job scam reported at Rs 91.9 million. We have seen this in one outlet only and have not corroborated the figure — but Bulgaria is being actively sold, and it is mostly 90-day seasonal work."
+      ],
+      "open": [
+        "Everything except the July 2026 changes and the Schengen date. This entry is thin and we would rather say so.",
+        "The July 2026 changes come from one news report of a government decision, not from the official act."
+      ],
+      "checked": "2026-10-09",
+      "sources": [
+        {
+          "label": "Sofia Globe, 15 July 2026 — government eases labour market access for non-EU seasonal workers",
+          "url": "https://sofiaglobe.com/2026/07/15/bulgarias-government-eases-labour-market-access-for-seasonal-workers-from-non-eu-countries/",
+          "status": "secondary",
+          "checked": "2026-10-09"
+        }
+      ],
+      "money": {
+        "min_wage_eur": 620,
+        "min_wage_pps": 993,
+        "as_of": "1 July 2026",
+        "note": "The lowest minimum wage in the European Union, in euros and in purchasing power.",
+        "sources": [
+          {
+            "label": "Eurostat, Monthly minimum wages — bi-annual data (earn_mw_cur), period 2026-S2, in force 1 July 2026. Gross, before income tax and employee social contributions.",
+            "url": "https://ec.europa.eu/eurostat/databrowser/view/earn_mw_cur/default/table",
+            "status": "primary",
+            "checked": "2026-10-16"
+          },
+          {
+            "label": "Eurostat, Annual net earnings (earn_nt_net), 2025 — single person without children at 50% of average earnings. The percentage is income tax plus the employee's social contributions, as a share of gross, computed from Eurostat's own published components.",
+            "url": "https://ec.europa.eu/eurostat/databrowser/view/earn_nt_net/default/table",
+            "status": "primary",
+            "checked": "2026-10-16"
+          }
+        ],
+        "deductions_pct": 22.4,
+        "net_eur_approx": 480,
+        "net_pps_approx": 770
+      }
+    },
+    {
+      "id": "croatia",
+      "name": "Croatia",
+      "group": "work",
+      "detail": true,
+      "nepal_permits": 2817,
+      "headline": "Changed in June 2026. You can now move employer after six months — and from June 2027 you will need basic Croatian to renew.",
+      "qualification": {
+        "answer": "No",
+        "note": ""
+      },
+      "routes": [
+        "Stay and work permit — one document, with a labour market test",
+        "The same without a labour market test, for jobs on the shortage list",
+        "Without either, for key personnel, EU Blue Card holders and company transfers"
+      ],
+      "language": "From the first renewal after twelve months, basic Croatian at A1.1 including the Latin script. This does not apply until June 2027.",
+      "sectors": {
+        "status": "open",
+        "text": "Not checked."
+      },
+      "pay": {
+        "status": "partial",
+        "text": "We now have the statutory minimum wage (see the money section below), but **not** what this particular work actually pays. Many of these jobs sit at or near the legal minimum; some sectors are excluded from it altogether. Ask for the gross monthly figure in writing, and ask separately what will be deducted."
+      },
+      "family": {
+        "status": "open",
+        "text": "Not checked."
+      },
+      "permanent": {
+        "status": "open",
+        "text": "Not checked."
+      },
+      "single_permit": {
+        "status": "carried",
+        "note": ""
+      },
+      "apply_where": "At a Croatian embassy or consulate. Croatia has no resident embassy in Nepal as far as we know, so expect to apply outside the country — confirm where before you pay anyone.",
+      "changes": [
+        "From 4 June 2026 you may change employer after six months with your first employer, without a new permit. Changing job with the same employer is allowed subject to a labour market test.",
+        "From June 2027, basic Croatian (A1.1, including the Latin script) is required for the first renewal after twelve months.",
+        "Employers must now show twelve months of financial activity instead of six.",
+        "Processing time extended to 90 days."
+      ],
+      "scams": [
+        "Not being told about the language requirement coming in June 2027. If you go now on a one-year permit, your first renewal is when it bites.",
+        "Nepal Police records include people taking money for Croatian jobs that did not exist."
+      ],
+      "open": [
+        "The June 2026 changes are consistently reported by law firms but we have not read the Croatian law itself. The A1.1 language rule is the one most likely to catch people and most needs confirming.",
+        "Real wages, sectors, family rules, permanent residence."
+      ],
+      "checked": "2026-10-09",
+      "sources": [
+        {
+          "label": "EU Immigration Portal, employed worker in Croatia — the permit types and the fees. Last updated 1 April 2025.",
+          "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/employed-worker-croatia_en",
+          "status": "official",
+          "checked": "2026-10-09"
+        },
+        {
+          "label": "Crowe Croatia — the June 2026 amendments to the Foreigners Act",
+          "url": "https://www.crowe.com/hr/en-us/news/sto-nam-donose-nove-izmjene-zakona-o-strancima",
+          "status": "secondary",
+          "checked": "2026-10-09"
+        }
+      ],
+      "money": {
+        "min_wage_eur": 1050,
+        "min_wage_pps": 1339,
+        "as_of": "1 July 2026",
+        "note": "The highest purchasing power on this page. The wage is ordinary in euros but goes further locally than Cyprus or Malta.",
+        "sources": [
+          {
+            "label": "Eurostat, Monthly minimum wages — bi-annual data (earn_mw_cur), period 2026-S2, in force 1 July 2026. Gross, before income tax and employee social contributions.",
+            "url": "https://ec.europa.eu/eurostat/databrowser/view/earn_mw_cur/default/table",
+            "status": "primary",
+            "checked": "2026-10-16"
+          },
+          {
+            "label": "Eurostat, Annual net earnings (earn_nt_net), 2025 — single person without children at 50% of average earnings. The percentage is income tax plus the employee's social contributions, as a share of gross, computed from Eurostat's own published components.",
+            "url": "https://ec.europa.eu/eurostat/databrowser/view/earn_nt_net/default/table",
+            "status": "primary",
+            "checked": "2026-10-16"
+          }
+        ],
+        "deductions_pct": 23.3,
+        "net_eur_approx": 805,
+        "net_pps_approx": 1025
+      }
+    },
+    {
+      "id": "greece",
+      "name": "Greece",
+      "group": "work",
+      "detail": true,
+      "nepal_permits": 2254,
+      "headline": "New immigration law from February 2026. One application for residence and work, decided in 90 days.",
+      "qualification": {
+        "answer": "No",
+        "note": ""
+      },
+      "routes": [
+        "Single permit for residence and work"
+      ],
+      "language": {
+        "status": "open",
+        "text": "Not checked."
+      },
+      "sectors": {
+        "status": "open",
+        "text": "Not checked."
+      },
+      "pay": {
+        "status": "partial",
+        "text": "We now have the statutory minimum wage (see the money section below), but **not** what this particular work actually pays. Many of these jobs sit at or near the legal minimum; some sectors are excluded from it altogether. Ask for the gross monthly figure in writing, and ask separately what will be deducted."
+      },
+      "family": {
+        "status": "open",
+        "text": "Not checked."
+      },
+      "permanent": {
+        "status": "open",
+        "text": "Not checked."
+      },
+      "single_permit": {
+        "status": "carried",
+        "note": "Greece legislated on 6 February 2026, ahead of the EU deadline."
+      },
+      "apply_where": {
+        "status": "open",
+        "text": "Not confirmed."
+      },
+      "changes": [
+        "Law 5275/2026, effective 6 February 2026, brought in the single application for a combined residence and work permit, with a decision due within 90 days. Employment permits reportedly now run three to five years."
+      ],
+      "scams": [
+        "A chamber of commerce in Piraeus signed a cooperation agreement about bringing Nepali workers into the Greek labour market. A chamber of commerce agreement is not a government programme and there is no application route for individuals. Treat anyone citing it as a reason to pay them with great suspicion."
+      ],
+      "open": [
+        "Everything except the February 2026 law, and that comes from two law firm summaries rather than the statute.",
+        "Whether any state-to-state labour agreement exists between Nepal and Greece. We found none."
+      ],
+      "checked": "2026-10-09",
+      "sources": [
+        {
+          "label": "EY Greece — Law 5275/2026, legal immigration policies and the Single Permit Directive",
+          "url": "https://www.ey.com/en_gr/technical/tax/tax-alerts/law-5275-2026-immigration-policies",
+          "status": "secondary",
+          "checked": "2026-10-09"
+        }
+      ],
+      "money": {
+        "min_wage_eur": 1073,
+        "min_wage_pps": 1229,
+        "as_of": "1 July 2026",
+        "note": "",
+        "sources": [
+          {
+            "label": "Eurostat, Monthly minimum wages — bi-annual data (earn_mw_cur), period 2026-S2, in force 1 July 2026. Gross, before income tax and employee social contributions.",
+            "url": "https://ec.europa.eu/eurostat/databrowser/view/earn_mw_cur/default/table",
+            "status": "primary",
+            "checked": "2026-10-16"
+          },
+          {
+            "label": "Eurostat, Annual net earnings (earn_nt_net), 2025 — single person without children at 50% of average earnings. The percentage is income tax plus the employee's social contributions, as a share of gross, computed from Eurostat's own published components.",
+            "url": "https://ec.europa.eu/eurostat/databrowser/view/earn_nt_net/default/table",
+            "status": "primary",
+            "checked": "2026-10-16"
+          }
+        ],
+        "deductions_pct": 18.5,
+        "net_eur_approx": 875,
+        "net_pps_approx": 1000
+      }
+    },
+    {
+      "id": "hungary",
+      "name": "Hungary",
+      "group": "work",
+      "detail": false,
+      "nepal_permits": null,
+      "headline": "Closed to Nepali citizens. Not difficult — not permitted.",
+      "brief": "Hungary publishes a list of countries whose citizens may hold a work residence permit. The list, set by Government Decree 450/2024, has three countries on it: Georgia, Armenia and the Philippines. Nepal is not on it, and is not on the separate lists for guest workers or for the National Card either. New guest worker permits stopped entirely in June 2026. Even for people who do qualify, family reunification is not allowed, except for a child born in Hungary. If someone offers you a Hungarian work visa, this is the thing to show them.",
+      "single_permit": {
+        "status": "not_applicable",
+        "note": ""
+      },
+      "open": [
+        "The June 2026 closure date for new guest worker permits comes from secondary reporting. The country list itself we read on the Hungarian immigration authority's own site."
+      ],
+      "checked": "2026-10-09",
+      "sources": [
+        {
+          "label": "Hungarian National Directorate-General for Aliens Policing — residence permit for the purpose of employment. Names Government Decree 450/2024 and its three-country annex. Page last edited 10 March 2026.",
+          "url": "https://oif.gov.hu/factsheets/residence-permit-for-the-purpose-of-employment",
+          "status": "primary",
+          "checked": "2026-10-09"
+        },
+        {
+          "label": "CMS — the three Hungarian country lists in full, with the decree numbers",
+          "url": "https://cms.law/en/hun/legal-updates/hungary-issues-country-lists-for-employment-of-third-country-nationals",
+          "status": "secondary",
+          "checked": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "poland",
+      "name": "Poland",
+      "group": "work",
+      "detail": false,
+      "nepal_permits": null,
+      "headline": "Open, but the work visa is decided in New Delhi — not Kathmandu.",
+      "brief": "Poland changed its rules on 1 June 2025: all work permit applications are now electronic, the labour market test was abolished, and your signed employment contract must be uploaded before you start work. Permit fees changed on 1 December 2025. Poland has no embassy in Nepal. Long-stay work visas are handled by the Polish Embassy in New Delhi, which takes applications on Monday, Tuesday and Wednesday at 10:00 and decides within fifteen days. Switzerland's embassy in Kathmandu represents Poland — but only for short-stay Schengen visas, not for work. This is the single most common misunderstanding we have found.",
+      "single_permit": {
+        "status": "carried",
+        "note": ""
+      },
+      "open": [
+        "How many Nepalis actually go. A figure of about 3,123 appeared in one search summary of the Kathmandu Post story but not in the article itself, so we are not printing it."
+      ],
+      "checked": "2026-10-09",
+      "sources": [
+        {
+          "label": "Polish Ministry of Foreign Affairs, Poland in India — D-type national visa, application days and the fifteen-day decision",
+          "url": "https://www.gov.pl/web/india/d-type-national-visa",
+          "status": "primary",
+          "checked": "2026-10-09"
+        },
+        {
+          "label": "Poznań Voivodeship Office (Polish government) — the new regulations on employing foreigners from 1 December 2025",
+          "url": "https://migrant.poznan.uw.gov.pl/en/legal-alert-1-december-2025-new-regulations-employment-foreigners",
+          "status": "official",
+          "checked": "2026-10-09"
+        }
+      ],
+      "money": {
+        "min_wage_eur": 1119,
+        "min_wage_pps": 1547,
+        "as_of": "1 July 2026",
+        "note": "",
+        "sources": [
+          {
+            "label": "Eurostat, Monthly minimum wages — bi-annual data (earn_mw_cur), period 2026-S2, in force 1 July 2026. Gross, before income tax and employee social contributions.",
+            "url": "https://ec.europa.eu/eurostat/databrowser/view/earn_mw_cur/default/table",
+            "status": "primary",
+            "checked": "2026-10-16"
+          },
+          {
+            "label": "Eurostat, Annual net earnings (earn_nt_net), 2025 — single person without children at 50% of average earnings. The percentage is income tax plus the employee's social contributions, as a share of gross, computed from Eurostat's own published components.",
+            "url": "https://ec.europa.eu/eurostat/databrowser/view/earn_nt_net/default/table",
+            "status": "primary",
+            "checked": "2026-10-16"
+          }
+        ],
+        "deductions_pct": 24.8,
+        "net_eur_approx": 840,
+        "net_pps_approx": 1165
+      }
+    },
+    {
+      "id": "czechia",
+      "name": "Czechia",
+      "group": "work",
+      "detail": false,
+      "nepal_permits": null,
+      "headline": "Technically open. In practice rationed by a yearly quota in New Delhi.",
+      "brief": "The Czech Embassy in New Delhi covers India, Bangladesh, Bhutan, Nepal, Sri Lanka and the Maldives — six countries sharing a yearly quota of 1,560 employee cards. Since October 2025 it accepts employee card applications only through one of the Czech government's economic migration programmes, and refuses requests for ad-hoc appointments. Applicants inside a programme are given an appointment; nobody can sell you one. The Czech honorary consulate in Kathmandu says appointments for Nepali and Bangladeshi citizens are allocated only by telephone line, though that page looks old.",
+      "single_permit": {
+        "status": "carried",
+        "note": ""
+      },
+      "open": [
+        "Whether Nepali citizens are eligible for the Qualified Worker Programme at all. We could not establish this, and it is the question that decides whether Czechia is a route for you or not."
+      ],
+      "checked": "2026-10-09",
+      "sources": [
+        {
+          "label": "Embassy of the Czech Republic in New Delhi — economic migration programmes and quotas. Page updated 19 June 2025.",
+          "url": "https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/economic_migration_programs_and_quotas.html",
+          "status": "primary",
+          "checked": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "italy",
+      "name": "Italy",
+      "group": "work",
+      "detail": false,
+      "nepal_permits": null,
+      "headline": "The biggest quota in Europe, a fixed application day, and a scam built around it.",
+      "brief": "Italy's three-year decree for 2026 to 2028 allows 497,550 workers, about 164,850 a year. Only an Italian employer can apply, and only on a fixed \"click day\" — 12 January for seasonal agriculture, 9 February for seasonal tourism, 16 February for workers from countries with cooperation agreements, and 18 February for everyone else. Some quotas are reserved for countries that have migration agreements with Italy. Nepal is not on that list. A 2024 report on Italy's system found at least 139 identified victims of people posing as agents, taking money for click-day applications and disappearing. If you are asked to pay for an Italian click-day application, that is the scam.",
+      "single_permit": {
+        "status": "mixed",
+        "note": "Seasonal work is carved out; ordinary work is not."
+      },
+      "open": [
+        "The list of countries with cooperation agreements: one source names eight, another names thirty-one. Nepal is on neither, which is the part that matters."
+      ],
+      "checked": "2026-10-09",
+      "sources": [
+        {
+          "label": "InfoMigrants — explainer on Italy's 2026 to 2028 flow decree, including the click days and the fraud report",
+          "url": "https://www.infomigrants.net/en/post/68411/explainer-italys-20262028-flow-decree-decreto-flussi",
+          "status": "secondary",
+          "checked": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "serbia",
+      "name": "Serbia",
+      "group": "work",
+      "detail": false,
+      "nepal_permits": 2899,
+      "headline": "Not in the EU and not in Schengen, so none of the EU rights above apply.",
+      "brief": "Nearly 2,900 Nepalis took labour approvals for Serbia in 2025/26. Nepali citizens always need a visa: a long-stay D visa, then a combined residence and work permit issued for up to three years. Because Serbia is outside the EU, none of the single permit rights described above reach you there, and Serbian time does not count towards EU long-term residence. Serbia is also a known fraud route: nineteen Nepalis were reported to have been defrauded of Rs 70 lakh in a Serbian work visa scam run from Delhi.",
+      "single_permit": {
+        "status": "not_applicable",
+        "note": "Serbia is not an EU member state."
+      },
+      "open": [
+        "Everything except the permit structure and the reported fraud. This entry rests on secondary sources."
+      ],
+      "checked": "2026-10-09",
+      "sources": [
+        {
+          "label": "Business Standard — Serbia work visa fraud, nineteen Nepalis, Rs 70 lakh",
+          "url": "https://www.business-standard.com/immigration/serbia-work-visa-fraud-how-delhi-men-duped-19-nepalis-of-rs-70-lakh-125082800278_1.html",
+          "status": "secondary",
+          "checked": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "lithuania",
+      "name": "Lithuania",
+      "group": "work",
+      "detail": false,
+      "nepal_permits": null,
+      "headline": "Quota-limited, and once the quota is gone the wage bar is high.",
+      "brief": "Lithuania set a quota of 24,706 for 2026 and publishes a shortage list of about 110 occupations, updated each January; jobs on it skip the local advertising requirement. Once the yearly quota is used up, a permit is still possible but the employer must pay at least 1.2 times the average national wage, which for 2026 is about €2,893.68 a month. All of this is secondary reporting — we have not read the Lithuanian migration department's own pages.",
+      "single_permit": {
+        "status": "carried",
+        "note": ""
+      },
+      "open": [
+        "Everything in this entry. Verify at the Lithuanian migration department before relying on it."
+      ],
+      "checked": "2026-10-09",
+      "sources": []
+    },
+    {
+      "id": "slovakia",
+      "name": "Slovakia",
+      "group": "work",
+      "detail": false,
+      "nepal_permits": null,
+      "headline": "Possible, and the Kathmandu confusion applies here too.",
+      "brief": "Slovakia's long-stay D visa now runs 120 days, to give you time to reach Slovakia and attend the compulsory Foreign Police appointment after arrival. Switzerland's embassy in Kathmandu represents Slovakia — but for short-stay Schengen visas only, not for work. We have done little research on Slovakia.",
+      "single_permit": {
+        "status": "carried",
+        "note": ""
+      },
+      "open": [
+        "Almost everything. Treat this entry as a pointer, not as information."
+      ],
+      "checked": "2026-10-09",
+      "sources": []
+    },
+    {
+      "id": "ireland",
+      "name": "Ireland",
+      "group": "harder",
+      "detail": false,
+      "nepal_permits": 190,
+      "headline": "Open on paper, but most of the jobs Nepalis are offered in Europe are on the ineligible list.",
+      "brief": "A General Employment Permit needs a job paying at least €36,605 a year from 1 March 2026, with lower figures for healthcare assistants and home carers (€32,691). The permit is only for jobs not on the Ineligible List of Occupations, which rules out most hospitality and retail below management level, general clerical work, most agricultural and food processing operative jobs, domestic work, and most transport and logistics below a skill threshold. In practice that excludes most of what is advertised to Nepali workers.",
+      "single_permit": {
+        "status": "not_applicable",
+        "note": "Ireland is not bound by the EU single permit rules."
+      },
+      "open": [
+        "The 2026 figures come from Citizens Information, an Irish state body, rather than from the department itself."
+      ],
+      "checked": "2026-10-09",
+      "sources": [
+        {
+          "label": "Citizens Information (Ireland) — General Employment Permit",
+          "url": "https://www.citizensinformation.ie/en/moving-country/working-in-ireland/employment-permits/work-permits/",
+          "status": "official",
+          "checked": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "uk",
+      "name": "United Kingdom",
+      "group": "harder",
+      "detail": false,
+      "nepal_permits": null,
+      "headline": "One route genuinely open — six months of farm work, with no family and no settlement.",
+      "brief": "The Seasonal Worker visa allows up to six months in horticulture, or work in poultry from 2 October to 31 December. You need a licensed scheme operator as your sponsor, the application fee is £340, you must show personal savings, and in the Home Office's own words: \"You cannot bring family members with you.\" It leads to no settlement. The Skilled Worker route is a different matter: the skill level is now degree level and the general salary floor is around £41,700, and the care worker route closed to new applicants from overseas on 22 July 2025. A proposal to extend settlement from five years to ten was in the 2025 immigration white paper but, as of late September 2026, had not become law — treat it as a proposal, not a rule.",
+      "health_note": "Nepal is on the UK's amber list for health and care recruitment. That means recruitment is only allowed under the terms of the government-to-government agreement in place, which currently covers one NHS trust and is still a pilot. But the code says it does not stop individuals \"independently applying ... of their own accord and without being targeted by a third party.\" The restriction binds recruiters, not you — exactly as it does in Germany.",
+      "single_permit": {
+        "status": "not_applicable",
+        "note": "The UK is not in the EU."
+      },
+      "open": [
+        "The Skilled Worker figures and the care worker closure date come from immigration law sources, not from gov.uk directly.",
+        "The ten-year settlement proposal. It is a proposal. We will not state it as the rule."
+      ],
+      "checked": "2026-10-09",
+      "sources": [
+        {
+          "label": "gov.uk — Seasonal Worker visa",
+          "url": "https://www.gov.uk/seasonal-worker-visa",
+          "status": "primary",
+          "checked": "2026-10-09"
+        },
+        {
+          "label": "NHS Employers — the code of practice red and amber list, Nepal's amber status and the right to apply independently",
+          "url": "https://www.nhsemployers.org/articles/code-practice-red-and-amber-list-countries",
+          "status": "primary",
+          "checked": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "switzerland",
+      "name": "Switzerland",
+      "group": "harder",
+      "detail": false,
+      "nepal_permits": null,
+      "headline": "A quota of 8,500 for the whole world, and only for qualified people.",
+      "brief": "For 2026 Switzerland allows at most 8,500 third-country workers — 4,500 longer permits and 4,000 short-stay ones. Admission is limited to managers, specialists and other qualified workers where it serves Swiss economic interest, and Swiss and EU candidates come first. Switzerland does have an embassy in Kathmandu, and it handles short-stay Schengen visas for Liechtenstein, Poland, Belgium, Slovakia and Latvia as well. That is short-stay only. It is not a work visa service for any of those countries.",
+      "single_permit": {
+        "status": "not_applicable",
+        "note": "Switzerland is not in the EU."
+      },
+      "open": [
+        "Whether Switzerland has any apprenticeship route for third-country nationals from abroad. We believe not, but we have not sourced it, so we are not saying it. Be aware that at least one commercial website advertises \"Ausbildung\" in Switzerland alongside Austria — and we have confirmed the Austrian claim is false.",
+        "The list of countries Switzerland represents in Kathmandu. Reported, not confirmed on the embassy's own page."
+      ],
+      "checked": "2026-10-09",
+      "sources": [
+        {
+          "label": "Swiss Federal Council, 19 November 2025 — third-country quotas for 2026 left unchanged",
+          "url": "https://www.admin.ch/en/newnsb/7HwBjdg5HpBA",
+          "status": "primary",
+          "checked": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "norway",
+      "name": "Norway",
+      "group": "harder",
+      "detail": false,
+      "nepal_permits": null,
+      "headline": "The au pair scheme no longer exists.",
+      "brief": "Norway ended its au pair scheme with effect from 15 March 2024. The stated reason was that demand for unskilled labour should be met from within Europe. It is still being advertised. Norway's skilled worker permit requires a completed qualification and we were not able to read the immigration directorate's own pages, which block automated access — so we have nothing reliable to tell you about it.",
+      "single_permit": {
+        "status": "not_applicable",
+        "note": "Norway is not in the EU."
+      },
+      "open": [
+        "The au pair abolition rests on three independent secondary sources that agree. We could not confirm it on udi.no.",
+        "Everything about Norway's skilled worker route."
+      ],
+      "checked": "2026-10-09",
+      "sources": []
+    },
+    {
+      "id": "nordics-benelux",
+      "name": "Sweden, Netherlands, Belgium, Denmark and the rest",
+      "group": "harder",
+      "detail": false,
+      "nepal_permits": null,
+      "headline": "Statistically almost nobody, and for a reason.",
+      "brief": "In 2025/26 the Netherlands took 62 Nepali labour approvals, Belgium 20 and Sweden 9. These countries have high salary floors and expect degree-level qualifications, and none of them has a route for a young person with no qualification and no money. France and Spain took 146 each. We have not researched them in detail because the numbers suggest no realistic route — not because a route is impossible. If you have been offered work in one of these countries, that is not automatically a scam, but it is unusual enough to check very carefully.",
+      "single_permit": {
+        "status": "carried",
+        "note": "For the EU members among them."
+      },
+      "open": [
+        "Everything. Deliberately not researched."
+      ],
+      "checked": "2026-10-09",
+      "sources": []
+    }
+  ],
+  "au_pair": {
+    "intro": "Au pair is suggested often in Nepal, usually when the German exam queue starts to look impossible. One thing to know before you read further: the EU single permit law names au pairs as being outside its protections. None of the rights listed above — the six-month limit on being tied to one employer, the protection if you lose your job, the right to complain through someone else — reach an au pair in the EU.",
+    "see_also": {
+      "label": "Our full page on the Au Pair route into Germany and Austria",
+      "url": "/au-pair/"
+    },
+    "countries": [
+      {
+        "id": "norway-aupair",
+        "name": "Norway",
+        "status": "Closed",
+        "text": "The scheme was abolished with effect from 15 March 2024. If you are being offered an au pair placement in Norway, there is no permit for it. This is the most useful fact on this list, because it is still being advertised.",
+        "open": [
+          "Confirmed by three independent reports that agree. We could not read Norway's own immigration pages, which block automated access."
+        ],
+        "checked": "2026-10-09",
+        "sources": []
+      },
+      {
+        "id": "denmark-aupair",
+        "name": "Denmark",
+        "status": "Open",
+        "text": "Age 18 and not yet 30. You must be able to manage in Danish, Swedish, Norwegian, English or German. Pocket money of at least DKK 5,250 a month at 2026 rates. Between 18 and 30 hours of work a week, three to five hours a day, at most six days a week, with at least a day and a half off plus Danish public holidays. Maximum stay two years. The host family must include a child under 18 and at least one parent must be a Danish or EU citizen, or a long-term resident with strong Danish ties. The application fee is DKK 4,305, and the host family pays DKK 20,900 towards your Danish classes if you are a first-time applicant. Processing normally takes three months.",
+        "open": [],
+        "checked": "2026-10-09",
+        "sources": [
+          {
+            "label": "nyidanmark.dk, Danish Agency for International Recruitment and Integration — au pair. Page last updated 26 June 2026.",
+            "url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Au-pair",
+            "status": "primary",
+            "checked": "2026-10-09"
+          }
+        ]
+      },
+      {
+        "id": "netherlands-aupair",
+        "name": "Netherlands",
+        "status": "Open, but a dead end",
+        "text": "One year, and it cannot be extended. Age 18 to 25 at application. Only an au pair agency recognised by the Dutch immigration service can apply for you — you cannot apply yourself. Light housekeeping only, at most eight hours a day and 30 hours a week, at the host family's registered address. You must be unmarried, have no children, not be related to the host family, not have worked for them before anywhere, and not have held a Dutch residence permit before. The fee is €423. It leads to nothing further.",
+        "open": [],
+        "checked": "2026-10-09",
+        "sources": [
+          {
+            "label": "Dutch immigration service (IND) — residence permit au pair",
+            "url": "https://ind.nl/en/residence-permits/au-pair-and-exchange/residence-permit-au-pair",
+            "status": "primary",
+            "checked": "2026-10-09"
+          }
+        ]
+      },
+      {
+        "id": "others-aupair",
+        "name": "Switzerland, France, Belgium, Luxembourg, Iceland, Spain, Sweden",
+        "status": "Not checked",
+        "text": "We have not read these schemes. Several of them are open only to people from Europe in practice. Do not treat a country as an au pair option because a website lists it — read that country's own immigration page, or ask us and we will check it.",
+        "open": [
+          "All of them."
+        ],
+        "checked": "2026-10-09",
+        "sources": []
+      }
+    ]
+  },
+  "other_routes": [
+    {
+      "name": "Study",
+      "text": "Public universities in Germany charge no tuition fees, and Poland and Czechia offer programmes taught in English. Erasmus Mundus scholarships are fully funded and genuinely open — 33 Nepali students were awarded them for master's study, according to the EU delegation in Nepal. We have not researched study routes properly and are not going to give you figures we have not checked.",
+      "status": "open"
+    },
+    {
+      "name": "Seasonal work, as a category",
+      "text": "Across the UK, Bulgaria, Italy, Romania and Cyprus the shape is the same: short, tied to one employer, no qualification at the end, usually no family, and no path to staying. And in the EU it is specifically excluded from the single permit protections. It is the fastest route and the one with the least protection.",
+      "status": "known"
+    },
+    {
+      "name": "Nepal's bilateral labour agreements",
+      "text": "Nepal has sent draft labour agreements to a number of European countries — reports differ on whether it is eleven or sixteen. A draft sent is not an agreement signed, and an agreement signed is not an open application. Germany's own employment agency told us in writing that for Germany \"ein offenes oder direktes Bewerbungsverfahren für Einzelpersonen über die ZAV existiert derzeit jedoch nicht\" — there is no open or direct application procedure for individuals. Assume the same elsewhere until a government page says otherwise.",
+      "status": "secondary"
+    },
+    {
+      "name": "\"Free visa, free ticket\"",
+      "text": "This covers seven Gulf destinations. It has never covered Germany or any part of Europe.",
+      "status": "known"
+    }
+  ],
+  "scam_patterns": [
+    {
+      "pattern": "\"The visa is processed in Kathmandu.\"",
+      "check": "For work visas, usually it is not. Several countries are represented in Kathmandu for short-stay Schengen visas only — Switzerland's embassy covers Liechtenstein, Poland, Belgium, Slovakia and Latvia that way, and Sweden's applications go via VFS Global in Kathmandu to the embassy in New Delhi, which also handles Denmark and Estonia. The work or training visa is a different, national visa, and for most countries it is decided in New Delhi. That means an Indian visa, travel and a queue that nobody mentions when quoting you a fee. Ask which city will decide your visa, and ask for it in writing."
+    },
+    {
+      "pattern": "\"Pay now to get the appointment.\"",
+      "check": "Nobody can sell you a place in a queue. Czech programme applicants are given their appointment by the consulate. Polish work visa slots belong to the embassy. German appointments in Kathmandu come from a waiting list. If someone is charging you for an appointment, ask them to show you the government page that says appointments can be bought."
+    },
+    {
+      "pattern": "An \"approved\" permit or job offer you cannot verify.",
+      "check": "Ask which government system holds it and what its reference number is. In Romania, since May 2026, nothing can even be started outside WorkinRomania.gov.ro. In Italy, only an Italian employer can apply, and only on a fixed day of the year."
+    },
+    {
+      "pattern": "A route that has been closed.",
+      "check": "Portugal's tourist-then-regularise route ended permanently on 31 December 2025. Norway's au pair scheme ended on 15 March 2024. Hungary's work permits are not open to Nepali citizens at all. Austria has no apprenticeship visa and never has had one. All four are still being sold."
+    },
+    {
+      "pattern": "\"There is a government-to-government agreement, so you can apply.\"",
+      "check": "Ask where the application form is. For Germany the employment agency has told us there is no individual application route. A chamber of commerce agreement, like the one in Piraeus, is not a government programme at all."
+    },
+    {
+      "pattern": "A fee that is not itemised.",
+      "check": "Ask for it split: lessons, exam fees, translation and certification, document handling, travel. Ask what happens to your money if the visa is refused, and get the answer in writing before you pay. In Nepal, licensed consultancies must publish their fees and may not take cash."
+    }
+  ]
+}

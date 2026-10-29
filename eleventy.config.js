@@ -21,6 +21,34 @@ export default function (eleventyConfig) {
       .sort((a, b) => (a.data.order || 99) - (b.data.order || 99))
   );
 
+  // Thousands separators. The Europe page prints Nepali labour-approval figures
+  // in the tens of thousands, and "24767" next to "316" is a number a reader has
+  // to decode rather than read. Grouped here rather than pre-formatted in
+  // europe.json, because the data file has to stay machine-writable: the monthly
+  // update job writes integers, not display strings.
+  //
+  // en-US gives the comma grouping used throughout this site's English. Nepali
+  // readers will also meet the South Asian lakh/crore grouping, which is written
+  // out in words in the prose where it matters rather than applied here.
+  eleventyConfig.addFilter("num", (n) =>
+    typeof n === "number" ? n.toLocaleString("en-US") : n
+  );
+
+  // Sort a collection by a nested value, e.g. "money.min_wage_eur". Nunjucks'
+  // own `sort` filter only looks up a plain key, and the wage figures live one
+  // level down. Entries missing the value sort last rather than throwing, so a
+  // country with no wage data simply drops off the end of the table.
+  eleventyConfig.addFilter("sortBy", (arr, path, reverse = false) => {
+    const get = (o) => path.split(".").reduce((v, k) => (v == null ? v : v[k]), o);
+    return [...(arr || [])].sort((a, b) => {
+      const x = get(a), y = get(b);
+      if (x == null && y == null) return 0;
+      if (x == null) return 1;
+      if (y == null) return -1;
+      return reverse ? y - x : x - y;
+    });
+  });
+
   // Our own hostnames. Anything else is somebody else's site.
   const OWN_HOSTS = new Set(["ausbildungfacts.org", "www.ausbildungfacts.org"]);
 

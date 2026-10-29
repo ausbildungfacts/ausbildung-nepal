@@ -50,6 +50,17 @@ around 1,200 people queued overnight in Kathmandu for 187 exam places — at A2.
 Plan the certificate first and everything else around it.
 [Read the detail](/exam-slots/)
 
+**But for some people the German itself is the bottleneck, and that is a real
+answer.** B1 is somewhere between 260 and 490 hours of taught lessons, and that
+estimate is calculated for learners whose first language is European — so for a
+Nepali speaker, treat it as a floor. Not everyone is good at learning languages,
+and a year of lessons you will not pass costs more than most agents charge, plus
+the year. If German is honestly not going to happen for you, Germany may not be
+your route, and it is better to know that in month one than after paying for a
+year of classes. There are European countries that ask for no language at all —
+and they are, almost exactly, the ones where the work leads nowhere.
+[What the alternatives actually are](/europe/)
+
 **There is a way past the visa waiting list, and your employer holds it.** Since
 1 December 2025 the embassy in Kathmandu allocates visa appointments from a
 waiting list. But it has confirmed to us that anyone holding a *Vorabzustimmung*

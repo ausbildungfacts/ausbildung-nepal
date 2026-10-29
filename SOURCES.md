@@ -3989,3 +3989,16 @@ comparison before somebody who has actually met these students noticed.
   exemption for English speakers. We found none, which is surprising given
   English is an official language — so it is marked unresolved rather than
   settled.
+
+**Carried onto the start page the same day.** The start page said *"The exam
+queue is the real bottleneck, not your German."* That is true for people who can
+learn German and quietly assumes everyone can. A paragraph now follows it saying
+that for some people the German itself is the bottleneck, that this is a real
+answer rather than a failure, that B1 is 260–490 taught hours and that estimate
+is a floor for a Nepali speaker, and that a year of lessons you will not pass
+costs more than most agents charge plus the year. It links to /europe/ and ends
+on the trade-off: the countries that ask for no language are almost exactly the
+ones where the work leads nowhere.
+
+The original sentence stays, because the exam queue *is* the bottleneck for most
+readers. It is now one of two bottlenecks rather than the only one.

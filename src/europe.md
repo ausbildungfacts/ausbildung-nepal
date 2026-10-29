@@ -87,6 +87,65 @@ reported by the Kathmandu Post — they count one year of new approvals, not how
 many Nepalis live in a country.
 
 
+## {{ eu.europe_wide.language.name }}
+
+{{ eu.europe_wide.language.lede }}
+
+### {{ eu.europe_wide.language.what_b1_means.heading }}
+
+{{ eu.europe_wide.language.what_b1_means.text }}
+
+<div class="warn">
+
+{{ eu.europe_wide.language.what_b1_means.the_catch }}
+
+</div>
+
+{{ eu.europe_wide.language.what_b1_means.plus_the_queue }}
+
+### {{ eu.europe_wide.language.two_gates.heading }}
+
+{{ eu.europe_wide.language.two_gates.text }}
+
+<div class="scroll">
+
+| Country | To get in | To stay for good |
+| --- | --- | --- |
+{%- for r in eu.europe_wide.language.rows %}
+| **{{ r.country }}** | {{ r.before }} | {{ r.after }} |
+{%- endfor %}
+
+</div>
+
+{% for r in eu.europe_wide.language.rows %}{% if r.note %}
+- **{{ r.country }}** — {{ r.note }}
+{%- endif %}{% endfor %}
+
+### {{ eu.europe_wide.language.if_german_is_not_realistic.heading }}
+
+{{ eu.europe_wide.language.if_german_is_not_realistic.text }}
+
+<div class="warn">
+
+{{ eu.europe_wide.language.if_german_is_not_realistic.the_trade }}
+
+</div>
+
+{{ eu.europe_wide.language.if_german_is_not_realistic.worth_knowing }}
+
+<p class="open-line"><span class="badge open">Open</span> What we have not
+settled about language:</p>
+
+{% for o in eu.europe_wide.language.open %}
+- {{ o }}
+{%- endfor %}
+
+{%- for s in eu.europe_wide.language.sources %}
+
+<p class="src-line"><span class="badge {% if s.status == 'primary' %}primary{% elif s.status == 'official' %}authority{% else %}secondary{% endif %}">{{ s.status }}</span>
+{{ s.label }} — <a class="src" href="{{ s.url }}">source</a>. Checked {{ s.checked }}.</p>
+{%- endfor %}
+
 ## {{ eu.europe_wide.money.name }}
 
 {{ eu.europe_wide.money.summary }}

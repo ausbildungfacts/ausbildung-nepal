@@ -3896,3 +3896,96 @@ sentence.
 
 Nothing. GitHub Actions is free on public repositories, the checker installs no
 dependencies, and it runs twelve times a year.
+
+---
+
+## Language added — the gate that was missing from the whole page — 2026-10-29
+
+Alan pointed out that the overview had no proper treatment of language, and that
+for a lot of people German rules Germany out on its own. He is right, and the
+omission was worse than a gap: every page on this site quietly assumes the
+reader will learn German, and none of them had ever said what that costs or what
+to do if it is not realistic.
+
+### What B1 actually takes
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| The Goethe-Institut's cumulative guided-learning estimates for German: A1 **60–150**, A2 **150–260**, **B1 260–490**, B2 450–600 hours. A guided hour is 45 minutes of taught class; self-study is additional | CEFR article citing the Goethe-Institut's own figures. The Goethe-Institut's own page could not be opened | **SECONDARY** | 2026-10-29 |
+| A B1 speaker can follow the main points of clear standard speech on familiar matters, handle most situations, write simple connected text and give brief reasons for an opinion | CEFR descriptors, same source | **SECONDARY** | 2026-10-29 |
+
+**The trap, and it is the reason this section exists.** Those hour ranges are
+published with the stated assumption that the learner's **first language is a
+European one**. Nepali is not. Quoting "260–490 hours" to a Nepali reader as
+though it applied to them would be precisely the error this file keeps
+recording: taking a general figure and applying it to a specific case it was
+never measured on.
+
+The page therefore gives the Goethe range, states plainly that it is not written
+for this reader, and says to treat it as a **floor rather than an estimate**. It
+does not invent a Nepali-specific number, and it asks readers who have done it
+to send theirs — which would be one of the most useful figures on the site.
+
+### Two gates, not one
+
+The structural finding is that every country has **two** language questions with
+very different answers: what you need to get in, and what you need to stay. The
+page is built as a two-column table on exactly that split.
+
+| Claim | Source | Status | Checked |
+| --- | --- | --- | --- |
+| **Malta: English is an official language** alongside Maltese under Article 5 of the Constitution, and is the working language of business. **No language requirement to enter** | EFNIL, survey of language legislation in Europe | **SECONDARY** | 2026-10-29 |
+| **Malta: long-term residence requires Maltese** plus an integration course and examination | Maltese integration programme materials and refugee-law reporting | **SECONDARY** | 2026-10-29 |
+| Cyprus: long-term residence requires **Greek at A2** plus an examination on the political and social reality of Cyprus | Cypriot law firm. The Migration Department's own page, read on 2026-10-16, sets out procedure and fees but does not spell out the examinations | **SECONDARY** | 2026-10-29 |
+| Greece: long-term residence requires **B1 Greek**, or A2 plus a history and culture certificate; language proof waived after twelve years | Guidance summary | **SECONDARY** | 2026-10-29 |
+| Bulgaria: no explicit language requirement at any stage | Council of Europe / ALTE survey — **dated 2018** | **SECONDARY and OUT OF DATE. Flagged as such on the page** | 2026-10-29 |
+| Romania: a Romanian language test at five years. Portugal: basic Portuguese to settle, fluent Portuguese for EU long-term residence | EU Immigration Portal, last updated 1 April 2025 | **OFFICIAL** | 2026-10-29 |
+| Croatia: **A1.1 Croatian including the Latin script** at the first renewal, from June 2027 | Reporting on the June 2026 amendments | **SECONDARY** | 2026-10-29 |
+
+**Malta is the case that justifies the two-column design.** It has *no* language
+gate to arrive — English will do — and a *Maltese* gate to settle. Wide open at
+one end, shut at the other. A reader looking at a single "language" column would
+have seen "English" and drawn exactly the wrong conclusion about where it leads.
+
+### The trade-off the page now states outright
+
+The countries with no language gate are, almost exactly, the countries with no
+qualification at the end, permits tied to one employer, and the weakest rights
+on the page. The one route that ends in something portable asks for B1 German
+first.
+
+The page says that is not a coincidence — the language requirement is part of
+what makes the destination worth reaching — and frames the real choice as:
+**spend the year on German and get a qualification, or skip the year and get a
+job.** Both legitimate; only one usually explained.
+
+It also says, because it is true and rarely said, that **a year of lessons you
+will not pass is the most expensive thing on this page** — more than most agents
+charge, and it costs the year as well.
+
+### Why this belongs on a site that exists to promote the German route
+
+It does not promote it. It sets out the single biggest reason a reader should
+**not** take it, in a section of its own, above the money. A reader for whom
+German is genuinely not achievable is better served by being told so in month
+one than by discovering it after paying for a year of classes and missing the
+exam queue twice.
+
+The standing risk on this project has always been that a site written by someone
+who believes in the route oversells it by omission. Leaving language out was an
+omission of exactly that kind, and it survived eleven pages and a twelve-country
+comparison before somebody who has actually met these students noticed.
+
+### Open
+
+- **What it really takes a Nepali first-language speaker to reach B1 German.**
+  No published figure exists. This is the most valuable gap on the page and the
+  page asks readers to fill it.
+- Germany's and Austria's language requirements for permanent residence. Not
+  checked.
+- Greece and Cyprus rest on law-firm summaries rather than statutes.
+- Bulgaria's position rests on a 2018 survey.
+- Whether Malta's Maltese-language requirement for long-term residence has any
+  exemption for English speakers. We found none, which is surprising given
+  English is an official language — so it is marked unresolved rather than
+  settled.

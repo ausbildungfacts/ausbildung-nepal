@@ -471,6 +471,133 @@
         }
       ],
       "ausbildung_rows_footnote": "Not minimum wages. The first is the statutory minimum training allowance for a contract starting in 2026; the second is the average collectively agreed first-year allowance across all trades; the third is nursing. See the breakdown by trade below."
+    },
+    "language": {
+      "name": "Language — the gate that rules Germany out for a lot of people",
+      "lede": "Almost every page on this site assumes you will learn German. For a great many people that assumption is wrong, and nobody says so. If languages are hard for you, that is not a character failure and it is not something to push through — it is a fact to plan around, and it changes which countries are realistic.",
+      "what_b1_means": {
+        "heading": "What B1 German actually means",
+        "text": "B1 is not conversational German. It is the level at which you can follow the main points of clear, standard speech about familiar everyday things, handle most situations that come up, write simple connected text, and give short reasons for an opinion. It is a real working level and it takes real time.\n\nThe Goethe-Institut's own estimate is **260 to 490 guided hours** to reach B1 from nothing. A guided hour is 45 minutes of taught class — homework and self-study are on top. At ten hours of class a week that is **six months to a year**, if nothing goes wrong.",
+        "the_catch": "**And that estimate is not written for you.** Those hour ranges assume a learner whose first language is a European one. Nepali is not. German grammar — three genders, four cases, verbs at the end — has no equivalent you can lean on, and the vocabulary shares almost no roots. Nobody we can find publishes an honest figure for a Nepali first-language learner, so we will not invent one. Assume the Goethe range is a **floor**, not an estimate.",
+        "plus_the_queue": "Then add the exam. In Nepal the hard part is often not learning the German but getting a seat in the test, and the certificate must be **no older than six months** when you apply. [That bottleneck has its own page](/exam-slots/), and it is the part most people are not warned about."
+      },
+      "two_gates": {
+        "heading": "Two different gates, and most people only hear about one",
+        "text": "Every country below has two language questions, and they have very different answers. The first decides whether you can go at all. The second decides whether what you are going to leads anywhere permanent. A country can be wide open on one and shut on the other."
+      },
+      "rows": [
+        {
+          "country": "Germany",
+          "before": "**B1 German**, certified, under six months old",
+          "after": "Not checked by us",
+          "note": "The hardest entry gate on this page — and the only route that ends in a qualification."
+        },
+        {
+          "country": "Finland",
+          "before": "No certificate named, **but training is taught in Finnish or Swedish**",
+          "after": "Not checked",
+          "note": "We think the teaching language, not the permit, is what rules this out for most people."
+        },
+        {
+          "country": "Austria",
+          "before": "Not checked",
+          "after": "Not checked",
+          "note": "There is no apprenticeship route from abroad anyway."
+        },
+        {
+          "country": "Malta",
+          "before": "**Nothing. English is an official language**",
+          "after": "**Maltese**, plus an integration certificate",
+          "note": "The sharpest contrast on this page: no gate to arrive, a real gate to stay."
+        },
+        {
+          "country": "Cyprus",
+          "before": "Nothing found",
+          "after": "**Greek at A2**, plus a test on Cypriot society",
+          "note": "Though most of the jobs Nepalis take there are written out of the five-year clock anyway."
+        },
+        {
+          "country": "Romania",
+          "before": "Nothing",
+          "after": "**A Romanian language test** at five years",
+          "note": ""
+        },
+        {
+          "country": "Portugal",
+          "before": "Nothing",
+          "after": "**Basic Portuguese** to settle; fluent Portuguese for EU long-term residence",
+          "note": ""
+        },
+        {
+          "country": "Croatia",
+          "before": "Nothing",
+          "after": "**A1.1 Croatian**, including the Latin script, at the first renewal",
+          "note": "Does not bite until June 2027 — so it will catch people who go now."
+        },
+        {
+          "country": "Greece",
+          "before": "Nothing found",
+          "after": "**B1 Greek**, or A2 plus a history and culture certificate",
+          "note": ""
+        },
+        {
+          "country": "Bulgaria",
+          "before": "Nothing",
+          "after": "No explicit requirement found — but our source is from 2018",
+          "note": ""
+        },
+        {
+          "country": "United Kingdom and Ireland",
+          "before": "**English**",
+          "after": "English",
+          "note": "Not in the EU. The UK seasonal route is six months with no family and no settlement; most Irish permits need a salary far above these jobs."
+        }
+      ],
+      "if_german_is_not_realistic": {
+        "heading": "If German is honestly not going to happen",
+        "text": "Then say so early, to yourself and to anybody taking your money. A year of lessons you will not pass is the most expensive thing on this page — more than most agents charge, and it costs you the year as well.\n\nWhat is actually open without a language certificate: **Malta**, where English is an official language and the working language of business; **Romania, Bulgaria, Croatia, Portugal and Greece**, none of which ask for anything to let you in; and the **UK seasonal route**, six months in horticulture.",
+        "the_trade": "**But look at what you are trading.** The countries with no language gate are, almost exactly, the countries with no qualification at the end, permits tied to one employer, and the weakest rights on this page. The one route that ends with something that belongs to you — a qualification recognised across Europe — is the one that asks for B1 German first. That is not a coincidence. The language requirement is part of what makes the destination worth reaching.\n\nSo the honest choice is not \"easy country or hard country\". It is: **spend the year on German and get a qualification, or skip the year and get a job.** Both are legitimate. Only one of them is usually explained to you.",
+        "worth_knowing": "One more thing worth knowing before you decide German is impossible. You do not need B1 to **start applying** — you can look for a training place at a lower level, and employers in some trades will take someone who is still learning. What you need B1 for is the **visa**. And some vocational schools want B2 rather than B1 once you are there. [The application pages explain how that sequence works](/apply/)."
+      },
+      "sources": [
+        {
+          "label": "Goethe-Institut's cumulative guided-learning-hour estimates for German (A1 60–150, A2 150–260, B1 260–490, B2 450–600), and the CEFR's own plain description of what a B1 speaker can do. The article states these estimates assume learners whose first language is European — we could not open the Goethe-Institut's own page.",
+          "url": "https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages",
+          "status": "secondary",
+          "checked": "2026-10-29"
+        },
+        {
+          "label": "Malta: English is an official language alongside Maltese under Article 5 of the Constitution — EFNIL's survey of language legislation in Europe. Note that where the two texts of a law conflict, the Maltese text prevails.",
+          "url": "https://efnil.org/projects/language-legislation-europe-lle/malta-malte/",
+          "status": "secondary",
+          "checked": "2026-10-29"
+        },
+        {
+          "label": "Malta long-term residence: a Maltese-language certificate and an integration course and examination. Reported by the Maltese integration programme's own materials and by refugee-law reporting.",
+          "url": "https://www.ibelongmalta.org/long-term-residence",
+          "status": "secondary",
+          "checked": "2026-10-29"
+        },
+        {
+          "label": "Cyprus long-term residence: Greek at A2 plus an examination on the political and social reality of Cyprus. From a Cypriot law firm — the Migration Department's own page lists the procedure and fees but does not spell out the examinations.",
+          "url": "https://gk-lawfirm.com/publications/cyprus-long-term-resident-after-five-years/",
+          "status": "secondary",
+          "checked": "2026-10-29"
+        },
+        {
+          "label": "Romania's language test at five years and Portugal's Portuguese requirements: EU Immigration Portal country pages, last updated 1 April 2025. Croatia's A1.1 requirement from June 2027: reporting on the June 2026 amendments to the Foreigners Act.",
+          "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/employed-worker-romania_en",
+          "status": "official",
+          "checked": "2026-10-29"
+        }
+      ],
+      "open": [
+        "What it actually takes a Nepali first-language speaker to reach B1 German. Every published hour estimate assumes a European first language. If you have done it, we would like to know how long it really took — it would be one of the most useful figures on this site.",
+        "Germany's and Austria's language requirements for staying permanently. Not checked.",
+        "Greece's and Cyprus's rules rest on law-firm summaries rather than the statutes.",
+        "Bulgaria having no language requirement comes from a 2018 Council of Europe survey. It may have changed.",
+        "Whether Malta's Maltese-language requirement for long-term residence has an exemption for English speakers. We found none, which would be surprising given English is an official language — so treat it as unresolved rather than settled."
+      ]
     }
   },
   "countries": [
@@ -842,10 +969,7 @@
         "Temporary residence and employment permit, applied for by your employer after a labour market test",
         "Seasonal work, four months at a time, extendable by another four"
       ],
-      "language": {
-        "status": "open",
-        "text": "Not checked."
-      },
+      "language": "Nothing found for the work permit itself. Long-term residence is reported to require **Greek at A2** plus an examination on the political and social reality of Cyprus — though most of the work Nepalis do there is written out of the five-year clock anyway.",
       "sectors": "Agriculture and animal husbandry, domestic work and care, according to the sources we have seen. Cyprus also runs a completely separate fast-track scheme for highly paid staff at international companies, needing €2,500 a month and a degree or two years' experience. Most \"Cyprus work visa\" guides online describe that scheme. It is not the one you will be offered.",
       "pay": {
         "status": "partial",
@@ -1045,10 +1169,7 @@
         "Single Permit, for work over six months — residence and work in one document",
         "Employment Licence plus a separate residence permit, for work under six months"
       ],
-      "language": {
-        "status": "open",
-        "text": "Not checked."
-      },
+      "language": "**Nothing to get in — English is an official language of Malta**, alongside Maltese, and it is the working language of business. To stay permanently is a different matter: long-term residence requires Maltese and an integration certificate. Easy to arrive, hard to settle.",
       "sectors": {
         "status": "open",
         "text": "Not checked."
@@ -1132,10 +1253,7 @@
         "Seasonal work, up to 90 days",
         "Longer work permits with a type D visa"
       ],
-      "language": {
-        "status": "open",
-        "text": "Not checked."
-      },
+      "language": "Nothing to get in. We found no requirement for staying either, but that rests on a 2018 Council of Europe survey and may have changed.",
       "sectors": {
         "status": "open",
         "text": "Not checked."
@@ -1309,10 +1427,7 @@
       "routes": [
         "Single permit for residence and work"
       ],
-      "language": {
-        "status": "open",
-        "text": "Not checked."
-      },
+      "language": "Nothing found to get in. Long-term residence is reported to require **B1 Greek**, or A2 plus a history and culture certificate, with the language proof waived after twelve years.",
       "sectors": {
         "status": "open",
         "text": "Not checked."

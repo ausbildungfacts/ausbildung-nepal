@@ -3831,3 +3831,68 @@ from the PDF, not rendered. The extraction was legible where checked, but it is
 not a faithful render, so "does not appear to repeat it" is stated as that and
 not as a finding. If the distinction matters later, the PDF should be opened and
 read properly before anything is published on it.
+
+---
+
+## Phase 3: the figures now check themselves — 2026-10-29
+
+The Europe page rests on numbers that move on a schedule and announce nothing.
+Minimum wages change twice a year, tax and social contribution rates once. A
+dead link gets caught by `check-links`; a reworded government page gets caught
+by `check-watch`; a figure that quietly became last year's figure was caught by
+nothing.
+
+`scripts/check-figures.mjs` closes that gap, and a monthly workflow runs it.
+
+### What it reads
+
+| Source | Dataset | What it gives |
+| --- | --- | --- |
+| Eurostat dissemination API | `earn_mw_cur` | Monthly minimum wages, euro and purchasing power, by half-year |
+| Eurostat dissemination API | `earn_nt_net` | Gross, income tax and employee social contributions at the EU low-wage benchmark |
+| BIBB | file-existence probe | Whether a newer year of training allowances has been published |
+
+The deduction percentage is computed from the published **tax and social
+components**, never from Eurostat's NET figure — for Malta, Portugal, Greece and
+Poland that NET does not reconcile with gross minus deductions, and we could
+never explain why. That decision is now enforced in code rather than remembered.
+
+### What it does, and what it deliberately does not
+
+It updates `src/_data/europe.json` and opens a **pull request**. It does not
+publish. A figure that changed may also make a sentence wrong, and no script can
+see that — so the PR body lists every old figure that still appears anywhere in
+the file, which is almost always prose contradicting its own table.
+
+That check earns its place. Testing it against a deliberately stale Romania
+caught the sentence *"Romania's minimum wage rose from €795 to €825"* — exactly
+the kind of line that would otherwise have survived a figures update and
+quietly contradicted the table beside it.
+
+### Two bugs found while building it, both worth recording
+
+**The frequency dimension is not the same in the two datasets.** `earn_mw_cur`
+uses `S` (semi-annual) and `earn_nt_net` uses `A` (annual). Naming it produced
+"no complete period found" and would have failed silently as a warning rather
+than an error. The reader now leaves unnamed dimensions at their first value,
+with a comment saying why.
+
+**A plain substring search for an old figure reports false positives.** Checking
+for `1233` matched inside *"Directive (EU) 2024/1233"*. The match is now
+anchored so a number is only reported when it appears as a value in its own
+right. This is a small thing, but a checker that cries wolf is one nobody reads
+— the same rule the link checker was rewritten under on 2026-08-27.
+
+### Verified behaviour
+
+Run against the live API on 2026-10-29: minimum wages current for **2026-S2**,
+tax and social contributions current for **2025**, no changes proposed. The
+change path was tested by perturbing Romania back to its January figures; the
+checker detected both the wage and the deduction change, rewrote the derived net
+and purchasing-power figures correctly, dated the file, and flagged the stale
+sentence.
+
+### Cost
+
+Nothing. GitHub Actions is free on public repositories, the checker installs no
+dependencies, and it runs twelve times a year.

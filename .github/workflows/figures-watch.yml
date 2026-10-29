@@ -1,0 +1,122 @@
+name: Check the figures behind the Europe page
+
+# The third of the three checks, and the only one that proposes a fix.
+#
+#   link-check   — does the cited URL still resolve?
+#   page-watch   — does the page still SAY what we told readers it says?
+#   figures-watch — are the NUMBERS still the current ones?
+#
+# Minimum wages move twice a year and tax rates every year. Neither breaks a
+# link and neither changes the wording of a page we watch, so without this the
+# Europe page would drift quietly out of date while every other check stayed
+# green.
+#
+# This one opens a PULL REQUEST rather than an issue, because Eurostat publishes
+# the replacement figures in a form a script can read and write back. Nothing
+# goes live on its own: a number that changed may also make a sentence wrong,
+# and no script can see that. The PR body says exactly which sentences to check.
+#
+# Monthly rather than weekly. The underlying data is published twice a year, so
+# a weekly run would be twelve wasted runs for every useful one, and a check
+# that usually says nothing is a check people stop reading.
+#
+# NOTE: GitHub disables scheduled workflows in a repository after 60 days with
+# no commit activity. If this goes quiet, that is usually why — push any commit,
+# or press "Run workflow".
+#
+# NOTE: opening a PR from Actions requires "Allow GitHub Actions to create and
+# approve pull requests" under Settings → Actions → General. If the run fails at
+# the last step with a permissions error, that setting is why.
+
+on:
+  schedule:
+    # 07:30 UTC on the 2nd of each month, after the Monday link check and the
+    # daily page watch, so three notifications never arrive at once.
+    - cron: "30 7 2 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: figures-watch
+  cancel-in-progress: false
+
+jobs:
+  figures:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # No npm ci: the checker uses only the Node standard library. A dependency
+      # install is a failure mode this does not need.
+      - name: Compare the published figures with Eurostat
+        id: figures
+        continue-on-error: true
+        run: node scripts/check-figures.mjs --write --report figures-report.md
+
+      - name: Nothing moved
+        if: steps.figures.outcome == 'success'
+        run: |
+          echo "The figures are unchanged. Nothing to propose."
+          cat figures-report.md || true
+
+      # The build has to still work before we ask anyone to look at a diff.
+      - name: Build with the new figures
+        if: steps.figures.outcome == 'failure'
+        run: |
+          npm ci
+          npm run build
+
+      - name: Open or update the pull request
+        if: steps.figures.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          git config user.name  "Ausbildung Facts"
+          git config user.email "noreply@ausbildungfacts.org"
+
+          BRANCH=figures-update
+          git checkout -B "$BRANCH"
+          git add src/_data/europe.json
+
+          if git diff --cached --quiet; then
+            echo "The checker reported changes but nothing was written. Not opening a PR."
+            exit 0
+          fi
+
+          git commit -m "Update the Europe page figures from Eurostat" \
+                     -m "Proposed automatically. See the pull request for what moved and which sentences to check."
+          git push --force-with-lease origin "$BRANCH"
+
+          BODY=$(cat figures-report.md)
+
+          # One PR at a time. A second run before the first is merged updates the
+          # existing one rather than stacking another on top.
+          if gh pr list --head "$BRANCH" --state open --json number --jq 'length' | grep -qv '^0$'; then
+            NUM=$(gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number')
+            gh pr comment "$NUM" --body "Re-checked, and the figures have moved again.
+
+          $BODY"
+            echo "Updated pull request #$NUM."
+          else
+            gh pr create \
+              --title "The figures behind the Europe page have moved" \
+              --body "$BODY
+
+          ---
+
+          Proposed automatically by \`scripts/check-figures.mjs\`. The numbers in
+          \`europe.json\` have been updated; **the prose around them has not.**
+          Read the table above, fix any sentence that quotes a figure, add a line
+          to \`SOURCES.md\` with today's date, then merge." \
+              --label figures
+            echo "Opened a pull request."
+          fi

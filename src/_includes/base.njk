@@ -1,10 +1,40 @@
+{#- Which language this page is, and the strings and collections that follow
+    from it. Set once here so no block further down has to ask again.
+
+    "lang" comes from src/ne/ne.json for every page in that folder, so a Nepali
+    page cannot forget to declare itself. Everything else defaults to English.
+
+    "tr" is this page's entry in the translation register built by
+    src/_data/translations.js: whether a counterpart exists, and whether it has
+    drifted behind the English. -#}
+{%- set L = lang or "en" %}
+{%- set S = ui[L] %}
+{%- set menu = collections.pages_ne if L == "ne" else collections.pages_en %}
+{%- set tr = translations.byNe[page.url] if L == "ne" else translations.byEn[page.url] %}
 <!doctype html>
-<html lang="en">
+<html lang="{{ L }}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ title }} — Ausbildung Nepal</title>
+<title>{{ title }} — {{ S.siteTitle }}</title>
 <meta name="description" content="{{ description }}">
+{#- Tells a search engine that the English and Nepali pages are the same page
+    in two languages, rather than two pages competing for the same reader.
+    Without this pair a translated mirror reads as duplicate content.
+
+    x-default points at the English, because that is the version this site
+    treats as authoritative and the one that always exists. -#}
+{%- if L == "ne" and tr and tr.enUrl %}
+<link rel="alternate" hreflang="ne" href="{{ site.url }}{{ page.url }}">
+<link rel="alternate" hreflang="en" href="{{ site.url }}{{ tr.enUrl }}">
+<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ tr.enUrl }}">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+{%- elif L == "en" and tr and tr.neUrl %}
+<link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.url }}">
+<link rel="alternate" hreflang="ne" href="{{ site.url }}{{ tr.neUrl }}">
+<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url }}">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+{%- endif %}
 {%- if noindex %}
 {#- Pages that carry the operator's name and home address. They stay public and
     fully readable — German law requires that — but they are kept out of search
@@ -349,20 +379,90 @@
     color: var(--ink-soft);
   }
   footer.site p { margin: 0 0 .5rem; }
+  /* Devanagari needs more room than Latin at the same point size: the vowel
+     signs sit above and below the consonant, and at 1.7 line-height they
+     collide with the line beneath. Set through :lang() rather than a body
+     class, so a Nepali quotation inside an English page gets it too.
+
+     No webfont. Every Android phone and every Windows install since 8 ships a
+     Devanagari face, and this site is read on cheap phones over slow
+     connections — a 200KB font file to render text the device can already
+     render is a bad trade. Nirmala UI is the Windows face, Noto the Android
+     one, and the generic sans-serif at the end catches anything unusual. */
+  :lang(ne) {
+    font-family: "Noto Sans Devanagari", "Nirmala UI", Mangal, system-ui, sans-serif;
+    line-height: 1.95;
+  }
+  :lang(ne) h1 { line-height: 1.45; letter-spacing: normal; }
+  :lang(ne) h2 { line-height: 1.5; letter-spacing: normal; }
+  /* Devanagari has no upper case, so the uppercasing used on English table
+     headings does nothing but add letter-spacing to a script that does not
+     want it. */
+  :lang(ne) th { text-transform: none; letter-spacing: normal; font-size: .9375rem; }
+  /* The language switch. Sits at the end of the navigation rather than up by
+     the masthead: a reader who lands in the wrong language should find it where
+     they are already looking. */
+  nav.site a.lang {
+    border-color: var(--accent);
+    color: var(--accent);
+    font-weight: 600;
+    margin-left: auto;
+  }
+  @media (max-width: 26rem) {
+    nav.site a.lang { margin-left: 0; }
+  }
+  /* The translation notice. Every Nepali page carries one, and it says which of
+     three things is true: machine-translated and unchecked, checked by a Nepali
+     speaker, or drifted behind an English page that has since been edited.
+
+     Nobody sets this by hand. src/_data/translations.js works it out at build
+     time by comparing a stored hash of the English against the English as it
+     stands, so the notice cannot be left saying the wrong thing.
+
+     The unchecked and drifted states get the warning colour. A parent deciding
+     where to send their child is entitled to know how much weight the page
+     will bear. */
+  .tnote {
+    margin: 0 0 1.8rem;
+    padding: .85rem 1.1rem;
+    border-radius: 2px;
+    border-left: 3px solid var(--line);
+    background: var(--surface);
+    font-size: .9375rem;
+    line-height: 1.8;
+  }
+  .tnote p { margin: 0 0 .4rem; }
+  .tnote p:last-child { margin-bottom: 0; }
+  .tnote.tnote-machine, .tnote.tnote-stale {
+    background: var(--warn-soft);
+    border-left-color: var(--warn);
+  }
+  .tnote.tnote-machine strong, .tnote.tnote-stale strong { color: var(--warn); }
+  .tnote.tnote-ok {
+    background: var(--accent-soft);
+    border-left-color: var(--accent);
+  }
 </style>
 </head>
 <body>
 <div class="wrap">
 
 <header class="site">
-  <a class="brand" href="/">Ausbildung in Germany<span class="brand-sub">Honest, sourced information for students in Nepal</span></a>
-  <nav class="site" aria-label="Sections">
-    {%- for p in collections.pages %}{% if p.data.primary %}
+  <a class="brand" href="{{ '/ne/' if L == 'ne' else '/' }}">{{ S.brand }}<span class="brand-sub">{{ S.brandSub }}</span></a>
+  <nav class="site" aria-label="{{ S.navLabel }}">
+    {%- for p in menu %}{% if p.data.primary %}
     <a href="{{ p.url }}" class="key"{% if p.url == page.url %} aria-current="page"{% endif %}>{{ p.data.nav or p.data.title }}</a>
     {%- endif %}{% endfor %}
-    {%- for p in collections.pages %}{% if not p.data.primary %}
+    {%- for p in menu %}{% if not p.data.primary %}
     <a href="{{ p.url }}"{% if p.url == page.url %} aria-current="page"{% endif %}>{{ p.data.nav or p.data.title }}</a>
     {%- endif %}{% endfor %}
+    {#- The switch only appears when there is somewhere to switch to. An
+        untranslated page offers nothing rather than a link that 404s. -#}
+    {%- if L == "ne" and tr and tr.enUrl %}
+    <a class="lang" href="{{ tr.enUrl }}" lang="en" title="{{ S.otherLangTitle }}">{{ S.otherLang }}</a>
+    {%- elif L == "en" and tr and tr.neUrl %}
+    <a class="lang" href="{{ tr.neUrl }}" lang="ne" title="{{ S.otherLangTitle }}">{{ S.otherLang }}</a>
+    {%- endif %}
   </nav>
 </header>
 
@@ -371,38 +471,45 @@
   {%- if standfirst %}
   <p class="standfirst">{{ standfirst }}</p>
   {%- endif %}
+  {%- if L == "ne" and tr %}
+  <aside class="tnote {% if tr.stale %}tnote-stale{% elif tr.state == 'checked' %}tnote-ok{% else %}tnote-machine{% endif %}">
+    {%- if tr.stale %}
+    <p><strong>{{ ui.notice.staleH }}</strong></p>
+    <p>{{ ui.notice.staleP }}</p>
+    {%- elif tr.state == "checked" %}
+    <p><strong>{{ ui.notice.checkedH }}</strong></p>
+    <p>{{ ui.notice.checkedP }}{% if tr.checkedDate %} {{ ui.notice.checkedOn }} {{ tr.checkedDate }}.{% endif %}</p>
+    {%- else %}
+    <p><strong>{{ ui.notice.machineH }}</strong></p>
+    <p>{{ ui.notice.machineP }}</p>
+    {%- endif %}
+    {%- if tr.enUrl %}
+    <p><a href="{{ tr.enUrl }}" lang="en">{{ ui.notice.readEnglish }}</a></p>
+    {%- endif %}
+  </aside>
+  {%- endif %}
   {{ content | safe }}
 </main>
 
 {%- if not noinvite %}
 <aside class="invite">
-  <h2>Are you going through this yourself?</h2>
-  <p>Tell us what happened to you — what you were asked to pay, how long you
-  waited, what an institute promised and what it actually did. Real figures from
-  real people are how this site grows.</p>
-  <p>Nothing you write is published unless you tick the box that says we may,
-  and we never publish your name or anything that identifies you.</p>
-  <a class="action" href="/contact/"><b>Tell us what happened</b><span>The form writes the email for you — you press send</span></a>
+  <h2>{{ S.inviteH }}</h2>
+  <p>{{ S.inviteP1 }}</p>
+  <p>{{ S.inviteP2 }}</p>
+  <a class="action" href="{{ '/ne/contact/' if L == 'ne' else '/contact/' }}"><b>{{ S.inviteCtaB }}</b><span>{{ S.inviteCtaS }}</span></a>
 </aside>
 {%- endif %}
 
 <footer class="site">
-  <p><strong>This is information, not advice.</strong> Nothing on this site is
-  legal, immigration or financial advice, and reading it creates no advisory
-  relationship of any kind. Immigration law changes and is applied differently by
-  different authorities. Before you act on anything here, check it against the
-  primary source we cite and, for anything that matters, take qualified advice on
-  your own circumstances. <a href="/impressum/">Full notice and imprint</a>.</p>
-  <p>This site is written and maintained independently. It sells nothing, takes no fee from students, and is not an agency.</p>
-  <p><strong>Found something wrong? Please tell us.</strong> Every factual claim here is
-  sourced and dated, but rules change and we make mistakes. If something here is out of
-  date, or an official told you differently, write to
-  <a href="mailto:info@ausbildungfacts.org">info@ausbildungfacts.org</a> or use the
-  <a href="/contact/">contact form</a>, and we will check it and correct the page. You do
-  not need to prove anything or be polite about it.</p>
-  <p>Last reviewed: {{ reviewed or "August 2026" }} &middot;
-     <a href="/impressum/">Imprint &amp; liability</a> &middot;
-     <a href="/datenschutz/">Privacy</a></p>
+  <p><strong>{{ S.footAdviceB }}</strong> {{ S.footAdvice }}
+  <a href="/impressum/" lang="en">{{ S.footAdviceLink }}</a>.</p>
+  <p>{{ S.footIndependent }}</p>
+  <p><strong>{{ S.footWrongB }}</strong> {{ S.footWrong1 }}
+  <a href="mailto:info@ausbildungfacts.org">info@ausbildungfacts.org</a> {{ S.footWrong2 }}
+  <a href="{{ '/ne/contact/' if L == 'ne' else '/contact/' }}">{{ S.footWrongForm }}</a>{{ S.footWrong3 }}</p>
+  <p>{{ S.footReviewed }} {{ reviewed or "August 2026" }} &middot;
+     <a href="/impressum/" lang="en">{{ S.footImprint }}</a> &middot;
+     <a href="/datenschutz/" lang="en">{{ S.footPrivacy }}</a></p>
 </footer>
 
 </div>

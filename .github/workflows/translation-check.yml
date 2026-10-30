@@ -1,0 +1,130 @@
+name: Check the Nepali mirror against the English
+
+# The fourth check in this repo, and the one that guards the newest risk.
+#
+#   link-check        — does the cited URL still resolve?
+#   page-watch        — does the source page still SAY what we quoted?
+#   figures-watch     — are the NUMBERS still the current ones?
+#   translation-check — does the Nepali still match the English?
+#
+# Publishing in Nepali means publishing in a language the people maintaining
+# this site cannot read. The danger is not a bad sentence — it is an English
+# page being corrected while the Nepali one quietly goes on saying the old
+# thing, to the reader least able to check it against the German sources.
+# Nothing about that failure is visible: no link dies, no build breaks.
+#
+# So every Nepali page records a hash of the English it was made from. This
+# compares the two and fails when they have parted company. It also fails when
+# a figure or a German term the reader has to recognise elsewhere did not
+# survive the translation.
+#
+# It runs on every push as well as weekly, because unlike a dead link this one
+# is caused by our own edits — the moment somebody corrects an English page,
+# the Nepali page beneath it is wrong, and the person who can fix it is the
+# person who just made the change.
+#
+# NOTE: this does NOT check whether the Nepali is any good. No script can. A
+# page marked as a machine translation has not been read by a Nepali speaker,
+# and a green run here does not change that.
+#
+# NOTE: GitHub disables scheduled workflows in a repository after 60 days with
+# no commit activity. If the weekly run goes quiet, that is usually why — push
+# any commit, or press "Run workflow".
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "src/**.md"
+      - "src/_data/translations.js"
+      - "scripts/check-translations.mjs"
+      - "scripts/lib/body-hash.mjs"
+  schedule:
+    # 07:15 UTC every Monday, just after the link check, so two notifications
+    # about the same site do not arrive in the same minute.
+    - cron: "15 7 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: translation-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # No npm ci. The checker reads the markdown directly and uses only the
+      # Node standard library, so it does not need the site to build first —
+      # which also means a broken build cannot hide a drifted translation.
+      - name: Compare the Nepali against the English
+        id: translations
+        run: node scripts/check-translations.mjs --report translation-report.md
+
+      - name: Read the report
+        if: always()
+        id: report
+        run: |
+          {
+            echo 'body<<REPORT_EOF'
+            cat translation-report.md 2>/dev/null || echo "The checker did not finish. See the workflow log."
+            echo ''
+            echo "_Checked by [this workflow run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) on $(date -u '+%d %B %Y')._"
+            echo REPORT_EOF
+          } >> "$GITHUB_OUTPUT"
+
+      # Worth an issue: it persists, it names the exact page and the exact
+      # figure or term, and it can be handed straight to whoever fixes it.
+      - name: Open or update the issue
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = "Translation check: the Nepali no longer matches the English";
+            const body = process.env.REPORT;
+            const { owner, repo } = context.repo;
+            const existing = await github.rest.issues.listForRepo({
+              owner, repo, state: "open", labels: "translation-drift", per_page: 1,
+            });
+            if (existing.data.length) {
+              await github.rest.issues.createComment({
+                owner, repo, issue_number: existing.data[0].number,
+                body: "Still out of step.\n\n" + body,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner, repo, title, body, labels: ["translation-drift"],
+              });
+            }
+        env:
+          REPORT: ${{ steps.report.outputs.body }}
+
+      # Close it again once the mirror is back in step, so an open issue always
+      # means something is actually wrong right now.
+      - name: Close the issue once the mirror is back in step
+        if: success()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const open = await github.rest.issues.listForRepo({
+              owner, repo, state: "open", labels: "translation-drift", per_page: 10,
+            });
+            for (const issue of open.data) {
+              await github.rest.issues.createComment({
+                owner, repo, issue_number: issue.number,
+                body: "The Nepali matches the English again. Closing.",
+              });
+              await github.rest.issues.update({
+                owner, repo, issue_number: issue.number, state: "closed",
+              });
+            }

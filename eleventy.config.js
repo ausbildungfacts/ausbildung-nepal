@@ -5,21 +5,29 @@ export default function (eleventyConfig) {
   // so it has to survive the build rather than live only in the repo root.
   eleventyConfig.addPassthroughCopy("src/CNAME");
 
-  // The top navigation. A page is in the nav if — and only if — it gives itself
-  // a `nav:` label in its front matter, and they are ordered by the `order`
-  // value so the nav reads in a sensible sequence rather than alphabetically.
+  // The top navigation, one collection per language.
+  //
+  // A page is in the nav if — and only if — it gives itself a `nav:` label in
+  // its front matter, and they are ordered by the `order` value so the nav
+  // reads in a sensible sequence rather than alphabetically.
   //
   // The imprint, privacy and contact pages simply have no `nav:`, which is what
   // keeps them out of the menu. They deliberately do NOT use
   // `eleventyExcludeFromCollections`, because that would also hide them from
   // `collections.all` — and sitemap.njk builds the sitemap from that, so an
   // excluded page would silently go missing from sitemap.xml.
-  eleventyConfig.addCollection("pages", (collection) =>
+  //
+  // Split by language because the glob also matches src/ne/ now. One combined
+  // collection would hand a Nepali reader an English menu with the Nepali
+  // pages appended to the end of it.
+  const navPages = (collection, lang) =>
     collection
       .getFilteredByGlob("src/**/*.md")
-      .filter((page) => page.data.nav)
-      .sort((a, b) => (a.data.order || 99) - (b.data.order || 99))
-  );
+      .filter((page) => page.data.nav && (page.data.lang || "en") === lang)
+      .sort((a, b) => (a.data.order || 99) - (b.data.order || 99));
+
+  eleventyConfig.addCollection("pages_en", (c) => navPages(c, "en"));
+  eleventyConfig.addCollection("pages_ne", (c) => navPages(c, "ne"));
 
   // Thousands separators. The Europe page prints Nepali labour-approval figures
   // in the tens of thousands, and "24767" next to "316" is a number a reader has

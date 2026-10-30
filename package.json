@@ -9,7 +9,8 @@
     "serve": "eleventy --serve",
     "check-links": "eleventy && node scripts/check-links.mjs --dir _site",
     "check-watch": "node scripts/check-watch.mjs",
-    "check-figures": "node scripts/check-figures.mjs"
+    "check-figures": "node scripts/check-figures.mjs",
+    "check-translations": "node scripts/check-translations.mjs"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0"

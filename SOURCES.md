@@ -4002,3 +4002,171 @@ ones where the work leads nowhere.
 
 The original sentence stays, because the exam queue *is* the bottleneck for most
 readers. It is now one of two bottlenecks rather than the only one.
+
+---
+
+## The site is bilingual — Nepali mirror added, 2026-10-30
+
+**What was added.** A Nepali version of every page at `/ne/…`, a language
+switch in the navigation on both sides, and `hreflang` pairs so the two
+versions read as one page in two languages rather than as duplicates.
+
+**Why, and the argument that settled it.** The first proposal here was a short
+Nepali summary of two or three pages rather than a mirror, on the grounds that
+a machine translation of 34,000 words is 34,000 words of claims nobody has
+checked. That was the wrong trade. The person who hands over seven to sixteen
+lakh is often a parent who does not read English, and a parent deciding where
+to send their child needs the wage tables, the queue figures and the statute
+references — not a warning leaflet. Giving Nepali readers the caution while
+keeping the information in English is the wrong way round.
+
+**What is NOT claimed.** No page has been checked by a Nepali speaker. Every
+Nepali page carries a notice at the top saying so in Nepali, naming the English
+page as authoritative and linking to it. The front matter field
+`translationState` is `machine` on all of them and becomes `checked` only when
+a Nepali speaker has read one, with `checkedBy` and `checkedDate` recorded.
+
+**How drift is prevented.** Each Nepali page records `sourceHash`, a hash of
+the English text it was made from. `src/_data/translations.js` recomputes that
+hash at build time; when the English page is edited the Nepali page
+automatically tells the reader it has fallen behind, and
+`scripts/check-translations.mjs` fails the run so it reaches a maintainer.
+Verified by editing a figure on the English start page and watching the Nepali
+page switch to the drift notice, then revert.
+
+**What the checker proves, and what it does not.** `npm run check-translations`
+verifies, for every Nepali page: that the recorded hash matches the English as
+it stands; that every German or statutory term in the English also appears in
+the Nepali (Ausbildung, Vorabzustimmung, § 296a SGB III, Goethe, ÖSD, telc,
+ECL, VHS, B1, Lebenslauf and the rest), because a reader must be able to
+recognise those on a form; that every figure in the English appears in the
+Nepali; and that internal links point inside the mirror rather than dropping
+the reader into English mid-page. It cannot say whether the Nepali is any
+good. Only a Nepali speaker can.
+
+**Numerals.** The Nepali pages use Arabic numerals (1,200) rather than
+Devanagari (१,२००). Every figure on this site exists to be checked against
+something — a fee an institute quoted, a wage in a contract, a number on an
+embassy page — and the reader should see the same shape on the screen as on the
+document in their hand. It also lets the checker verify mechanically that no
+figure was dropped or altered.
+
+**Pages deliberately left in English.** The imprint and the privacy notice.
+Both are German legal instruments whose exact wording is the point (§ 5 DDG,
+§ 18 MStV), both are `noindex`, and a reader who needs them is checking a legal
+detail rather than being persuaded. The Nepali pages link to the English ones.
+
+**The Europe page was only partly translated at this point.** *(Superseded the
+same day — see the two entries below. It reached 100% before any of this was
+committed. Kept because the mechanism it describes is still how that page
+works.)* `/europe/` is a thin template over `src/_data/europe.json`, which
+holds about 14,900 words — more prose than any other page on this site. The
+Nepali page lays `src/_translations/europe.ne.json` over that data field by
+field and falls back to English for anything not yet translated, so the page
+works from the first line of translation rather than needing all of it.
+Translated at this point: the language section, the single-permit rights,
+long-term residence, all six scam patterns, and every country name, headline
+and qualification answer — which is what the comparison table is made of.
+Still English at this point: the money section (~4,500 words) and the
+per-country detail (~6,600). `check-translations.mjs` prints the percentage
+every run so the gap is a number rather than something a reader discovers.
+
+**One behaviour change on the English side.** `src/assets/contact.js` now takes
+its wording from `data-` attributes on the form instead of English string
+literals, defaulting to the same English text, so the English page is
+unchanged. This was necessary because the contact page promises that whether
+you ticked the publish box "is written into that email in plain words, so you
+can see it before you send". For a Nepali reader an English consent line breaks
+that promise, so the Nepali form writes the permission line in Nepali and
+English together.
+
+**Weekly check.** `.github/workflows/translation-check.yml` runs the checker on
+every push that touches a page and weekly on Mondays at 07:15 UTC, and opens an
+issue labelled `translation-drift` naming the exact page and figure, closing it
+again when the mirror is back in step.
+
+## Nepali mirror — the Europe money section translated, 2026-10-30
+
+**What was translated.** `europe_wide.money` in full, which is the block the
+Europe page is really built around: the gross-to-net explanation, the
+deduction rates country by country, the purchasing-power column, the
+straight-answer comparison of Germany against Romania, the Ausbildung
+allowance caveat and its arithmetic note, the wage table for nineteen trades,
+and the three long notes on nursing, mechatronics and the building trades.
+Also finished in the same pass: the EU Talent Pool section, the single-permit
+and long-term-residence source labels, and the remaining literal prose in the
+Nepali template. `europe_wide` is now 100% Nepali; the page as a whole is 52%.
+
+**Still English at this point, and the page said so.** *(Finished the same day
+— see the entry below.)* The twenty-two per-country entries (about 6,700
+words), the cross-Europe Au Pair section (458) and the short "other routes"
+answers (232). Those fell back to English field by field, under the Nepali
+notice at the top of the page.
+
+**A new check, because the old one could not see this.** The page checker
+verifies that every figure in an English page survives into its Nepali
+version, but that only covered markdown pages — the Europe page gets its
+figures from a data file. The prose in that data file quotes figures inline
+(€724, €1,117, 41%, the 40% early-termination rate) and those were retyped by
+hand. `check-translations.mjs` now walks the override file against the English
+and fails when a figure in an English string is absent from its Nepali
+counterpart, naming the exact JSON path. Verified by mistyping €724 as €742 in
+one string: the run failed and named
+`europe_wide.money.ausbildung_caveat.text`.
+
+**A correction to the coverage figure.** The percentage used to count `url`,
+`checked` and `status` fields as untranslated prose. They are the same in both
+languages and are never translated, so 100% was unreachable and the number
+meant less than it looked. They are now excluded, which is why the totals
+moved slightly.
+
+**Terms kept in German throughout**, for the same reason as everywhere else on
+this site — a reader has to recognise them on a contract or a pay slip:
+Pflegeberufegesetz, TVAöD-Pflege, TVA-L, AVR Caritas, Diakonie, Landesfonds,
+Sachbezug, Handwerk, Industrie und Handel, BIBB, IHK, HWK, Tiefbau, Hochbau,
+and every trade name in the wage table, which carries a Nepali gloss beside
+the German title rather than replacing it.
+
+## Nepali mirror — the Europe page finished, 2026-10-30
+
+**All 22 country entries, the cross-Europe Au Pair section and the
+other-routes answers are now in Nepali.** `check-translations.mjs` reports the
+Europe data at 100%: nothing on that page falls back to English any more.
+Across the site, every page that is mirrored is fully mirrored.
+
+**What was kept in the original language, and why.** Country names are in
+Devanagari, because a Nepali reader navigates the comparison table by them.
+Everything a reader must recognise somewhere else is not: statute and scheme
+names (Red-White-Red Card, Single Permit, General Employment Permit, Seasonal
+Worker, Employment Licence, aviz de angajare, oppisopimus, manifestação de
+interesse, Aufenthaltsbewilligung Lehrling), government portals
+(WorkinRomania.gov.ro, migration.gv.at, nyidanmark.dk), agency names (AIMA,
+SEF, IND, AMS, BIBB, Identità), and every quoted passage — the Cyprus
+Migration Department on changing employer, the Home Office on family members,
+the NHS code on applying independently, the ZAV on there being no individual
+application route.
+
+**Three English strings were still leaking into the Nepali page from the
+shared country template** — the `Open` badge, the evidence grade printed as
+the raw `primary`, and the `source. Checked …` line. Those now come from
+ui.json like the rest of the labels. `ui.grade` became a per-language map for
+the same reason.
+
+**A deliberate non-change.** Making that grade label language-aware had the
+side effect of capitalising it on the English page — `primary` became
+`Primary`, which is what every other badge on this site does. That is an
+inconsistency on /europe/ and arguably a bug, but fixing it is an editorial
+change to the English page rather than part of translating it, so the English
+value was set back to the exact lower-case string the template printed before.
+Worth deciding on separately.
+
+**Verified.** The English /europe/ page differs from its pre-bilingual
+snapshot only by additions — the hreflang pair and the नेपाली switch — with
+nothing removed or altered. 394 internal links, none broken. The figure-parity
+check was confirmed still live by mistyping Italy's 497,550 quota, which
+failed the run and named `countries[13].brief`. On the rendered Nepali page,
+zero of 898 text blocks are English-only, against 50 before this pass.
+
+**The coverage metric now also excludes `id`.** Those are internal slugs the
+template matches on — `germany`, `norway-aupair` — never text anyone reads,
+and translating one would quietly break the grouping on the page.

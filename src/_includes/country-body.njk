@@ -11,7 +11,19 @@
     Several fields are either a plain string or an object of
     {status, text} — the object form is used wherever the honest answer is "we
     have not checked this". `{% if x.text %}` distinguishes them: a string has
-    no `.text`. -#}
+    no `.text`.
+
+    LABELS come from ui.json rather than being written here, because this
+    include renders on the Nepali mirror too. The VALUES come from europe.json
+    and fall back to English until translated (see src/_data/europeNe.js), so
+    the labels are what a Nepali reader navigates the table by and they are
+    worth having in Nepali even when the cell beside them is not yet.
+
+    `lang` is page data, set for the whole folder by src/ne/ne.json. The `L`
+    that base.njk sets is not visible here: the page renders before the layout
+    wraps it. -#}
+
+{%- set CL = ui.country[lang or "en"] %}
 
 {%- if c.qualification and c.qualification.note %}
 {{ c.qualification.note }}
@@ -19,7 +31,7 @@
 
 {%- if c.routes and c.routes.length %}
 
-**The ways in:**
+**{{ CL.waysIn }}**
 
 {% for r in c.routes %}
 - {{ r }}
@@ -31,33 +43,32 @@
 | | |
 | --- | --- |
 {%- if c.language %}
-| **Language** | {% if c.language.text %}{{ c.language.text }}{% else %}{{ c.language }}{% endif %} |
+| **{{ CL.language }}** | {% if c.language.text %}{{ c.language.text }}{% else %}{{ c.language }}{% endif %} |
 {%- endif %}
 {%- if c.sectors %}
-| **Sectors** | {% if c.sectors.text %}{{ c.sectors.text }}{% else %}{{ c.sectors }}{% endif %} |
+| **{{ CL.sectors }}** | {% if c.sectors.text %}{{ c.sectors.text }}{% else %}{{ c.sectors }}{% endif %} |
 {%- endif %}
 {%- if c.pay %}
-| **Pay** | {{ c.pay.text }} |
+| **{{ CL.pay }}** | {{ c.pay.text }} |
 {%- endif %}
 {%- if c.family %}
-| **Can family come?** | {{ c.family.text }} |
+| **{{ CL.family }}** | {{ c.family.text }} |
 {%- endif %}
 {%- if c.permanent %}
-| **Can you stay for good?** | {{ c.permanent.text }} |
+| **{{ CL.permanent }}** | {{ c.permanent.text }} |
 {%- endif %}
 {%- if c.apply_where %}
-| **Where you apply** | {% if c.apply_where.text %}{{ c.apply_where.text }}{% else %}{{ c.apply_where }}{% endif %} |
+| **{{ CL.applyWhere }}** | {% if c.apply_where.text %}{{ c.apply_where.text }}{% else %}{{ c.apply_where }}{% endif %} |
 {%- endif %}
-| **European work rights** | {% if c.single_permit.status == "carried" %}Yes — the rights listed above apply{% elif c.single_permit.status == "carved_out" %}**No. This route is left out of them**{% elif c.single_permit.status == "mixed" %}Depends which route you take{% elif c.single_permit.status == "not_applicable" %}Outside the EU rules{% else %}Unresolved{% endif %}{% if c.single_permit.note %}. {{ c.single_permit.note }}{% endif %} |
+| **{{ CL.rights }}** | {% if c.single_permit.status == "carried" %}{{ CL.rightsYes }}{% elif c.single_permit.status == "carved_out" %}{{ CL.rightsNo }}{% elif c.single_permit.status == "mixed" %}{{ CL.rightsMixed }}{% elif c.single_permit.status == "not_applicable" %}{{ CL.rightsOutside }}{% else %}{{ CL.rightsUnresolved }}{% endif %}{% if c.single_permit.note %}. {{ c.single_permit.note }}{% endif %} |
 
 </div>
 
 {%- if c.money %}
 
-**Money.** The statutory minimum wage is **€{{ c.money.min_wage_eur | num }} a
-month gross** as at {{ c.money.as_of }} — worth {{ c.money.min_wage_pps | num }}
-in purchasing power, which is what it buys locally. Gross means before tax,
-social insurance and anything deducted for food or housing.
+{{ CL.moneyLead }} **€{{ c.money.min_wage_eur | num }} {{ CL.moneyGross }}**
+{{ CL.moneyAsAt }} {{ c.money.as_of }} {{ CL.moneyWorth }}
+{{ c.money.min_wage_pps | num }} {{ CL.moneyPps }}
 {%- if c.money.note %}
 
 {{ c.money.note }}
@@ -66,7 +77,7 @@ social insurance and anything deducted for food or housing.
 
 {%- if c.changes and c.changes.length %}
 
-**What changed recently:**
+**{{ CL.changed }}**
 
 {% for ch in c.changes %}
 - {{ ch }}
@@ -77,7 +88,7 @@ social insurance and anything deducted for food or housing.
 
 <div class="warn">
 
-**What goes wrong here:**
+**{{ CL.goesWrong }}**
 
 {% for s in c.scams %}
 - {{ s }}
@@ -90,14 +101,14 @@ social insurance and anything deducted for food or housing.
 
 <blockquote>
 
-**Our honest view.** {{ c.honest_verdict }}
+{{ CL.verdict }} {{ c.honest_verdict }}
 
 </blockquote>
 {%- endif %}
 
 {%- if c.more_on_this_site and c.more_on_this_site.length %}
 
-**More on this site:**
+**{{ CL.moreHere }}**
 {% for m in c.more_on_this_site %}
 - [{{ m.label }}]({{ m.url }})
 {%- endfor %}
@@ -105,8 +116,8 @@ social insurance and anything deducted for food or housing.
 
 {%- if c.open and c.open.length %}
 
-<p class="open-line"><span class="badge open">Open</span> Things we have not
-settled for {{ c.name }}, and will not state either way:</p>
+<p class="open-line"><span class="badge open">{{ CL.openBadge }}</span> {{ CL.openLead }}
+{{ c.name }}{{ CL.openTail }}</p>
 
 {% for o in c.open %}
 - {{ o }}
@@ -115,10 +126,10 @@ settled for {{ c.name }}, and will not state either way:</p>
 
 {%- if c.sources and c.sources.length %}
 
-**Sources for {{ c.name }}:**
+**{{ CL.sourcesFor }} {{ c.name }}:**
 {% for s in c.sources %}
 
-<p class="src-line"><span class="badge {% if s.status == 'primary' %}primary{% elif s.status == 'official' %}authority{% else %}secondary{% endif %}">{{ s.status }}</span>
-{{ s.label }} — <a class="src" href="{{ s.url }}">source</a>. Checked {{ s.checked }}.</p>
+<p class="src-line"><span class="badge {% if s.status == 'primary' %}primary{% elif s.status == 'official' %}authority{% else %}secondary{% endif %}">{{ ui.grade[lang or "en"][s.status] or s.status }}</span>
+{{ s.label }} — <a class="src" href="{{ s.url }}">{{ CL.srcWord }}</a>{{ CL.stop }} {{ CL.checkedLabel }} {{ s.checked }}{{ CL.stop }}</p>
 {%- endfor %}
 {%- endif %}

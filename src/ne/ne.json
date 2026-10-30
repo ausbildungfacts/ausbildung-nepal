@@ -1,0 +1,15 @@
+{
+  "_comment": [
+    "Directory data for the Nepali mirror. Applies to every .md file in src/ne/,",
+    "so a translated page cannot forget to declare which language it is in — and",
+    "the layout therefore cannot be tricked into printing an English footer",
+    "under Nepali text.",
+    "",
+    "Each page still carries its own translationOf, sourceHash and",
+    "translationState. Those are per-page facts and must not be defaulted here:",
+    "a missing sourceHash has to read as stale, which is what",
+    "src/_data/translations.js does with it."
+  ],
+  "layout": "base.njk",
+  "lang": "ne"
+}
